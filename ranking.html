@@ -70,6 +70,36 @@
               />
             </label>
 
+            <label class="field">
+              <span>Busca</span>
+              <input
+                id="search"
+                name="search"
+                type="text"
+                autocomplete="off"
+                placeholder="Ticker ou empresa"
+              />
+            </label>
+
+            <label class="field">
+              <span>Minimo de anos validos</span>
+              <input
+                id="min-valid-years"
+                name="min-valid-years"
+                type="number"
+                min="1"
+                max="20"
+                step="1"
+                value="3"
+                required
+              />
+            </label>
+
+            <label class="check-field">
+              <input id="only-below" name="only-below" type="checkbox" />
+              <span>Mostrar so acoes abaixo do preco teto</span>
+            </label>
+
             <button class="primary-button" type="submit" id="submit-button">
               Atualizar ranking
             </button>
@@ -130,6 +160,7 @@
                   <th>#</th>
                   <th>Ticker</th>
                   <th>Empresa</th>
+                  <th>Anos validos</th>
                   <th>Cotacao</th>
                   <th>Media anual</th>
                   <th>Preco teto</th>
@@ -138,7 +169,7 @@
               </thead>
               <tbody id="ranking-body">
                 <tr>
-                  <td colspan="7" class="empty-row">Nenhum ranking carregado ainda.</td>
+                  <td colspan="8" class="empty-row">Nenhum ranking carregado ainda.</td>
                 </tr>
               </tbody>
             </table>

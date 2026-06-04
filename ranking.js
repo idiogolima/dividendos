@@ -4,6 +4,9 @@ const RANKING_CACHE_KEY = "dividendos-pwa:last-ranking";
 const form = document.querySelector("#ranking-form");
 const yearsInput = document.querySelector("#years");
 const percentInput = document.querySelector("#percent");
+const searchInput = document.querySelector("#search");
+const minValidYearsInput = document.querySelector("#min-valid-years");
+const onlyBelowInput = document.querySelector("#only-below");
 const submitButton = document.querySelector("#submit-button");
 const feedback = document.querySelector("#feedback");
 const summaryTitle = document.querySelector("#summary-title");
@@ -50,9 +53,19 @@ async function fetchManifest() {
 async function loadRanking() {
   const years = Number(yearsInput.value);
   const percent = Number(percentInput.value);
+  const minValidYears = Number(minValidYearsInput.value);
+  const onlyBelow = onlyBelowInput.checked;
+  const query = searchInput.value.trim().toLowerCase();
 
-  if (!Number.isInteger(years) || !Number.isInteger(percent) || years < 1 || percent < 1) {
-    setFeedback("Anos e retorno alvo precisam ser inteiros maiores que zero.", true);
+  if (
+    !Number.isInteger(years) ||
+    !Number.isInteger(percent) ||
+    !Number.isInteger(minValidYears) ||
+    years < 1 ||
+    percent < 1 ||
+    minValidYears < 1
+  ) {
+    setFeedback("Anos, retorno alvo e minimo de anos validos precisam ser inteiros maiores que zero.", true);
     return;
   }
 
@@ -61,7 +74,18 @@ async function loadRanking() {
 
   try {
     const entries = await loadEntries(manifest, years, percent);
-    const sorted = entries
+    const filtered = entries
+      .filter((entry) => entry.validYears >= minValidYears)
+      .filter((entry) => !onlyBelow || entry.discountPercent >= 0)
+      .filter((entry) => {
+        if (!query) {
+          return true;
+        }
+
+        return entry.ticker.toLowerCase().includes(query) || entry.companyName.toLowerCase().includes(query);
+      });
+
+    const sorted = filtered
       .filter((entry) => Number.isFinite(entry.discountPercent))
       .sort((left, right) => right.discountPercent - left.discountPercent);
 
@@ -69,7 +93,11 @@ async function loadRanking() {
       throw new Error("Nenhuma acao com dados suficientes foi encontrada.");
     }
 
-    const model = buildRankingModel(sorted, years, percent);
+    const model = buildRankingModel(sorted, years, percent, {
+      minValidYears,
+      onlyBelow,
+      query,
+    });
     renderRanking(model);
     localStorage.setItem(RANKING_CACHE_KEY, JSON.stringify(model));
     setFeedback(`Ranking atualizado com ${sorted.length} acao(oes).`);
@@ -155,6 +183,7 @@ function buildEntry(stockData, ticker, years, percent) {
   return {
     ticker,
     companyName: stockData.companyName || ticker,
+    validYears: yearlyTotals.length,
     currentPrice,
     averageDividends,
     ceilingPrice,
@@ -162,13 +191,14 @@ function buildEntry(stockData, ticker, years, percent) {
   };
 }
 
-function buildRankingModel(entries, years, percent) {
+function buildRankingModel(entries, years, percent, filters) {
   const belowCeilingCount = entries.filter((entry) => entry.discountPercent >= 0).length;
   const bestEntry = entries[0];
 
   return {
     years,
     percent,
+    filters,
     entries,
     summary: {
       total: entries.length,
@@ -180,7 +210,7 @@ function buildRankingModel(entries, years, percent) {
 }
 
 function renderRanking(model) {
-  summaryTitle.textContent = `${model.entries.length} acoes ordenadas por desconto para ${model.years} anos e ${model.percent}%`;
+  summaryTitle.textContent = `${model.entries.length} acoes para ${model.years} anos, ${model.percent}% e minimo de ${model.filters.minValidYears} ano(s) valido(s)`;
   metricsGrid.innerHTML = [
     metricCard("Acoes analisadas", String(model.summary.total)),
     metricCard("Abaixo do preco teto", String(model.summary.belowCeilingCount)),
@@ -207,6 +237,7 @@ function renderRanking(model) {
       <td>${index + 1}</td>
       <td><a href="./index.html?ticker=${entry.ticker}">${entry.ticker}</a></td>
       <td>${entry.companyName}</td>
+      <td>${entry.validYears}</td>
       <td>${formatCurrency(entry.currentPrice)}</td>
       <td>${formatCurrency(entry.averageDividends)}</td>
       <td>${formatCurrency(entry.ceilingPrice)}</td>
@@ -221,7 +252,7 @@ function clearRanking() {
   rankingCards.textContent = "Nenhum ranking carregado ainda.";
   rankingBody.innerHTML = `
     <tr>
-      <td colspan="7" class="empty-row">Nenhum ranking carregado ainda.</td>
+      <td colspan="8" class="empty-row">Nenhum ranking carregado ainda.</td>
     </tr>
   `;
 }
@@ -269,6 +300,9 @@ function restoreRanking() {
 
   yearsInput.value = cached.years || yearsInput.value;
   percentInput.value = cached.percent || percentInput.value;
+  minValidYearsInput.value = cached.filters?.minValidYears || minValidYearsInput.value;
+  onlyBelowInput.checked = Boolean(cached.filters?.onlyBelow);
+  searchInput.value = cached.filters?.query || "";
   renderRanking(cached);
   setFeedback("Ultimo ranking local restaurado.");
 }

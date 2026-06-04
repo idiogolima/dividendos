@@ -211,6 +211,20 @@ body {
   border-color: rgba(15, 93, 70, 0.4);
 }
 
+.check-field {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: var(--text);
+  font-weight: 700;
+}
+
+.check-field input {
+  width: 18px;
+  height: 18px;
+  accent-color: var(--brand);
+}
+
 .primary-button {
   min-height: 54px;
   border: 0;
