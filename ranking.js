@@ -8,6 +8,7 @@ const yearsInput = document.querySelector("#years");
 const percentInput = document.querySelector("#percent");
 const searchInput = document.querySelector("#search");
 const minValidYearsInput = document.querySelector("#min-valid-years");
+const maxPriceInput = document.querySelector("#max-price");
 const sortByInput = document.querySelector("#sort-by");
 const onlyBelowInput = document.querySelector("#only-below");
 const submitButton = document.querySelector("#submit-button");
@@ -95,6 +96,7 @@ async function loadRanking() {
   const years = Number(yearsInput.value);
   const percent = Number(percentInput.value);
   const minValidYears = Number(minValidYearsInput.value);
+  const maxPrice = maxPriceInput.value.trim() === "" ? null : Number(maxPriceInput.value);
   const sortBy = sortByInput.value;
   const onlyBelow = onlyBelowInput.checked;
   const query = searchInput.value.trim().toLowerCase();
@@ -103,11 +105,12 @@ async function loadRanking() {
     !Number.isInteger(years) ||
     !Number.isInteger(percent) ||
     !Number.isInteger(minValidYears) ||
+    (maxPriceInput.value.trim() !== "" && (!Number.isFinite(maxPrice) || maxPrice < 0)) ||
     years < 1 ||
     percent < 1 ||
     minValidYears < 1
   ) {
-    setFeedback("Anos, retorno alvo e minimo de anos validos precisam ser inteiros maiores que zero.", true);
+    setFeedback("Revise os filtros numericos. Anos, retorno alvo e minimo de anos validos precisam ser validos.", true);
     return;
   }
 
@@ -118,6 +121,7 @@ async function loadRanking() {
     const entries = loadEntries(rankingSource, years, percent);
     const filtered = entries
       .filter((entry) => entry.validYears >= minValidYears)
+      .filter((entry) => maxPrice === null || entry.currentPrice <= maxPrice)
       .filter((entry) => !onlyBelow || entry.discountPercent >= 0)
       .filter((entry) => {
         if (!query) {
@@ -138,6 +142,7 @@ async function loadRanking() {
     currentPage = 1;
     const model = buildRankingModel(sorted, years, percent, {
       minValidYears,
+      maxPrice,
       sortBy,
       onlyBelow,
       query,
@@ -354,6 +359,7 @@ function restoreRanking() {
   yearsInput.value = cached.years || yearsInput.value;
   percentInput.value = cached.percent || percentInput.value;
   minValidYearsInput.value = cached.filters?.minValidYears || minValidYearsInput.value;
+  maxPriceInput.value = cached.filters?.maxPrice ?? "";
   sortByInput.value = cached.filters?.sortBy || "discount-desc";
   onlyBelowInput.checked = Boolean(cached.filters?.onlyBelow);
   searchInput.value = cached.filters?.query || "";
