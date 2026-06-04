@@ -1,3 +1,4 @@
+# Dependencias apenas para o script Python legado.
 beautifulsoup4>=4.12
 lxml>=5.0
 pandas>=2.0

@@ -1,0 +1,164 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dividendos PWA</title>
+    <meta
+      name="description"
+      content="App PWA para analisar historico de dividendos de acoes brasileiras."
+    />
+    <meta name="theme-color" content="#0f5d46" />
+    <link rel="manifest" href="./manifest.webmanifest" />
+    <link rel="icon" href="./assets/icon.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="./styles.css" />
+    <script type="module" src="./app.js"></script>
+  </head>
+  <body>
+    <div class="page-shell">
+      <header class="hero">
+        <p class="eyebrow">GitHub Pages + PWA</p>
+        <div class="hero-copy">
+          <h1>Dividendos em um app instalavel.</h1>
+          <p class="hero-text">
+            Consulte cotacao atual, historico de dividendos e um preco de
+            referencia calculado a partir da media anual de proventos.
+          </p>
+        </div>
+        <div class="hero-note">
+          <span class="status-dot" aria-hidden="true"></span>
+          Funciona no GitHub Pages sem backend.
+        </div>
+      </header>
+
+      <main class="layout">
+        <section class="panel form-panel">
+          <div class="panel-head">
+            <h2>Consulta</h2>
+            <p>Use os tickers liberados sem token pela API publica.</p>
+          </div>
+
+          <div class="ticker-pills" id="ticker-pills" aria-label="Tickers sugeridos"></div>
+
+          <form id="quote-form" class="quote-form">
+            <label class="field">
+              <span>Ticker</span>
+              <input
+                id="ticker"
+                name="ticker"
+                type="text"
+                inputmode="text"
+                autocomplete="off"
+                maxlength="8"
+                placeholder="PETR4"
+                value="PETR4"
+                required
+              />
+            </label>
+
+            <label class="field">
+              <span>Anos</span>
+              <input
+                id="years"
+                name="years"
+                type="number"
+                min="1"
+                max="20"
+                step="1"
+                value="5"
+                required
+              />
+            </label>
+
+            <label class="field">
+              <span>Percentual</span>
+              <input
+                id="percent"
+                name="percent"
+                type="number"
+                min="1"
+                max="100"
+                step="1"
+                value="6"
+                required
+              />
+            </label>
+
+            <button class="primary-button" type="submit" id="submit-button">
+              Calcular
+            </button>
+          </form>
+
+          <p class="caption">
+            Sem backend, o app depende da API publica. Outros tickers podem
+            exigir autenticacao.
+          </p>
+
+          <div id="feedback" class="feedback" role="status" aria-live="polite"></div>
+        </section>
+
+        <section class="panel metrics-panel">
+          <div class="panel-head">
+            <h2>Resumo</h2>
+            <p id="summary-title">Pronto para calcular.</p>
+          </div>
+
+          <div class="metrics-grid" id="metrics-grid">
+            <article class="metric-card">
+              <span class="metric-label">Cotacao atual</span>
+              <strong class="metric-value">--</strong>
+            </article>
+            <article class="metric-card">
+              <span class="metric-label">Total no periodo</span>
+              <strong class="metric-value">--</strong>
+            </article>
+            <article class="metric-card">
+              <span class="metric-label">Media anual</span>
+              <strong class="metric-value">--</strong>
+            </article>
+            <article class="metric-card accent-card">
+              <span class="metric-label">Valor final</span>
+              <strong class="metric-value">--</strong>
+            </article>
+          </div>
+
+          <div class="details-grid" id="details-grid"></div>
+        </section>
+
+        <section class="panel chart-panel">
+          <div class="panel-head">
+            <h2>Proventos por ano</h2>
+            <p>Totais agregados no periodo selecionado.</p>
+          </div>
+          <div id="year-bars" class="year-bars empty-state">
+            Nenhum dado carregado ainda.
+          </div>
+        </section>
+
+        <section class="panel table-panel">
+          <div class="panel-head">
+            <h2>Eventos recentes</h2>
+            <p>Ultimos dividendos e JCP retornados pela API.</p>
+          </div>
+          <div class="table-wrap">
+            <table>
+              <thead>
+                <tr>
+                  <th>Data base</th>
+                  <th>Pagamento</th>
+                  <th>Tipo</th>
+                  <th>Valor</th>
+                </tr>
+              </thead>
+              <tbody id="events-body">
+                <tr>
+                  <td colspan="4" class="empty-row">Nenhum dado carregado ainda.</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </section>
+      </main>
+    </div>
+  </body>
+</html>

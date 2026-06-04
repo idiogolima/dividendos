@@ -1,52 +1,78 @@
 # dividendos
 
-Script simples em Python para consultar o historico de dividendos de uma acao na B3 a partir do site `dadosdemercado.com.br`.
+Aplicativo web em HTML, CSS e JavaScript para analisar historico de dividendos de acoes brasileiras e instalar como PWA.
 
-## O que o script faz
+O projeto foi estruturado para publicacao direta no GitHub Pages, sem backend e sem etapa de build.
 
-- recebe um ticker, a quantidade de anos e um percentual
-- busca a pagina de dividendos da acao
-- extrai a tabela de proventos
-- calcula a soma por ano, o total no periodo, a media anual e um valor final derivado do percentual informado
+## O que o app faz
 
-## Requisitos
+- consulta cotacao atual e historico de dividendos via navegador
+- calcula total no periodo, media anual e valor final com base no percentual informado
+- mostra totais por ano e eventos recentes de dividendos
+- funciona como PWA com `manifest.webmanifest` e `service-worker.js`
+- salva o ultimo resultado no navegador para reabrir rapido
 
-- Python 3.10 ou superior
-- acesso a internet para consultar o site de origem
+## Limitacao importante
 
-## Instalacao
+Por ser um app estatico hospedado no GitHub Pages, ele nao usa backend para esconder chave de API.
 
-Crie um ambiente virtual e instale as dependencias:
+Na pratica, ele funciona sem token para os tickers liberados publicamente pela brapi no modo de teste:
+
+- `PETR4`
+- `VALE3`
+- `ITUB4`
+- `MGLU3`
+
+Para suportar qualquer ticker em producao, o caminho correto e colocar um backend ou uma funcao serverless entre o frontend e a API.
+
+## Estrutura
+
+- `index.html`: pagina principal
+- `styles.css`: visual do app
+- `app.js`: regras de interface, consulta e calculos
+- `manifest.webmanifest`: configuracao do PWA
+- `service-worker.js`: cache offline da shell do app
+- `assets/icon.svg`: icone do aplicativo
+- `assets/icon-maskable.svg`: icone maskable do aplicativo
+- `dividendos_historicos.py`: script Python legado mantido como referencia
+
+## Rodar localmente
+
+Como o app usa service worker, rode por HTTP local em vez de abrir o arquivo direto.
+
+Exemplo com Python:
 
 ```bash
-python3 -m venv .venv
-source .venv/bin/activate
-pip install -r requirements.txt
+python3 -m http.server 8000
 ```
 
-## Uso
+Depois abra:
 
-```bash
-python dividendos_historicos.py <ticker> <anos> <percentual>
+```text
+http://localhost:8000
 ```
 
-Exemplo:
+## Publicar no GitHub Pages
 
-```bash
-python dividendos_historicos.py PETR4 5 6
+1. Envie os commits para o GitHub com `git push origin main`.
+2. No repositorio, abra `Settings > Pages`.
+3. Em `Build and deployment`, escolha `Deploy from a branch`.
+4. Selecione a branch `main` e a pasta `/ (root)`.
+5. Salve a configuracao.
+
+Para repositorio de projeto, a URL final costuma ser:
+
+```text
+https://<usuario>.github.io/<repositorio>/
 ```
 
-## Saida esperada
+## Sem dependencias de frontend
 
-O script imprime:
+O app nao depende de framework, bundler ou pacote npm.
 
-- a serie historica de proventos por ano
-- o total de proventos no periodo
-- a media anual de proventos
-- o valor final calculado a partir do percentual informado
+## Fonte de dados
 
-## Observacoes
+O app consulta a API da brapi diretamente do navegador. A documentacao oficial e:
 
-- o projeto depende da estrutura HTML do site de origem; se a pagina mudar, o scraping pode quebrar
-- o locale `pt_BR.UTF-8` e opcional; se nao existir no sistema, o script continua executando
-- a remocao dos arquivos no GitHub remoto exige `git push`; o commit local ja foi criado
+- `https://brapi.dev/docs`
+- `https://brapi.dev/docs/acoes`

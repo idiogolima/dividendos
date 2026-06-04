@@ -1,0 +1,24 @@
+{
+  "name": "Dividendos PWA",
+  "short_name": "Dividendos",
+  "description": "Analise historico de dividendos de acoes brasileiras em um app instalavel.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#f2eee5",
+  "theme_color": "#0f5d46",
+  "icons": [
+    {
+      "src": "./assets/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
+      "src": "./assets/icon-maskable.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "maskable"
+    }
+  ]
+}
