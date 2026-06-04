@@ -1,0 +1,79 @@
+{
+  "ticker": "AURO11",
+  "fundName": "Buena Vista Neos Gold High Income ETF",
+  "companyName": "Buena Vista Neos Gold High Income ETF",
+  "currentPrice": 100.29,
+  "updatedAt": "2026-06-04T20:17:53.320792+00:00",
+  "distributionFrequency": "MENSAL",
+  "source": {
+    "name": "Buena Vista + B3",
+    "url": "https://buenavista.capital/auro11/",
+    "quoteUrl": "https://borainvestir.b3.com.br/cotacoes/etfs/AURO11/",
+    "dividendsUrl": "https://buenavista.capital/auro11-rentabilidade/"
+  },
+  "dividends": [
+    {
+      "comDate": "2025-09-23",
+      "exDate": "2025-09-24",
+      "paymentDate": "2025-10-08",
+      "type": "Rendimento",
+      "valuePerShare": 1.071
+    },
+    {
+      "comDate": "2025-10-21",
+      "exDate": "2025-10-22",
+      "paymentDate": "2025-11-10",
+      "type": "Rendimento",
+      "valuePerShare": 1.157
+    },
+    {
+      "comDate": "2025-11-25",
+      "exDate": "2025-11-26",
+      "paymentDate": "2025-12-08",
+      "type": "Rendimento",
+      "valuePerShare": 1.134
+    },
+    {
+      "comDate": "2025-12-23",
+      "exDate": "2025-12-26",
+      "paymentDate": "2026-01-09",
+      "type": "Rendimento",
+      "valuePerShare": 1.224
+    },
+    {
+      "comDate": "2026-01-20",
+      "exDate": "2026-01-21",
+      "paymentDate": "2026-02-09",
+      "type": "Rendimento",
+      "valuePerShare": 1.202
+    },
+    {
+      "comDate": "2026-02-13",
+      "exDate": "2026-02-18",
+      "paymentDate": "2026-03-09",
+      "type": "Rendimento",
+      "valuePerShare": 1.187
+    },
+    {
+      "comDate": "2026-03-17",
+      "exDate": "2026-03-18",
+      "paymentDate": "2026-04-09",
+      "type": "Rendimento",
+      "valuePerShare": 1.171
+    },
+    {
+      "comDate": "2026-04-20",
+      "exDate": "2026-04-22",
+      "paymentDate": "2026-05-11",
+      "type": "Rendimento",
+      "valuePerShare": 1.07
+    },
+    {
+      "comDate": "2026-05-19",
+      "exDate": "2026-05-20",
+      "paymentDate": "2026-06-09",
+      "type": "Rendimento",
+      "valuePerShare": 1.023
+    }
+  ]
+}

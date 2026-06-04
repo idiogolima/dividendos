@@ -1,0 +1,233 @@
+{
+  "ticker": "SPYI11",
+  "fundName": "Buena Vista US High Income ETF",
+  "companyName": "Buena Vista US High Income ETF",
+  "currentPrice": 107.65,
+  "updatedAt": "2026-06-04T20:17:39.065278+00:00",
+  "distributionFrequency": "MENSAL",
+  "source": {
+    "name": "Buena Vista + B3",
+    "url": "https://buenavista.capital/etf/",
+    "quoteUrl": "https://borainvestir.b3.com.br/cotacoes/etfs/SPYI11/",
+    "dividendsUrl": "https://buenavista.capital/etf-rentabilidade/"
+  },
+  "dividends": [
+    {
+      "comDate": "2023-11-21",
+      "exDate": "2023-11-22",
+      "paymentDate": "2023-12-08",
+      "type": "Rendimento",
+      "valuePerShare": 0.955
+    },
+    {
+      "comDate": "2023-12-19",
+      "exDate": "2023-12-20",
+      "paymentDate": "2024-01-08",
+      "type": "Rendimento",
+      "valuePerShare": 0.961
+    },
+    {
+      "comDate": "2024-01-23",
+      "exDate": "2024-01-24",
+      "paymentDate": "2024-02-08",
+      "type": "Rendimento",
+      "valuePerShare": 1.005
+    },
+    {
+      "comDate": "2024-02-20",
+      "exDate": "2024-02-21",
+      "paymentDate": "2024-03-08",
+      "type": "Rendimento",
+      "valuePerShare": 1.005
+    },
+    {
+      "comDate": "2024-03-19",
+      "exDate": "2024-03-20",
+      "paymentDate": "2024-04-08",
+      "type": "Rendimento",
+      "valuePerShare": 1.033
+    },
+    {
+      "comDate": "2024-04-23",
+      "exDate": "2024-04-24",
+      "paymentDate": "2024-05-09",
+      "type": "Rendimento",
+      "valuePerShare": 1.026
+    },
+    {
+      "comDate": "2024-05-21",
+      "exDate": "2024-05-22",
+      "paymentDate": "2024-06-10",
+      "type": "Rendimento",
+      "valuePerShare": 1.06
+    },
+    {
+      "comDate": "2024-06-25",
+      "exDate": "2024-06-26",
+      "paymentDate": "2024-07-08",
+      "type": "Rendimento",
+      "valuePerShare": 1.129
+    },
+    {
+      "comDate": "2024-07-23",
+      "exDate": "2024-07-24",
+      "paymentDate": "2024-08-08",
+      "type": "Rendimento",
+      "valuePerShare": 1.148
+    },
+    {
+      "comDate": "2024-08-20",
+      "exDate": "2024-08-21",
+      "paymentDate": "2024-09-09",
+      "type": "Rendimento",
+      "valuePerShare": 1.21
+    },
+    {
+      "comDate": "2024-09-24",
+      "exDate": "2024-09-25",
+      "paymentDate": "2024-10-08",
+      "type": "Rendimento",
+      "valuePerShare": 1.143
+    },
+    {
+      "comDate": "2024-10-22",
+      "exDate": "2024-10-23",
+      "paymentDate": "2024-11-08",
+      "type": "Rendimento",
+      "valuePerShare": 1.207
+    },
+    {
+      "comDate": "2024-11-19",
+      "exDate": "2024-11-21",
+      "paymentDate": "2024-12-09",
+      "type": "Rendimento",
+      "valuePerShare": 1.245
+    },
+    {
+      "comDate": "2024-12-23",
+      "exDate": "2024-12-26",
+      "paymentDate": "2025-01-09",
+      "type": "Rendimento",
+      "valuePerShare": 1.307
+    },
+    {
+      "comDate": "2025-01-21",
+      "exDate": "2025-01-22",
+      "paymentDate": "2025-02-10",
+      "type": "Rendimento",
+      "valuePerShare": 1.265
+    },
+    {
+      "comDate": "2025-02-25",
+      "exDate": "2025-02-26",
+      "paymentDate": "2025-03-12",
+      "type": "Rendimento",
+      "valuePerShare": 1.195
+    },
+    {
+      "comDate": "2025-03-25",
+      "exDate": "2025-03-26",
+      "paymentDate": "2025-04-08",
+      "type": "Rendimento",
+      "valuePerShare": 1.159
+    },
+    {
+      "comDate": "2025-04-22",
+      "exDate": "2025-04-23",
+      "paymentDate": "2025-05-09",
+      "type": "Rendimento",
+      "valuePerShare": 1.095
+    },
+    {
+      "comDate": "2025-05-20",
+      "exDate": "2025-05-21",
+      "paymentDate": "2025-06-09",
+      "type": "Rendimento",
+      "valuePerShare": 1.145
+    },
+    {
+      "comDate": "2025-06-24",
+      "exDate": "2025-06-25",
+      "paymentDate": "2025-07-08",
+      "type": "Rendimento",
+      "valuePerShare": 1.11
+    },
+    {
+      "comDate": "2025-07-22",
+      "exDate": "2025-07-23",
+      "paymentDate": "2025-08-08",
+      "type": "Rendimento",
+      "valuePerShare": 1.138
+    },
+    {
+      "comDate": "2025-08-19",
+      "exDate": "2025-08-20",
+      "paymentDate": "2025-09-08",
+      "type": "Rendimento",
+      "valuePerShare": 1.132
+    },
+    {
+      "comDate": "2025-09-23",
+      "exDate": "2025-09-24",
+      "paymentDate": "2025-10-08",
+      "type": "Rendimento",
+      "valuePerShare": 1.11
+    },
+    {
+      "comDate": "2025-10-21",
+      "exDate": "2025-10-22",
+      "paymentDate": "2025-11-10",
+      "type": "Rendimento",
+      "valuePerShare": 1.127
+    },
+    {
+      "comDate": "2025-11-25",
+      "exDate": "2025-11-26",
+      "paymentDate": "2025-12-08",
+      "type": "Rendimento",
+      "valuePerShare": 1.114
+    },
+    {
+      "comDate": "2025-12-23",
+      "exDate": "2025-12-26",
+      "paymentDate": "2026-01-09",
+      "type": "Rendimento",
+      "valuePerShare": 1.169
+    },
+    {
+      "comDate": "2026-01-20",
+      "exDate": "2026-01-21",
+      "paymentDate": "2026-02-09",
+      "type": "Rendimento",
+      "valuePerShare": 1.127
+    },
+    {
+      "comDate": "2026-02-13",
+      "exDate": "2026-02-18",
+      "paymentDate": "2026-03-09",
+      "type": "Rendimento",
+      "valuePerShare": 1.075
+    },
+    {
+      "comDate": "2026-03-17",
+      "exDate": "2026-03-18",
+      "paymentDate": "2026-04-09",
+      "type": "Rendimento",
+      "valuePerShare": 1.05
+    },
+    {
+      "comDate": "2026-04-20",
+      "exDate": "2026-04-22",
+      "paymentDate": "2026-05-11",
+      "type": "Rendimento",
+      "valuePerShare": 1.032
+    },
+    {
+      "comDate": "2026-05-19",
+      "exDate": "2026-05-20",
+      "paymentDate": "2026-06-09",
+      "type": "Rendimento",
+      "valuePerShare": 1.064
+    }
+  ]
+}

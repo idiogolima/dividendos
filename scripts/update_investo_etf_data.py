@@ -6,6 +6,7 @@ from pathlib import Path
 
 import requests
 from bs4 import BeautifulSoup
+from bs4.element import Tag
 
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -54,25 +55,39 @@ def parse_currency_number(raw_value: str) -> float:
     return float(cleaned)
 
 
+def parse_br_date(raw_value: str) -> str | None:
+    raw_value = raw_value.strip()
+    if not raw_value:
+        return None
+
+    for fmt in ("%d/%m/%Y", "%d/%m/%y"):
+        try:
+            parsed = datetime.strptime(raw_value, fmt)
+            return parsed.date().isoformat()
+        except ValueError:
+            continue
+
+    raise ValueError(f"Data invalida: {raw_value}")
+
+
 def parse_b3_quote(html: str, ticker: str) -> tuple[str, float]:
     soup = BeautifulSoup(html, "html.parser")
 
-    title = soup.select_one(".asset__title")
     subtitle = soup.select_one(".asset__subtitle")
     info_items = soup.select(".asset__info__item")
 
-    if not title or not subtitle or not info_items:
+    if not subtitle or not info_items:
         raise ValueError(f"Estrutura inesperada na pagina da B3 para {ticker}.")
 
     current_price = None
     for item in info_items:
-      desc = item.select_one(".asset__info__desc")
-      value = item.select_one(".asset__info__value")
-      if not desc or not value:
-          continue
-      if desc.get_text(strip=True) == "Valor atual (R$)":
-          current_price = parse_currency_number(value.get_text(strip=True))
-          break
+        desc = item.select_one(".asset__info__desc")
+        value = item.select_one(".asset__info__value")
+        if not desc or not value:
+            continue
+        if desc.get_text(strip=True) == "Valor atual (R$)":
+            current_price = parse_currency_number(value.get_text(strip=True))
+            break
 
     if current_price is None:
         raise ValueError(f"Nao foi possivel localizar a cotacao atual de {ticker} na B3.")
@@ -80,7 +95,7 @@ def parse_b3_quote(html: str, ticker: str) -> tuple[str, float]:
     return subtitle.get_text(" ", strip=True), current_price
 
 
-def fetch_dividend_payload(page_url: str) -> dict:
+def fetch_investo_dividend_payload(page_url: str) -> dict:
     html = fetch_html(page_url)
     page_id_match = re.search(r"postid-(\d+)", html)
 
@@ -94,7 +109,7 @@ def fetch_dividend_payload(page_url: str) -> dict:
     return fetch_json(api_url)
 
 
-def normalize_dividends(payload: dict) -> list[dict]:
+def normalize_investo_dividends(payload: dict) -> list[dict]:
     raw_items = payload.get("dividendos", [])
     normalized = []
 
@@ -117,21 +132,71 @@ def normalize_dividends(payload: dict) -> list[dict]:
     return normalized
 
 
-def build_etf_payload(config: dict) -> dict:
+def normalize_buenavista_dividends(html: str) -> list[dict]:
+    soup = BeautifulSoup(html, "html.parser")
+    normalized = []
+
+    for container in soup.select("div.tabcontent"):
+        table = container.find("table")
+        if not isinstance(table, Tag):
+            continue
+
+        rows = table.find_all("tr")
+        for row in rows[1:]:
+            cells = row.find_all("td")
+            if len(cells) < 4:
+                continue
+
+            value_text = cells[3].get_text(" ", strip=True)
+            if not value_text:
+                continue
+
+            normalized.append(
+                {
+                    "comDate": parse_br_date(cells[0].get_text(" ", strip=True)),
+                    "exDate": parse_br_date(cells[1].get_text(" ", strip=True)),
+                    "paymentDate": parse_br_date(cells[2].get_text(" ", strip=True)),
+                    "type": "Rendimento",
+                    "valuePerShare": parse_currency_number(value_text),
+                }
+            )
+
+    normalized.sort(key=lambda item: (item.get("comDate") or "", item.get("paymentDate") or ""))
+    return normalized
+
+
+def parse_buenavista_page(html: str, ticker: str) -> tuple[str, str | None]:
+    soup = BeautifulSoup(html, "html.parser")
+    title = ticker
+
+    for heading in soup.find_all(["h1", "h2"]):
+        text = heading.get_text(" ", strip=True)
+        if not text or text == ticker:
+            continue
+        if "ETF" in text:
+            title = text
+            break
+
+    frequency = None
+    if re.search(r"renda mensal|proventos|pagamentos de dividendos", html, flags=re.IGNORECASE):
+        frequency = "MENSAL"
+
+    return title, frequency
+
+
+def build_investo_payload(config: dict, b3_fund_name: str, current_price: float) -> dict:
     ticker = config["ticker"].upper()
     product = fetch_json(f"https://api.investoetf.com.br/api/produtos/{ticker}")
-    quote_html = fetch_html(config["quoteUrl"])
-    fund_name, current_price = parse_b3_quote(quote_html, ticker)
-    dividends_payload = fetch_dividend_payload(config["pageUrl"])
-    dividends = normalize_dividends(dividends_payload)
+    dividends_payload = fetch_investo_dividend_payload(config["pageUrl"])
+    dividends = normalize_investo_dividends(dividends_payload)
 
     if not dividends:
         raise ValueError(f"Nenhum rendimento confirmado foi encontrado para {ticker}.")
 
     return {
         "ticker": ticker,
-        "fundName": fund_name,
-        "companyName": fund_name,
+        "fundName": b3_fund_name,
+        "companyName": b3_fund_name,
         "currentPrice": current_price,
         "updatedAt": datetime.now(timezone.utc).isoformat(),
         "distributionFrequency": product.get("periodicidadeDividendo"),
@@ -143,6 +208,49 @@ def build_etf_payload(config: dict) -> dict:
         },
         "dividends": dividends,
     }
+
+
+def build_buenavista_payload(config: dict, b3_fund_name: str, current_price: float) -> dict:
+    ticker = config["ticker"].upper()
+    page_html = fetch_html(config["pageUrl"])
+    dividends_html = fetch_html(config["dividendsUrl"])
+    page_fund_name, distribution_frequency = parse_buenavista_page(page_html, ticker)
+    dividends = normalize_buenavista_dividends(dividends_html)
+
+    if not dividends:
+        raise ValueError(f"Nenhum rendimento confirmado foi encontrado para {ticker}.")
+
+    fund_name = b3_fund_name if b3_fund_name != ticker else page_fund_name
+
+    return {
+        "ticker": ticker,
+        "fundName": fund_name,
+        "companyName": fund_name,
+        "currentPrice": current_price,
+        "updatedAt": datetime.now(timezone.utc).isoformat(),
+        "distributionFrequency": distribution_frequency,
+        "source": {
+            "name": "Buena Vista + B3",
+            "url": config["pageUrl"],
+            "quoteUrl": config["quoteUrl"],
+            "dividendsUrl": config["dividendsUrl"],
+        },
+        "dividends": dividends,
+    }
+
+
+def build_etf_payload(config: dict) -> dict:
+    ticker = config["ticker"].upper()
+    quote_html = fetch_html(config["quoteUrl"])
+    b3_fund_name, current_price = parse_b3_quote(quote_html, ticker)
+
+    if config["provider"] == "investo":
+        return build_investo_payload(config, b3_fund_name, current_price)
+
+    if config["provider"] == "buenavista":
+        return build_buenavista_payload(config, b3_fund_name, current_price)
+
+    raise ValueError(f"Provider nao suportado: {config['provider']}")
 
 
 def load_existing_files() -> list[dict]:
@@ -169,10 +277,11 @@ def write_etf_file(etf_data: dict) -> None:
 
 def write_outputs(etfs: list[dict], featured_tickers: list[str]) -> None:
     DATA_DIR.mkdir(parents=True, exist_ok=True)
+    available_tickers = {item["ticker"] for item in etfs}
 
     manifest = {
         "updatedAt": datetime.now(timezone.utc).isoformat(),
-        "featuredTickers": [ticker for ticker in featured_tickers if ticker in {item["ticker"] for item in etfs}],
+        "featuredTickers": [ticker for ticker in featured_tickers if ticker in available_tickers],
         "tickers": {
             etf["ticker"]: {
                 "companyName": etf.get("fundName", etf["ticker"]),
@@ -207,6 +316,10 @@ def write_outputs(etfs: list[dict], featured_tickers: list[str]) -> None:
 
 def main() -> None:
     configs = load_configs()
+    all_featured_tickers = [
+        item["ticker"].upper()
+        for item in json.loads(CONFIG_FILE.read_text(encoding="utf-8"))
+    ]
     existing = {item["ticker"]: item for item in load_existing_files()}
     failures = []
 
@@ -221,7 +334,7 @@ def main() -> None:
             failures.append({"ticker": ticker, "error": str(exc)})
             print(f"Falhou {ticker}: {exc}", file=sys.stderr)
 
-    write_outputs(list(existing.values()), [config["ticker"].upper() for config in configs])
+    write_outputs(list(existing.values()), all_featured_tickers)
     FAILED_FILE.write_text(
         json.dumps(
             {

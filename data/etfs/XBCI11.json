@@ -1,0 +1,37 @@
+{
+  "ticker": "XBCI11",
+  "fundName": "BUENA VISTA DEX VETTAFI NEOS BOOSTED BITCOIN HICH INCOME FUNDO DE \u00cdNDICE DE RESPONSABILIDADE LIMITADA",
+  "companyName": "BUENA VISTA DEX VETTAFI NEOS BOOSTED BITCOIN HICH INCOME FUNDO DE \u00cdNDICE DE RESPONSABILIDADE LIMITADA",
+  "currentPrice": 85.95,
+  "updatedAt": "2026-06-04T20:18:01.858284+00:00",
+  "distributionFrequency": "MENSAL",
+  "source": {
+    "name": "Buena Vista + B3",
+    "url": "https://buenavista.capital/xbci11/",
+    "quoteUrl": "https://borainvestir.b3.com.br/cotacoes/etfs/XBCI11/",
+    "dividendsUrl": "https://buenavista.capital/xbci11-rentabilidade/"
+  },
+  "dividends": [
+    {
+      "comDate": "2026-04-07",
+      "exDate": "2026-04-08",
+      "paymentDate": "2026-04-20",
+      "type": "Rendimento",
+      "valuePerShare": 3.296
+    },
+    {
+      "comDate": "2026-05-05",
+      "exDate": "2026-05-06",
+      "paymentDate": "2026-05-20",
+      "type": "Rendimento",
+      "valuePerShare": 3.68
+    },
+    {
+      "comDate": "2026-06-02",
+      "exDate": "2026-06-03",
+      "paymentDate": "2026-06-18",
+      "type": "Rendimento",
+      "valuePerShare": 3.163
+    }
+  ]
+}

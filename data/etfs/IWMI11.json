@@ -1,0 +1,142 @@
+{
+  "ticker": "IWMI11",
+  "fundName": "BUENA VISTA NEOS RUSSELL 2000\u00ae HIGH INCOME INDEX FUNDO DE \u00cdNDICE \u2013 RESPONSABILIDADE LIMITADA",
+  "companyName": "BUENA VISTA NEOS RUSSELL 2000\u00ae HIGH INCOME INDEX FUNDO DE \u00cdNDICE \u2013 RESPONSABILIDADE LIMITADA",
+  "currentPrice": 81.13,
+  "updatedAt": "2026-06-04T20:17:46.776059+00:00",
+  "distributionFrequency": "MENSAL",
+  "source": {
+    "name": "Buena Vista + B3",
+    "url": "https://buenavista.capital/iwmi11/",
+    "quoteUrl": "https://borainvestir.b3.com.br/cotacoes/etfs/IWMI11/",
+    "dividendsUrl": "https://buenavista.capital/iwmi11-rentabilidade/"
+  },
+  "dividends": [
+    {
+      "comDate": "2024-12-23",
+      "exDate": "2024-12-26",
+      "paymentDate": "2025-01-09",
+      "type": "Rendimento",
+      "valuePerShare": 1.194
+    },
+    {
+      "comDate": "2025-01-21",
+      "exDate": "2025-01-22",
+      "paymentDate": "2025-02-10",
+      "type": "Rendimento",
+      "valuePerShare": 1.154
+    },
+    {
+      "comDate": "2025-02-25",
+      "exDate": "2025-02-26",
+      "paymentDate": "2025-03-12",
+      "type": "Rendimento",
+      "valuePerShare": 1.059
+    },
+    {
+      "comDate": "2025-03-25",
+      "exDate": "2025-03-26",
+      "paymentDate": "2025-04-08",
+      "type": "Rendimento",
+      "valuePerShare": 1.022
+    },
+    {
+      "comDate": "2025-04-22",
+      "exDate": "2025-04-23",
+      "paymentDate": "2025-05-09",
+      "type": "Rendimento",
+      "valuePerShare": 0.932
+    },
+    {
+      "comDate": "2025-05-20",
+      "exDate": "2025-05-21",
+      "paymentDate": "2025-06-09",
+      "type": "Rendimento",
+      "valuePerShare": 0.978
+    },
+    {
+      "comDate": "2025-06-24",
+      "exDate": "2025-06-25",
+      "paymentDate": "2025-07-08",
+      "type": "Rendimento",
+      "valuePerShare": 0.955
+    },
+    {
+      "comDate": "2025-07-22",
+      "exDate": "2025-07-23",
+      "paymentDate": "2025-08-08",
+      "type": "Rendimento",
+      "valuePerShare": 0.972
+    },
+    {
+      "comDate": "2025-08-19",
+      "exDate": "2025-08-20",
+      "paymentDate": "2025-09-08",
+      "type": "Rendimento",
+      "valuePerShare": 0.958
+    },
+    {
+      "comDate": "2025-09-23",
+      "exDate": "2025-09-24",
+      "paymentDate": "2025-10-08",
+      "type": "Rendimento",
+      "valuePerShare": 0.964
+    },
+    {
+      "comDate": "2025-10-21",
+      "exDate": "2025-10-22",
+      "paymentDate": "2025-11-10",
+      "type": "Rendimento",
+      "valuePerShare": 0.984
+    },
+    {
+      "comDate": "2025-11-25",
+      "exDate": "2025-11-26",
+      "paymentDate": "2025-12-08",
+      "type": "Rendimento",
+      "valuePerShare": 0.956
+    },
+    {
+      "comDate": "2025-12-23",
+      "exDate": "2025-12-26",
+      "paymentDate": "2026-01-09",
+      "type": "Rendimento",
+      "valuePerShare": 1.026
+    },
+    {
+      "comDate": "2026-01-20",
+      "exDate": "2026-01-21",
+      "paymentDate": "2026-02-09",
+      "type": "Rendimento",
+      "valuePerShare": 1.007
+    },
+    {
+      "comDate": "2026-02-13",
+      "exDate": "2026-02-18",
+      "paymentDate": "2026-03-09",
+      "type": "Rendimento",
+      "valuePerShare": 0.967
+    },
+    {
+      "comDate": "2026-03-17",
+      "exDate": "2026-03-18",
+      "paymentDate": "2026-04-09",
+      "type": "Rendimento",
+      "valuePerShare": 0.915
+    },
+    {
+      "comDate": "2026-04-20",
+      "exDate": "2026-04-22",
+      "paymentDate": "2026-05-11",
+      "type": "Rendimento",
+      "valuePerShare": 0.937
+    },
+    {
+      "comDate": "2026-05-19",
+      "exDate": "2026-05-20",
+      "paymentDate": "2026-06-09",
+      "type": "Rendimento",
+      "valuePerShare": 0.934
+    }
+  ]
+}

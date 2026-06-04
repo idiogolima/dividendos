@@ -16,5 +16,68 @@
     "provider": "investo",
     "pageUrl": "https://www.investoetf.com/etf/bizd11/",
     "quoteUrl": "https://borainvestir.b3.com.br/cotacoes/etfs/BIZD11/"
+  },
+  {
+    "ticker": "SPYI11",
+    "provider": "buenavista",
+    "pageUrl": "https://buenavista.capital/etf/",
+    "dividendsUrl": "https://buenavista.capital/etf-rentabilidade/",
+    "quoteUrl": "https://borainvestir.b3.com.br/cotacoes/etfs/SPYI11/"
+  },
+  {
+    "ticker": "QQQI11",
+    "provider": "buenavista",
+    "pageUrl": "https://buenavista.capital/qqqi11/",
+    "dividendsUrl": "https://buenavista.capital/qqqi11-rentabilidade/",
+    "quoteUrl": "https://borainvestir.b3.com.br/cotacoes/etfs/QQQI11/"
+  },
+  {
+    "ticker": "COIN11",
+    "provider": "buenavista",
+    "pageUrl": "https://buenavista.capital/coin11/",
+    "dividendsUrl": "https://buenavista.capital/coin11-rentabilidade/",
+    "quoteUrl": "https://borainvestir.b3.com.br/cotacoes/etfs/COIN11/"
+  },
+  {
+    "ticker": "IWMI11",
+    "provider": "buenavista",
+    "pageUrl": "https://buenavista.capital/iwmi11/",
+    "dividendsUrl": "https://buenavista.capital/iwmi11-rentabilidade/",
+    "quoteUrl": "https://borainvestir.b3.com.br/cotacoes/etfs/IWMI11/"
+  },
+  {
+    "ticker": "CASA11",
+    "provider": "buenavista",
+    "pageUrl": "https://buenavista.capital/casa11/",
+    "dividendsUrl": "https://buenavista.capital/casa11-rentabilidade/",
+    "quoteUrl": "https://borainvestir.b3.com.br/cotacoes/etfs/CASA11/"
+  },
+  {
+    "ticker": "AURO11",
+    "provider": "buenavista",
+    "pageUrl": "https://buenavista.capital/auro11/",
+    "dividendsUrl": "https://buenavista.capital/auro11-rentabilidade/",
+    "quoteUrl": "https://borainvestir.b3.com.br/cotacoes/etfs/AURO11/"
+  },
+  {
+    "ticker": "GDIV11",
+    "provider": "buenavista",
+    "pageUrl": "https://buenavista.capital/gdiv11/",
+    "dividendsUrl": "https://buenavista.capital/gdiv11-rentabilidade/",
+    "quoteUrl": "https://borainvestir.b3.com.br/cotacoes/etfs/GDIV11/"
+  },
+  {
+    "ticker": "PIPE11",
+    "provider": "buenavista",
+    "pageUrl": "https://buenavista.capital/pipe11/",
+    "dividendsUrl": "https://buenavista.capital/pipe11-rentabilidade/",
+    "quoteUrl": "https://borainvestir.b3.com.br/cotacoes/etfs/PIPE11/"
+  },
+  {
+    "ticker": "XBCI11",
+    "provider": "buenavista",
+    "pageUrl": "https://buenavista.capital/xbci11/",
+    "dividendsUrl": "https://buenavista.capital/xbci11-rentabilidade/",
+    "quoteUrl": "https://borainvestir.b3.com.br/cotacoes/etfs/XBCI11/"
   }
 ]

@@ -1,11 +1,25 @@
 {
-  "updatedAt": "2026-06-04T19:21:56.132257+00:00",
+  "updatedAt": "2026-06-04T20:18:01.859327+00:00",
   "featuredTickers": [
     "BEST11",
     "UTLL11",
-    "BIZD11"
+    "BIZD11",
+    "SPYI11",
+    "QQQI11",
+    "COIN11",
+    "IWMI11",
+    "CASA11",
+    "AURO11",
+    "GDIV11",
+    "PIPE11",
+    "XBCI11"
   ],
   "tickers": {
+    "AURO11": {
+      "companyName": "Buena Vista Neos Gold High Income ETF",
+      "path": "./data/etfs/AURO11.json",
+      "sourceUrl": "https://buenavista.capital/auro11/"
+    },
     "BEST11": {
       "companyName": "INVESTO BRAZIL BESST QUALITY FUNDO DE \u00cdNDICE",
       "path": "./data/etfs/BEST11.json",
@@ -16,10 +30,50 @@
       "path": "./data/etfs/BIZD11.json",
       "sourceUrl": "https://www.investoetf.com/etf/bizd11/"
     },
+    "CASA11": {
+      "companyName": "BUENA VISTA NASDAQ-100 HIGH BETA INDEX FUNDO DE \u00cdNDICE \u2013 RESPONSABILIDADE LIMITADA",
+      "path": "./data/etfs/CASA11.json",
+      "sourceUrl": "https://buenavista.capital/casa11/"
+    },
+    "COIN11": {
+      "companyName": "BUENA VISTA NEOS BITCOIN HIGH INCOME INDEX FUNDO DE \u00cdNDICE \u2013 RESPONSABILIDADE LIMITADA / BUENA VISTA III FUNDO DE \u00cdNDICE",
+      "path": "./data/etfs/COIN11.json",
+      "sourceUrl": "https://buenavista.capital/coin11/"
+    },
+    "GDIV11": {
+      "companyName": "BUENA VISTA DEX NEOS INTERNATIONAL HIGH INCOME FUNDO DE \u00cdNDICE DE RESPONSABILIDADE LIMITADA",
+      "path": "./data/etfs/GDIV11.json",
+      "sourceUrl": "https://buenavista.capital/gdiv11/"
+    },
+    "IWMI11": {
+      "companyName": "BUENA VISTA NEOS RUSSELL 2000\u00ae HIGH INCOME INDEX FUNDO DE \u00cdNDICE \u2013 RESPONSABILIDADE LIMITADA",
+      "path": "./data/etfs/IWMI11.json",
+      "sourceUrl": "https://buenavista.capital/iwmi11/"
+    },
+    "PIPE11": {
+      "companyName": "BUENA VISTA DEX VETTAFI NEOS ENERGY INFRASTRUCTURE",
+      "path": "./data/etfs/PIPE11.json",
+      "sourceUrl": "https://buenavista.capital/pipe11/"
+    },
+    "QQQI11": {
+      "companyName": "BUENA VISTA NASDAQ-100\u00ae NEOS HIGH INCOME ETF\u00ae INDEX (NDXHIEN) FUNDO DE \u00cdNDICE",
+      "path": "./data/etfs/QQQI11.json",
+      "sourceUrl": "https://buenavista.capital/qqqi11/"
+    },
+    "SPYI11": {
+      "companyName": "Buena Vista US High Income ETF",
+      "path": "./data/etfs/SPYI11.json",
+      "sourceUrl": "https://buenavista.capital/etf/"
+    },
     "UTLL11": {
       "companyName": "INVESTO B3 UTILIDADE P\u00daBLICA FUNDO DE \u00cdNDICE",
       "path": "./data/etfs/UTLL11.json",
       "sourceUrl": "https://www.investoetf.com/etf/utll11/"
+    },
+    "XBCI11": {
+      "companyName": "BUENA VISTA DEX VETTAFI NEOS BOOSTED BITCOIN HICH INCOME FUNDO DE \u00cdNDICE DE RESPONSABILIDADE LIMITADA",
+      "path": "./data/etfs/XBCI11.json",
+      "sourceUrl": "https://buenavista.capital/xbci11/"
     }
   }
 }
