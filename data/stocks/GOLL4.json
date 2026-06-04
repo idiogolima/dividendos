@@ -1,0 +1,72 @@
+{
+  "ticker": "GOLL4",
+  "companyName": "gol",
+  "currentPrice": 0.79,
+  "source": {
+    "name": "PlayInvest",
+    "url": "https://playinvest.com.br/dividendos/goll4"
+  },
+  "updatedAt": "2026-06-04T14:00:37",
+  "dividends": [
+    {
+      "comDate": "2011-05-04",
+      "paymentDate": "2011-06-22",
+      "type": "DIV",
+      "valuePerShare": 0.18814478
+    },
+    {
+      "comDate": "2010-03-29",
+      "paymentDate": "2010-04-16",
+      "type": "DIV",
+      "valuePerShare": 0.701581
+    },
+    {
+      "comDate": "2008-04-30",
+      "paymentDate": "2008-06-20",
+      "type": "DIV",
+      "valuePerShare": 0.18
+    },
+    {
+      "comDate": "2007-12-21",
+      "paymentDate": "2008-02-01",
+      "type": "JCP",
+      "valuePerShare": 0.1883252485
+    },
+    {
+      "comDate": "2007-12-21",
+      "paymentDate": "2008-02-01",
+      "type": "DIV",
+      "valuePerShare": 0.18993
+    },
+    {
+      "comDate": "2007-09-27",
+      "paymentDate": "2007-11-05",
+      "type": "JCP",
+      "valuePerShare": 0.18831
+    },
+    {
+      "comDate": "2007-09-27",
+      "paymentDate": "2007-11-05",
+      "type": "DIV",
+      "valuePerShare": 0.18994
+    },
+    {
+      "comDate": "2007-06-25",
+      "paymentDate": "2007-08-03",
+      "type": "JCP",
+      "valuePerShare": 0.172
+    },
+    {
+      "comDate": "2007-06-25",
+      "paymentDate": "2007-08-03",
+      "type": "DIV",
+      "valuePerShare": 0.2038
+    },
+    {
+      "comDate": "2007-03-20",
+      "paymentDate": "2007-05-04",
+      "type": "JCP",
+      "valuePerShare": 0.1713
+    }
+  ]
+}

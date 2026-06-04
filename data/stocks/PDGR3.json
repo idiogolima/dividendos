@@ -1,0 +1,66 @@
+{
+  "ticker": "PDGR3",
+  "companyName": "pdg realty",
+  "currentPrice": 1.5,
+  "source": {
+    "name": "PlayInvest",
+    "url": "https://playinvest.com.br/dividendos/pdgr3"
+  },
+  "updatedAt": "2026-06-04T14:02:48",
+  "dividends": [
+    {
+      "comDate": "2012-05-08",
+      "paymentDate": "2012-07-05",
+      "type": "DIV",
+      "valuePerShare": 0.1484
+    },
+    {
+      "comDate": "2011-04-26",
+      "paymentDate": "2011-07-01",
+      "type": "DIV",
+      "valuePerShare": 0.1692
+    },
+    {
+      "comDate": "2010-04-29",
+      "paymentDate": "2010-06-30",
+      "type": "DIV",
+      "valuePerShare": 0.206
+    },
+    {
+      "comDate": "2009-05-01",
+      "paymentDate": "2009-06-30",
+      "type": "DIV",
+      "valuePerShare": 0.2
+    },
+    {
+      "comDate": "2009-04-30",
+      "paymentDate": "2009-06-30",
+      "type": "DIV",
+      "valuePerShare": 0.2
+    },
+    {
+      "comDate": "2008-12-25",
+      "paymentDate": "2009-06-30",
+      "type": "JCP",
+      "valuePerShare": 0.11126198
+    },
+    {
+      "comDate": "2008-12-23",
+      "paymentDate": "2009-06-30",
+      "type": "JCP",
+      "valuePerShare": 0.1113
+    },
+    {
+      "comDate": "2008-04-29",
+      "paymentDate": "2008-05-08",
+      "type": "DIV",
+      "valuePerShare": 0.1158
+    },
+    {
+      "comDate": "2007-04-30",
+      "paymentDate": "2007-05-15",
+      "type": "DIV",
+      "valuePerShare": 0.0444
+    }
+  ]
+}

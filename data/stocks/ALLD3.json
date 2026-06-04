@@ -1,0 +1,90 @@
+{
+  "ticker": "ALLD3",
+  "companyName": "allied",
+  "currentPrice": 5.46,
+  "source": {
+    "name": "PlayInvest",
+    "url": "https://playinvest.com.br/dividendos/alld3"
+  },
+  "updatedAt": "2026-06-04T13:56:06",
+  "dividends": [
+    {
+      "comDate": "2026-01-30",
+      "paymentDate": "2026-03-31",
+      "type": "JCP",
+      "valuePerShare": 0.42082241071
+    },
+    {
+      "comDate": "2025-08-15",
+      "paymentDate": "2025-08-29",
+      "type": "JCP",
+      "valuePerShare": 0.73765058864
+    },
+    {
+      "comDate": "2024-12-06",
+      "paymentDate": "2025-04-15",
+      "type": "JCP",
+      "valuePerShare": 0.64852930776
+    },
+    {
+      "comDate": "2024-12-06",
+      "paymentDate": "2025-08-29",
+      "type": "JCP",
+      "valuePerShare": 0.64852930776
+    },
+    {
+      "comDate": "2024-04-15",
+      "paymentDate": "2024-07-31",
+      "type": "JCP",
+      "valuePerShare": 1.07272447623
+    },
+    {
+      "comDate": "2023-12-19",
+      "paymentDate": "2024-03-25",
+      "type": "JCP",
+      "valuePerShare": 0.482726014
+    },
+    {
+      "comDate": "2023-12-19",
+      "paymentDate": "2024-06-25",
+      "type": "JCP",
+      "valuePerShare": 0.482726014
+    },
+    {
+      "comDate": "2022-12-27",
+      "paymentDate": "2023-06-16",
+      "type": "JCP",
+      "valuePerShare": 0.35399907716
+    },
+    {
+      "comDate": "2022-04-29",
+      "paymentDate": "2022-07-05",
+      "type": "DIV",
+      "valuePerShare": 0.570983231
+    },
+    {
+      "comDate": "2021-12-16",
+      "paymentDate": "2021-12-30",
+      "type": "JCP",
+      "valuePerShare": 0.297310057
+    },
+    {
+      "comDate": "2021-09-15",
+      "paymentDate": "2021-09-30",
+      "type": "DIV",
+      "valuePerShare": 0.028555113
+    },
+    {
+      "comDate": "2021-09-15",
+      "paymentDate": "2021-09-30",
+      "type": "DIV",
+      "valuePerShare": 0.097948098
+    },
+    {
+      "comDate": "2021-09-15",
+      "paymentDate": "2021-09-30",
+      "type": "JCP",
+      "valuePerShare": 0.337139337
+    }
+  ]
+}

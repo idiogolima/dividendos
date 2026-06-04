@@ -1,0 +1,24 @@
+{
+  "ticker": "NGRD3",
+  "companyName": "neogrid",
+  "currentPrice": 34.0,
+  "source": {
+    "name": "PlayInvest",
+    "url": "https://playinvest.com.br/dividendos/ngrd3"
+  },
+  "updatedAt": "2026-06-04T14:02:30",
+  "dividends": [
+    {
+      "comDate": "2023-04-28",
+      "paymentDate": "2023-06-15",
+      "type": "DIV",
+      "valuePerShare": 0.01479011
+    },
+    {
+      "comDate": "2021-04-30",
+      "paymentDate": "2021-06-15",
+      "type": "DIV",
+      "valuePerShare": 0.0124212
+    }
+  ]
+}

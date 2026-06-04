@@ -1,0 +1,36 @@
+{
+  "ticker": "MEAL3",
+  "companyName": "imc",
+  "currentPrice": 0.95,
+  "source": {
+    "name": "PlayInvest",
+    "url": "https://playinvest.com.br/dividendos/meal3"
+  },
+  "updatedAt": "2026-06-04T14:01:55",
+  "dividends": [
+    {
+      "comDate": "2019-04-29",
+      "paymentDate": "2019-06-14",
+      "type": "DIV",
+      "valuePerShare": 0.0119
+    },
+    {
+      "comDate": "2019-01-28",
+      "paymentDate": "2019-02-08",
+      "type": "JCP",
+      "valuePerShare": 0.6314
+    },
+    {
+      "comDate": "2018-04-27",
+      "paymentDate": "2018-06-22",
+      "type": "DIV",
+      "valuePerShare": 0.0054
+    },
+    {
+      "comDate": "2017-09-01",
+      "paymentDate": "2017-09-13",
+      "type": "JCP",
+      "valuePerShare": 0.2995
+    }
+  ]
+}

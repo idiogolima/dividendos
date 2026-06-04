@@ -1,0 +1,150 @@
+{
+  "ticker": "LUXM4",
+  "companyName": "trevisa",
+  "currentPrice": 3.25,
+  "source": {
+    "name": "PlayInvest",
+    "url": "https://playinvest.com.br/dividendos/luxm4"
+  },
+  "updatedAt": "2026-06-04T14:01:46",
+  "dividends": [
+    {
+      "comDate": "2026-04-29",
+      "paymentDate": "2026-12-31",
+      "type": "DIV",
+      "valuePerShare": 0.13686
+    },
+    {
+      "comDate": "2026-04-29",
+      "paymentDate": "2026-12-31",
+      "type": "DIV",
+      "valuePerShare": 0.12442
+    },
+    {
+      "comDate": "2025-04-29",
+      "paymentDate": "2025-09-03",
+      "type": "DIV",
+      "valuePerShare": 0.23238
+    },
+    {
+      "comDate": "2024-04-25",
+      "paymentDate": "2024-09-11",
+      "type": "DIV",
+      "valuePerShare": 0.22243
+    },
+    {
+      "comDate": "2023-04-27",
+      "paymentDate": "2023-06-19",
+      "type": "DIV",
+      "valuePerShare": 0.59453
+    },
+    {
+      "comDate": "2022-04-28",
+      "paymentDate": "2022-05-18",
+      "type": "DIV",
+      "valuePerShare": 0.69634
+    },
+    {
+      "comDate": "2021-04-27",
+      "paymentDate": "2021-05-13",
+      "type": "DIV",
+      "valuePerShare": 1.2031062
+    },
+    {
+      "comDate": "2021-04-22",
+      "paymentDate": "2021-05-13",
+      "type": "DIV",
+      "valuePerShare": 0.40402
+    },
+    {
+      "comDate": "2020-08-05",
+      "paymentDate": "2020-08-14",
+      "type": "DIV",
+      "valuePerShare": 2.706989
+    },
+    {
+      "comDate": "2020-07-31",
+      "paymentDate": "2020-08-14",
+      "type": "DIV",
+      "valuePerShare": 1.963984
+    },
+    {
+      "comDate": "2019-10-31",
+      "paymentDate": "2019-11-01",
+      "type": "DIV",
+      "valuePerShare": 1.4037
+    },
+    {
+      "comDate": "2019-04-30",
+      "paymentDate": "2019-07-03",
+      "type": "DIV",
+      "valuePerShare": 0.4675162
+    },
+    {
+      "comDate": "2018-04-27",
+      "paymentDate": "2018-08-03",
+      "type": "DIV",
+      "valuePerShare": 0.3964
+    },
+    {
+      "comDate": "2017-04-28",
+      "paymentDate": "2017-09-05",
+      "type": "DIV",
+      "valuePerShare": 0.7519
+    },
+    {
+      "comDate": "2016-04-28",
+      "paymentDate": "2016-09-06",
+      "type": "DIV",
+      "valuePerShare": 0.715
+    },
+    {
+      "comDate": "2015-04-28",
+      "paymentDate": "2015-12-16",
+      "type": "DIV",
+      "valuePerShare": 1.2982
+    },
+    {
+      "comDate": "2014-04-29",
+      "paymentDate": "2014-06-25",
+      "type": "DIV",
+      "valuePerShare": 1.2001
+    },
+    {
+      "comDate": "2013-04-30",
+      "paymentDate": "2013-06-12",
+      "type": "DIV",
+      "valuePerShare": 0.968
+    },
+    {
+      "comDate": "2012-04-27",
+      "paymentDate": "2012-07-04",
+      "type": "DIV",
+      "valuePerShare": 0.954
+    },
+    {
+      "comDate": "2011-04-29",
+      "paymentDate": "2011-06-29",
+      "type": "DIV",
+      "valuePerShare": 0.724
+    },
+    {
+      "comDate": "2010-04-23",
+      "paymentDate": "2010-07-02",
+      "type": "DIV",
+      "valuePerShare": 0.412
+    },
+    {
+      "comDate": "2009-04-27",
+      "paymentDate": "2009-07-27",
+      "type": "DIV",
+      "valuePerShare": 0.209
+    },
+    {
+      "comDate": "2008-04-28",
+      "paymentDate": "2008-05-15",
+      "type": "DIV",
+      "valuePerShare": 0.715
+    }
+  ]
+}

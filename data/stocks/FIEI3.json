@@ -1,0 +1,11 @@
+{
+  "ticker": "FIEI3",
+  "companyName": "cr2",
+  "currentPrice": 11.49,
+  "source": {
+    "name": "PlayInvest",
+    "url": "https://playinvest.com.br/dividendos/fiei3"
+  },
+  "updatedAt": "2026-06-04T14:00:16",
+  "dividends": []
+}

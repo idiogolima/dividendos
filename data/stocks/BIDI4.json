@@ -1,0 +1,96 @@
+{
+  "ticker": "BIDI4",
+  "companyName": "banco inter",
+  "currentPrice": 3.41,
+  "source": {
+    "name": "PlayInvest",
+    "url": "https://playinvest.com.br/dividendos/bidi4"
+  },
+  "updatedAt": "2026-06-04T13:57:00",
+  "dividends": [
+    {
+      "comDate": "2022-03-10",
+      "paymentDate": "2022-03-21",
+      "type": "JCP",
+      "valuePerShare": 0.014779293
+    },
+    {
+      "comDate": "2021-07-22",
+      "paymentDate": "2021-08-02",
+      "type": "JCP",
+      "valuePerShare": 0.012084364
+    },
+    {
+      "comDate": "2021-03-19",
+      "paymentDate": "2021-03-30",
+      "type": "JCP",
+      "valuePerShare": 0.004529940333333334
+    },
+    {
+      "comDate": "2020-07-27",
+      "paymentDate": "2020-08-20",
+      "type": "JCP",
+      "valuePerShare": 0.00351774
+    },
+    {
+      "comDate": "2020-07-03",
+      "paymentDate": "2020-08-20",
+      "type": "JCP",
+      "valuePerShare": 0.007713467333333334
+    },
+    {
+      "comDate": "2020-03-31",
+      "paymentDate": "2020-04-08",
+      "type": "JCP",
+      "valuePerShare": 0.007724505233333334
+    },
+    {
+      "comDate": "2019-12-27",
+      "paymentDate": "2020-01-08",
+      "type": "JCP",
+      "valuePerShare": 0.00605654
+    },
+    {
+      "comDate": "2019-09-30",
+      "paymentDate": "2019-10-08",
+      "type": "JCP",
+      "valuePerShare": 0.006077036666666666
+    },
+    {
+      "comDate": "2019-06-27",
+      "paymentDate": "2019-07-05",
+      "type": "JCP",
+      "valuePerShare": 0.0070107311000000005
+    },
+    {
+      "comDate": "2019-03-25",
+      "paymentDate": "2019-04-04",
+      "type": "JCP",
+      "valuePerShare": 0.007027565566666667
+    },
+    {
+      "comDate": "2018-12-28",
+      "paymentDate": "2019-01-15",
+      "type": "JCP",
+      "valuePerShare": 0.005027861933333333
+    },
+    {
+      "comDate": "2018-09-28",
+      "paymentDate": "2018-10-16",
+      "type": "JCP",
+      "valuePerShare": 0.005092436266666667
+    },
+    {
+      "comDate": "2018-06-29",
+      "paymentDate": "2018-08-15",
+      "type": "JCP",
+      "valuePerShare": 0.006594203766666667
+    },
+    {
+      "comDate": "2018-04-02",
+      "paymentDate": "2018-07-06",
+      "type": "JCP",
+      "valuePerShare": 0.0050795502666666666
+    }
+  ]
+}

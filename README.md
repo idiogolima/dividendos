@@ -2,7 +2,7 @@
 
 Aplicativo web em HTML, CSS e JavaScript para calcular o preco teto de acoes brasileiras como PWA no GitHub Pages.
 
-O app nao consulta a PlayInvest diretamente no navegador. Em vez disso, um scraper em Python gera arquivos JSON locais a partir das paginas da PlayInvest, e o frontend consome esses arquivos estaticos.
+O app consome arquivos JSON locais versionados no repositório.
 
 ## Links
 
@@ -25,9 +25,14 @@ Exemplo:
 - retorno alvo: `6%`
 - preco teto: `R$ 20,00`
 
+## Modos de uso
+
+- [`index.html`](index.html): consulta individual por ticker
+- [`ranking.html`](ranking.html): ranking em lote, ordenado pelo desconto da cotacao atual em relacao ao preco teto
+
 ## Como funciona
 
-1. O scraper acessa paginas como `https://playinvest.com.br/dividendos/baza3`
+1. O script de atualizacao busca os dados de cada ticker
 2. Extrai preco atual, nome da empresa e historico de dividendos/JCP
 3. Salva tudo em `data/stocks/<TICKER>.json`
 4. Atualiza `data/manifest.json`
@@ -35,7 +40,7 @@ Exemplo:
 
 ## Por que esse modelo
 
-O GitHub Pages serve apenas arquivos estaticos. Como a PlayInvest nao libera CORS para leitura cross-origin no navegador, um `fetch` direto do frontend para `playinvest.com.br` nao funciona no app publico.
+O GitHub Pages serve apenas arquivos estaticos. Por isso, o app le somente arquivos locais do próprio repositório.
 
 Por isso, a arquitetura correta aqui e:
 
@@ -50,9 +55,10 @@ Por isso, a arquitetura correta aqui e:
 - [`styles.css`](styles.css): visual do app
 - [`service-worker.js`](service-worker.js): cache do PWA
 - [`manifest.webmanifest`](manifest.webmanifest): manifesto instalavel
-- [`scripts/update_playinvest_data.py`](scripts/update_playinvest_data.py): scraper da PlayInvest
+- [`scripts/update_playinvest_data.py`](scripts/update_playinvest_data.py): gerador dos JSONs locais
 - [`playinvest_tickers.json`](playinvest_tickers.json): lista de tickers a atualizar
 - [`data/manifest.json`](data/manifest.json): manifesto dos dados gerados
+- [`scripts/update_data_local.sh`](scripts/update_data_local.sh): atalho para atualizar e preparar o envio
 
 ## Tickers iniciais
 
@@ -98,14 +104,25 @@ Depois abra:
 http://localhost:8000
 ```
 
-## GitHub Actions
+## Atualizacao local rapida
 
-O workflow [`update-playinvest-data.yml`](.github/workflows/update-playinvest-data.yml) faz a atualizacao automatica dos JSONs:
+Depois de criar a `.venv`, o fluxo mais simples e:
 
-- execucao manual via `workflow_dispatch`
-- execucao agendada em dias uteis
+```bash
+./scripts/update_data_local.sh
+```
 
-Quando houver alteracao em `data/`, ele faz commit e push automaticamente.
+Para atualizar apenas tickers especificos:
+
+```bash
+./scripts/update_data_local.sh BAZA3 PETR4
+```
+
+O script:
+
+- executa a atualizacao dos JSONs
+- mostra o `git status` dos arquivos de dados
+- imprime os comandos finais para commit e push
 
 ## Publicar no GitHub Pages
 
@@ -125,10 +142,12 @@ https://idiogolima.github.io/dividendos/
 
 As dependencias em [`requirements.txt`](requirements.txt) existem para o scraper e para o script Python legado.
 
-## Fonte dos dados
+## Publicacao dos JSONs
 
-Os dados do app sao gerados a partir da PlayInvest:
+Depois de atualizar:
 
-- https://playinvest.com.br/dividendos/baza3
-
-Cada JSON gerado guarda a URL de origem do ticker correspondente.
+```bash
+git add data/ playinvest_tickers.json
+git commit -m "Atualiza dados locais"
+git push origin main
+```

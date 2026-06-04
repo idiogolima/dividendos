@@ -1,0 +1,54 @@
+{
+  "ticker": "CSED3",
+  "companyName": "cruzeiro edu",
+  "currentPrice": 3.86,
+  "source": {
+    "name": "PlayInvest",
+    "url": "https://playinvest.com.br/dividendos/csed3"
+  },
+  "updatedAt": "2026-06-04T13:59:00",
+  "dividends": [
+    {
+      "comDate": "2026-04-28",
+      "paymentDate": "2026-06-30",
+      "type": "DIV",
+      "valuePerShare": 0.21122362692
+    },
+    {
+      "comDate": "2025-12-18",
+      "paymentDate": "2025-12-30",
+      "type": "DIV",
+      "valuePerShare": 0.2743163986
+    },
+    {
+      "comDate": "2025-04-30",
+      "paymentDate": "2025-06-30",
+      "type": "DIV",
+      "valuePerShare": 0.21122362692
+    },
+    {
+      "comDate": "2024-08-27",
+      "paymentDate": "2024-09-03",
+      "type": "DIV",
+      "valuePerShare": 0.1645898391582
+    },
+    {
+      "comDate": "2023-11-14",
+      "paymentDate": "2023-12-08",
+      "type": "DIV",
+      "valuePerShare": 0.1645898391582
+    },
+    {
+      "comDate": "2023-04-28",
+      "paymentDate": "2023-06-27",
+      "type": "DIV",
+      "valuePerShare": 0.0688067979670999
+    },
+    {
+      "comDate": "2022-04-29",
+      "paymentDate": "2022-05-27",
+      "type": "DIV",
+      "valuePerShare": 0.13095099
+    }
+  ]
+}

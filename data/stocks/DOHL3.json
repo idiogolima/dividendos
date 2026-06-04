@@ -1,0 +1,138 @@
+{
+  "ticker": "DOHL3",
+  "companyName": "dohler",
+  "currentPrice": 6.51,
+  "source": {
+    "name": "PlayInvest",
+    "url": "https://playinvest.com.br/dividendos/dohl3"
+  },
+  "updatedAt": "2026-06-04T13:59:27",
+  "dividends": [
+    {
+      "comDate": "2026-05-06",
+      "paymentDate": "2026-05-27",
+      "type": "DIV",
+      "valuePerShare": 0.033
+    },
+    {
+      "comDate": "2025-06-16",
+      "paymentDate": "2025-07-10",
+      "type": "DIV",
+      "valuePerShare": 0.01
+    },
+    {
+      "comDate": "2022-05-09",
+      "paymentDate": "2022-05-31",
+      "type": "DIV",
+      "valuePerShare": 0.12
+    },
+    {
+      "comDate": "2021-09-30",
+      "paymentDate": "2022-05-31",
+      "type": "JCP",
+      "valuePerShare": 0.086
+    },
+    {
+      "comDate": "2021-06-30",
+      "paymentDate": "2022-05-31",
+      "type": "JCP",
+      "valuePerShare": 0.08
+    },
+    {
+      "comDate": "2021-05-05",
+      "paymentDate": "2021-05-18",
+      "type": "DIV",
+      "valuePerShare": 0.02
+    },
+    {
+      "comDate": "2020-12-03",
+      "paymentDate": "2021-04-15",
+      "type": "JCP",
+      "valuePerShare": 0.283
+    },
+    {
+      "comDate": "2020-07-29",
+      "paymentDate": "2020-11-24",
+      "type": "DIV",
+      "valuePerShare": 0.13
+    },
+    {
+      "comDate": "2018-12-19",
+      "paymentDate": "2019-03-21",
+      "type": "JCP",
+      "valuePerShare": 0.2
+    },
+    {
+      "comDate": "2018-12-14",
+      "paymentDate": "2019-03-21",
+      "type": "JCP",
+      "valuePerShare": 0.2
+    },
+    {
+      "comDate": "2017-12-21",
+      "paymentDate": "2018-03-20",
+      "type": "JCP",
+      "valuePerShare": 0.18
+    },
+    {
+      "comDate": "2017-12-18",
+      "paymentDate": "2018-03-20",
+      "type": "JCP",
+      "valuePerShare": 0.18
+    },
+    {
+      "comDate": "2015-12-17",
+      "paymentDate": "2016-05-23",
+      "type": "JCP",
+      "valuePerShare": 0.09
+    },
+    {
+      "comDate": "2014-12-18",
+      "paymentDate": "2015-05-21",
+      "type": "JCP",
+      "valuePerShare": 0.18
+    },
+    {
+      "comDate": "2013-12-16",
+      "paymentDate": "2014-05-27",
+      "type": "JCP",
+      "valuePerShare": 0.215
+    },
+    {
+      "comDate": "2012-12-19",
+      "paymentDate": "2012-12-28",
+      "type": "JCP",
+      "valuePerShare": 0.175
+    },
+    {
+      "comDate": "2011-12-16",
+      "paymentDate": "2012-05-22",
+      "type": "JCP",
+      "valuePerShare": 0.18
+    },
+    {
+      "comDate": "2010-12-20",
+      "paymentDate": "2011-05-30",
+      "type": "JCP",
+      "valuePerShare": 1.18
+    },
+    {
+      "comDate": "2010-04-16",
+      "paymentDate": "2010-05-25",
+      "type": "DIV",
+      "valuePerShare": 0.6
+    },
+    {
+      "comDate": "2009-03-30",
+      "paymentDate": "2009-05-15",
+      "type": "DIV",
+      "valuePerShare": 1.0
+    },
+    {
+      "comDate": "2008-03-31",
+      "paymentDate": "2008-04-30",
+      "type": "DIV",
+      "valuePerShare": 0.04
+    }
+  ]
+}

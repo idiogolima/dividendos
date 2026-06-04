@@ -1,0 +1,72 @@
+{
+  "ticker": "MDNE3",
+  "companyName": "moura dubeux",
+  "currentPrice": 26.1,
+  "source": {
+    "name": "PlayInvest",
+    "url": "https://playinvest.com.br/dividendos/mdne3"
+  },
+  "updatedAt": "2026-06-04T14:01:54",
+  "dividends": [
+    {
+      "comDate": "2025-12-30",
+      "paymentDate": "2026-03-31",
+      "type": "DIV",
+      "valuePerShare": 0.59183509277
+    },
+    {
+      "comDate": "2025-12-30",
+      "paymentDate": "2026-06-30",
+      "type": "DIV",
+      "valuePerShare": 0.59183509277
+    },
+    {
+      "comDate": "2025-12-30",
+      "paymentDate": "2026-09-30",
+      "type": "DIV",
+      "valuePerShare": 0.59183509277
+    },
+    {
+      "comDate": "2025-12-30",
+      "paymentDate": "2026-12-31",
+      "type": "DIV",
+      "valuePerShare": 0.59183509277
+    },
+    {
+      "comDate": "2025-12-30",
+      "paymentDate": "2027-03-31",
+      "type": "DIV",
+      "valuePerShare": 0.59183509277
+    },
+    {
+      "comDate": "2025-12-30",
+      "paymentDate": "2027-06-30",
+      "type": "DIV",
+      "valuePerShare": 0.59183509277
+    },
+    {
+      "comDate": "2025-12-30",
+      "paymentDate": "2027-09-30",
+      "type": "DIV",
+      "valuePerShare": 0.61160445014
+    },
+    {
+      "comDate": "2025-11-14",
+      "paymentDate": "2025-11-26",
+      "type": "DIV",
+      "valuePerShare": 0.6
+    },
+    {
+      "comDate": "2025-05-21",
+      "paymentDate": "2025-05-30",
+      "type": "DIV",
+      "valuePerShare": 0.59089087589
+    },
+    {
+      "comDate": "2024-11-12",
+      "paymentDate": "2024-11-22",
+      "type": "DIV",
+      "valuePerShare": 0.65
+    }
+  ]
+}

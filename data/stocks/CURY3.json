@@ -1,0 +1,114 @@
+{
+  "ticker": "CURY3",
+  "companyName": "cury s/a",
+  "currentPrice": 29.45,
+  "source": {
+    "name": "PlayInvest",
+    "url": "https://playinvest.com.br/dividendos/cury3"
+  },
+  "updatedAt": "2026-06-04T13:59:16",
+  "dividends": [
+    {
+      "comDate": "2026-05-15",
+      "paymentDate": "2026-05-28",
+      "type": "DIV",
+      "valuePerShare": 0.5194002586
+    },
+    {
+      "comDate": "2026-02-04",
+      "paymentDate": null,
+      "type": "DIV",
+      "valuePerShare": 0.4544752263
+    },
+    {
+      "comDate": "2025-12-16",
+      "paymentDate": "2025-12-23",
+      "type": "DIV",
+      "valuePerShare": 1.8601021763
+    },
+    {
+      "comDate": "2025-11-27",
+      "paymentDate": "2025-12-04",
+      "type": "DIV",
+      "valuePerShare": 0.856530791
+    },
+    {
+      "comDate": "2025-09-30",
+      "paymentDate": "2025-10-07",
+      "type": "DIV",
+      "valuePerShare": 0.685224632805935
+    },
+    {
+      "comDate": "2025-04-17",
+      "paymentDate": "2025-05-06",
+      "type": "DIV",
+      "valuePerShare": 0.26620555599
+    },
+    {
+      "comDate": "2025-04-17",
+      "paymentDate": "2025-05-06",
+      "type": "DIV",
+      "valuePerShare": 0.26620555599
+    },
+    {
+      "comDate": "2025-02-10",
+      "paymentDate": "2025-02-20",
+      "type": "DIV",
+      "valuePerShare": 0.6036891519
+    },
+    {
+      "comDate": "2024-10-04",
+      "paymentDate": "2024-10-31",
+      "type": "DIV",
+      "valuePerShare": 0.3449652297
+    },
+    {
+      "comDate": "2024-05-08",
+      "paymentDate": "2024-05-13",
+      "type": "DIV",
+      "valuePerShare": 0.91415785874
+    },
+    {
+      "comDate": "2024-04-30",
+      "paymentDate": "2024-05-13",
+      "type": "DIV",
+      "valuePerShare": 0.40891049963
+    },
+    {
+      "comDate": "2023-12-04",
+      "paymentDate": "2023-12-13",
+      "type": "DIV",
+      "valuePerShare": 0.3449652297
+    },
+    {
+      "comDate": "2023-09-22",
+      "paymentDate": "2023-10-03",
+      "type": "DIV",
+      "valuePerShare": 0.5174478446
+    },
+    {
+      "comDate": "2023-04-28",
+      "paymentDate": "2023-05-25",
+      "type": "DIV",
+      "valuePerShare": 0.0632927311
+    },
+    {
+      "comDate": "2022-04-29",
+      "paymentDate": "2022-09-30",
+      "type": "DIV",
+      "valuePerShare": 0.51535
+    },
+    {
+      "comDate": "2021-12-07",
+      "paymentDate": "2021-12-16",
+      "type": "DIV",
+      "valuePerShare": 0.1713061582
+    },
+    {
+      "comDate": "2021-04-23",
+      "paymentDate": "2021-07-30",
+      "type": "DIV",
+      "valuePerShare": 0.3940041642
+    }
+  ]
+}

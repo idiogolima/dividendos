@@ -1,0 +1,180 @@
+{
+  "ticker": "BBSE3",
+  "companyName": "bb seguridade",
+  "currentPrice": 35.04,
+  "source": {
+    "name": "PlayInvest",
+    "url": "https://playinvest.com.br/dividendos/bbse3"
+  },
+  "updatedAt": "2026-06-04T13:56:45",
+  "dividends": [
+    {
+      "comDate": "2026-02-12",
+      "paymentDate": "2026-03-02",
+      "type": "DIV",
+      "valuePerShare": 2.60680664179
+    },
+    {
+      "comDate": "2025-08-14",
+      "paymentDate": "2025-08-26",
+      "type": "DIV",
+      "valuePerShare": 1.9420951555
+    },
+    {
+      "comDate": "2025-02-20",
+      "paymentDate": "2025-03-06",
+      "type": "DIV",
+      "valuePerShare": 2.27232921
+    },
+    {
+      "comDate": "2024-08-16",
+      "paymentDate": "2024-08-30",
+      "type": "DIV",
+      "valuePerShare": 1.39090856
+    },
+    {
+      "comDate": "2024-02-08",
+      "paymentDate": "2024-02-22",
+      "type": "DIV",
+      "valuePerShare": 1.24187556
+    },
+    {
+      "comDate": "2023-08-16",
+      "paymentDate": "2023-08-28",
+      "type": "DIV",
+      "valuePerShare": 1.60763676
+    },
+    {
+      "comDate": "2023-02-14",
+      "paymentDate": "2023-03-01",
+      "type": "DIV",
+      "valuePerShare": 1.83987361
+    },
+    {
+      "comDate": "2022-08-17",
+      "paymentDate": "2022-08-29",
+      "type": "DIV",
+      "valuePerShare": 1.03604453
+    },
+    {
+      "comDate": "2022-02-10",
+      "paymentDate": "2022-02-23",
+      "type": "DIV",
+      "valuePerShare": 0.91715447
+    },
+    {
+      "comDate": "2021-08-11",
+      "paymentDate": "2021-08-23",
+      "type": "DIV",
+      "valuePerShare": 0.520875
+    },
+    {
+      "comDate": "2021-02-11",
+      "paymentDate": "2021-02-25",
+      "type": "DIV",
+      "valuePerShare": 0.47480752
+    },
+    {
+      "comDate": "2020-08-12",
+      "paymentDate": "2020-08-24",
+      "type": "DIV",
+      "valuePerShare": 0.87525532
+    },
+    {
+      "comDate": "2020-02-13",
+      "paymentDate": "2020-02-27",
+      "type": "DIV",
+      "valuePerShare": 1.89838434
+    },
+    {
+      "comDate": "2019-08-09",
+      "paymentDate": "2019-08-21",
+      "type": "DIV",
+      "valuePerShare": 0.89068348
+    },
+    {
+      "comDate": "2019-02-14",
+      "paymentDate": "2019-02-26",
+      "type": "DIV",
+      "valuePerShare": 0.67719143
+    },
+    {
+      "comDate": "2019-02-14",
+      "paymentDate": "2019-02-26",
+      "type": "DIV",
+      "valuePerShare": 0.67719143
+    },
+    {
+      "comDate": "2018-12-11",
+      "paymentDate": "2019-01-02",
+      "type": "DIV",
+      "valuePerShare": 1.35230119
+    },
+    {
+      "comDate": "2018-08-09",
+      "paymentDate": "2018-08-21",
+      "type": "DIV",
+      "valuePerShare": 0.78089866
+    },
+    {
+      "comDate": "2018-02-22",
+      "paymentDate": "2018-03-06",
+      "type": "DIV",
+      "valuePerShare": 0.94668359
+    },
+    {
+      "comDate": "2017-08-10",
+      "paymentDate": "2017-08-22",
+      "type": "DIV",
+      "valuePerShare": 0.78098891
+    },
+    {
+      "comDate": "2017-02-16",
+      "paymentDate": "2017-03-02",
+      "type": "DIV",
+      "valuePerShare": 0.83575624
+    },
+    {
+      "comDate": "2016-08-11",
+      "paymentDate": "2016-08-24",
+      "type": "DIV",
+      "valuePerShare": 0.81914922
+    },
+    {
+      "comDate": "2016-02-23",
+      "paymentDate": "2016-03-07",
+      "type": "DIV",
+      "valuePerShare": 0.81863769
+    },
+    {
+      "comDate": "2015-08-12",
+      "paymentDate": "2015-08-25",
+      "type": "DIV",
+      "valuePerShare": 0.86572921
+    },
+    {
+      "comDate": "2015-02-12",
+      "paymentDate": "2015-02-26",
+      "type": "DIV",
+      "valuePerShare": 0.78501824
+    },
+    {
+      "comDate": "2014-08-18",
+      "paymentDate": "2014-08-29",
+      "type": "DIV",
+      "valuePerShare": 0.5976614
+    },
+    {
+      "comDate": "2014-02-14",
+      "paymentDate": "2014-02-26",
+      "type": "DIV",
+      "valuePerShare": 0.58057704
+    },
+    {
+      "comDate": "2013-08-19",
+      "paymentDate": "2013-08-30",
+      "type": "DIV",
+      "valuePerShare": 0.40892406
+    }
+  ]
+}

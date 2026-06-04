@@ -1,0 +1,132 @@
+{
+  "ticker": "EUCA4",
+  "companyName": "eucatex",
+  "currentPrice": 25.55,
+  "source": {
+    "name": "PlayInvest",
+    "url": "https://playinvest.com.br/dividendos/euca4"
+  },
+  "updatedAt": "2026-06-04T14:00:07",
+  "dividends": [
+    {
+      "comDate": "2025-12-30",
+      "paymentDate": "2026-12-31",
+      "type": "JCP",
+      "valuePerShare": 1.12495
+    },
+    {
+      "comDate": "2025-01-06",
+      "paymentDate": "2025-12-29",
+      "type": "JCP",
+      "valuePerShare": 0.735467
+    },
+    {
+      "comDate": "2023-12-26",
+      "paymentDate": "2025-01-09",
+      "type": "JCP",
+      "valuePerShare": 0.276551439
+    },
+    {
+      "comDate": "2023-01-02",
+      "paymentDate": "2023-12-27",
+      "type": "JCP",
+      "valuePerShare": 0.79015726
+    },
+    {
+      "comDate": "2021-12-21",
+      "paymentDate": "2022-12-29",
+      "type": "JCP",
+      "valuePerShare": 0.28304096
+    },
+    {
+      "comDate": "2021-05-11",
+      "paymentDate": "2021-10-29",
+      "type": "DIV",
+      "valuePerShare": 0.188353
+    },
+    {
+      "comDate": "2021-01-06",
+      "paymentDate": null,
+      "type": "JCP",
+      "valuePerShare": 0.22104781
+    },
+    {
+      "comDate": "2019-05-06",
+      "paymentDate": null,
+      "type": "DIV",
+      "valuePerShare": 0.0457
+    },
+    {
+      "comDate": "2018-04-30",
+      "paymentDate": null,
+      "type": "DIV",
+      "valuePerShare": 0.0666
+    },
+    {
+      "comDate": "2017-04-25",
+      "paymentDate": null,
+      "type": "DIV",
+      "valuePerShare": 0.0535
+    },
+    {
+      "comDate": "2016-04-18",
+      "paymentDate": null,
+      "type": "DIV",
+      "valuePerShare": 0.0081
+    },
+    {
+      "comDate": "2015-04-10",
+      "paymentDate": null,
+      "type": "DIV",
+      "valuePerShare": 0.0418
+    },
+    {
+      "comDate": "2013-12-26",
+      "paymentDate": "2025-04-15",
+      "type": "JCP",
+      "valuePerShare": 0.2049
+    },
+    {
+      "comDate": "2012-12-27",
+      "paymentDate": "2013-06-21",
+      "type": "JCP",
+      "valuePerShare": 0.1905
+    },
+    {
+      "comDate": "2012-04-16",
+      "paymentDate": "2025-04-15",
+      "type": "DIV",
+      "valuePerShare": 0.0371
+    },
+    {
+      "comDate": "2011-12-23",
+      "paymentDate": "2025-04-15",
+      "type": "JCP",
+      "valuePerShare": 0.2514
+    },
+    {
+      "comDate": "2011-05-05",
+      "paymentDate": "2011-06-21",
+      "type": "DIV",
+      "valuePerShare": 0.0066
+    },
+    {
+      "comDate": "2011-04-26",
+      "paymentDate": "2011-08-05",
+      "type": "DIV",
+      "valuePerShare": 0.006627
+    },
+    {
+      "comDate": "2010-12-29",
+      "paymentDate": "2011-06-21",
+      "type": "JCP",
+      "valuePerShare": 0.2737
+    },
+    {
+      "comDate": "2010-12-29",
+      "paymentDate": "2011-07-22",
+      "type": "JCP",
+      "valuePerShare": 0.232641
+    }
+  ]
+}

@@ -1,0 +1,102 @@
+{
+  "ticker": "AGRO3",
+  "companyName": "brasilagro",
+  "currentPrice": 18.5,
+  "source": {
+    "name": "PlayInvest",
+    "url": "https://playinvest.com.br/dividendos/agro3"
+  },
+  "updatedAt": "2026-06-04T13:56:02",
+  "dividends": [
+    {
+      "comDate": "2025-10-22",
+      "paymentDate": null,
+      "type": "DIV",
+      "valuePerShare": 0.75289521
+    },
+    {
+      "comDate": "2024-10-22",
+      "paymentDate": "2024-11-14",
+      "type": "DIV",
+      "valuePerShare": 1.555983425
+    },
+    {
+      "comDate": "2023-10-24",
+      "paymentDate": null,
+      "type": "DIV",
+      "valuePerShare": 3.212352878
+    },
+    {
+      "comDate": "2022-10-27",
+      "paymentDate": "2022-11-16",
+      "type": "DIV",
+      "valuePerShare": 3.238672791
+    },
+    {
+      "comDate": "2022-04-07",
+      "paymentDate": "2022-04-29",
+      "type": "DIV",
+      "valuePerShare": 2.0162932
+    },
+    {
+      "comDate": "2021-10-27",
+      "paymentDate": "2021-11-10",
+      "type": "DIV",
+      "valuePerShare": 2.621181215
+    },
+    {
+      "comDate": "2020-10-16",
+      "paymentDate": "2020-11-12",
+      "type": "DIV",
+      "valuePerShare": 0.709664147
+    },
+    {
+      "comDate": "2019-10-16",
+      "paymentDate": "2019-11-14",
+      "type": "DIV",
+      "valuePerShare": 0.92933058
+    },
+    {
+      "comDate": "2018-10-16",
+      "paymentDate": "2018-11-06",
+      "type": "DIV",
+      "valuePerShare": 0.7621
+    },
+    {
+      "comDate": "2017-10-02",
+      "paymentDate": "2017-10-30",
+      "type": "DIV",
+      "valuePerShare": 0.2411
+    },
+    {
+      "comDate": "2016-11-07",
+      "paymentDate": "2016-11-21",
+      "type": "JCP",
+      "valuePerShare": 0.401081542
+    },
+    {
+      "comDate": "2016-10-21",
+      "paymentDate": "2016-11-07",
+      "type": "DIV",
+      "valuePerShare": 0.182998361
+    },
+    {
+      "comDate": "2015-10-28",
+      "paymentDate": "2015-11-13",
+      "type": "DIV",
+      "valuePerShare": 1.3977
+    },
+    {
+      "comDate": "2013-12-18",
+      "paymentDate": "2014-01-10",
+      "type": "DIV",
+      "valuePerShare": 0.100704387
+    },
+    {
+      "comDate": "2008-10-29",
+      "paymentDate": "2008-11-28",
+      "type": "DIV",
+      "valuePerShare": 0.0193
+    }
+  ]
+}

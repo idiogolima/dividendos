@@ -1,0 +1,18 @@
+{
+  "ticker": "BRAV3",
+  "companyName": "brava",
+  "currentPrice": 20.75,
+  "source": {
+    "name": "PlayInvest",
+    "url": "https://playinvest.com.br/dividendos/brav3"
+  },
+  "updatedAt": "2026-06-04T13:57:27",
+  "dividends": [
+    {
+      "comDate": "2026-04-20",
+      "paymentDate": "2026-04-30",
+      "type": "DIV",
+      "valuePerShare": 0.12360222942
+    }
+  ]
+}

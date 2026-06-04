@@ -1,0 +1,36 @@
+{
+  "ticker": "MERC3",
+  "companyName": "mercantil financeira",
+  "currentPrice": 15.28,
+  "source": {
+    "name": "PlayInvest",
+    "url": "https://playinvest.com.br/dividendos/merc3"
+  },
+  "updatedAt": "2026-06-04T14:01:58",
+  "dividends": [
+    {
+      "comDate": "2026-03-06",
+      "paymentDate": "2026-03-18",
+      "type": "DIV",
+      "valuePerShare": 0.182216
+    },
+    {
+      "comDate": "2025-02-07",
+      "paymentDate": "2025-02-19",
+      "type": "DIV",
+      "valuePerShare": 0.145594
+    },
+    {
+      "comDate": "2024-01-30",
+      "paymentDate": "2024-02-07",
+      "type": "JCP",
+      "valuePerShare": 0.042928
+    },
+    {
+      "comDate": "2024-01-30",
+      "paymentDate": "2024-02-07",
+      "type": "DIV",
+      "valuePerShare": 0.438355
+    }
+  ]
+}

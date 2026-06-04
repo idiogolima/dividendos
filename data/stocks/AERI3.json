@@ -1,0 +1,18 @@
+{
+  "ticker": "AERI3",
+  "companyName": "aeris",
+  "currentPrice": 2.31,
+  "source": {
+    "name": "PlayInvest",
+    "url": "https://playinvest.com.br/dividendos/aeri3"
+  },
+  "updatedAt": "2026-06-04T13:55:59",
+  "dividends": [
+    {
+      "comDate": "2022-03-25",
+      "paymentDate": null,
+      "type": "DIV",
+      "valuePerShare": 0.02070235716
+    }
+  ]
+}

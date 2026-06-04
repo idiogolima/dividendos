@@ -1,0 +1,36 @@
+{
+  "ticker": "LWSA3",
+  "companyName": "locaweb",
+  "currentPrice": 3.62,
+  "source": {
+    "name": "PlayInvest",
+    "url": "https://playinvest.com.br/dividendos/lwsa3"
+  },
+  "updatedAt": "2026-06-04T14:01:48",
+  "dividends": [
+    {
+      "comDate": "2025-08-19",
+      "paymentDate": "2025-08-26",
+      "type": "DIV",
+      "valuePerShare": 0.05190865
+    },
+    {
+      "comDate": "2024-11-12",
+      "paymentDate": "2024-11-21",
+      "type": "DIV",
+      "valuePerShare": 0.07164686
+    },
+    {
+      "comDate": "2023-05-09",
+      "paymentDate": "2023-05-22",
+      "type": "DIV",
+      "valuePerShare": 0.05242129
+    },
+    {
+      "comDate": "2020-12-08",
+      "paymentDate": "2020-12-18",
+      "type": "JCP",
+      "valuePerShare": 0.12710904
+    }
+  ]
+}

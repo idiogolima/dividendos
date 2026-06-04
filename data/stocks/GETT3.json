@@ -1,0 +1,24 @@
+{
+  "ticker": "GETT3",
+  "companyName": "getnet br",
+  "currentPrice": 2.4,
+  "source": {
+    "name": "PlayInvest",
+    "url": "https://playinvest.com.br/dividendos/gett3"
+  },
+  "updatedAt": "2026-06-04T14:00:27",
+  "dividends": [
+    {
+      "comDate": "2022-06-14",
+      "paymentDate": null,
+      "type": "JCP",
+      "valuePerShare": 0.04909436481
+    },
+    {
+      "comDate": "2022-01-20",
+      "paymentDate": "2022-02-18",
+      "type": "JCP",
+      "valuePerShare": 0.15217104877
+    }
+  ]
+}

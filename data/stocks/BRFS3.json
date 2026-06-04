@@ -1,0 +1,174 @@
+{
+  "ticker": "BRFS3",
+  "companyName": "brf",
+  "currentPrice": 21.44,
+  "source": {
+    "name": "PlayInvest",
+    "url": "https://playinvest.com.br/dividendos/brfs3"
+  },
+  "updatedAt": "2026-06-04T13:57:31",
+  "dividends": [
+    {
+      "comDate": "2025-09-18",
+      "paymentDate": "2025-09-29",
+      "type": "JCP",
+      "valuePerShare": 0.25122591037
+    },
+    {
+      "comDate": "2025-09-18",
+      "paymentDate": "2025-09-29",
+      "type": "DIV",
+      "valuePerShare": 1.83486883675
+    },
+    {
+      "comDate": "2024-12-16",
+      "paymentDate": "2024-12-30",
+      "type": "JCP",
+      "valuePerShare": 0.12297160073
+    },
+    {
+      "comDate": "2024-11-25",
+      "paymentDate": "2024-12-05",
+      "type": "JCP",
+      "valuePerShare": 0.58165567149
+    },
+    {
+      "comDate": "2016-07-12",
+      "paymentDate": "2016-08-15",
+      "type": "JCP",
+      "valuePerShare": 0.6423
+    },
+    {
+      "comDate": "2016-03-10",
+      "paymentDate": "2016-04-01",
+      "type": "DIV",
+      "valuePerShare": 0.1217
+    },
+    {
+      "comDate": "2016-01-01",
+      "paymentDate": "2016-02-12",
+      "type": "JCP",
+      "valuePerShare": 0.583827682
+    },
+    {
+      "comDate": "2016-01-01",
+      "paymentDate": "2016-02-12",
+      "type": "DIV",
+      "valuePerShare": 0.112773934
+    },
+    {
+      "comDate": "2015-12-30",
+      "paymentDate": "2016-02-12",
+      "type": "JCP",
+      "valuePerShare": 0.5845
+    },
+    {
+      "comDate": "2015-12-30",
+      "paymentDate": "2016-02-12",
+      "type": "DIV",
+      "valuePerShare": 0.1129
+    },
+    {
+      "comDate": "2015-06-30",
+      "paymentDate": "2015-08-14",
+      "type": "JCP",
+      "valuePerShare": 0.5024
+    },
+    {
+      "comDate": "2015-01-01",
+      "paymentDate": "2015-02-13",
+      "type": "DIV",
+      "valuePerShare": 0.09972393
+    },
+    {
+      "comDate": "2015-01-01",
+      "paymentDate": "2015-02-13",
+      "type": "JCP",
+      "valuePerShare": 0.43441923
+    },
+    {
+      "comDate": "2014-12-30",
+      "paymentDate": "2015-02-13",
+      "type": "DIV",
+      "valuePerShare": 0.0997
+    },
+    {
+      "comDate": "2014-12-30",
+      "paymentDate": "2015-02-13",
+      "type": "JCP",
+      "valuePerShare": 0.4344
+    },
+    {
+      "comDate": "2014-06-30",
+      "paymentDate": "2014-08-15",
+      "type": "JCP",
+      "valuePerShare": 0.4142
+    },
+    {
+      "comDate": "2014-01-01",
+      "paymentDate": "2014-02-14",
+      "type": "JCP",
+      "valuePerShare": 0.41922417
+    },
+    {
+      "comDate": "2013-12-30",
+      "paymentDate": "2014-02-14",
+      "type": "JCP",
+      "valuePerShare": 0.4192
+    },
+    {
+      "comDate": "2013-06-28",
+      "paymentDate": "2013-08-15",
+      "type": "JCP",
+      "valuePerShare": 0.4123
+    },
+    {
+      "comDate": "2013-04-19",
+      "paymentDate": "2013-04-30",
+      "type": "DIV",
+      "valuePerShare": 0.05205085
+    },
+    {
+      "comDate": "2013-01-01",
+      "paymentDate": "2013-02-15",
+      "type": "JCP",
+      "valuePerShare": 0.20084501
+    },
+    {
+      "comDate": "2012-06-28",
+      "paymentDate": "2012-08-15",
+      "type": "JCP",
+      "valuePerShare": 0.11501051
+    },
+    {
+      "comDate": "2011-12-28",
+      "paymentDate": "2012-02-15",
+      "type": "JCP",
+      "valuePerShare": 0.39080857
+    },
+    {
+      "comDate": "2011-06-29",
+      "paymentDate": "2011-08-29",
+      "type": "JCP",
+      "valuePerShare": 0.33564596
+    },
+    {
+      "comDate": "2010-12-28",
+      "paymentDate": "2011-02-24",
+      "type": "JCP",
+      "valuePerShare": 0.24010772
+    },
+    {
+      "comDate": "2010-06-28",
+      "paymentDate": "2010-08-27",
+      "type": "JCP",
+      "valuePerShare": 0.06113643
+    },
+    {
+      "comDate": "2009-12-28",
+      "paymentDate": "2010-02-26",
+      "type": "JCP",
+      "valuePerShare": 0.22998523
+    }
+  ]
+}

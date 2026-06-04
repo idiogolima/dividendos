@@ -1,0 +1,11 @@
+{
+  "ticker": "BLUT4",
+  "companyName": "blue tech solutions",
+  "currentPrice": 1.52,
+  "source": {
+    "name": "PlayInvest",
+    "url": "https://playinvest.com.br/dividendos/blut4"
+  },
+  "updatedAt": "2026-06-04T13:57:06",
+  "dividends": []
+}

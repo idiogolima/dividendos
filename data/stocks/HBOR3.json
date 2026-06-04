@@ -1,0 +1,138 @@
+{
+  "ticker": "HBOR3",
+  "companyName": "helbor",
+  "currentPrice": 2.2,
+  "source": {
+    "name": "PlayInvest",
+    "url": "https://playinvest.com.br/dividendos/hbor3"
+  },
+  "updatedAt": "2026-06-04T14:00:45",
+  "dividends": [
+    {
+      "comDate": "2026-04-24",
+      "paymentDate": "2026-05-29",
+      "type": "DIV",
+      "valuePerShare": 0.00131386204
+    },
+    {
+      "comDate": "2026-01-05",
+      "paymentDate": null,
+      "type": "DIV",
+      "valuePerShare": 0.1130423671
+    },
+    {
+      "comDate": "2026-01-05",
+      "paymentDate": null,
+      "type": "DIV",
+      "valuePerShare": 0.01884039452
+    },
+    {
+      "comDate": "2025-04-23",
+      "paymentDate": "2025-05-30",
+      "type": "DIV",
+      "valuePerShare": 0.1011395478
+    },
+    {
+      "comDate": "2024-04-30",
+      "paymentDate": "2024-05-31",
+      "type": "DIV",
+      "valuePerShare": 0.0910129193
+    },
+    {
+      "comDate": "2023-04-28",
+      "paymentDate": "2023-05-31",
+      "type": "DIV",
+      "valuePerShare": 0.0913792941
+    },
+    {
+      "comDate": "2022-04-29",
+      "paymentDate": "2022-05-31",
+      "type": "DIV",
+      "valuePerShare": 0.1807182983
+    },
+    {
+      "comDate": "2021-04-30",
+      "paymentDate": "2021-05-31",
+      "type": "DIV",
+      "valuePerShare": 0.0474631991
+    },
+    {
+      "comDate": "2016-07-27",
+      "paymentDate": null,
+      "type": "DIV",
+      "valuePerShare": 0.25
+    },
+    {
+      "comDate": "2016-05-02",
+      "paymentDate": null,
+      "type": "DIV",
+      "valuePerShare": 0.2106
+    },
+    {
+      "comDate": "2016-04-29",
+      "paymentDate": "2016-05-10",
+      "type": "DIV",
+      "valuePerShare": 0.0649
+    },
+    {
+      "comDate": "2016-04-14",
+      "paymentDate": null,
+      "type": "DIV",
+      "valuePerShare": 0.0394
+    },
+    {
+      "comDate": "2015-04-29",
+      "paymentDate": "2015-05-12",
+      "type": "DIV",
+      "valuePerShare": 0.39439
+    },
+    {
+      "comDate": "2014-04-23",
+      "paymentDate": "2014-05-06",
+      "type": "DIV",
+      "valuePerShare": 0.50493985
+    },
+    {
+      "comDate": "2013-04-30",
+      "paymentDate": null,
+      "type": "DIV",
+      "valuePerShare": 0.163
+    },
+    {
+      "comDate": "2013-04-19",
+      "paymentDate": "2013-05-03",
+      "type": "DIV",
+      "valuePerShare": 0.5216
+    },
+    {
+      "comDate": "2012-04-16",
+      "paymentDate": "2012-04-26",
+      "type": "DIV",
+      "valuePerShare": 1.0897
+    },
+    {
+      "comDate": "2011-04-15",
+      "paymentDate": "2011-04-29",
+      "type": "DIV",
+      "valuePerShare": 0.7971
+    },
+    {
+      "comDate": "2010-04-26",
+      "paymentDate": "2010-05-31",
+      "type": "DIV",
+      "valuePerShare": 0.3444256319
+    },
+    {
+      "comDate": "2009-04-22",
+      "paymentDate": "2009-05-29",
+      "type": "DIV",
+      "valuePerShare": 0.2184665587
+    },
+    {
+      "comDate": "2008-02-15",
+      "paymentDate": "2008-03-05",
+      "type": "DIV",
+      "valuePerShare": 0.03
+    }
+  ]
+}

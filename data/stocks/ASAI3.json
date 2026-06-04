@@ -1,0 +1,48 @@
+{
+  "ticker": "ASAI3",
+  "companyName": "assai",
+  "currentPrice": 8.79,
+  "source": {
+    "name": "PlayInvest",
+    "url": "https://playinvest.com.br/dividendos/asai3"
+  },
+  "updatedAt": "2026-06-04T13:56:24",
+  "dividends": [
+    {
+      "comDate": "2026-01-06",
+      "paymentDate": "2026-06-26",
+      "type": "JCP",
+      "valuePerShare": 0.1043446101
+    },
+    {
+      "comDate": "2025-04-25",
+      "paymentDate": "2025-06-23",
+      "type": "DIV",
+      "valuePerShare": 0.0145456599
+    },
+    {
+      "comDate": "2025-01-06",
+      "paymentDate": "2025-02-28",
+      "type": "JCP",
+      "valuePerShare": 0.09270138645
+    },
+    {
+      "comDate": "2023-04-27",
+      "paymentDate": "2023-06-26",
+      "type": "DIV",
+      "valuePerShare": 0.0500185431139003
+    },
+    {
+      "comDate": "2022-04-28",
+      "paymentDate": "2022-06-27",
+      "type": "DIV",
+      "valuePerShare": 0.125038407679398
+    },
+    {
+      "comDate": "2021-10-05",
+      "paymentDate": "2021-10-14",
+      "type": "JCP",
+      "valuePerShare": 0.0470334275221436
+    }
+  ]
+}

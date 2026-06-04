@@ -1,0 +1,24 @@
+{
+  "ticker": "GETT11",
+  "companyName": "getnet br",
+  "currentPrice": 4.81,
+  "source": {
+    "name": "PlayInvest",
+    "url": "https://playinvest.com.br/dividendos/gett11"
+  },
+  "updatedAt": "2026-06-04T14:00:26",
+  "dividends": [
+    {
+      "comDate": "2022-06-14",
+      "paymentDate": null,
+      "type": "JCP",
+      "valuePerShare": 0.1030981661
+    },
+    {
+      "comDate": "2022-01-20",
+      "paymentDate": "2022-02-18",
+      "type": "JCP",
+      "valuePerShare": 0.31955920243
+    }
+  ]
+}

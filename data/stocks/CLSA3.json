@@ -1,0 +1,11 @@
+{
+  "ticker": "CLSA3",
+  "companyName": "clearsale",
+  "currentPrice": 10.51,
+  "source": {
+    "name": "PlayInvest",
+    "url": "https://playinvest.com.br/dividendos/clsa3"
+  },
+  "updatedAt": "2026-06-04T13:58:33",
+  "dividends": []
+}

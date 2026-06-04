@@ -1,0 +1,24 @@
+{
+  "ticker": "BRGE5",
+  "companyName": "alfa cons\u00f3rcio",
+  "currentPrice": 13.18,
+  "source": {
+    "name": "PlayInvest",
+    "url": "https://playinvest.com.br/dividendos/brge5"
+  },
+  "updatedAt": "2026-06-04T13:57:34",
+  "dividends": [
+    {
+      "comDate": "2023-08-15",
+      "paymentDate": "2023-10-03",
+      "type": "DIV",
+      "valuePerShare": 0.10604
+    },
+    {
+      "comDate": "2023-01-25",
+      "paymentDate": "2023-03-15",
+      "type": "DIV",
+      "valuePerShare": 0.21973
+    }
+  ]
+}

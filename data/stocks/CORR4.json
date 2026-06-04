@@ -1,0 +1,66 @@
+{
+  "ticker": "CORR4",
+  "companyName": "correa ribeiro",
+  "currentPrice": 82.0,
+  "source": {
+    "name": "PlayInvest",
+    "url": "https://playinvest.com.br/dividendos/corr4"
+  },
+  "updatedAt": "2026-06-04T13:58:43",
+  "dividends": [
+    {
+      "comDate": "2018-04-26",
+      "paymentDate": "2018-07-02",
+      "type": "DIV",
+      "valuePerShare": 6.148
+    },
+    {
+      "comDate": "2017-04-25",
+      "paymentDate": "2017-06-30",
+      "type": "DIV",
+      "valuePerShare": 6.148
+    },
+    {
+      "comDate": "2016-04-26",
+      "paymentDate": "2016-06-30",
+      "type": "DIV",
+      "valuePerShare": 6.148
+    },
+    {
+      "comDate": "2015-04-27",
+      "paymentDate": "2015-06-30",
+      "type": "DIV",
+      "valuePerShare": 6.148
+    },
+    {
+      "comDate": "2014-04-29",
+      "paymentDate": "2014-06-30",
+      "type": "DIV",
+      "valuePerShare": 6.148
+    },
+    {
+      "comDate": "2013-04-26",
+      "paymentDate": "2013-05-31",
+      "type": "DIV",
+      "valuePerShare": 6.148
+    },
+    {
+      "comDate": "2012-04-16",
+      "paymentDate": "2012-05-31",
+      "type": "DIV",
+      "valuePerShare": 6.148
+    },
+    {
+      "comDate": "2011-04-27",
+      "paymentDate": "2011-06-30",
+      "type": "DIV",
+      "valuePerShare": 20.3861
+    },
+    {
+      "comDate": "2007-04-30",
+      "paymentDate": "2007-07-30",
+      "type": "DIV",
+      "valuePerShare": 59.65
+    }
+  ]
+}

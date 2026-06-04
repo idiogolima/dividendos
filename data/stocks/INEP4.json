@@ -1,0 +1,42 @@
+{
+  "ticker": "INEP4",
+  "companyName": "inepar",
+  "currentPrice": 1.9,
+  "source": {
+    "name": "PlayInvest",
+    "url": "https://playinvest.com.br/dividendos/inep4"
+  },
+  "updatedAt": "2026-06-04T14:01:07",
+  "dividends": [
+    {
+      "comDate": "2011-05-02",
+      "paymentDate": "2018-09-28",
+      "type": "DIV",
+      "valuePerShare": 0.005685
+    },
+    {
+      "comDate": "1999-04-09",
+      "paymentDate": "1999-06-08",
+      "type": "DIV",
+      "valuePerShare": 0.0006850000000000001
+    },
+    {
+      "comDate": "1998-04-30",
+      "paymentDate": null,
+      "type": "DIV",
+      "valuePerShare": 0.002685
+    },
+    {
+      "comDate": "1997-04-30",
+      "paymentDate": null,
+      "type": "DIV",
+      "valuePerShare": 0.0055
+    },
+    {
+      "comDate": "1996-04-29",
+      "paymentDate": null,
+      "type": "DIV",
+      "valuePerShare": 0.0015
+    }
+  ]
+}

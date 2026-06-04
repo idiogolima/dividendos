@@ -1,0 +1,24 @@
+{
+  "ticker": "AGXY3",
+  "companyName": "agrogalaxy",
+  "currentPrice": 1.84,
+  "source": {
+    "name": "PlayInvest",
+    "url": "https://playinvest.com.br/dividendos/agxy3"
+  },
+  "updatedAt": "2026-06-04T13:56:03",
+  "dividends": [
+    {
+      "comDate": "2023-04-28",
+      "paymentDate": "2023-12-28",
+      "type": "DIV",
+      "valuePerShare": 0.039657303
+    },
+    {
+      "comDate": "2022-04-29",
+      "paymentDate": "2022-07-05",
+      "type": "DIV",
+      "valuePerShare": 0.16786360041
+    }
+  ]
+}

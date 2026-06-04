@@ -1,0 +1,90 @@
+{
+  "ticker": "ENAT3",
+  "companyName": "enauta",
+  "currentPrice": 21.41,
+  "source": {
+    "name": "PlayInvest",
+    "url": "https://playinvest.com.br/dividendos/enat3"
+  },
+  "updatedAt": "2026-06-04T13:59:46",
+  "dividends": [
+    {
+      "comDate": "2023-04-28",
+      "paymentDate": "2023-05-15",
+      "type": "DIV",
+      "valuePerShare": 0.14997428753
+    },
+    {
+      "comDate": "2022-04-26",
+      "paymentDate": "2022-05-30",
+      "type": "DIV",
+      "valuePerShare": 1.70841511833
+    },
+    {
+      "comDate": "2021-04-30",
+      "paymentDate": "2021-05-11",
+      "type": "DIV",
+      "valuePerShare": 0.19385609816
+    },
+    {
+      "comDate": "2020-04-16",
+      "paymentDate": "2020-04-28",
+      "type": "DIV",
+      "valuePerShare": 1.142694902
+    },
+    {
+      "comDate": "2019-04-18",
+      "paymentDate": "2019-05-07",
+      "type": "DIV",
+      "valuePerShare": 1.9068482874
+    },
+    {
+      "comDate": "2018-04-11",
+      "paymentDate": "2018-04-20",
+      "type": "DIV",
+      "valuePerShare": 1.53632693
+    },
+    {
+      "comDate": "2017-04-19",
+      "paymentDate": "2017-05-11",
+      "type": "DIV",
+      "valuePerShare": 0.15
+    },
+    {
+      "comDate": "2016-04-12",
+      "paymentDate": "2016-04-28",
+      "type": "DIV",
+      "valuePerShare": 0.15
+    },
+    {
+      "comDate": "2015-04-17",
+      "paymentDate": "2015-05-05",
+      "type": "DIV",
+      "valuePerShare": 0.15
+    },
+    {
+      "comDate": "2014-04-16",
+      "paymentDate": "2014-05-05",
+      "type": "DIV",
+      "valuePerShare": 0.150485
+    },
+    {
+      "comDate": "2013-04-19",
+      "paymentDate": "2013-04-30",
+      "type": "DIV",
+      "valuePerShare": 3e-06
+    },
+    {
+      "comDate": "2012-04-16",
+      "paymentDate": "2012-04-27",
+      "type": "DIV",
+      "valuePerShare": 3e-06
+    },
+    {
+      "comDate": "2011-04-29",
+      "paymentDate": "2011-05-10",
+      "type": "DIV",
+      "valuePerShare": 0.0004
+    }
+  ]
+}

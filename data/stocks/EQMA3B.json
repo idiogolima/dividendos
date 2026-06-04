@@ -1,0 +1,30 @@
+{
+  "ticker": "EQMA3B",
+  "companyName": "eqtlmaranhao",
+  "currentPrice": 30.69,
+  "source": {
+    "name": "PlayInvest",
+    "url": "https://playinvest.com.br/dividendos/eqma3b"
+  },
+  "updatedAt": "2026-06-04T13:59:57",
+  "dividends": [
+    {
+      "comDate": "2025-04-29",
+      "paymentDate": "2025-11-07",
+      "type": "DIV",
+      "valuePerShare": 2.73975972
+    },
+    {
+      "comDate": "2024-04-29",
+      "paymentDate": "2024-07-15",
+      "type": "DIV",
+      "valuePerShare": 2.38
+    },
+    {
+      "comDate": "2023-04-28",
+      "paymentDate": "2023-06-23",
+      "type": "DIV",
+      "valuePerShare": 2.03
+    }
+  ]
+}

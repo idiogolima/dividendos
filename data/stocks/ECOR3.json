@@ -1,0 +1,174 @@
+{
+  "ticker": "ECOR3",
+  "companyName": "ecorodovias",
+  "currentPrice": 7.1,
+  "source": {
+    "name": "PlayInvest",
+    "url": "https://playinvest.com.br/dividendos/ecor3"
+  },
+  "updatedAt": "2026-06-04T13:59:34",
+  "dividends": [
+    {
+      "comDate": "2026-05-12",
+      "paymentDate": "2026-06-12",
+      "type": "DIV",
+      "valuePerShare": 0.30244837665
+    },
+    {
+      "comDate": "2025-08-04",
+      "paymentDate": "2025-08-29",
+      "type": "DIV",
+      "valuePerShare": 0.3086780454
+    },
+    {
+      "comDate": "2024-05-13",
+      "paymentDate": "2024-07-29",
+      "type": "DIV",
+      "valuePerShare": 0.19446148469
+    },
+    {
+      "comDate": "2023-11-14",
+      "paymentDate": "2023-11-27",
+      "type": "DIV",
+      "valuePerShare": 0.08388560373
+    },
+    {
+      "comDate": "2022-12-05",
+      "paymentDate": "2022-12-14",
+      "type": "DIV",
+      "valuePerShare": 0.00758718728
+    },
+    {
+      "comDate": "2018-11-05",
+      "paymentDate": "2018-11-16",
+      "type": "DIV",
+      "valuePerShare": 0.285668031
+    },
+    {
+      "comDate": "2018-11-05",
+      "paymentDate": "2018-11-16",
+      "type": "DIV",
+      "valuePerShare": 0.063643035
+    },
+    {
+      "comDate": "2018-05-01",
+      "paymentDate": "2018-05-15",
+      "type": "DIV",
+      "valuePerShare": 0.372793607
+    },
+    {
+      "comDate": "2018-04-30",
+      "paymentDate": "2018-05-15",
+      "type": "DIV",
+      "valuePerShare": 0.3728
+    },
+    {
+      "comDate": "2017-11-02",
+      "paymentDate": "2017-11-14",
+      "type": "DIV",
+      "valuePerShare": 0.233617112
+    },
+    {
+      "comDate": "2017-11-01",
+      "paymentDate": "2017-11-14",
+      "type": "DIV",
+      "valuePerShare": 0.2336
+    },
+    {
+      "comDate": "2017-03-29",
+      "paymentDate": null,
+      "type": "DIV",
+      "valuePerShare": 0.1887
+    },
+    {
+      "comDate": "2016-11-09",
+      "paymentDate": "2016-11-18",
+      "type": "DIV",
+      "valuePerShare": 0.077296714
+    },
+    {
+      "comDate": "2016-11-09",
+      "paymentDate": "2016-11-18",
+      "type": "DIV",
+      "valuePerShare": 0.186040717
+    },
+    {
+      "comDate": "2015-05-14",
+      "paymentDate": "2015-05-28",
+      "type": "DIV",
+      "valuePerShare": 0.4239
+    },
+    {
+      "comDate": "2014-11-24",
+      "paymentDate": "2014-12-10",
+      "type": "DIV",
+      "valuePerShare": 0.233804856
+    },
+    {
+      "comDate": "2014-11-24",
+      "paymentDate": "2014-12-10",
+      "type": "JCP",
+      "valuePerShare": 0.179099525
+    },
+    {
+      "comDate": "2014-04-29",
+      "paymentDate": "2014-05-15",
+      "type": "DIV",
+      "valuePerShare": 0.8731
+    },
+    {
+      "comDate": "2014-03-25",
+      "paymentDate": "2014-12-10",
+      "type": "JCP",
+      "valuePerShare": 0.0375
+    },
+    {
+      "comDate": "2013-11-11",
+      "paymentDate": "2013-11-25",
+      "type": "DIV",
+      "valuePerShare": 0.322490273
+    },
+    {
+      "comDate": "2013-05-28",
+      "paymentDate": "2013-06-07",
+      "type": "DIV",
+      "valuePerShare": 0.457206838
+    },
+    {
+      "comDate": "2012-11-12",
+      "paymentDate": "2012-11-26",
+      "type": "DIV",
+      "valuePerShare": 0.260988204
+    },
+    {
+      "comDate": "2012-03-16",
+      "paymentDate": "2012-03-28",
+      "type": "DIV",
+      "valuePerShare": 0.092052988
+    },
+    {
+      "comDate": "2011-11-08",
+      "paymentDate": "2011-11-18",
+      "type": "DIV",
+      "valuePerShare": 0.250795115
+    },
+    {
+      "comDate": "2011-04-26",
+      "paymentDate": "2011-05-31",
+      "type": "DIV",
+      "valuePerShare": 0.00592566
+    },
+    {
+      "comDate": "2010-12-08",
+      "paymentDate": "2010-12-20",
+      "type": "JCP",
+      "valuePerShare": 0.02
+    },
+    {
+      "comDate": "2010-12-08",
+      "paymentDate": "2010-12-20",
+      "type": "DIV",
+      "valuePerShare": 0.21
+    }
+  ]
+}

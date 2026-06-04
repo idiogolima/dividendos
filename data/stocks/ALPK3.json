@@ -1,0 +1,18 @@
+{
+  "ticker": "ALPK3",
+  "companyName": "allpark empreendimentos",
+  "currentPrice": 4.37,
+  "source": {
+    "name": "PlayInvest",
+    "url": "https://playinvest.com.br/dividendos/alpk3"
+  },
+  "updatedAt": "2026-06-04T13:56:11",
+  "dividends": [
+    {
+      "comDate": "2026-04-24",
+      "paymentDate": "2026-05-29",
+      "type": "DIV",
+      "valuePerShare": 0.00766361084
+    }
+  ]
+}

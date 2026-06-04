@@ -1,0 +1,42 @@
+{
+  "ticker": "EPAR3",
+  "companyName": "embpar s/a",
+  "currentPrice": 1.9,
+  "source": {
+    "name": "PlayInvest",
+    "url": "https://playinvest.com.br/dividendos/epar3"
+  },
+  "updatedAt": "2026-06-04T13:59:56",
+  "dividends": [
+    {
+      "comDate": "2025-04-29",
+      "paymentDate": "2025-05-30",
+      "type": "DIV",
+      "valuePerShare": 0.874798
+    },
+    {
+      "comDate": "2024-12-17",
+      "paymentDate": "2024-12-23",
+      "type": "DIV",
+      "valuePerShare": 0.96268
+    },
+    {
+      "comDate": "2024-04-30",
+      "paymentDate": "2024-12-20",
+      "type": "DIV",
+      "valuePerShare": 0.248578
+    },
+    {
+      "comDate": "2023-12-26",
+      "paymentDate": "2024-01-03",
+      "type": "DIV",
+      "valuePerShare": 2.624394976
+    },
+    {
+      "comDate": "2022-04-29",
+      "paymentDate": "2022-05-06",
+      "type": "DIV",
+      "valuePerShare": 2.018765366
+    }
+  ]
+}

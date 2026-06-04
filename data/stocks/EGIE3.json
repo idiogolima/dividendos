@@ -1,0 +1,348 @@
+{
+  "ticker": "EGIE3",
+  "companyName": "engie brasil",
+  "currentPrice": 34.09,
+  "source": {
+    "name": "PlayInvest",
+    "url": "https://playinvest.com.br/dividendos/egie3"
+  },
+  "updatedAt": "2026-06-04T13:59:39",
+  "dividends": [
+    {
+      "comDate": "2025-12-18",
+      "paymentDate": "2026-05-20",
+      "type": "JCP",
+      "valuePerShare": 0.08754276626
+    },
+    {
+      "comDate": "2025-08-21",
+      "paymentDate": "2025-12-23",
+      "type": "DIV",
+      "valuePerShare": 0.88143194897
+    },
+    {
+      "comDate": "2025-05-06",
+      "paymentDate": "2025-12-23",
+      "type": "DIV",
+      "valuePerShare": 0.87648135221
+    },
+    {
+      "comDate": "2024-12-19",
+      "paymentDate": "2025-02-07",
+      "type": "JCP",
+      "valuePerShare": 0.30639968191
+    },
+    {
+      "comDate": "2024-08-21",
+      "paymentDate": "2025-05-27",
+      "type": "DIV",
+      "valuePerShare": 1.14324649075
+    },
+    {
+      "comDate": "2024-05-06",
+      "paymentDate": "2024-07-26",
+      "type": "DIV",
+      "valuePerShare": 1.21880323443
+    },
+    {
+      "comDate": "2023-12-21",
+      "paymentDate": "2024-07-26",
+      "type": "JCP",
+      "valuePerShare": 0.17771181551
+    },
+    {
+      "comDate": "2023-08-21",
+      "paymentDate": "2023-12-27",
+      "type": "DIV",
+      "valuePerShare": 0.94027879765
+    },
+    {
+      "comDate": "2023-05-08",
+      "paymentDate": "2023-09-26",
+      "type": "DIV",
+      "valuePerShare": 1.7834407361
+    },
+    {
+      "comDate": "2022-12-22",
+      "paymentDate": "2023-07-26",
+      "type": "JCP",
+      "valuePerShare": 0.24511974553
+    },
+    {
+      "comDate": "2022-11-21",
+      "paymentDate": "2022-12-12",
+      "type": "DIV",
+      "valuePerShare": 0.5794807287
+    },
+    {
+      "comDate": "2022-08-16",
+      "paymentDate": "2022-12-12",
+      "type": "DIV",
+      "valuePerShare": 0.708254224
+    },
+    {
+      "comDate": "2022-05-11",
+      "paymentDate": "2022-07-12",
+      "type": "DIV",
+      "valuePerShare": 0.673831348
+    },
+    {
+      "comDate": "2022-02-24",
+      "paymentDate": "2022-03-17",
+      "type": "DIV",
+      "valuePerShare": 0.782752408
+    },
+    {
+      "comDate": "2021-12-29",
+      "paymentDate": "2022-03-17",
+      "type": "JCP",
+      "valuePerShare": 0.0735359237
+    },
+    {
+      "comDate": "2021-08-16",
+      "paymentDate": "2021-11-29",
+      "type": "DIV",
+      "valuePerShare": 0.9676321449
+    },
+    {
+      "comDate": "2021-05-11",
+      "paymentDate": "2021-07-12",
+      "type": "DIV",
+      "valuePerShare": 0.7471177357
+    },
+    {
+      "comDate": "2020-12-18",
+      "paymentDate": "2021-04-05",
+      "type": "JCP",
+      "valuePerShare": 0.2144797773
+    },
+    {
+      "comDate": "2020-12-18",
+      "paymentDate": "2021-01-29",
+      "type": "DIV",
+      "valuePerShare": 0.6795603315
+    },
+    {
+      "comDate": "2020-08-07",
+      "paymentDate": "2021-01-29",
+      "type": "DIV",
+      "valuePerShare": 0.8305737385
+    },
+    {
+      "comDate": "2019-12-02",
+      "paymentDate": "2020-07-01",
+      "type": "JCP",
+      "valuePerShare": 0.4338619496
+    },
+    {
+      "comDate": "2019-12-02",
+      "paymentDate": "2020-01-29",
+      "type": "DIV",
+      "valuePerShare": 1.0949497919
+    },
+    {
+      "comDate": "2019-05-06",
+      "paymentDate": "2019-09-27",
+      "type": "DIV",
+      "valuePerShare": 0.09400692
+    },
+    {
+      "comDate": "2018-12-26",
+      "paymentDate": "2019-03-27",
+      "type": "JCP",
+      "valuePerShare": 0.4865626949
+    },
+    {
+      "comDate": "2018-11-12",
+      "paymentDate": "2018-11-12",
+      "type": "DIV",
+      "valuePerShare": 1.0
+    },
+    {
+      "comDate": "2018-08-20",
+      "paymentDate": "2019-01-29",
+      "type": "DIV",
+      "valuePerShare": 1.7557267392
+    },
+    {
+      "comDate": "2018-04-23",
+      "paymentDate": "2018-06-28",
+      "type": "DIV",
+      "valuePerShare": 0.9755096548
+    },
+    {
+      "comDate": "2017-11-09",
+      "paymentDate": "2018-03-27",
+      "type": "JCP",
+      "valuePerShare": 0.6503333249
+    },
+    {
+      "comDate": "2017-08-09",
+      "paymentDate": "2018-01-10",
+      "type": "DIV",
+      "valuePerShare": 1.4384206188
+    },
+    {
+      "comDate": "2017-05-29",
+      "paymentDate": "2017-06-21",
+      "type": "DIV",
+      "valuePerShare": 0.6275749291
+    },
+    {
+      "comDate": "2016-11-10",
+      "paymentDate": "2017-02-01",
+      "type": "JCP",
+      "valuePerShare": 0.6625893121
+    },
+    {
+      "comDate": "2016-08-08",
+      "paymentDate": "2016-10-06",
+      "type": "DIV",
+      "valuePerShare": 0.9884403986
+    },
+    {
+      "comDate": "2016-05-10",
+      "paymentDate": "2016-05-25",
+      "type": "DIV",
+      "valuePerShare": 0.3209526559
+    },
+    {
+      "comDate": "2015-11-21",
+      "paymentDate": "2015-11-23",
+      "type": "JCP",
+      "valuePerShare": 0.4810475006
+    },
+    {
+      "comDate": "2015-08-20",
+      "paymentDate": "2015-09-25",
+      "type": "DIV",
+      "valuePerShare": 0.4768763081
+    },
+    {
+      "comDate": "2015-05-08",
+      "paymentDate": "2015-05-29",
+      "type": "DIV",
+      "valuePerShare": 0.2636276932
+    },
+    {
+      "comDate": "2014-11-25",
+      "paymentDate": "2015-03-15",
+      "type": "JCP",
+      "valuePerShare": 0.3416356453
+    },
+    {
+      "comDate": "2014-10-11",
+      "paymentDate": "2014-09-11",
+      "type": "DIV",
+      "valuePerShare": 0.7074583705
+    },
+    {
+      "comDate": "2014-10-11",
+      "paymentDate": "2014-11-26",
+      "type": "DIV",
+      "valuePerShare": 0.5823340186
+    },
+    {
+      "comDate": "2013-11-25",
+      "paymentDate": "2014-02-28",
+      "type": "JCP",
+      "valuePerShare": 0.3750332107
+    },
+    {
+      "comDate": "2013-08-16",
+      "paymentDate": "2013-09-23",
+      "type": "DIV",
+      "valuePerShare": 1.1759130707
+    },
+    {
+      "comDate": "2013-02-19",
+      "paymentDate": "2013-03-27",
+      "type": "DIV",
+      "valuePerShare": 0.8830904134
+    },
+    {
+      "comDate": "2012-11-23",
+      "paymentDate": "2013-05-14",
+      "type": "JCP",
+      "valuePerShare": 0.4231379607
+    },
+    {
+      "comDate": "2012-08-10",
+      "paymentDate": "2012-09-27",
+      "type": "DIV",
+      "valuePerShare": 1.0628376925
+    },
+    {
+      "comDate": "2012-04-13",
+      "paymentDate": "2012-06-29",
+      "type": "DIV",
+      "valuePerShare": 0.396283471
+    },
+    {
+      "comDate": "2012-04-13",
+      "paymentDate": "2012-05-15",
+      "type": "DIV",
+      "valuePerShare": 0.396283471
+    },
+    {
+      "comDate": "2011-11-17",
+      "paymentDate": "2012-02-10",
+      "type": "JCP",
+      "valuePerShare": 0.389112276
+    },
+    {
+      "comDate": "2011-08-10",
+      "paymentDate": "2011-10-06",
+      "type": "DIV",
+      "valuePerShare": 1.0080763921
+    },
+    {
+      "comDate": "2011-04-29",
+      "paymentDate": "2011-05-27",
+      "type": "DIV",
+      "valuePerShare": 0.2424687839
+    },
+    {
+      "comDate": "2010-11-17",
+      "paymentDate": "2011-05-27",
+      "type": "JCP",
+      "valuePerShare": 0.3370396501
+    },
+    {
+      "comDate": "2010-09-30",
+      "paymentDate": "2010-10-15",
+      "type": "DIV",
+      "valuePerShare": 0.4383049909
+    },
+    {
+      "comDate": "2010-05-06",
+      "paymentDate": "2010-05-20",
+      "type": "DIV",
+      "valuePerShare": 0.1254900014
+    },
+    {
+      "comDate": "2009-11-17",
+      "paymentDate": "2010-05-20",
+      "type": "JCP",
+      "valuePerShare": 0.2972076915
+    },
+    {
+      "comDate": "2009-08-13",
+      "paymentDate": "2009-08-26",
+      "type": "DIV",
+      "valuePerShare": 0.5331449226
+    },
+    {
+      "comDate": "2008-11-18",
+      "paymentDate": "2009-05-15",
+      "type": "JCP",
+      "valuePerShare": 0.2696317201
+    },
+    {
+      "comDate": "2008-08-25",
+      "paymentDate": "2008-10-27",
+      "type": "DIV",
+      "valuePerShare": 0.8890167318
+    }
+  ]
+}

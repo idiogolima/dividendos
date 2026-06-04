@@ -1,0 +1,72 @@
+{
+  "ticker": "ANIM3",
+  "companyName": "anima",
+  "currentPrice": 3.07,
+  "source": {
+    "name": "PlayInvest",
+    "url": "https://playinvest.com.br/dividendos/anim3"
+  },
+  "updatedAt": "2026-06-04T13:56:20",
+  "dividends": [
+    {
+      "comDate": "2026-04-24",
+      "paymentDate": "2026-05-15",
+      "type": "DIV",
+      "valuePerShare": 0.07778472573
+    },
+    {
+      "comDate": "2025-04-24",
+      "paymentDate": "2025-05-09",
+      "type": "DIV",
+      "valuePerShare": 0.05353963519
+    },
+    {
+      "comDate": "2024-08-13",
+      "paymentDate": "2024-08-14",
+      "type": "DIV",
+      "valuePerShare": 0.47126970187
+    },
+    {
+      "comDate": "2019-04-25",
+      "paymentDate": "2019-05-10",
+      "type": "DIV",
+      "valuePerShare": 0.0069
+    },
+    {
+      "comDate": "2018-04-25",
+      "paymentDate": "2018-05-07",
+      "type": "DIV",
+      "valuePerShare": 0.2536
+    },
+    {
+      "comDate": "2017-04-26",
+      "paymentDate": "2017-05-15",
+      "type": "DIV",
+      "valuePerShare": 0.0619
+    },
+    {
+      "comDate": "2016-04-25",
+      "paymentDate": "2016-05-16",
+      "type": "DIV",
+      "valuePerShare": 0.1875
+    },
+    {
+      "comDate": "2015-03-30",
+      "paymentDate": "2015-04-15",
+      "type": "DIV",
+      "valuePerShare": 0.4728
+    },
+    {
+      "comDate": "2014-05-01",
+      "paymentDate": "2014-05-15",
+      "type": "DIV",
+      "valuePerShare": 0.11002
+    },
+    {
+      "comDate": "2014-04-30",
+      "paymentDate": "2014-05-15",
+      "type": "DIV",
+      "valuePerShare": 0.11
+    }
+  ]
+}

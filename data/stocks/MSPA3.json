@@ -1,0 +1,60 @@
+{
+  "ticker": "MSPA3",
+  "companyName": "melhoramentos",
+  "currentPrice": 47.0,
+  "source": {
+    "name": "PlayInvest",
+    "url": "https://playinvest.com.br/dividendos/mspa3"
+  },
+  "updatedAt": "2026-06-04T14:02:17",
+  "dividends": [
+    {
+      "comDate": "2025-04-30",
+      "paymentDate": "2025-06-27",
+      "type": "DIV",
+      "valuePerShare": 0.121469
+    },
+    {
+      "comDate": "2024-04-29",
+      "paymentDate": "2024-12-16",
+      "type": "DIV",
+      "valuePerShare": 0.28893
+    },
+    {
+      "comDate": "2019-04-29",
+      "paymentDate": "2019-05-15",
+      "type": "DIV",
+      "valuePerShare": 0.4
+    },
+    {
+      "comDate": "2018-10-05",
+      "paymentDate": "2018-10-19",
+      "type": "DIV",
+      "valuePerShare": 2.3
+    },
+    {
+      "comDate": "2018-04-30",
+      "paymentDate": "2018-05-15",
+      "type": "DIV",
+      "valuePerShare": 2.85
+    },
+    {
+      "comDate": "2017-05-12",
+      "paymentDate": "2017-05-19",
+      "type": "DIV",
+      "valuePerShare": 2.83
+    },
+    {
+      "comDate": "2017-05-12",
+      "paymentDate": "2017-09-15",
+      "type": "DIV",
+      "valuePerShare": 2.82
+    },
+    {
+      "comDate": "2016-08-26",
+      "paymentDate": "2016-09-16",
+      "type": "DIV",
+      "valuePerShare": 1.19
+    }
+  ]
+}

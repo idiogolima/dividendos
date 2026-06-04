@@ -1,0 +1,18 @@
+{
+  "ticker": "BRST3",
+  "companyName": "brisanet",
+  "currentPrice": 2.78,
+  "source": {
+    "name": "PlayInvest",
+    "url": "https://playinvest.com.br/dividendos/brst3"
+  },
+  "updatedAt": "2026-06-04T13:57:55",
+  "dividends": [
+    {
+      "comDate": "2025-12-19",
+      "paymentDate": "2026-05-12",
+      "type": "JCP",
+      "valuePerShare": 0.041095183
+    }
+  ]
+}

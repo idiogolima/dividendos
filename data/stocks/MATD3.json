@@ -1,0 +1,42 @@
+{
+  "ticker": "MATD3",
+  "companyName": "mater dei",
+  "currentPrice": 4.88,
+  "source": {
+    "name": "PlayInvest",
+    "url": "https://playinvest.com.br/dividendos/matd3"
+  },
+  "updatedAt": "2026-06-04T14:01:51",
+  "dividends": [
+    {
+      "comDate": "2025-12-08",
+      "paymentDate": "2025-12-22",
+      "type": "DIV",
+      "valuePerShare": 0.15052242193
+    },
+    {
+      "comDate": "2025-05-13",
+      "paymentDate": "2025-05-22",
+      "type": "DIV",
+      "valuePerShare": 0.07486110001
+    },
+    {
+      "comDate": "2024-04-30",
+      "paymentDate": "2024-06-14",
+      "type": "DIV",
+      "valuePerShare": 0.07438368273
+    },
+    {
+      "comDate": "2023-04-28",
+      "paymentDate": "2023-05-10",
+      "type": "DIV",
+      "valuePerShare": 0.06434456884
+    },
+    {
+      "comDate": "2022-04-29",
+      "paymentDate": "2022-05-10",
+      "type": "DIV",
+      "valuePerShare": 0.0900222757
+    }
+  ]
+}

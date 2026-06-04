@@ -1,0 +1,90 @@
+{
+  "ticker": "CVCB3",
+  "companyName": "cvc",
+  "currentPrice": 1.48,
+  "source": {
+    "name": "PlayInvest",
+    "url": "https://playinvest.com.br/dividendos/cvcb3"
+  },
+  "updatedAt": "2026-06-04T13:59:17",
+  "dividends": [
+    {
+      "comDate": "2019-12-23",
+      "paymentDate": "2020-01-08",
+      "type": "JCP",
+      "valuePerShare": 0.4173778025
+    },
+    {
+      "comDate": "2019-04-30",
+      "paymentDate": "2019-05-28",
+      "type": "DIV",
+      "valuePerShare": 0.026099731
+    },
+    {
+      "comDate": "2018-12-10",
+      "paymentDate": "2018-12-20",
+      "type": "JCP",
+      "valuePerShare": 0.416478763
+    },
+    {
+      "comDate": "2018-04-27",
+      "paymentDate": "2018-06-26",
+      "type": "DIV",
+      "valuePerShare": 0.083618709
+    },
+    {
+      "comDate": "2017-12-18",
+      "paymentDate": "2017-12-28",
+      "type": "JCP",
+      "valuePerShare": 0.289234501
+    },
+    {
+      "comDate": "2017-04-28",
+      "paymentDate": "2017-06-26",
+      "type": "DIV",
+      "valuePerShare": 0.165806805
+    },
+    {
+      "comDate": "2016-12-08",
+      "paymentDate": "2016-12-28",
+      "type": "JCP",
+      "valuePerShare": 0.167138623
+    },
+    {
+      "comDate": "2016-04-26",
+      "paymentDate": "2016-06-22",
+      "type": "DIV",
+      "valuePerShare": 0.74154758
+    },
+    {
+      "comDate": "2015-12-18",
+      "paymentDate": "2015-12-30",
+      "type": "JCP",
+      "valuePerShare": 0.11459142
+    },
+    {
+      "comDate": "2015-04-15",
+      "paymentDate": "2015-05-11",
+      "type": "DIV",
+      "valuePerShare": 0.15301279
+    },
+    {
+      "comDate": "2015-04-15",
+      "paymentDate": "2015-05-11",
+      "type": "DIV",
+      "valuePerShare": 0.47833235
+    },
+    {
+      "comDate": "2014-12-09",
+      "paymentDate": "2014-12-23",
+      "type": "JCP",
+      "valuePerShare": 0.110274978
+    },
+    {
+      "comDate": "2014-04-28",
+      "paymentDate": "2014-05-09",
+      "type": "DIV",
+      "valuePerShare": 0.113694076
+    }
+  ]
+}

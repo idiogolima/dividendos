@@ -1,0 +1,84 @@
+{
+  "ticker": "RAIZ4",
+  "companyName": "raizen",
+  "currentPrice": 0.39,
+  "source": {
+    "name": "PlayInvest",
+    "url": "https://playinvest.com.br/dividendos/raiz4"
+  },
+  "updatedAt": "2026-06-04T14:03:30",
+  "dividends": [
+    {
+      "comDate": "2024-08-02",
+      "paymentDate": "2025-03-28",
+      "type": "DIV",
+      "valuePerShare": 0.01001412421
+    },
+    {
+      "comDate": "2024-03-21",
+      "paymentDate": "2024-03-28",
+      "type": "DIV",
+      "valuePerShare": 0.01623032986
+    },
+    {
+      "comDate": "2023-12-20",
+      "paymentDate": "2023-12-28",
+      "type": "JCP",
+      "valuePerShare": 0.072073934
+    },
+    {
+      "comDate": "2023-12-20",
+      "paymentDate": "2024-03-31",
+      "type": "JCP",
+      "valuePerShare": 0.0569585
+    },
+    {
+      "comDate": "2023-12-20",
+      "paymentDate": "2024-03-28",
+      "type": "JCP",
+      "valuePerShare": 0.05677427176
+    },
+    {
+      "comDate": "2023-10-17",
+      "paymentDate": "2023-10-26",
+      "type": "DIV",
+      "valuePerShare": 0.02421046095
+    },
+    {
+      "comDate": "2023-03-16",
+      "paymentDate": "2023-03-27",
+      "type": "DIV",
+      "valuePerShare": 0.08906570698
+    },
+    {
+      "comDate": "2022-12-07",
+      "paymentDate": "2022-12-15",
+      "type": "DIV",
+      "valuePerShare": 0.08904632381
+    },
+    {
+      "comDate": "2022-09-30",
+      "paymentDate": "2022-10-13",
+      "type": "DIV",
+      "valuePerShare": 0.03159458159
+    },
+    {
+      "comDate": "2022-04-05",
+      "paymentDate": "2022-04-27",
+      "type": "JCP",
+      "valuePerShare": 0.02776058936
+    },
+    {
+      "comDate": "2022-01-05",
+      "paymentDate": "2022-03-25",
+      "type": "DIV",
+      "valuePerShare": 0.022011100299128
+    },
+    {
+      "comDate": "2021-10-05",
+      "paymentDate": "2022-03-25",
+      "type": "JCP",
+      "valuePerShare": 0.016239073
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "ticker": "GPAR3",
+  "companyName": "celgpar",
+  "currentPrice": 10.0,
+  "source": {
+    "name": "PlayInvest",
+    "url": "https://playinvest.com.br/dividendos/gpar3"
+  },
+  "updatedAt": "2026-06-04T14:00:38",
+  "dividends": [
+    {
+      "comDate": "2026-03-13",
+      "paymentDate": "2026-03-25",
+      "type": "DIV",
+      "valuePerShare": 1.515897145
+    },
+    {
+      "comDate": "2022-06-30",
+      "paymentDate": "2022-07-07",
+      "type": "DIV",
+      "valuePerShare": 15.152681202
+    },
+    {
+      "comDate": "2022-04-29",
+      "paymentDate": "2022-06-28",
+      "type": "DIV",
+      "valuePerShare": 0.517551429
+    },
+    {
+      "comDate": "2021-04-30",
+      "paymentDate": "2021-06-29",
+      "type": "DIV",
+      "valuePerShare": 0.507241917
+    }
+  ]
+}

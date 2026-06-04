@@ -1,0 +1,84 @@
+{
+  "ticker": "DEXP3",
+  "companyName": "dexxos par",
+  "currentPrice": 6.99,
+  "source": {
+    "name": "PlayInvest",
+    "url": "https://playinvest.com.br/dividendos/dexp3"
+  },
+  "updatedAt": "2026-06-04T13:59:22",
+  "dividends": [
+    {
+      "comDate": "2025-12-16",
+      "paymentDate": "2025-12-29",
+      "type": "DIV",
+      "valuePerShare": 0.558517
+    },
+    {
+      "comDate": "2025-04-28",
+      "paymentDate": "2025-05-22",
+      "type": "DIV",
+      "valuePerShare": 0.383481828
+    },
+    {
+      "comDate": "2024-12-16",
+      "paymentDate": "2024-12-27",
+      "type": "DIV",
+      "valuePerShare": 0.142828
+    },
+    {
+      "comDate": "2024-04-29",
+      "paymentDate": "2024-05-24",
+      "type": "DIV",
+      "valuePerShare": 0.38842171586
+    },
+    {
+      "comDate": "2023-12-19",
+      "paymentDate": "2023-12-28",
+      "type": "DIV",
+      "valuePerShare": 0.12246
+    },
+    {
+      "comDate": "2023-04-28",
+      "paymentDate": "2023-05-25",
+      "type": "DIV",
+      "valuePerShare": 0.08947263
+    },
+    {
+      "comDate": "2023-04-28",
+      "paymentDate": "2023-08-18",
+      "type": "DIV",
+      "valuePerShare": 0.17894525
+    },
+    {
+      "comDate": "2022-04-28",
+      "paymentDate": "2022-09-28",
+      "type": "DIV",
+      "valuePerShare": 0.1355
+    },
+    {
+      "comDate": "2022-04-28",
+      "paymentDate": "2022-12-16",
+      "type": "DIV",
+      "valuePerShare": 0.11931167956
+    },
+    {
+      "comDate": "2021-04-28",
+      "paymentDate": "2021-12-31",
+      "type": "DIV",
+      "valuePerShare": 0.2330302
+    },
+    {
+      "comDate": "2021-04-28",
+      "paymentDate": "2021-05-07",
+      "type": "DIV",
+      "valuePerShare": 0.04733333
+    },
+    {
+      "comDate": "2021-04-28",
+      "paymentDate": "2021-12-15",
+      "type": "DIV",
+      "valuePerShare": 0.3790906
+    }
+  ]
+}

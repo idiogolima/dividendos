@@ -1,0 +1,108 @@
+{
+  "ticker": "IGTI11",
+  "companyName": "iguatemi s.a",
+  "currentPrice": 24.71,
+  "source": {
+    "name": "PlayInvest",
+    "url": "https://playinvest.com.br/dividendos/igti11"
+  },
+  "updatedAt": "2026-06-04T14:01:03",
+  "dividends": [
+    {
+      "comDate": "2026-10-15",
+      "paymentDate": "2026-10-29",
+      "type": "DIV",
+      "valuePerShare": 0.16852020225
+    },
+    {
+      "comDate": "2026-07-15",
+      "paymentDate": "2026-07-29",
+      "type": "DIV",
+      "valuePerShare": 0.16852020225
+    },
+    {
+      "comDate": "2026-04-14",
+      "paymentDate": "2026-04-29",
+      "type": "DIV",
+      "valuePerShare": 0.16852020225
+    },
+    {
+      "comDate": "2026-02-19",
+      "paymentDate": "2026-03-05",
+      "type": "DIV",
+      "valuePerShare": 0.16852020225
+    },
+    {
+      "comDate": "2025-04-17",
+      "paymentDate": "2025-04-30",
+      "type": "DIV",
+      "valuePerShare": 0.16888731799
+    },
+    {
+      "comDate": "2025-04-17",
+      "paymentDate": "2025-07-30",
+      "type": "DIV",
+      "valuePerShare": 0.16888731799
+    },
+    {
+      "comDate": "2025-04-17",
+      "paymentDate": "2025-10-30",
+      "type": "DIV",
+      "valuePerShare": 0.16888731799
+    },
+    {
+      "comDate": "2025-02-21",
+      "paymentDate": "2025-03-06",
+      "type": "DIV",
+      "valuePerShare": 0.16850427017
+    },
+    {
+      "comDate": "2024-02-23",
+      "paymentDate": "2024-03-04",
+      "type": "DIV",
+      "valuePerShare": 0.1676303235
+    },
+    {
+      "comDate": "2023-04-20",
+      "paymentDate": "2023-12-15",
+      "type": "DIV",
+      "valuePerShare": 0.09150832
+    },
+    {
+      "comDate": "2023-04-20",
+      "paymentDate": "2023-09-15",
+      "type": "DIV",
+      "valuePerShare": 0.09150832
+    },
+    {
+      "comDate": "2023-04-20",
+      "paymentDate": "2023-06-15",
+      "type": "DIV",
+      "valuePerShare": 0.09150832
+    },
+    {
+      "comDate": "2023-03-03",
+      "paymentDate": "2023-03-15",
+      "type": "DIV",
+      "valuePerShare": 0.09150832424
+    },
+    {
+      "comDate": "2022-04-19",
+      "paymentDate": "2022-11-10",
+      "type": "DIV",
+      "valuePerShare": 0.11377038673
+    },
+    {
+      "comDate": "2022-04-19",
+      "paymentDate": "2022-08-10",
+      "type": "DIV",
+      "valuePerShare": 0.11377038673
+    },
+    {
+      "comDate": "2022-04-19",
+      "paymentDate": "2022-05-10",
+      "type": "DIV",
+      "valuePerShare": 0.11377038673
+    }
+  ]
+}

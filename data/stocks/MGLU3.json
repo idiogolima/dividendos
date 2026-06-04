@@ -1,0 +1,132 @@
+{
+  "ticker": "MGLU3",
+  "companyName": "magazine luiza",
+  "currentPrice": 5.34,
+  "source": {
+    "name": "PlayInvest",
+    "url": "https://playinvest.com.br/dividendos/mglu3"
+  },
+  "updatedAt": "2026-06-04T14:02:02",
+  "dividends": [
+    {
+      "comDate": "2026-04-24",
+      "paymentDate": "2026-05-08",
+      "type": "DIV",
+      "valuePerShare": 0.0813001921
+    },
+    {
+      "comDate": "2026-04-24",
+      "paymentDate": null,
+      "type": "DIV",
+      "valuePerShare": 0.05533121616
+    },
+    {
+      "comDate": "2025-04-25",
+      "paymentDate": "2025-05-05",
+      "type": "DIV",
+      "valuePerShare": 0.30517546913
+    },
+    {
+      "comDate": "2021-07-05",
+      "paymentDate": "2022-05-06",
+      "type": "JCP",
+      "valuePerShare": 0.0154942583
+    },
+    {
+      "comDate": "2020-12-29",
+      "paymentDate": "2021-05-05",
+      "type": "JCP",
+      "valuePerShare": 0.0263019985
+    },
+    {
+      "comDate": "2020-07-30",
+      "paymentDate": "2020-08-19",
+      "type": "DIV",
+      "valuePerShare": 0.023541491875
+    },
+    {
+      "comDate": "2019-12-30",
+      "paymentDate": "2020-08-19",
+      "type": "JCP",
+      "valuePerShare": 0.00894728935
+    },
+    {
+      "comDate": "2019-10-07",
+      "paymentDate": "2020-08-19",
+      "type": "JCP",
+      "valuePerShare": 0.018401651525
+    },
+    {
+      "comDate": "2019-04-15",
+      "paymentDate": "2019-04-26",
+      "type": "DIV",
+      "valuePerShare": 0.01157062
+    },
+    {
+      "comDate": "2018-12-28",
+      "paymentDate": "2019-04-26",
+      "type": "JCP",
+      "valuePerShare": 0.14817622245
+    },
+    {
+      "comDate": "2018-04-16",
+      "paymentDate": "2018-04-25",
+      "type": "DIV",
+      "valuePerShare": 0.066125
+    },
+    {
+      "comDate": "2017-12-19",
+      "paymentDate": "2018-04-25",
+      "type": "JCP",
+      "valuePerShare": 0.0991155
+    },
+    {
+      "comDate": "2017-04-25",
+      "paymentDate": "2017-05-05",
+      "type": "DIV",
+      "valuePerShare": 0.254325
+    },
+    {
+      "comDate": "2017-04-14",
+      "paymentDate": "2018-04-25",
+      "type": "JCP",
+      "valuePerShare": 0.0661162816
+    },
+    {
+      "comDate": "2015-04-27",
+      "paymentDate": "2015-05-08",
+      "type": "DIV",
+      "valuePerShare": 0.02721430025
+    },
+    {
+      "comDate": "2015-01-14",
+      "paymentDate": "2015-05-08",
+      "type": "JCP",
+      "valuePerShare": 0.01955
+    },
+    {
+      "comDate": "2014-04-22",
+      "paymentDate": "2014-04-30",
+      "type": "DIV",
+      "valuePerShare": 0.02666325
+    },
+    {
+      "comDate": "2014-02-20",
+      "paymentDate": "2014-04-30",
+      "type": "JCP",
+      "valuePerShare": 0.016375
+    },
+    {
+      "comDate": "2012-05-01",
+      "paymentDate": "2012-05-23",
+      "type": "DIV",
+      "valuePerShare": 0.00371425
+    },
+    {
+      "comDate": "2012-04-30",
+      "paymentDate": "2012-05-23",
+      "type": "DIV",
+      "valuePerShare": 0.003725
+    }
+  ]
+}

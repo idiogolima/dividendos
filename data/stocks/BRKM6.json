@@ -1,0 +1,90 @@
+{
+  "ticker": "BRKM6",
+  "companyName": "braskem",
+  "currentPrice": 7.02,
+  "source": {
+    "name": "PlayInvest",
+    "url": "https://playinvest.com.br/dividendos/brkm6"
+  },
+  "updatedAt": "2026-06-04T13:57:47",
+  "dividends": [
+    {
+      "comDate": "2021-12-08",
+      "paymentDate": "2021-12-20",
+      "type": "DIV",
+      "valuePerShare": 0.6060321401
+    },
+    {
+      "comDate": "2019-10-03",
+      "paymentDate": "2019-12-30",
+      "type": "DIV",
+      "valuePerShare": 0.6062791487
+    },
+    {
+      "comDate": "2017-12-01",
+      "paymentDate": "2017-12-12",
+      "type": "DIV",
+      "valuePerShare": 0.6063
+    },
+    {
+      "comDate": "2016-04-06",
+      "paymentDate": null,
+      "type": "DIV",
+      "valuePerShare": 0.6062
+    },
+    {
+      "comDate": "2015-04-09",
+      "paymentDate": null,
+      "type": "DIV",
+      "valuePerShare": 0.6062
+    },
+    {
+      "comDate": "2014-04-09",
+      "paymentDate": null,
+      "type": "DIV",
+      "valuePerShare": 0.6062
+    },
+    {
+      "comDate": "2014-03-26",
+      "paymentDate": null,
+      "type": "DIV",
+      "valuePerShare": 0.606188802
+    },
+    {
+      "comDate": "2012-04-27",
+      "paymentDate": null,
+      "type": "DIV",
+      "valuePerShare": 0.6051
+    },
+    {
+      "comDate": "2011-04-29",
+      "paymentDate": null,
+      "type": "DIV",
+      "valuePerShare": 0.602
+    },
+    {
+      "comDate": "2008-03-26",
+      "paymentDate": null,
+      "type": "DIV",
+      "valuePerShare": 0.6446
+    },
+    {
+      "comDate": "2007-03-28",
+      "paymentDate": null,
+      "type": "DIV",
+      "valuePerShare": 0.159
+    },
+    {
+      "comDate": "2005-12-29",
+      "paymentDate": "2006-04-18",
+      "type": "JCP",
+      "valuePerShare": 0.5639
+    },
+    {
+      "comDate": "2004-12-30",
+      "paymentDate": null,
+      "type": "JCP",
+      "valuePerShare": 2.2556
+    }
+  ]
+}

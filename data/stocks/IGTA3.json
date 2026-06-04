@@ -1,0 +1,144 @@
+{
+  "ticker": "IGTA3",
+  "companyName": "iguatemi",
+  "currentPrice": 33.07,
+  "source": {
+    "name": "PlayInvest",
+    "url": "https://playinvest.com.br/dividendos/igta3"
+  },
+  "updatedAt": "2026-06-04T14:01:01",
+  "dividends": [
+    {
+      "comDate": "2020-02-21",
+      "paymentDate": "2020-03-16",
+      "type": "DIV",
+      "valuePerShare": 0.21265296
+    },
+    {
+      "comDate": "2019-04-18",
+      "paymentDate": "2019-12-20",
+      "type": "DIV",
+      "valuePerShare": 0.2128
+    },
+    {
+      "comDate": "2019-03-05",
+      "paymentDate": "2019-03-29",
+      "type": "DIV",
+      "valuePerShare": 0.21270961
+    },
+    {
+      "comDate": "2018-04-19",
+      "paymentDate": "2018-09-18",
+      "type": "DIV",
+      "valuePerShare": 0.3399
+    },
+    {
+      "comDate": "2017-04-26",
+      "paymentDate": null,
+      "type": "DIV",
+      "valuePerShare": 0.3399
+    },
+    {
+      "comDate": "2016-04-25",
+      "paymentDate": "2016-09-15",
+      "type": "DIV",
+      "valuePerShare": 0.34
+    },
+    {
+      "comDate": "2015-04-27",
+      "paymentDate": "2015-07-03",
+      "type": "DIV",
+      "valuePerShare": 0.3397
+    },
+    {
+      "comDate": "2014-06-12",
+      "paymentDate": "2014-06-24",
+      "type": "DIV",
+      "valuePerShare": 0.026411489
+    },
+    {
+      "comDate": "2014-06-11",
+      "paymentDate": "2014-06-24",
+      "type": "DIV",
+      "valuePerShare": 0.0264
+    },
+    {
+      "comDate": "2014-04-24",
+      "paymentDate": "2014-05-08",
+      "type": "DIV",
+      "valuePerShare": 0.315
+    },
+    {
+      "comDate": "2013-04-24",
+      "paymentDate": "2013-05-10",
+      "type": "DIV",
+      "valuePerShare": 0.402
+    },
+    {
+      "comDate": "2012-04-24",
+      "paymentDate": "2012-05-09",
+      "type": "DIV",
+      "valuePerShare": 0.38
+    },
+    {
+      "comDate": "2011-11-30",
+      "paymentDate": null,
+      "type": "JCP",
+      "valuePerShare": 0.379
+    },
+    {
+      "comDate": "2011-04-27",
+      "paymentDate": "2011-05-18",
+      "type": "DIV",
+      "valuePerShare": 0.31
+    },
+    {
+      "comDate": "2010-11-11",
+      "paymentDate": null,
+      "type": "JCP",
+      "valuePerShare": 0.416
+    },
+    {
+      "comDate": "2010-04-28",
+      "paymentDate": "2010-05-20",
+      "type": "DIV",
+      "valuePerShare": 0.252
+    },
+    {
+      "comDate": "2009-12-01",
+      "paymentDate": "2010-05-20",
+      "type": "JCP",
+      "valuePerShare": 0.379
+    },
+    {
+      "comDate": "2009-04-23",
+      "paymentDate": "2009-05-08",
+      "type": "DIV",
+      "valuePerShare": 0.463
+    },
+    {
+      "comDate": "2008-11-11",
+      "paymentDate": null,
+      "type": "JCP",
+      "valuePerShare": 0.308
+    },
+    {
+      "comDate": "2008-04-24",
+      "paymentDate": "2008-05-15",
+      "type": "DIV",
+      "valuePerShare": 0.44711
+    },
+    {
+      "comDate": "2007-11-30",
+      "paymentDate": null,
+      "type": "JCP",
+      "valuePerShare": 0.165
+    },
+    {
+      "comDate": "2007-09-28",
+      "paymentDate": null,
+      "type": "JCP",
+      "valuePerShare": 0.14025
+    }
+  ]
+}

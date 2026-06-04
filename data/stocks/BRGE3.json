@@ -1,0 +1,156 @@
+{
+  "ticker": "BRGE3",
+  "companyName": "alfa cons\u00f3rcio",
+  "currentPrice": 13.5,
+  "source": {
+    "name": "PlayInvest",
+    "url": "https://playinvest.com.br/dividendos/brge3"
+  },
+  "updatedAt": "2026-06-04T13:57:33",
+  "dividends": [
+    {
+      "comDate": "2021-08-16",
+      "paymentDate": "2021-10-04",
+      "type": "DIV",
+      "valuePerShare": 0.00047
+    },
+    {
+      "comDate": "2019-01-28",
+      "paymentDate": "2019-03-18",
+      "type": "DIV",
+      "valuePerShare": 0.00132
+    },
+    {
+      "comDate": "2018-01-26",
+      "paymentDate": "2018-03-19",
+      "type": "DIV",
+      "valuePerShare": 0.0015
+    },
+    {
+      "comDate": "2017-01-23",
+      "paymentDate": null,
+      "type": "DIV",
+      "valuePerShare": 0.0037
+    },
+    {
+      "comDate": "2017-01-20",
+      "paymentDate": "2017-03-13",
+      "type": "DIV",
+      "valuePerShare": 0.00365
+    },
+    {
+      "comDate": "2016-01-20",
+      "paymentDate": "2016-03-14",
+      "type": "DIV",
+      "valuePerShare": 0.0039
+    },
+    {
+      "comDate": "2015-03-19",
+      "paymentDate": "2015-04-15",
+      "type": "DIV",
+      "valuePerShare": 0.028
+    },
+    {
+      "comDate": "2013-08-13",
+      "paymentDate": "2013-10-07",
+      "type": "DIV",
+      "valuePerShare": 0.0114
+    },
+    {
+      "comDate": "2013-08-13",
+      "paymentDate": "2013-10-07",
+      "type": "JCP",
+      "valuePerShare": 0.0022
+    },
+    {
+      "comDate": "2013-01-23",
+      "paymentDate": "2013-03-20",
+      "type": "DIV",
+      "valuePerShare": 0.0117
+    },
+    {
+      "comDate": "2012-08-13",
+      "paymentDate": "2012-09-27",
+      "type": "JCP",
+      "valuePerShare": 0.0189
+    },
+    {
+      "comDate": "2012-01-25",
+      "paymentDate": null,
+      "type": "DIV",
+      "valuePerShare": 0.00349
+    },
+    {
+      "comDate": "2012-01-25",
+      "paymentDate": null,
+      "type": "JCP",
+      "valuePerShare": 0.00109
+    },
+    {
+      "comDate": "2012-01-24",
+      "paymentDate": "2012-03-09",
+      "type": "JCP",
+      "valuePerShare": 0.0011
+    },
+    {
+      "comDate": "2011-08-11",
+      "paymentDate": "2011-09-26",
+      "type": "JCP",
+      "valuePerShare": 0.00468
+    },
+    {
+      "comDate": "2011-01-27",
+      "paymentDate": "2011-03-14",
+      "type": "JCP",
+      "valuePerShare": 0.02582
+    },
+    {
+      "comDate": "2010-08-12",
+      "paymentDate": "2010-09-27",
+      "type": "JCP",
+      "valuePerShare": 0.00926
+    },
+    {
+      "comDate": "2010-01-28",
+      "paymentDate": "2010-03-15",
+      "type": "DIV",
+      "valuePerShare": 0.02542
+    },
+    {
+      "comDate": "2010-01-28",
+      "paymentDate": "2010-03-15",
+      "type": "JCP",
+      "valuePerShare": 0.01123
+    },
+    {
+      "comDate": "2009-08-13",
+      "paymentDate": "2009-09-28",
+      "type": "JCP",
+      "valuePerShare": 0.02588
+    },
+    {
+      "comDate": "2009-02-05",
+      "paymentDate": "2009-03-06",
+      "type": "JCP",
+      "valuePerShare": 0.0645
+    },
+    {
+      "comDate": "2008-08-12",
+      "paymentDate": "2008-08-29",
+      "type": "JCP",
+      "valuePerShare": 0.03529
+    },
+    {
+      "comDate": "2008-01-17",
+      "paymentDate": "2008-03-07",
+      "type": "JCP",
+      "valuePerShare": 0.04589
+    },
+    {
+      "comDate": "2007-08-14",
+      "paymentDate": "2007-09-06",
+      "type": "DIV",
+      "valuePerShare": 30.0
+    }
+  ]
+}

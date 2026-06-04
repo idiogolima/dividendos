@@ -1,0 +1,78 @@
+{
+  "ticker": "CTNM3",
+  "companyName": "coteminas",
+  "currentPrice": 7.13,
+  "source": {
+    "name": "PlayInvest",
+    "url": "https://playinvest.com.br/dividendos/ctnm3"
+  },
+  "updatedAt": "2026-06-04T13:59:12",
+  "dividends": [
+    {
+      "comDate": "2011-04-29",
+      "paymentDate": "2011-06-22",
+      "type": "DIV",
+      "valuePerShare": 0.0059
+    },
+    {
+      "comDate": "2010-04-30",
+      "paymentDate": "2010-06-25",
+      "type": "DIV",
+      "valuePerShare": 0.0086
+    },
+    {
+      "comDate": "2009-05-01",
+      "paymentDate": null,
+      "type": "DIV",
+      "valuePerShare": 0.03698
+    },
+    {
+      "comDate": "2009-04-30",
+      "paymentDate": null,
+      "type": "DIV",
+      "valuePerShare": 0.037
+    },
+    {
+      "comDate": "2007-04-30",
+      "paymentDate": "2007-06-25",
+      "type": "DIV",
+      "valuePerShare": 2.5885
+    },
+    {
+      "comDate": "2006-04-28",
+      "paymentDate": "2006-06-23",
+      "type": "DIV",
+      "valuePerShare": 5.5321
+    },
+    {
+      "comDate": "2005-04-29",
+      "paymentDate": "2005-06-24",
+      "type": "DIV",
+      "valuePerShare": 9.163
+    },
+    {
+      "comDate": "2004-04-30",
+      "paymentDate": "2004-06-25",
+      "type": "DIV",
+      "valuePerShare": 8.7232
+    },
+    {
+      "comDate": "2003-04-30",
+      "paymentDate": "2003-06-25",
+      "type": "DIV",
+      "valuePerShare": 2.1971
+    },
+    {
+      "comDate": "2002-10-31",
+      "paymentDate": "2003-06-25",
+      "type": "JCP",
+      "valuePerShare": 6.87
+    },
+    {
+      "comDate": "2002-04-26",
+      "paymentDate": "2002-06-25",
+      "type": "DIV",
+      "valuePerShare": 1.7887
+    }
+  ]
+}

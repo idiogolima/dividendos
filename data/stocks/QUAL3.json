@@ -1,0 +1,132 @@
+{
+  "ticker": "QUAL3",
+  "companyName": "qualicorp",
+  "currentPrice": 1.54,
+  "source": {
+    "name": "PlayInvest",
+    "url": "https://playinvest.com.br/dividendos/qual3"
+  },
+  "updatedAt": "2026-06-04T14:03:28",
+  "dividends": [
+    {
+      "comDate": "2025-06-27",
+      "paymentDate": "2025-12-17",
+      "type": "DIV",
+      "valuePerShare": 0.005527286
+    },
+    {
+      "comDate": "2023-05-12",
+      "paymentDate": "2023-12-12",
+      "type": "DIV",
+      "valuePerShare": 0.079166778
+    },
+    {
+      "comDate": "2022-05-05",
+      "paymentDate": "2022-12-12",
+      "type": "DIV",
+      "valuePerShare": 0.25543151
+    },
+    {
+      "comDate": "2021-07-13",
+      "paymentDate": "2021-07-28",
+      "type": "JCP",
+      "valuePerShare": 0.062234283
+    },
+    {
+      "comDate": "2021-05-07",
+      "paymentDate": "2021-12-28",
+      "type": "DIV",
+      "valuePerShare": 1.304632478
+    },
+    {
+      "comDate": "2021-05-07",
+      "paymentDate": "2021-05-31",
+      "type": "DIV",
+      "valuePerShare": 0.704458324
+    },
+    {
+      "comDate": "2020-12-30",
+      "paymentDate": "2021-01-13",
+      "type": "JCP",
+      "valuePerShare": 0.119719
+    },
+    {
+      "comDate": "2020-10-13",
+      "paymentDate": "2020-10-26",
+      "type": "JCP",
+      "valuePerShare": 0.169317
+    },
+    {
+      "comDate": "2020-04-30",
+      "paymentDate": "2020-12-21",
+      "type": "DIV",
+      "valuePerShare": 0.00421291
+    },
+    {
+      "comDate": "2019-10-18",
+      "paymentDate": "2019-11-05",
+      "type": "JCP",
+      "valuePerShare": 3.4913
+    },
+    {
+      "comDate": "2019-07-24",
+      "paymentDate": "2019-08-02",
+      "type": "DIV",
+      "valuePerShare": 0.647259688
+    },
+    {
+      "comDate": "2019-04-29",
+      "paymentDate": "2019-05-10",
+      "type": "DIV",
+      "valuePerShare": 0.659317332
+    },
+    {
+      "comDate": "2018-06-06",
+      "paymentDate": "2018-06-19",
+      "type": "DIV",
+      "valuePerShare": 0.362761363
+    },
+    {
+      "comDate": "2018-04-27",
+      "paymentDate": "2018-05-10",
+      "type": "DIV",
+      "valuePerShare": 0.360813698
+    },
+    {
+      "comDate": "2017-12-21",
+      "paymentDate": "2018-01-16",
+      "type": "DIV",
+      "valuePerShare": 0.525349285
+    },
+    {
+      "comDate": "2017-09-08",
+      "paymentDate": "2017-09-19",
+      "type": "DIV",
+      "valuePerShare": 0.350789649
+    },
+    {
+      "comDate": "2017-04-28",
+      "paymentDate": "2017-05-25",
+      "type": "DIV",
+      "valuePerShare": 0.492423447
+    },
+    {
+      "comDate": "2016-11-11",
+      "paymentDate": "2016-11-25",
+      "type": "DIV",
+      "valuePerShare": 0.897071078
+    },
+    {
+      "comDate": "2016-04-29",
+      "paymentDate": "2016-05-25",
+      "type": "DIV",
+      "valuePerShare": 0.796007688
+    },
+    {
+      "comDate": "2015-04-30",
+      "paymentDate": "2015-05-11",
+      "type": "DIV",
+      "valuePerShare": 0.424008737
+    }
+  ]
+}

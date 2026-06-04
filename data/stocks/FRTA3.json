@@ -1,0 +1,18 @@
+{
+  "ticker": "FRTA3",
+  "companyName": "pomifrutas",
+  "currentPrice": 1.31,
+  "source": {
+    "name": "PlayInvest",
+    "url": "https://playinvest.com.br/dividendos/frta3"
+  },
+  "updatedAt": "2026-06-04T14:00:23",
+  "dividends": [
+    {
+      "comDate": "2007-04-27",
+      "paymentDate": "2007-05-30",
+      "type": "JCP",
+      "valuePerShare": 0.0028
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "ticker": "POWE3",
+  "companyName": "focus on",
+  "currentPrice": 10.9,
+  "source": {
+    "name": "PlayInvest",
+    "url": "https://playinvest.com.br/dividendos/powe3"
+  },
+  "updatedAt": "2026-06-04T14:03:08",
+  "dividends": [
+    {
+      "comDate": "2021-04-30",
+      "paymentDate": "2021-05-20",
+      "type": "DIV",
+      "valuePerShare": 0.0529548588
+    }
+  ]
+}

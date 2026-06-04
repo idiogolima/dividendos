@@ -1,37 +1,1571 @@
 {
-  "updatedAt": "2026-06-04T01:02:03.400763+00:00",
+  "updatedAt": "2026-06-04T17:04:09.666897+00:00",
   "featuredTickers": [
-    "BAZA3",
-    "PETR4",
-    "VALE3",
-    "ITUB4",
-    "BBAS3"
+    "AALR3",
+    "ABCB4",
+    "ABEV3",
+    "AERI3",
+    "AFLT3",
+    "AGRO3",
+    "AGXY3",
+    "AHEB3",
+    "AHEB5",
+    "AHEB6",
+    "ALLD3",
+    "ALOS3",
+    "ALPA3",
+    "ALPA4",
+    "ALPK3",
+    "ALUP11",
+    "ALUP3",
+    "ALUP4",
+    "AMAR3",
+    "AMBP3",
+    "AMER3",
+    "AMOB3",
+    "ANIM3",
+    "APER3"
   ],
   "tickers": {
+    "AALR3": {
+      "companyName": "alliar",
+      "path": "./data/stocks/AALR3.json"
+    },
+    "ABCB4": {
+      "companyName": "banco abc brasil",
+      "path": "./data/stocks/ABCB4.json"
+    },
+    "ABEV3": {
+      "companyName": "ambev",
+      "path": "./data/stocks/ABEV3.json"
+    },
+    "AERI3": {
+      "companyName": "aeris",
+      "path": "./data/stocks/AERI3.json"
+    },
+    "AFLT3": {
+      "companyName": "afluente",
+      "path": "./data/stocks/AFLT3.json"
+    },
+    "AGRO3": {
+      "companyName": "brasilagro",
+      "path": "./data/stocks/AGRO3.json"
+    },
+    "AGXY3": {
+      "companyName": "agrogalaxy",
+      "path": "./data/stocks/AGXY3.json"
+    },
+    "AHEB3": {
+      "companyName": "spturis",
+      "path": "./data/stocks/AHEB3.json"
+    },
+    "AHEB5": {
+      "companyName": "spturis",
+      "path": "./data/stocks/AHEB5.json"
+    },
+    "AHEB6": {
+      "companyName": "spturis",
+      "path": "./data/stocks/AHEB6.json"
+    },
+    "ALLD3": {
+      "companyName": "allied",
+      "path": "./data/stocks/ALLD3.json"
+    },
+    "ALOS3": {
+      "companyName": "aliansce sonae",
+      "path": "./data/stocks/ALOS3.json"
+    },
+    "ALPA3": {
+      "companyName": "alpargatas",
+      "path": "./data/stocks/ALPA3.json"
+    },
+    "ALPA4": {
+      "companyName": "alpargatas",
+      "path": "./data/stocks/ALPA4.json"
+    },
+    "ALPK3": {
+      "companyName": "allpark empreendimentos",
+      "path": "./data/stocks/ALPK3.json"
+    },
+    "ALUP11": {
+      "companyName": "alupar",
+      "path": "./data/stocks/ALUP11.json"
+    },
+    "ALUP3": {
+      "companyName": "alupar",
+      "path": "./data/stocks/ALUP3.json"
+    },
+    "ALUP4": {
+      "companyName": "alupar",
+      "path": "./data/stocks/ALUP4.json"
+    },
+    "AMAR3": {
+      "companyName": "lojas marisa",
+      "path": "./data/stocks/AMAR3.json"
+    },
+    "AMBP3": {
+      "companyName": "ambipar",
+      "path": "./data/stocks/AMBP3.json"
+    },
+    "AMER3": {
+      "companyName": "americanas",
+      "path": "./data/stocks/AMER3.json"
+    },
+    "AMOB3": {
+      "companyName": "automob",
+      "path": "./data/stocks/AMOB3.json"
+    },
+    "ANIM3": {
+      "companyName": "anima",
+      "path": "./data/stocks/ANIM3.json"
+    },
+    "APER3": {
+      "companyName": "alper",
+      "path": "./data/stocks/APER3.json"
+    },
+    "ARML3": {
+      "companyName": "armac",
+      "path": "./data/stocks/ARML3.json"
+    },
+    "ASAI3": {
+      "companyName": "assai",
+      "path": "./data/stocks/ASAI3.json"
+    },
+    "ATED3": {
+      "companyName": "atom educ",
+      "path": "./data/stocks/ATED3.json"
+    },
+    "AURE3": {
+      "companyName": "auren",
+      "path": "./data/stocks/AURE3.json"
+    },
+    "AVLL3": {
+      "companyName": "alphaville",
+      "path": "./data/stocks/AVLL3.json"
+    },
+    "AXIA3": {
+      "companyName": "eletrobr\u00e1s",
+      "path": "./data/stocks/AXIA3.json"
+    },
+    "AXIA5": {
+      "companyName": "eletrobr\u00e1s",
+      "path": "./data/stocks/AXIA5.json"
+    },
+    "AXIA6": {
+      "companyName": "eletrobr\u00e1s",
+      "path": "./data/stocks/AXIA6.json"
+    },
+    "AZEV3": {
+      "companyName": "azevedo",
+      "path": "./data/stocks/AZEV3.json"
+    },
+    "AZEV4": {
+      "companyName": "azevedo",
+      "path": "./data/stocks/AZEV4.json"
+    },
+    "AZUL4": {
+      "companyName": "azul",
+      "path": "./data/stocks/AZUL4.json"
+    },
+    "AZZA3": {
+      "companyName": "arezzo",
+      "path": "./data/stocks/AZZA3.json"
+    },
+    "B3SA3": {
+      "companyName": "b3",
+      "path": "./data/stocks/B3SA3.json"
+    },
+    "BALM3": {
+      "companyName": "baumer",
+      "path": "./data/stocks/BALM3.json"
+    },
+    "BALM4": {
+      "companyName": "baumer",
+      "path": "./data/stocks/BALM4.json"
+    },
+    "BAUH4": {
+      "companyName": "excelsior",
+      "path": "./data/stocks/BAUH4.json"
+    },
     "BAZA3": {
       "companyName": "banco da amaz\u00f4nia",
-      "path": "./data/stocks/BAZA3.json",
-      "sourceUrl": "https://playinvest.com.br/dividendos/baza3"
-    },
-    "PETR4": {
-      "companyName": "petrobr\u00e1s",
-      "path": "./data/stocks/PETR4.json",
-      "sourceUrl": "https://playinvest.com.br/dividendos/petr4"
-    },
-    "VALE3": {
-      "companyName": "vale",
-      "path": "./data/stocks/VALE3.json",
-      "sourceUrl": "https://playinvest.com.br/dividendos/vale3"
-    },
-    "ITUB4": {
-      "companyName": "ita\u00fa unibanco",
-      "path": "./data/stocks/ITUB4.json",
-      "sourceUrl": "https://playinvest.com.br/dividendos/itub4"
+      "path": "./data/stocks/BAZA3.json"
     },
     "BBAS3": {
       "companyName": "banco do brasil",
-      "path": "./data/stocks/BBAS3.json",
-      "sourceUrl": "https://playinvest.com.br/dividendos/bbas3"
+      "path": "./data/stocks/BBAS3.json"
+    },
+    "BBDC3": {
+      "companyName": "bradesco",
+      "path": "./data/stocks/BBDC3.json"
+    },
+    "BBDC4": {
+      "companyName": "bradesco",
+      "path": "./data/stocks/BBDC4.json"
+    },
+    "BBSE3": {
+      "companyName": "bb seguridade",
+      "path": "./data/stocks/BBSE3.json"
+    },
+    "BDLL3": {
+      "companyName": "bardella",
+      "path": "./data/stocks/BDLL3.json"
+    },
+    "BDLL4": {
+      "companyName": "bardella",
+      "path": "./data/stocks/BDLL4.json"
+    },
+    "BEEF3": {
+      "companyName": "minerva",
+      "path": "./data/stocks/BEEF3.json"
+    },
+    "BEES3": {
+      "companyName": "banco banestes",
+      "path": "./data/stocks/BEES3.json"
+    },
+    "BEES4": {
+      "companyName": "banco banestes",
+      "path": "./data/stocks/BEES4.json"
+    },
+    "BGIP3": {
+      "companyName": "banese",
+      "path": "./data/stocks/BGIP3.json"
+    },
+    "BGIP4": {
+      "companyName": "banese",
+      "path": "./data/stocks/BGIP4.json"
+    },
+    "BHIA3": {
+      "companyName": "via varejo",
+      "path": "./data/stocks/BHIA3.json"
+    },
+    "BIDI11": {
+      "companyName": "banco inter",
+      "path": "./data/stocks/BIDI11.json"
+    },
+    "BIDI3": {
+      "companyName": "banco inter",
+      "path": "./data/stocks/BIDI3.json"
+    },
+    "BIDI4": {
+      "companyName": "banco inter",
+      "path": "./data/stocks/BIDI4.json"
+    },
+    "BIED3": {
+      "companyName": "bahema educa\u00e7\u00e3o",
+      "path": "./data/stocks/BIED3.json"
+    },
+    "BIOM3": {
+      "companyName": "biomm",
+      "path": "./data/stocks/BIOM3.json"
+    },
+    "BLAU3": {
+      "companyName": "blau",
+      "path": "./data/stocks/BLAU3.json"
+    },
+    "BLUT3": {
+      "companyName": "blue tech solutions",
+      "path": "./data/stocks/BLUT3.json"
+    },
+    "BLUT4": {
+      "companyName": "blue tech solutions",
+      "path": "./data/stocks/BLUT4.json"
+    },
+    "BMEB3": {
+      "companyName": "banco mercantil",
+      "path": "./data/stocks/BMEB3.json"
+    },
+    "BMEB4": {
+      "companyName": "banco mercantil",
+      "path": "./data/stocks/BMEB4.json"
+    },
+    "BMGB4": {
+      "companyName": "banco bmg",
+      "path": "./data/stocks/BMGB4.json"
+    },
+    "BMIN3": {
+      "companyName": "mercantil investimentos",
+      "path": "./data/stocks/BMIN3.json"
+    },
+    "BMIN4": {
+      "companyName": "mercantil investimentos",
+      "path": "./data/stocks/BMIN4.json"
+    },
+    "BMKS3": {
+      "companyName": "bicicletas monark",
+      "path": "./data/stocks/BMKS3.json"
+    },
+    "BMOB3": {
+      "companyName": "bemobi tech",
+      "path": "./data/stocks/BMOB3.json"
+    },
+    "BNBR3": {
+      "companyName": "banco do nordeste",
+      "path": "./data/stocks/BNBR3.json"
+    },
+    "BOAS3": {
+      "companyName": "boa vista servi\u00c7os s.a.",
+      "path": "./data/stocks/BOAS3.json"
+    },
+    "BOBR4": {
+      "companyName": "bombril",
+      "path": "./data/stocks/BOBR4.json"
+    },
+    "BPAC11": {
+      "companyName": "btg pactual",
+      "path": "./data/stocks/BPAC11.json"
+    },
+    "BPAC3": {
+      "companyName": "btg pactual",
+      "path": "./data/stocks/BPAC3.json"
+    },
+    "BPAC5": {
+      "companyName": "btg pactual",
+      "path": "./data/stocks/BPAC5.json"
+    },
+    "BPAN4": {
+      "companyName": "banco pan",
+      "path": "./data/stocks/BPAN4.json"
+    },
+    "BRAP3": {
+      "companyName": "bradespar",
+      "path": "./data/stocks/BRAP3.json"
+    },
+    "BRAP4": {
+      "companyName": "bradespar",
+      "path": "./data/stocks/BRAP4.json"
+    },
+    "BRAV3": {
+      "companyName": "brava",
+      "path": "./data/stocks/BRAV3.json"
+    },
+    "BRBI11": {
+      "companyName": "br partners",
+      "path": "./data/stocks/BRBI11.json"
+    },
+    "BRFS3": {
+      "companyName": "brf",
+      "path": "./data/stocks/BRFS3.json"
+    },
+    "BRGE11": {
+      "companyName": "alfa cons\u00f3rcio",
+      "path": "./data/stocks/BRGE11.json"
+    },
+    "BRGE3": {
+      "companyName": "alfa cons\u00f3rcio",
+      "path": "./data/stocks/BRGE3.json"
+    },
+    "BRGE5": {
+      "companyName": "alfa cons\u00f3rcio",
+      "path": "./data/stocks/BRGE5.json"
+    },
+    "BRGE6": {
+      "companyName": "alfa cons\u00f3rcio",
+      "path": "./data/stocks/BRGE6.json"
+    },
+    "BRIT3": {
+      "companyName": "brisanet",
+      "path": "./data/stocks/BRIT3.json"
+    },
+    "BRIV3": {
+      "companyName": "banco alfa",
+      "path": "./data/stocks/BRIV3.json"
+    },
+    "BRIV4": {
+      "companyName": "banco alfa",
+      "path": "./data/stocks/BRIV4.json"
+    },
+    "BRKM3": {
+      "companyName": "braskem",
+      "path": "./data/stocks/BRKM3.json"
+    },
+    "BRKM5": {
+      "companyName": "braskem",
+      "path": "./data/stocks/BRKM5.json"
+    },
+    "BRKM6": {
+      "companyName": "braskem",
+      "path": "./data/stocks/BRKM6.json"
+    },
+    "BRPR3": {
+      "companyName": "br properties",
+      "path": "./data/stocks/BRPR3.json"
+    },
+    "BRSR3": {
+      "companyName": "banco banrisul",
+      "path": "./data/stocks/BRSR3.json"
+    },
+    "BRSR5": {
+      "companyName": "banco banrisul",
+      "path": "./data/stocks/BRSR5.json"
+    },
+    "BRSR6": {
+      "companyName": "banco banrisul",
+      "path": "./data/stocks/BRSR6.json"
+    },
+    "BRST3": {
+      "companyName": "brisanet",
+      "path": "./data/stocks/BRST3.json"
+    },
+    "BSLI3": {
+      "companyName": "banco de bras\u00edlia",
+      "path": "./data/stocks/BSLI3.json"
+    },
+    "BSLI4": {
+      "companyName": "banco de bras\u00edlia",
+      "path": "./data/stocks/BSLI4.json"
+    },
+    "CALI3": {
+      "companyName": "adolfo lindeberg",
+      "path": "./data/stocks/CALI3.json"
+    },
+    "CALI4": {
+      "companyName": "adolfo lindeberg",
+      "path": "./data/stocks/CALI4.json"
+    },
+    "CAMB3": {
+      "companyName": "cambuci",
+      "path": "./data/stocks/CAMB3.json"
+    },
+    "CAML3": {
+      "companyName": "camil",
+      "path": "./data/stocks/CAML3.json"
+    },
+    "CASH3": {
+      "companyName": "meliuz",
+      "path": "./data/stocks/CASH3.json"
+    },
+    "CASN3": {
+      "companyName": "casan",
+      "path": "./data/stocks/CASN3.json"
+    },
+    "CBAV3": {
+      "companyName": "cba",
+      "path": "./data/stocks/CBAV3.json"
+    },
+    "CBEE3": {
+      "companyName": "ampla energia",
+      "path": "./data/stocks/CBEE3.json"
+    },
+    "CEAB3": {
+      "companyName": "c&a",
+      "path": "./data/stocks/CEAB3.json"
+    },
+    "CEBR3": {
+      "companyName": "ceb",
+      "path": "./data/stocks/CEBR3.json"
+    },
+    "CEBR5": {
+      "companyName": "ceb",
+      "path": "./data/stocks/CEBR5.json"
+    },
+    "CEBR6": {
+      "companyName": "ceb",
+      "path": "./data/stocks/CEBR6.json"
+    },
+    "CEDO3": {
+      "companyName": "cedro t\u00eaxtil",
+      "path": "./data/stocks/CEDO3.json"
+    },
+    "CEDO4": {
+      "companyName": "cedro t\u00eaxtil",
+      "path": "./data/stocks/CEDO4.json"
+    },
+    "CEEB3": {
+      "companyName": "coelba",
+      "path": "./data/stocks/CEEB3.json"
+    },
+    "CEEB5": {
+      "companyName": "coelba",
+      "path": "./data/stocks/CEEB5.json"
+    },
+    "CEED3": {
+      "companyName": "ceee-d",
+      "path": "./data/stocks/CEED3.json"
+    },
+    "CEED4": {
+      "companyName": "ceee-d",
+      "path": "./data/stocks/CEED4.json"
+    },
+    "CEGR3": {
+      "companyName": "ceg",
+      "path": "./data/stocks/CEGR3.json"
+    },
+    "CEPE5": {
+      "companyName": "celpe",
+      "path": "./data/stocks/CEPE5.json"
+    },
+    "CEPE6": {
+      "companyName": "celpe",
+      "path": "./data/stocks/CEPE6.json"
+    },
+    "CGAS3": {
+      "companyName": "comg\u00e1s",
+      "path": "./data/stocks/CGAS3.json"
+    },
+    "CGAS5": {
+      "companyName": "comg\u00e1s",
+      "path": "./data/stocks/CGAS5.json"
+    },
+    "CGRA3": {
+      "companyName": "grazziotin",
+      "path": "./data/stocks/CGRA3.json"
+    },
+    "CGRA4": {
+      "companyName": "grazziotin",
+      "path": "./data/stocks/CGRA4.json"
+    },
+    "CIEL3": {
+      "companyName": "cielo",
+      "path": "./data/stocks/CIEL3.json"
+    },
+    "CLSA3": {
+      "companyName": "clearsale",
+      "path": "./data/stocks/CLSA3.json"
+    },
+    "CLSC3": {
+      "companyName": "celesc",
+      "path": "./data/stocks/CLSC3.json"
+    },
+    "CLSC4": {
+      "companyName": "celesc",
+      "path": "./data/stocks/CLSC4.json"
+    },
+    "CMIG3": {
+      "companyName": "cemig",
+      "path": "./data/stocks/CMIG3.json"
+    },
+    "CMIG4": {
+      "companyName": "cemig",
+      "path": "./data/stocks/CMIG4.json"
+    },
+    "CMIN3": {
+      "companyName": "csn mineracao",
+      "path": "./data/stocks/CMIN3.json"
+    },
+    "COCE3": {
+      "companyName": "coelce",
+      "path": "./data/stocks/COCE3.json"
+    },
+    "COCE5": {
+      "companyName": "coelce",
+      "path": "./data/stocks/COCE5.json"
+    },
+    "COGN3": {
+      "companyName": "cogna",
+      "path": "./data/stocks/COGN3.json"
+    },
+    "CORR4": {
+      "companyName": "correa ribeiro",
+      "path": "./data/stocks/CORR4.json"
+    },
+    "CPFE3": {
+      "companyName": "cpfl",
+      "path": "./data/stocks/CPFE3.json"
+    },
+    "CPLE3": {
+      "companyName": "copel",
+      "path": "./data/stocks/CPLE3.json"
+    },
+    "CPLE5": {
+      "companyName": "copel",
+      "path": "./data/stocks/CPLE5.json"
+    },
+    "CPLE6": {
+      "companyName": "copel",
+      "path": "./data/stocks/CPLE6.json"
+    },
+    "CPRE3": {
+      "companyName": "cpfl renov\u00e1vel",
+      "path": "./data/stocks/CPRE3.json"
+    },
+    "CRFB3": {
+      "companyName": "carrefour brasil",
+      "path": "./data/stocks/CRFB3.json"
+    },
+    "CRIV3": {
+      "companyName": "financeira alfa",
+      "path": "./data/stocks/CRIV3.json"
+    },
+    "CRIV4": {
+      "companyName": "financeira alfa",
+      "path": "./data/stocks/CRIV4.json"
+    },
+    "CRPG3": {
+      "companyName": "cristal",
+      "path": "./data/stocks/CRPG3.json"
+    },
+    "CRPG5": {
+      "companyName": "cristal",
+      "path": "./data/stocks/CRPG5.json"
+    },
+    "CRPG6": {
+      "companyName": "cristal",
+      "path": "./data/stocks/CRPG6.json"
+    },
+    "CSAB3": {
+      "companyName": "alian\u00e7a da bahia",
+      "path": "./data/stocks/CSAB3.json"
+    },
+    "CSAB4": {
+      "companyName": "alian\u00e7a da bahia",
+      "path": "./data/stocks/CSAB4.json"
+    },
+    "CSAN3": {
+      "companyName": "cosan",
+      "path": "./data/stocks/CSAN3.json"
+    },
+    "CSED3": {
+      "companyName": "cruzeiro edu",
+      "path": "./data/stocks/CSED3.json"
+    },
+    "CSMG3": {
+      "companyName": "copasa",
+      "path": "./data/stocks/CSMG3.json"
+    },
+    "CSNA3": {
+      "companyName": "csn",
+      "path": "./data/stocks/CSNA3.json"
+    },
+    "CSRN3": {
+      "companyName": "cosern",
+      "path": "./data/stocks/CSRN3.json"
+    },
+    "CSRN5": {
+      "companyName": "cosern",
+      "path": "./data/stocks/CSRN5.json"
+    },
+    "CSRN6": {
+      "companyName": "cosern",
+      "path": "./data/stocks/CSRN6.json"
+    },
+    "CSUD3": {
+      "companyName": "csu cardsystem",
+      "path": "./data/stocks/CSUD3.json"
+    },
+    "CTAX3": {
+      "companyName": "contax",
+      "path": "./data/stocks/CTAX3.json"
+    },
+    "CTKA3": {
+      "companyName": "karsten",
+      "path": "./data/stocks/CTKA3.json"
+    },
+    "CTKA4": {
+      "companyName": "karsten",
+      "path": "./data/stocks/CTKA4.json"
+    },
+    "CTNM3": {
+      "companyName": "coteminas",
+      "path": "./data/stocks/CTNM3.json"
+    },
+    "CTNM4": {
+      "companyName": "coteminas",
+      "path": "./data/stocks/CTNM4.json"
+    },
+    "CTSA3": {
+      "companyName": "santanense",
+      "path": "./data/stocks/CTSA3.json"
+    },
+    "CTSA4": {
+      "companyName": "santanense",
+      "path": "./data/stocks/CTSA4.json"
+    },
+    "CURY3": {
+      "companyName": "cury s/a",
+      "path": "./data/stocks/CURY3.json"
+    },
+    "CVCB3": {
+      "companyName": "cvc",
+      "path": "./data/stocks/CVCB3.json"
+    },
+    "CXSE3": {
+      "companyName": "caixa seguridade",
+      "path": "./data/stocks/CXSE3.json"
+    },
+    "CYRE3": {
+      "companyName": "cyrela realty",
+      "path": "./data/stocks/CYRE3.json"
+    },
+    "DASA3": {
+      "companyName": "dasa",
+      "path": "./data/stocks/DASA3.json"
+    },
+    "DESK3": {
+      "companyName": "desktop",
+      "path": "./data/stocks/DESK3.json"
+    },
+    "DEXP3": {
+      "companyName": "dexxos par",
+      "path": "./data/stocks/DEXP3.json"
+    },
+    "DEXP4": {
+      "companyName": "dexxos par",
+      "path": "./data/stocks/DEXP4.json"
+    },
+    "DIRR3": {
+      "companyName": "direcional",
+      "path": "./data/stocks/DIRR3.json"
+    },
+    "DMMO3": {
+      "companyName": "dommo energia",
+      "path": "./data/stocks/DMMO3.json"
+    },
+    "DMVF3": {
+      "companyName": "d1000vfarma",
+      "path": "./data/stocks/DMVF3.json"
+    },
+    "DOHL3": {
+      "companyName": "dohler",
+      "path": "./data/stocks/DOHL3.json"
+    },
+    "DOHL4": {
+      "companyName": "dohler",
+      "path": "./data/stocks/DOHL4.json"
+    },
+    "DOTZ3": {
+      "companyName": "dotz sa",
+      "path": "./data/stocks/DOTZ3.json"
+    },
+    "DTCY3": {
+      "companyName": "dtcom-direct",
+      "path": "./data/stocks/DTCY3.json"
+    },
+    "DXCO3": {
+      "companyName": "dexco",
+      "path": "./data/stocks/DXCO3.json"
+    },
+    "EALT3": {
+      "companyName": "a\u00e7o altona",
+      "path": "./data/stocks/EALT3.json"
+    },
+    "EALT4": {
+      "companyName": "a\u00e7o altona",
+      "path": "./data/stocks/EALT4.json"
+    },
+    "ECOR3": {
+      "companyName": "ecorodovias",
+      "path": "./data/stocks/ECOR3.json"
+    },
+    "ECPR3": {
+      "companyName": "encorpar",
+      "path": "./data/stocks/ECPR3.json"
+    },
+    "ECPR4": {
+      "companyName": "encorpar",
+      "path": "./data/stocks/ECPR4.json"
+    },
+    "EEEL3": {
+      "companyName": "ceee-gt",
+      "path": "./data/stocks/EEEL3.json"
+    },
+    "EEEL4": {
+      "companyName": "ceee-gt",
+      "path": "./data/stocks/EEEL4.json"
+    },
+    "EGIE3": {
+      "companyName": "engie brasil",
+      "path": "./data/stocks/EGIE3.json"
+    },
+    "EKTR3": {
+      "companyName": "elektro",
+      "path": "./data/stocks/EKTR3.json"
+    },
+    "EKTR4": {
+      "companyName": "elektro",
+      "path": "./data/stocks/EKTR4.json"
+    },
+    "ELMD3": {
+      "companyName": "eletromidia",
+      "path": "./data/stocks/ELMD3.json"
+    },
+    "EMAE4": {
+      "companyName": "emae",
+      "path": "./data/stocks/EMAE4.json"
+    },
+    "EMBJ3": {
+      "companyName": "embraer",
+      "path": "./data/stocks/EMBJ3.json"
+    },
+    "ENAT3": {
+      "companyName": "enauta",
+      "path": "./data/stocks/ENAT3.json"
+    },
+    "ENBR3": {
+      "companyName": "edp brasil",
+      "path": "./data/stocks/ENBR3.json"
+    },
+    "ENEV3": {
+      "companyName": "eneva",
+      "path": "./data/stocks/ENEV3.json"
+    },
+    "ENGI11": {
+      "companyName": "energisa",
+      "path": "./data/stocks/ENGI11.json"
+    },
+    "ENGI3": {
+      "companyName": "energisa",
+      "path": "./data/stocks/ENGI3.json"
+    },
+    "ENGI4": {
+      "companyName": "energisa",
+      "path": "./data/stocks/ENGI4.json"
+    },
+    "ENJU3": {
+      "companyName": "enjoei",
+      "path": "./data/stocks/ENJU3.json"
+    },
+    "ENMT3": {
+      "companyName": "energisa mato grosso",
+      "path": "./data/stocks/ENMT3.json"
+    },
+    "ENMT4": {
+      "companyName": "energisa mato grosso",
+      "path": "./data/stocks/ENMT4.json"
+    },
+    "EPAR3": {
+      "companyName": "embpar s/a",
+      "path": "./data/stocks/EPAR3.json"
+    },
+    "EQMA3B": {
+      "companyName": "eqtlmaranhao",
+      "path": "./data/stocks/EQMA3B.json"
+    },
+    "EQPA3": {
+      "companyName": "equatorial para",
+      "path": "./data/stocks/EQPA3.json"
+    },
+    "EQPA5": {
+      "companyName": "equatorial para",
+      "path": "./data/stocks/EQPA5.json"
+    },
+    "EQPA6": {
+      "companyName": "equatorial para",
+      "path": "./data/stocks/EQPA6.json"
+    },
+    "EQTL3": {
+      "companyName": "equatorial",
+      "path": "./data/stocks/EQTL3.json"
+    },
+    "ESPA3": {
+      "companyName": "espacolaser",
+      "path": "./data/stocks/ESPA3.json"
+    },
+    "ESTR3": {
+      "companyName": "estrela",
+      "path": "./data/stocks/ESTR3.json"
+    },
+    "ESTR4": {
+      "companyName": "estrela",
+      "path": "./data/stocks/ESTR4.json"
+    },
+    "ETER3": {
+      "companyName": "eternit",
+      "path": "./data/stocks/ETER3.json"
+    },
+    "EUCA3": {
+      "companyName": "eucatex",
+      "path": "./data/stocks/EUCA3.json"
+    },
+    "EUCA4": {
+      "companyName": "eucatex",
+      "path": "./data/stocks/EUCA4.json"
+    },
+    "EVEN3": {
+      "companyName": "even",
+      "path": "./data/stocks/EVEN3.json"
+    },
+    "EZTC3": {
+      "companyName": "eztec",
+      "path": "./data/stocks/EZTC3.json"
+    },
+    "FESA3": {
+      "companyName": "ferbasa",
+      "path": "./data/stocks/FESA3.json"
+    },
+    "FESA4": {
+      "companyName": "ferbasa",
+      "path": "./data/stocks/FESA4.json"
+    },
+    "FHER3": {
+      "companyName": "fertilizantes heringer",
+      "path": "./data/stocks/FHER3.json"
+    },
+    "FICT3": {
+      "companyName": "fictor alimentos",
+      "path": "./data/stocks/FICT3.json"
+    },
+    "FIEI3": {
+      "companyName": "cr2",
+      "path": "./data/stocks/FIEI3.json"
+    },
+    "FIQE3": {
+      "companyName": "unifique",
+      "path": "./data/stocks/FIQE3.json"
+    },
+    "FLRY3": {
+      "companyName": "fleury",
+      "path": "./data/stocks/FLRY3.json"
+    },
+    "FNCN3": {
+      "companyName": "finansinos",
+      "path": "./data/stocks/FNCN3.json"
+    },
+    "FRAS3": {
+      "companyName": "fras-le",
+      "path": "./data/stocks/FRAS3.json"
+    },
+    "FRIO3": {
+      "companyName": "metalfrio",
+      "path": "./data/stocks/FRIO3.json"
+    },
+    "FRTA3": {
+      "companyName": "pomifrutas",
+      "path": "./data/stocks/FRTA3.json"
+    },
+    "GEPA3": {
+      "companyName": "gera\u00e7\u00e3o paranapanema",
+      "path": "./data/stocks/GEPA3.json"
+    },
+    "GEPA4": {
+      "companyName": "gera\u00e7\u00e3o paranapanema",
+      "path": "./data/stocks/GEPA4.json"
+    },
+    "GETT11": {
+      "companyName": "getnet br",
+      "path": "./data/stocks/GETT11.json"
+    },
+    "GETT3": {
+      "companyName": "getnet br",
+      "path": "./data/stocks/GETT3.json"
+    },
+    "GETT4": {
+      "companyName": "getnet br",
+      "path": "./data/stocks/GETT4.json"
+    },
+    "GFSA3": {
+      "companyName": "gafisa",
+      "path": "./data/stocks/GFSA3.json"
+    },
+    "GGBR3": {
+      "companyName": "gerdau",
+      "path": "./data/stocks/GGBR3.json"
+    },
+    "GGBR4": {
+      "companyName": "gerdau",
+      "path": "./data/stocks/GGBR4.json"
+    },
+    "GGPS3": {
+      "companyName": "gps",
+      "path": "./data/stocks/GGPS3.json"
+    },
+    "GMAT3": {
+      "companyName": "grupo mateus",
+      "path": "./data/stocks/GMAT3.json"
+    },
+    "GNDI3": {
+      "companyName": "intermedica",
+      "path": "./data/stocks/GNDI3.json"
+    },
+    "GOAU3": {
+      "companyName": "gerdau metal\u00fargica",
+      "path": "./data/stocks/GOAU3.json"
+    },
+    "GOAU4": {
+      "companyName": "gerdau metal\u00fargica",
+      "path": "./data/stocks/GOAU4.json"
+    },
+    "GOLL4": {
+      "companyName": "gol",
+      "path": "./data/stocks/GOLL4.json"
+    },
+    "GPAR3": {
+      "companyName": "celgpar",
+      "path": "./data/stocks/GPAR3.json"
+    },
+    "GRND3": {
+      "companyName": "grendene",
+      "path": "./data/stocks/GRND3.json"
+    },
+    "GSHP3": {
+      "companyName": "general shopping",
+      "path": "./data/stocks/GSHP3.json"
+    },
+    "GUAR3": {
+      "companyName": "guararapes",
+      "path": "./data/stocks/GUAR3.json"
+    },
+    "HAGA3": {
+      "companyName": "haga",
+      "path": "./data/stocks/HAGA3.json"
+    },
+    "HAGA4": {
+      "companyName": "haga",
+      "path": "./data/stocks/HAGA4.json"
+    },
+    "HAPV3": {
+      "companyName": "hapvida",
+      "path": "./data/stocks/HAPV3.json"
+    },
+    "HBOR3": {
+      "companyName": "helbor",
+      "path": "./data/stocks/HBOR3.json"
+    },
+    "HBRE3": {
+      "companyName": "hbr realty",
+      "path": "./data/stocks/HBRE3.json"
+    },
+    "HBSA3": {
+      "companyName": "hidrovias",
+      "path": "./data/stocks/HBSA3.json"
+    },
+    "HBTS5": {
+      "companyName": "habitasul",
+      "path": "./data/stocks/HBTS5.json"
+    },
+    "HETA3": {
+      "companyName": "hercules",
+      "path": "./data/stocks/HETA3.json"
+    },
+    "HETA4": {
+      "companyName": "hercules",
+      "path": "./data/stocks/HETA4.json"
+    },
+    "HOOT4": {
+      "companyName": "hoteis othon",
+      "path": "./data/stocks/HOOT4.json"
+    },
+    "HYPE3": {
+      "companyName": "hypera",
+      "path": "./data/stocks/HYPE3.json"
+    },
+    "IFCM3": {
+      "companyName": "infracomm",
+      "path": "./data/stocks/IFCM3.json"
+    },
+    "IGBR3": {
+      "companyName": "gradiente",
+      "path": "./data/stocks/IGBR3.json"
+    },
+    "IGTA3": {
+      "companyName": "iguatemi",
+      "path": "./data/stocks/IGTA3.json"
+    },
+    "IGTI11": {
+      "companyName": "iguatemi s.a",
+      "path": "./data/stocks/IGTI11.json"
+    },
+    "IGTI3": {
+      "companyName": "iguatemi s.a",
+      "path": "./data/stocks/IGTI3.json"
+    },
+    "IGTI4": {
+      "companyName": "iguatemi s.a",
+      "path": "./data/stocks/IGTI4.json"
+    },
+    "INEP3": {
+      "companyName": "inepar",
+      "path": "./data/stocks/INEP3.json"
+    },
+    "INEP4": {
+      "companyName": "inepar",
+      "path": "./data/stocks/INEP4.json"
+    },
+    "INTB3": {
+      "companyName": "intelbras",
+      "path": "./data/stocks/INTB3.json"
+    },
+    "IRBR3": {
+      "companyName": "irb brasil resseguros",
+      "path": "./data/stocks/IRBR3.json"
+    },
+    "ISAE3": {
+      "companyName": "cteep",
+      "path": "./data/stocks/ISAE3.json"
+    },
+    "ISAE4": {
+      "companyName": "cteep",
+      "path": "./data/stocks/ISAE4.json"
+    },
+    "ITSA3": {
+      "companyName": "ita\u00fasa",
+      "path": "./data/stocks/ITSA3.json"
+    },
+    "ITSA4": {
+      "companyName": "ita\u00fasa",
+      "path": "./data/stocks/ITSA4.json"
+    },
+    "ITUB3": {
+      "companyName": "ita\u00fa unibanco",
+      "path": "./data/stocks/ITUB3.json"
+    },
+    "ITUB4": {
+      "companyName": "ita\u00fa unibanco",
+      "path": "./data/stocks/ITUB4.json"
+    },
+    "JALL3": {
+      "companyName": "jallesmachad",
+      "path": "./data/stocks/JALL3.json"
+    },
+    "JBSS3": {
+      "companyName": "jbs",
+      "path": "./data/stocks/JBSS3.json"
+    },
+    "JFEN3": {
+      "companyName": "jo\u00e3o fortes",
+      "path": "./data/stocks/JFEN3.json"
+    },
+    "JHSF3": {
+      "companyName": "jhsf",
+      "path": "./data/stocks/JHSF3.json"
+    },
+    "JOPA3": {
+      "companyName": "josapar",
+      "path": "./data/stocks/JOPA3.json"
+    },
+    "JOPA4": {
+      "companyName": "josapar",
+      "path": "./data/stocks/JOPA4.json"
+    },
+    "JSLG3": {
+      "companyName": "jsl",
+      "path": "./data/stocks/JSLG3.json"
+    },
+    "KEPL3": {
+      "companyName": "kepler weber",
+      "path": "./data/stocks/KEPL3.json"
+    },
+    "KLBN11": {
+      "companyName": "klabin",
+      "path": "./data/stocks/KLBN11.json"
+    },
+    "KLBN3": {
+      "companyName": "klabin",
+      "path": "./data/stocks/KLBN3.json"
+    },
+    "KLBN4": {
+      "companyName": "klabin",
+      "path": "./data/stocks/KLBN4.json"
+    },
+    "KRSA3": {
+      "companyName": "kora saude",
+      "path": "./data/stocks/KRSA3.json"
+    },
+    "LAME3": {
+      "companyName": "lojas americanas",
+      "path": "./data/stocks/LAME3.json"
+    },
+    "LAME4": {
+      "companyName": "lojas americanas",
+      "path": "./data/stocks/LAME4.json"
+    },
+    "LAND3": {
+      "companyName": "terra santa agro",
+      "path": "./data/stocks/LAND3.json"
+    },
+    "LAVV3": {
+      "companyName": "lavvi",
+      "path": "./data/stocks/LAVV3.json"
+    },
+    "LCAM3": {
+      "companyName": "unidas",
+      "path": "./data/stocks/LCAM3.json"
+    },
+    "LEVE3": {
+      "companyName": "mahle",
+      "path": "./data/stocks/LEVE3.json"
+    },
+    "LIGT3": {
+      "companyName": "light",
+      "path": "./data/stocks/LIGT3.json"
+    },
+    "LIPR3": {
+      "companyName": "eletropar",
+      "path": "./data/stocks/LIPR3.json"
+    },
+    "LJQQ3": {
+      "companyName": "lojas quero-quero s/a",
+      "path": "./data/stocks/LJQQ3.json"
+    },
+    "LOGG3": {
+      "companyName": "log",
+      "path": "./data/stocks/LOGG3.json"
+    },
+    "LOGN3": {
+      "companyName": "log-in",
+      "path": "./data/stocks/LOGN3.json"
+    },
+    "LPSB3": {
+      "companyName": "lopes",
+      "path": "./data/stocks/LPSB3.json"
+    },
+    "LREN3": {
+      "companyName": "lojas renner",
+      "path": "./data/stocks/LREN3.json"
+    },
+    "LUPA3": {
+      "companyName": "lupatech",
+      "path": "./data/stocks/LUPA3.json"
+    },
+    "LUXM4": {
+      "companyName": "trevisa",
+      "path": "./data/stocks/LUXM4.json"
+    },
+    "LVTC3": {
+      "companyName": "wdc networks",
+      "path": "./data/stocks/LVTC3.json"
+    },
+    "LWSA3": {
+      "companyName": "locaweb",
+      "path": "./data/stocks/LWSA3.json"
+    },
+    "MAPT3": {
+      "companyName": "cemepe",
+      "path": "./data/stocks/MAPT3.json"
+    },
+    "MAPT4": {
+      "companyName": "cemepe",
+      "path": "./data/stocks/MAPT4.json"
+    },
+    "MATD3": {
+      "companyName": "mater dei",
+      "path": "./data/stocks/MATD3.json"
+    },
+    "MBRF3": {
+      "companyName": "marfrig",
+      "path": "./data/stocks/MBRF3.json"
+    },
+    "MDIA3": {
+      "companyName": "m.dias branco",
+      "path": "./data/stocks/MDIA3.json"
+    },
+    "MDNE3": {
+      "companyName": "moura dubeux",
+      "path": "./data/stocks/MDNE3.json"
+    },
+    "MEAL3": {
+      "companyName": "imc",
+      "path": "./data/stocks/MEAL3.json"
+    },
+    "MELK3": {
+      "companyName": "melnick",
+      "path": "./data/stocks/MELK3.json"
+    },
+    "MERC3": {
+      "companyName": "mercantil financeira",
+      "path": "./data/stocks/MERC3.json"
+    },
+    "MERC4": {
+      "companyName": "mercantil financeira",
+      "path": "./data/stocks/MERC4.json"
+    },
+    "MGEL4": {
+      "companyName": "mangels",
+      "path": "./data/stocks/MGEL4.json"
+    },
+    "MGLU3": {
+      "companyName": "magazine luiza",
+      "path": "./data/stocks/MGLU3.json"
+    },
+    "MILS3": {
+      "companyName": "mills",
+      "path": "./data/stocks/MILS3.json"
+    },
+    "MLAS3": {
+      "companyName": "multilaser",
+      "path": "./data/stocks/MLAS3.json"
+    },
+    "MMXM3": {
+      "companyName": "mmx",
+      "path": "./data/stocks/MMXM3.json"
+    },
+    "MNDL3": {
+      "companyName": "mundial",
+      "path": "./data/stocks/MNDL3.json"
+    },
+    "MNPR3": {
+      "companyName": "minupar",
+      "path": "./data/stocks/MNPR3.json"
+    },
+    "MOAR3": {
+      "companyName": "grupo monteiro aranha",
+      "path": "./data/stocks/MOAR3.json"
+    },
+    "MODL3": {
+      "companyName": "modalmais",
+      "path": "./data/stocks/MODL3.json"
+    },
+    "MOSI3": {
+      "companyName": "mosaico",
+      "path": "./data/stocks/MOSI3.json"
+    },
+    "MOTV3": {
+      "companyName": "motiva",
+      "path": "./data/stocks/MOTV3.json"
+    },
+    "MOVI3": {
+      "companyName": "movida",
+      "path": "./data/stocks/MOVI3.json"
+    },
+    "MRSA3B": {
+      "companyName": "mrs logist",
+      "path": "./data/stocks/MRSA3B.json"
+    },
+    "MRSA5B": {
+      "companyName": "mrs logist",
+      "path": "./data/stocks/MRSA5B.json"
+    },
+    "MRSA6B": {
+      "companyName": "mrs logist",
+      "path": "./data/stocks/MRSA6B.json"
+    },
+    "MRVE3": {
+      "companyName": "mrv",
+      "path": "./data/stocks/MRVE3.json"
+    },
+    "MSPA3": {
+      "companyName": "melhoramentos",
+      "path": "./data/stocks/MSPA3.json"
+    },
+    "MSPA4": {
+      "companyName": "melhoramentos",
+      "path": "./data/stocks/MSPA4.json"
+    },
+    "MTIG4": {
+      "companyName": "metal igua\u00e7u",
+      "path": "./data/stocks/MTIG4.json"
+    },
+    "MTRE3": {
+      "companyName": "mitre",
+      "path": "./data/stocks/MTRE3.json"
+    },
+    "MTSA3": {
+      "companyName": "metisa",
+      "path": "./data/stocks/MTSA3.json"
+    },
+    "MTSA4": {
+      "companyName": "metisa",
+      "path": "./data/stocks/MTSA4.json"
+    },
+    "MULT3": {
+      "companyName": "multiplan",
+      "path": "./data/stocks/MULT3.json"
+    },
+    "MWET3": {
+      "companyName": "wetzel",
+      "path": "./data/stocks/MWET3.json"
+    },
+    "MWET4": {
+      "companyName": "wetzel",
+      "path": "./data/stocks/MWET4.json"
+    },
+    "MYPK3": {
+      "companyName": "iochpe-maxion",
+      "path": "./data/stocks/MYPK3.json"
+    },
+    "NATU3": {
+      "companyName": "natura",
+      "path": "./data/stocks/NATU3.json"
+    },
+    "NEOE3": {
+      "companyName": "neoenergia",
+      "path": "./data/stocks/NEOE3.json"
+    },
+    "NEXP3": {
+      "companyName": "brasil brokers",
+      "path": "./data/stocks/NEXP3.json"
+    },
+    "NGRD3": {
+      "companyName": "neogrid",
+      "path": "./data/stocks/NGRD3.json"
+    },
+    "NORD3": {
+      "companyName": "nordon metal\u00fargicas",
+      "path": "./data/stocks/NORD3.json"
+    },
+    "NUTR3": {
+      "companyName": "nutriplant",
+      "path": "./data/stocks/NUTR3.json"
+    },
+    "ODPV3": {
+      "companyName": "odontoprev",
+      "path": "./data/stocks/ODPV3.json"
+    },
+    "OFSA3": {
+      "companyName": "ouro fino",
+      "path": "./data/stocks/OFSA3.json"
+    },
+    "OIBR3": {
+      "companyName": "oi",
+      "path": "./data/stocks/OIBR3.json"
+    },
+    "OIBR4": {
+      "companyName": "oi",
+      "path": "./data/stocks/OIBR4.json"
+    },
+    "ONCO3": {
+      "companyName": "oncoclinicas",
+      "path": "./data/stocks/ONCO3.json"
+    },
+    "OPCT3": {
+      "companyName": "oceanpact",
+      "path": "./data/stocks/OPCT3.json"
+    },
+    "ORVR3": {
+      "companyName": "orizon",
+      "path": "./data/stocks/ORVR3.json"
+    },
+    "OSXB3": {
+      "companyName": "osx brasil",
+      "path": "./data/stocks/OSXB3.json"
+    },
+    "PARD3": {
+      "companyName": "hermes pardini",
+      "path": "./data/stocks/PARD3.json"
+    },
+    "PATI3": {
+      "companyName": "panatl\u00e2ntica",
+      "path": "./data/stocks/PATI3.json"
+    },
+    "PATI4": {
+      "companyName": "panatl\u00e2ntica",
+      "path": "./data/stocks/PATI4.json"
+    },
+    "PCAR3": {
+      "companyName": "p\u00e3o de a\u00e7\u00facar",
+      "path": "./data/stocks/PCAR3.json"
+    },
+    "PCAR4": {
+      "companyName": "p\u00e3o de a\u00e7\u00facar",
+      "path": "./data/stocks/PCAR4.json"
+    },
+    "PDGR3": {
+      "companyName": "pdg realty",
+      "path": "./data/stocks/PDGR3.json"
+    },
+    "PDTC3": {
+      "companyName": "padtec",
+      "path": "./data/stocks/PDTC3.json"
+    },
+    "PEAB3": {
+      "companyName": "alian\u00e7a da bahia part.",
+      "path": "./data/stocks/PEAB3.json"
+    },
+    "PEAB4": {
+      "companyName": "alian\u00e7a da bahia part.",
+      "path": "./data/stocks/PEAB4.json"
+    },
+    "PETR3": {
+      "companyName": "petrobr\u00e1s",
+      "path": "./data/stocks/PETR3.json"
+    },
+    "PETR4": {
+      "companyName": "petrobr\u00e1s",
+      "path": "./data/stocks/PETR4.json"
+    },
+    "PETZ3": {
+      "companyName": "pet center comercio e participacoes s.a.",
+      "path": "./data/stocks/PETZ3.json"
+    },
+    "PFRM3": {
+      "companyName": "profarma",
+      "path": "./data/stocks/PFRM3.json"
+    },
+    "PGMN3": {
+      "companyName": "pague menos",
+      "path": "./data/stocks/PGMN3.json"
+    },
+    "PINE3": {
+      "companyName": "banco pine",
+      "path": "./data/stocks/PINE3.json"
+    },
+    "PINE4": {
+      "companyName": "banco pine",
+      "path": "./data/stocks/PINE4.json"
+    },
+    "PLAS3": {
+      "companyName": "plascar",
+      "path": "./data/stocks/PLAS3.json"
+    },
+    "PLPL3": {
+      "companyName": "planoeplano",
+      "path": "./data/stocks/PLPL3.json"
+    },
+    "PMAM3": {
+      "companyName": "paranapanema",
+      "path": "./data/stocks/PMAM3.json"
+    },
+    "PNVL3": {
+      "companyName": "dimed",
+      "path": "./data/stocks/PNVL3.json"
+    },
+    "POMO3": {
+      "companyName": "marcopolo",
+      "path": "./data/stocks/POMO3.json"
+    },
+    "POMO4": {
+      "companyName": "marcopolo",
+      "path": "./data/stocks/POMO4.json"
+    },
+    "PORT3": {
+      "companyName": "wilson sons",
+      "path": "./data/stocks/PORT3.json"
+    },
+    "POSI3": {
+      "companyName": "positivo tecnologia",
+      "path": "./data/stocks/POSI3.json"
+    },
+    "POWE3": {
+      "companyName": "focus on",
+      "path": "./data/stocks/POWE3.json"
+    },
+    "PPLA11": {
+      "companyName": "ppla",
+      "path": "./data/stocks/PPLA11.json"
+    },
+    "PRIO3": {
+      "companyName": "petrorio",
+      "path": "./data/stocks/PRIO3.json"
+    },
+    "PRNR3": {
+      "companyName": "priner",
+      "path": "./data/stocks/PRNR3.json"
+    },
+    "PSSA3": {
+      "companyName": "porto seguro",
+      "path": "./data/stocks/PSSA3.json"
+    },
+    "PTBL3": {
+      "companyName": "portobello",
+      "path": "./data/stocks/PTBL3.json"
+    },
+    "PTNT3": {
+      "companyName": "pettenati",
+      "path": "./data/stocks/PTNT3.json"
+    },
+    "PTNT4": {
+      "companyName": "pettenati",
+      "path": "./data/stocks/PTNT4.json"
+    },
+    "QUAL3": {
+      "companyName": "qualicorp",
+      "path": "./data/stocks/QUAL3.json"
+    },
+    "RADL3": {
+      "companyName": "raia drogasil",
+      "path": "./data/stocks/RADL3.json"
+    },
+    "RAIL3": {
+      "companyName": "rumo",
+      "path": "./data/stocks/RAIL3.json"
+    },
+    "RAIZ4": {
+      "companyName": "raizen",
+      "path": "./data/stocks/RAIZ4.json"
+    },
+    "VALE3": {
+      "companyName": "vale",
+      "path": "./data/stocks/VALE3.json"
     }
   }
 }

@@ -1,0 +1,24 @@
+{
+  "ticker": "FHER3",
+  "companyName": "fertilizantes heringer",
+  "currentPrice": 3.96,
+  "source": {
+    "name": "PlayInvest",
+    "url": "https://playinvest.com.br/dividendos/fher3"
+  },
+  "updatedAt": "2026-06-04T14:00:13",
+  "dividends": [
+    {
+      "comDate": "2008-03-03",
+      "paymentDate": "2008-03-14",
+      "type": "JCP",
+      "valuePerShare": 0.06
+    },
+    {
+      "comDate": "2007-11-27",
+      "paymentDate": "2007-12-05",
+      "type": "JCP",
+      "valuePerShare": 0.31
+    }
+  ]
+}

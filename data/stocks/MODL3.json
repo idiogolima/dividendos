@@ -1,0 +1,60 @@
+{
+  "ticker": "MODL3",
+  "companyName": "modalmais",
+  "currentPrice": 3.08,
+  "source": {
+    "name": "PlayInvest",
+    "url": "https://playinvest.com.br/dividendos/modl3"
+  },
+  "updatedAt": "2026-06-04T14:02:08",
+  "dividends": [
+    {
+      "comDate": "2023-02-13",
+      "paymentDate": "2023-02-23",
+      "type": "JCP",
+      "valuePerShare": 0.018598
+    },
+    {
+      "comDate": "2022-12-15",
+      "paymentDate": "2022-12-27",
+      "type": "JCP",
+      "valuePerShare": 0.021881
+    },
+    {
+      "comDate": "2022-08-11",
+      "paymentDate": "2022-08-23",
+      "type": "JCP",
+      "valuePerShare": 0.021881
+    },
+    {
+      "comDate": "2022-05-26",
+      "paymentDate": "2022-06-07",
+      "type": "JCP",
+      "valuePerShare": 0.032092
+    },
+    {
+      "comDate": "2022-03-23",
+      "paymentDate": "2022-04-04",
+      "type": "JCP",
+      "valuePerShare": 0.022164
+    },
+    {
+      "comDate": "2021-11-19",
+      "paymentDate": "2021-12-01",
+      "type": "JCP",
+      "valuePerShare": 0.026274
+    },
+    {
+      "comDate": "2021-09-27",
+      "paymentDate": "2021-10-07",
+      "type": "JCP",
+      "valuePerShare": 0.023184
+    },
+    {
+      "comDate": "2021-07-01",
+      "paymentDate": "2021-07-12",
+      "type": "JCP",
+      "valuePerShare": 0.0213
+    }
+  ]
+}

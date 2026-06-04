@@ -1,0 +1,48 @@
+{
+  "ticker": "GGPS3",
+  "companyName": "gps",
+  "currentPrice": 11.84,
+  "source": {
+    "name": "PlayInvest",
+    "url": "https://playinvest.com.br/dividendos/ggps3"
+  },
+  "updatedAt": "2026-06-04T14:00:32",
+  "dividends": [
+    {
+      "comDate": "2025-12-16",
+      "paymentDate": "2026-02-06",
+      "type": "DIV",
+      "valuePerShare": 0.32482838999
+    },
+    {
+      "comDate": "2025-04-10",
+      "paymentDate": "2025-04-24",
+      "type": "DIV",
+      "valuePerShare": 0.3237586748
+    },
+    {
+      "comDate": "2024-04-11",
+      "paymentDate": "2024-04-23",
+      "type": "DIV",
+      "valuePerShare": 0.22611670581
+    },
+    {
+      "comDate": "2024-04-11",
+      "paymentDate": "2024-04-23",
+      "type": "DIV",
+      "valuePerShare": 0.09261038479
+    },
+    {
+      "comDate": "2023-04-05",
+      "paymentDate": "2023-04-17",
+      "type": "DIV",
+      "valuePerShare": 0.25904790147
+    },
+    {
+      "comDate": "2021-11-16",
+      "paymentDate": "2021-12-10",
+      "type": "DIV",
+      "valuePerShare": 0.1872685014
+    }
+  ]
+}

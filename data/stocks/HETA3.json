@@ -1,0 +1,11 @@
+{
+  "ticker": "HETA3",
+  "companyName": "hercules",
+  "currentPrice": 96.0,
+  "source": {
+    "name": "PlayInvest",
+    "url": "https://playinvest.com.br/dividendos/heta3"
+  },
+  "updatedAt": "2026-06-04T14:00:51",
+  "dividends": []
+}

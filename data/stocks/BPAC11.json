@@ -1,0 +1,126 @@
+{
+  "ticker": "BPAC11",
+  "companyName": "btg pactual",
+  "currentPrice": 50.71,
+  "source": {
+    "name": "PlayInvest",
+    "url": "https://playinvest.com.br/dividendos/bpac11"
+  },
+  "updatedAt": "2026-06-04T13:57:19",
+  "dividends": [
+    {
+      "comDate": "2025-12-29",
+      "paymentDate": "2026-02-13",
+      "type": "JCP",
+      "valuePerShare": 0.148375602
+    },
+    {
+      "comDate": "2025-12-18",
+      "paymentDate": "2026-02-13",
+      "type": "JCP",
+      "valuePerShare": 0.495023022
+    },
+    {
+      "comDate": "2025-08-08",
+      "paymentDate": "2025-08-15",
+      "type": "JCP",
+      "valuePerShare": 0.604006869
+    },
+    {
+      "comDate": "2025-01-03",
+      "paymentDate": "2025-02-14",
+      "type": "JCP",
+      "valuePerShare": 0.148375602
+    },
+    {
+      "comDate": "2024-12-19",
+      "paymentDate": "2025-02-14",
+      "type": "JCP",
+      "valuePerShare": 0.303268707
+    },
+    {
+      "comDate": "2024-01-03",
+      "paymentDate": "2024-02-15",
+      "type": "JCP",
+      "valuePerShare": 0.148245182
+    },
+    {
+      "comDate": "2023-12-04",
+      "paymentDate": "2024-02-15",
+      "type": "JCP",
+      "valuePerShare": 0.230895151
+    },
+    {
+      "comDate": "2023-08-04",
+      "paymentDate": "2023-08-15",
+      "type": "JCP",
+      "valuePerShare": 0.401442705
+    },
+    {
+      "comDate": "2023-01-04",
+      "paymentDate": "2023-02-15",
+      "type": "JCP",
+      "valuePerShare": 0.147698004
+    },
+    {
+      "comDate": "2022-08-04",
+      "paymentDate": "2022-08-15",
+      "type": "JCP",
+      "valuePerShare": 0.313248411
+    },
+    {
+      "comDate": "2022-01-05",
+      "paymentDate": "2022-02-15",
+      "type": "JCP",
+      "valuePerShare": 0.147312909
+    },
+    {
+      "comDate": "2021-12-20",
+      "paymentDate": "2022-01-06",
+      "type": "JCP",
+      "valuePerShare": 0.06779001
+    },
+    {
+      "comDate": "2021-08-05",
+      "paymentDate": "2021-08-12",
+      "type": "JCP",
+      "valuePerShare": 0.169905246
+    },
+    {
+      "comDate": "2021-01-06",
+      "paymentDate": "2021-02-05",
+      "type": "JCP",
+      "valuePerShare": 0.155656326
+    },
+    {
+      "comDate": "2020-07-22",
+      "paymentDate": "2021-02-05",
+      "type": "JCP",
+      "valuePerShare": 0.147362028
+    },
+    {
+      "comDate": "2020-01-06",
+      "paymentDate": "2020-02-17",
+      "type": "JCP",
+      "valuePerShare": 0.1551050685
+    },
+    {
+      "comDate": "2019-08-08",
+      "paymentDate": "2019-08-15",
+      "type": "JCP",
+      "valuePerShare": 0.178751478
+    },
+    {
+      "comDate": "2019-01-07",
+      "paymentDate": "2019-02-28",
+      "type": "JCP",
+      "valuePerShare": 0.1731654945
+    },
+    {
+      "comDate": "2018-08-13",
+      "paymentDate": "2018-08-22",
+      "type": "JCP",
+      "valuePerShare": 0.168375
+    }
+  ]
+}

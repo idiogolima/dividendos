@@ -1,0 +1,144 @@
+{
+  "ticker": "PTNT3",
+  "companyName": "pettenati",
+  "currentPrice": 8.42,
+  "source": {
+    "name": "PlayInvest",
+    "url": "https://playinvest.com.br/dividendos/ptnt3"
+  },
+  "updatedAt": "2026-06-04T14:03:26",
+  "dividends": [
+    {
+      "comDate": "2025-10-31",
+      "paymentDate": "2025-11-28",
+      "type": "DIV",
+      "valuePerShare": 0.124879055
+    },
+    {
+      "comDate": "2025-10-31",
+      "paymentDate": "2025-11-28",
+      "type": "JCP",
+      "valuePerShare": 0.140210092
+    },
+    {
+      "comDate": "2024-10-29",
+      "paymentDate": "2025-05-30",
+      "type": "DIV",
+      "valuePerShare": 0.130826524
+    },
+    {
+      "comDate": "2023-11-06",
+      "paymentDate": "2024-05-31",
+      "type": "DIV",
+      "valuePerShare": 0.1061471965
+    },
+    {
+      "comDate": "2023-11-06",
+      "paymentDate": "2023-11-30",
+      "type": "DIV",
+      "valuePerShare": 0.1061471965
+    },
+    {
+      "comDate": "2022-11-04",
+      "paymentDate": "2022-11-29",
+      "type": "DIV",
+      "valuePerShare": 0.1593743
+    },
+    {
+      "comDate": "2022-11-04",
+      "paymentDate": "2023-03-31",
+      "type": "DIV",
+      "valuePerShare": 0.1593743
+    },
+    {
+      "comDate": "2021-10-29",
+      "paymentDate": "2021-11-22",
+      "type": "DIV",
+      "valuePerShare": 0.20265053
+    },
+    {
+      "comDate": "2019-11-05",
+      "paymentDate": "2020-06-30",
+      "type": "DIV",
+      "valuePerShare": 0.0726
+    },
+    {
+      "comDate": "2019-06-04",
+      "paymentDate": "2019-07-30",
+      "type": "JCP",
+      "valuePerShare": 0.1041
+    },
+    {
+      "comDate": "2018-11-05",
+      "paymentDate": "2019-05-10",
+      "type": "DIV",
+      "valuePerShare": 0.1499
+    },
+    {
+      "comDate": "2017-11-02",
+      "paymentDate": "2018-06-28",
+      "type": "JCP",
+      "valuePerShare": 0.12487905
+    },
+    {
+      "comDate": "2017-11-01",
+      "paymentDate": "2018-06-28",
+      "type": "DIV",
+      "valuePerShare": 0.1249
+    },
+    {
+      "comDate": "2016-11-03",
+      "paymentDate": "2017-06-28",
+      "type": "DIV",
+      "valuePerShare": 0.12487905
+    },
+    {
+      "comDate": "2015-10-29",
+      "paymentDate": "2016-06-28",
+      "type": "DIV",
+      "valuePerShare": 0.1249
+    },
+    {
+      "comDate": "2014-10-30",
+      "paymentDate": "2015-06-25",
+      "type": "DIV",
+      "valuePerShare": 0.1249
+    },
+    {
+      "comDate": "2013-10-24",
+      "paymentDate": "2014-06-27",
+      "type": "DIV",
+      "valuePerShare": 0.1249
+    },
+    {
+      "comDate": "2010-11-02",
+      "paymentDate": "2011-03-31",
+      "type": "DIV",
+      "valuePerShare": 0.08242018
+    },
+    {
+      "comDate": "2010-11-01",
+      "paymentDate": "2011-03-31",
+      "type": "DIV",
+      "valuePerShare": 0.5127
+    },
+    {
+      "comDate": "2009-10-29",
+      "paymentDate": "2010-06-25",
+      "type": "DIV",
+      "valuePerShare": 0.4146
+    },
+    {
+      "comDate": "2008-10-23",
+      "paymentDate": "2009-06-25",
+      "type": "DIV",
+      "valuePerShare": 0.3746
+    },
+    {
+      "comDate": "2007-10-25",
+      "paymentDate": "2007-11-26",
+      "type": "DIV",
+      "valuePerShare": 0.3979914
+    }
+  ]
+}

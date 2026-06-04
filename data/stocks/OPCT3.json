@@ -1,0 +1,24 @@
+{
+  "ticker": "OPCT3",
+  "companyName": "oceanpact",
+  "currentPrice": 10.12,
+  "source": {
+    "name": "PlayInvest",
+    "url": "https://playinvest.com.br/dividendos/opct3"
+  },
+  "updatedAt": "2026-06-04T14:02:39",
+  "dividends": [
+    {
+      "comDate": "2026-04-14",
+      "paymentDate": "2026-04-27",
+      "type": "DIV",
+      "valuePerShare": 0.02429788748
+    },
+    {
+      "comDate": "2026-04-14",
+      "paymentDate": "2026-04-27",
+      "type": "DIV",
+      "valuePerShare": 0.07289366245
+    }
+  ]
+}

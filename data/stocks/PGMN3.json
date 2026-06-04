@@ -1,0 +1,36 @@
+{
+  "ticker": "PGMN3",
+  "companyName": "pague menos",
+  "currentPrice": 4.04,
+  "source": {
+    "name": "PlayInvest",
+    "url": "https://playinvest.com.br/dividendos/pgmn3"
+  },
+  "updatedAt": "2026-06-04T14:02:55",
+  "dividends": [
+    {
+      "comDate": "2025-12-23",
+      "paymentDate": "2026-02-02",
+      "type": "JCP",
+      "valuePerShare": 0.2576897314
+    },
+    {
+      "comDate": "2025-01-20",
+      "paymentDate": "2025-02-27",
+      "type": "JCP",
+      "valuePerShare": 0.2529336768
+    },
+    {
+      "comDate": "2024-01-26",
+      "paymentDate": "2024-03-06",
+      "type": "JCP",
+      "valuePerShare": 0.2514094439
+    },
+    {
+      "comDate": "2023-01-27",
+      "paymentDate": "2023-03-13",
+      "type": "JCP",
+      "valuePerShare": 0.1582070023
+    }
+  ]
+}

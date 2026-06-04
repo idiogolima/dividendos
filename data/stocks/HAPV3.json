@@ -1,0 +1,96 @@
+{
+  "ticker": "HAPV3",
+  "companyName": "hapvida",
+  "currentPrice": 11.22,
+  "source": {
+    "name": "PlayInvest",
+    "url": "https://playinvest.com.br/dividendos/hapv3"
+  },
+  "updatedAt": "2026-06-04T14:00:44",
+  "dividends": [
+    {
+      "comDate": "2021-12-27",
+      "paymentDate": "2022-01-21",
+      "type": "JCP",
+      "valuePerShare": 0.005372754
+    },
+    {
+      "comDate": "2021-09-27",
+      "paymentDate": "2021-10-22",
+      "type": "JCP",
+      "valuePerShare": 0.0117651047
+    },
+    {
+      "comDate": "2021-07-06",
+      "paymentDate": "2021-07-30",
+      "type": "JCP",
+      "valuePerShare": 0.0176841642
+    },
+    {
+      "comDate": "2021-05-05",
+      "paymentDate": "2021-05-17",
+      "type": "DIV",
+      "valuePerShare": 0.0025259823547991
+    },
+    {
+      "comDate": "2021-01-07",
+      "paymentDate": "2021-04-30",
+      "type": "JCP",
+      "valuePerShare": 0.0251311257844955
+    },
+    {
+      "comDate": "2020-09-10",
+      "paymentDate": "2021-04-30",
+      "type": "JCP",
+      "valuePerShare": 0.029817386600000002
+    },
+    {
+      "comDate": "2020-04-28",
+      "paymentDate": "2020-12-30",
+      "type": "DIV",
+      "valuePerShare": 0.0016484246
+    },
+    {
+      "comDate": "2020-04-28",
+      "paymentDate": "2020-09-18",
+      "type": "DIV",
+      "valuePerShare": 0.0016484246
+    },
+    {
+      "comDate": "2020-01-03",
+      "paymentDate": "2020-12-30",
+      "type": "JCP",
+      "valuePerShare": 0.0159688048
+    },
+    {
+      "comDate": "2020-01-03",
+      "paymentDate": "2020-09-18",
+      "type": "JCP",
+      "valuePerShare": 0.0159688048
+    },
+    {
+      "comDate": "2019-07-02",
+      "paymentDate": "2020-12-30",
+      "type": "JCP",
+      "valuePerShare": 0.0155361252
+    },
+    {
+      "comDate": "2019-07-02",
+      "paymentDate": "2020-09-18",
+      "type": "JCP",
+      "valuePerShare": 0.0155361252
+    },
+    {
+      "comDate": "2019-04-22",
+      "paymentDate": "2019-04-30",
+      "type": "DIV",
+      "valuePerShare": 0.0243306442
+    },
+    {
+      "comDate": "2018-12-14",
+      "paymentDate": "2019-04-30",
+      "type": "JCP",
+      "valuePerShare": 0.0368643336
+    }
+  ]
+}

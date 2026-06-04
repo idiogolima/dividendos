@@ -1,0 +1,24 @@
+{
+  "ticker": "MSPA4",
+  "companyName": "melhoramentos",
+  "currentPrice": 41.0,
+  "source": {
+    "name": "PlayInvest",
+    "url": "https://playinvest.com.br/dividendos/mspa4"
+  },
+  "updatedAt": "2026-06-04T14:02:18",
+  "dividends": [
+    {
+      "comDate": "2025-04-30",
+      "paymentDate": "2025-06-27",
+      "type": "DIV",
+      "valuePerShare": 0.133611
+    },
+    {
+      "comDate": "2024-04-29",
+      "paymentDate": "2024-12-16",
+      "type": "DIV",
+      "valuePerShare": 0.31781
+    }
+  ]
+}

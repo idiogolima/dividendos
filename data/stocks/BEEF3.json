@@ -1,0 +1,108 @@
+{
+  "ticker": "BEEF3",
+  "companyName": "minerva",
+  "currentPrice": 3.58,
+  "source": {
+    "name": "PlayInvest",
+    "url": "https://playinvest.com.br/dividendos/beef3"
+  },
+  "updatedAt": "2026-06-04T13:56:49",
+  "dividends": [
+    {
+      "comDate": "2026-04-28",
+      "paymentDate": "2026-05-13",
+      "type": "DIV",
+      "valuePerShare": 0.03114732524
+    },
+    {
+      "comDate": "2025-12-15",
+      "paymentDate": "2025-12-29",
+      "type": "DIV",
+      "valuePerShare": 0.29625832
+    },
+    {
+      "comDate": "2023-08-14",
+      "paymentDate": "2023-08-23",
+      "type": "DIV",
+      "valuePerShare": 0.1942738257
+    },
+    {
+      "comDate": "2023-04-18",
+      "paymentDate": "2023-05-02",
+      "type": "DIV",
+      "valuePerShare": 0.3566284306
+    },
+    {
+      "comDate": "2022-08-17",
+      "paymentDate": "2022-08-29",
+      "type": "DIV",
+      "valuePerShare": 0.2192204451
+    },
+    {
+      "comDate": "2022-04-27",
+      "paymentDate": "2022-05-09",
+      "type": "DIV",
+      "valuePerShare": 0.34233081
+    },
+    {
+      "comDate": "2021-11-10",
+      "paymentDate": "2021-11-25",
+      "type": "DIV",
+      "valuePerShare": 0.3488435008
+    },
+    {
+      "comDate": "2021-04-12",
+      "paymentDate": "2021-04-20",
+      "type": "DIV",
+      "valuePerShare": 0.7298126958
+    },
+    {
+      "comDate": "2020-12-30",
+      "paymentDate": "2021-01-11",
+      "type": "JCP",
+      "valuePerShare": 0.0427347495
+    },
+    {
+      "comDate": "2020-11-06",
+      "paymentDate": "2020-11-13",
+      "type": "DIV",
+      "valuePerShare": 0.2578327392
+    },
+    {
+      "comDate": "2017-04-03",
+      "paymentDate": "2017-04-17",
+      "type": "DIV",
+      "valuePerShare": 0.2643
+    },
+    {
+      "comDate": "2012-03-06",
+      "paymentDate": "2012-03-15",
+      "type": "DIV",
+      "valuePerShare": 0.1147
+    },
+    {
+      "comDate": "2012-03-06",
+      "paymentDate": "2012-03-15",
+      "type": "JCP",
+      "valuePerShare": 0.2006
+    },
+    {
+      "comDate": "2011-03-03",
+      "paymentDate": "2011-04-04",
+      "type": "DIV",
+      "valuePerShare": 0.0635
+    },
+    {
+      "comDate": "2008-05-01",
+      "paymentDate": "2008-05-15",
+      "type": "DIV",
+      "valuePerShare": 0.1224819228
+    },
+    {
+      "comDate": "2008-04-30",
+      "paymentDate": "2008-05-15",
+      "type": "DIV",
+      "valuePerShare": 0.1225
+    }
+  ]
+}

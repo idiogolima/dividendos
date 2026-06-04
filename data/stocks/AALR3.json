@@ -1,0 +1,24 @@
+{
+  "ticker": "AALR3",
+  "companyName": "alliar",
+  "currentPrice": 3.12,
+  "source": {
+    "name": "PlayInvest",
+    "url": "https://playinvest.com.br/dividendos/aalr3"
+  },
+  "updatedAt": "2026-06-04T13:55:56",
+  "dividends": [
+    {
+      "comDate": "2020-04-27",
+      "paymentDate": "2020-12-18",
+      "type": "DIV",
+      "valuePerShare": 0.08729755405
+    },
+    {
+      "comDate": "2019-04-25",
+      "paymentDate": "2019-05-07",
+      "type": "DIV",
+      "valuePerShare": 0.0845
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "ticker": "EQPA6",
+  "companyName": "equatorial para",
+  "currentPrice": 6.59,
+  "source": {
+    "name": "PlayInvest",
+    "url": "https://playinvest.com.br/dividendos/eqpa6"
+  },
+  "updatedAt": "2026-06-04T14:00:00",
+  "dividends": [
+    {
+      "comDate": "2026-04-29",
+      "paymentDate": "2026-12-30",
+      "type": "DIV",
+      "valuePerShare": 0.13455943308
+    },
+    {
+      "comDate": "2025-04-29",
+      "paymentDate": null,
+      "type": "DIV",
+      "valuePerShare": 0.6587
+    },
+    {
+      "comDate": "2024-01-12",
+      "paymentDate": "2024-12-11",
+      "type": "JCP",
+      "valuePerShare": 0.001110412
+    },
+    {
+      "comDate": "2023-05-03",
+      "paymentDate": "2023-12-31",
+      "type": "DIV",
+      "valuePerShare": 0.1250748
+    },
+    {
+      "comDate": "2023-05-03",
+      "paymentDate": "2023-12-31",
+      "type": "DIV",
+      "valuePerShare": 0.02246365
+    },
+    {
+      "comDate": "2022-11-28",
+      "paymentDate": "2022-12-09",
+      "type": "DIV",
+      "valuePerShare": 0.35598
+    }
+  ]
+}

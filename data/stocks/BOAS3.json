@@ -1,0 +1,42 @@
+{
+  "ticker": "BOAS3",
+  "companyName": "boa vista servi\u00c7os s.a.",
+  "currentPrice": 7.95,
+  "source": {
+    "name": "PlayInvest",
+    "url": "https://playinvest.com.br/dividendos/boas3"
+  },
+  "updatedAt": "2026-06-04T13:57:17",
+  "dividends": [
+    {
+      "comDate": "2022-12-21",
+      "paymentDate": "2023-04-14",
+      "type": "JCP",
+      "valuePerShare": 0.25404138321
+    },
+    {
+      "comDate": "2022-04-29",
+      "paymentDate": "2022-05-16",
+      "type": "DIV",
+      "valuePerShare": 0.01305952069251
+    },
+    {
+      "comDate": "2021-12-22",
+      "paymentDate": "2022-04-14",
+      "type": "JCP",
+      "valuePerShare": 0.06613415526
+    },
+    {
+      "comDate": "2021-04-26",
+      "paymentDate": "2021-05-26",
+      "type": "DIV",
+      "valuePerShare": 0.0209736638053734
+    },
+    {
+      "comDate": "2020-07-24",
+      "paymentDate": "2020-12-22",
+      "type": "DIV",
+      "valuePerShare": 0.054966427
+    }
+  ]
+}

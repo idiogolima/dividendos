@@ -1,0 +1,72 @@
+{
+  "ticker": "BMOB3",
+  "companyName": "bemobi tech",
+  "currentPrice": 23.73,
+  "source": {
+    "name": "PlayInvest",
+    "url": "https://playinvest.com.br/dividendos/bmob3"
+  },
+  "updatedAt": "2026-06-04T13:57:14",
+  "dividends": [
+    {
+      "comDate": "2026-05-15",
+      "paymentDate": "2026-05-27",
+      "type": "JCP",
+      "valuePerShare": 0.1884502
+    },
+    {
+      "comDate": "2025-12-11",
+      "paymentDate": "2025-12-22",
+      "type": "JCP",
+      "valuePerShare": 0.500122
+    },
+    {
+      "comDate": "2025-12-11",
+      "paymentDate": "2025-12-22",
+      "type": "DIV",
+      "valuePerShare": 0.381616
+    },
+    {
+      "comDate": "2025-12-11",
+      "paymentDate": "2025-12-22",
+      "type": "DIV",
+      "valuePerShare": 0.708817
+    },
+    {
+      "comDate": "2025-08-21",
+      "paymentDate": "2025-09-01",
+      "type": "JCP",
+      "valuePerShare": 0.35551784
+    },
+    {
+      "comDate": "2025-04-24",
+      "paymentDate": "2025-05-09",
+      "type": "DIV",
+      "valuePerShare": 0.69457324
+    },
+    {
+      "comDate": "2024-12-17",
+      "paymentDate": "2025-01-07",
+      "type": "DIV",
+      "valuePerShare": 0.19857444
+    },
+    {
+      "comDate": "2024-12-17",
+      "paymentDate": "2025-01-07",
+      "type": "JCP",
+      "valuePerShare": 0.44527052
+    },
+    {
+      "comDate": "2023-12-18",
+      "paymentDate": "2024-05-02",
+      "type": "JCP",
+      "valuePerShare": 0.52193343
+    },
+    {
+      "comDate": "2023-03-23",
+      "paymentDate": "2023-04-12",
+      "type": "DIV",
+      "valuePerShare": 0.23330815999
+    }
+  ]
+}

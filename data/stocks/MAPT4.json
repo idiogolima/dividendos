@@ -1,0 +1,18 @@
+{
+  "ticker": "MAPT4",
+  "companyName": "cemepe",
+  "currentPrice": 3.0,
+  "source": {
+    "name": "PlayInvest",
+    "url": "https://playinvest.com.br/dividendos/mapt4"
+  },
+  "updatedAt": "2026-06-04T14:01:50",
+  "dividends": [
+    {
+      "comDate": "1994-06-14",
+      "paymentDate": "1994-06-23",
+      "type": "DIV",
+      "valuePerShare": 1.003
+    }
+  ]
+}

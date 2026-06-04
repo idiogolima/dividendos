@@ -1,0 +1,72 @@
+{
+  "ticker": "GFSA3",
+  "companyName": "gafisa",
+  "currentPrice": 0.98,
+  "source": {
+    "name": "PlayInvest",
+    "url": "https://playinvest.com.br/dividendos/gfsa3"
+  },
+  "updatedAt": "2026-06-04T14:00:29",
+  "dividends": [
+    {
+      "comDate": "2016-04-25",
+      "paymentDate": "2016-12-22",
+      "type": "DIV",
+      "valuePerShare": 0.0481
+    },
+    {
+      "comDate": "2014-04-25",
+      "paymentDate": "2014-12-11",
+      "type": "DIV",
+      "valuePerShare": 0.0803984232
+    },
+    {
+      "comDate": "2013-12-27",
+      "paymentDate": "2014-02-12",
+      "type": "JCP",
+      "valuePerShare": 0.3111221722
+    },
+    {
+      "comDate": "2011-04-29",
+      "paymentDate": "2011-12-28",
+      "type": "DIV",
+      "valuePerShare": 0.2291
+    },
+    {
+      "comDate": "2010-04-27",
+      "paymentDate": "2010-12-15",
+      "type": "DIV",
+      "valuePerShare": 0.12
+    },
+    {
+      "comDate": "2009-05-01",
+      "paymentDate": "2009-12-18",
+      "type": "DIV",
+      "valuePerShare": 0.2
+    },
+    {
+      "comDate": "2009-04-30",
+      "paymentDate": "2009-12-18",
+      "type": "DIV",
+      "valuePerShare": 0.2009
+    },
+    {
+      "comDate": "2008-04-04",
+      "paymentDate": "2008-04-29",
+      "type": "DIV",
+      "valuePerShare": 0.2084
+    },
+    {
+      "comDate": "2007-02-14",
+      "paymentDate": "2007-04-12",
+      "type": "DIV",
+      "valuePerShare": 0.1
+    },
+    {
+      "comDate": "2002-01-07",
+      "paymentDate": null,
+      "type": "JCP",
+      "valuePerShare": 0.2609
+    }
+  ]
+}

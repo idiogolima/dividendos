@@ -1,0 +1,18 @@
+{
+  "ticker": "HETA4",
+  "companyName": "hercules",
+  "currentPrice": 4.91,
+  "source": {
+    "name": "PlayInvest",
+    "url": "https://playinvest.com.br/dividendos/heta4"
+  },
+  "updatedAt": "2026-06-04T14:00:56",
+  "dividends": [
+    {
+      "comDate": "1990-05-04",
+      "paymentDate": null,
+      "type": "DIV",
+      "valuePerShare": 5.789
+    }
+  ]
+}

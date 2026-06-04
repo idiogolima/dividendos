@@ -1,0 +1,126 @@
+{
+  "ticker": "PFRM3",
+  "companyName": "profarma",
+  "currentPrice": 6.71,
+  "source": {
+    "name": "PlayInvest",
+    "url": "https://playinvest.com.br/dividendos/pfrm3"
+  },
+  "updatedAt": "2026-06-04T14:02:54",
+  "dividends": [
+    {
+      "comDate": "2025-12-30",
+      "paymentDate": "2026-01-15",
+      "type": "DIV",
+      "valuePerShare": 0.31808023603
+    },
+    {
+      "comDate": "2025-11-28",
+      "paymentDate": "2025-12-23",
+      "type": "DIV",
+      "valuePerShare": 0.16311806976
+    },
+    {
+      "comDate": "2025-10-31",
+      "paymentDate": "2025-11-25",
+      "type": "DIV",
+      "valuePerShare": 0.16311806976
+    },
+    {
+      "comDate": "2024-12-30",
+      "paymentDate": "2025-01-15",
+      "type": "JCP",
+      "valuePerShare": 0.28545662208
+    },
+    {
+      "comDate": "2024-11-29",
+      "paymentDate": "2024-12-12",
+      "type": "JCP",
+      "valuePerShare": 0.14476728691
+    },
+    {
+      "comDate": "2024-11-11",
+      "paymentDate": "2024-11-26",
+      "type": "JCP",
+      "valuePerShare": 0.14476728691
+    },
+    {
+      "comDate": "2023-12-28",
+      "paymentDate": "2024-01-10",
+      "type": "JCP",
+      "valuePerShare": 0.27004196449
+    },
+    {
+      "comDate": "2023-11-30",
+      "paymentDate": "2023-12-12",
+      "type": "JCP",
+      "valuePerShare": 0.11573227049
+    },
+    {
+      "comDate": "2021-11-19",
+      "paymentDate": "2021-12-01",
+      "type": "JCP",
+      "valuePerShare": 0.27056982239
+    },
+    {
+      "comDate": "2014-05-01",
+      "paymentDate": "2014-05-14",
+      "type": "DIV",
+      "valuePerShare": 0.1334
+    },
+    {
+      "comDate": "2014-04-30",
+      "paymentDate": "2014-05-14",
+      "type": "DIV",
+      "valuePerShare": 0.1334
+    },
+    {
+      "comDate": "2013-04-29",
+      "paymentDate": "2013-05-10",
+      "type": "DIV",
+      "valuePerShare": 0.2045
+    },
+    {
+      "comDate": "2012-04-23",
+      "paymentDate": "2012-05-07",
+      "type": "DIV",
+      "valuePerShare": 0.1396
+    },
+    {
+      "comDate": "2011-04-29",
+      "paymentDate": "2011-05-12",
+      "type": "DIV",
+      "valuePerShare": 0.1315
+    },
+    {
+      "comDate": "2010-04-30",
+      "paymentDate": "2010-05-12",
+      "type": "DIV",
+      "valuePerShare": 0.2614
+    },
+    {
+      "comDate": "2009-04-13",
+      "paymentDate": "2009-04-27",
+      "type": "DIV",
+      "valuePerShare": 0.1148
+    },
+    {
+      "comDate": "2008-04-03",
+      "paymentDate": "2008-04-14",
+      "type": "DIV",
+      "valuePerShare": 0.0809
+    },
+    {
+      "comDate": "2008-01-01",
+      "paymentDate": null,
+      "type": "JCP",
+      "valuePerShare": 0.140825524
+    },
+    {
+      "comDate": "2007-12-28",
+      "paymentDate": "2008-04-14",
+      "type": "JCP",
+      "valuePerShare": 0.1408
+    }
+  ]
+}

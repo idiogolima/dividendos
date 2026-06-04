@@ -1,0 +1,18 @@
+{
+  "ticker": "CPRE3",
+  "companyName": "cpfl renov\u00e1vel",
+  "currentPrice": 18.23,
+  "source": {
+    "name": "PlayInvest",
+    "url": "https://playinvest.com.br/dividendos/cpre3"
+  },
+  "updatedAt": "2026-06-04T13:58:48",
+  "dividends": [
+    {
+      "comDate": "2018-04-26",
+      "paymentDate": "2018-06-25",
+      "type": "DIV",
+      "valuePerShare": 0.0072
+    }
+  ]
+}

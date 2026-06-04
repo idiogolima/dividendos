@@ -1,0 +1,72 @@
+{
+  "ticker": "MMXM3",
+  "companyName": "mmx",
+  "currentPrice": 14.0,
+  "source": {
+    "name": "PlayInvest",
+    "url": "https://playinvest.com.br/dividendos/mmxm3"
+  },
+  "updatedAt": "2026-06-04T14:02:05",
+  "dividends": [
+    {
+      "comDate": "2013-12-18",
+      "paymentDate": "2013-12-30",
+      "type": "DIV",
+      "valuePerShare": 0.0042
+    },
+    {
+      "comDate": "2013-04-30",
+      "paymentDate": "2013-12-05",
+      "type": "DIV",
+      "valuePerShare": 0.0048
+    },
+    {
+      "comDate": "2012-04-27",
+      "paymentDate": "2012-12-20",
+      "type": "DIV",
+      "valuePerShare": 0.0042
+    },
+    {
+      "comDate": "2010-04-29",
+      "paymentDate": "2010-12-15",
+      "type": "DIV",
+      "valuePerShare": 0.0003
+    },
+    {
+      "comDate": "2007-04-27",
+      "paymentDate": "2007-12-14",
+      "type": "DIV",
+      "valuePerShare": 3.6
+    },
+    {
+      "comDate": "2006-04-27",
+      "paymentDate": "2006-07-31",
+      "type": "JCP",
+      "valuePerShare": 2.15
+    },
+    {
+      "comDate": "2005-12-05",
+      "paymentDate": "2005-12-15",
+      "type": "DIV",
+      "valuePerShare": 4.3
+    },
+    {
+      "comDate": "2005-08-22",
+      "paymentDate": "2005-08-31",
+      "type": "JCP",
+      "valuePerShare": 15.05
+    },
+    {
+      "comDate": "2005-08-22",
+      "paymentDate": "2005-08-31",
+      "type": "DIV",
+      "valuePerShare": 2.6
+    },
+    {
+      "comDate": "2005-04-28",
+      "paymentDate": "2005-05-10",
+      "type": "DIV",
+      "valuePerShare": 5.93
+    }
+  ]
+}

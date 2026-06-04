@@ -1,0 +1,36 @@
+{
+  "ticker": "IGBR3",
+  "companyName": "gradiente",
+  "currentPrice": 175.99,
+  "source": {
+    "name": "PlayInvest",
+    "url": "https://playinvest.com.br/dividendos/igbr3"
+  },
+  "updatedAt": "2026-06-04T14:01:00",
+  "dividends": [
+    {
+      "comDate": "2002-04-29",
+      "paymentDate": "2002-06-28",
+      "type": "DIV",
+      "valuePerShare": 2.0
+    },
+    {
+      "comDate": "2001-04-26",
+      "paymentDate": "2001-05-21",
+      "type": "DIV",
+      "valuePerShare": 11.0238
+    },
+    {
+      "comDate": "1997-04-30",
+      "paymentDate": "1997-06-30",
+      "type": "DIV",
+      "valuePerShare": 4.34
+    },
+    {
+      "comDate": "1996-04-30",
+      "paymentDate": null,
+      "type": "DIV",
+      "valuePerShare": 6.06
+    }
+  ]
+}

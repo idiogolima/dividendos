@@ -1,0 +1,18 @@
+{
+  "ticker": "LUPA3",
+  "companyName": "lupatech",
+  "currentPrice": 0.78,
+  "source": {
+    "name": "PlayInvest",
+    "url": "https://playinvest.com.br/dividendos/lupa3"
+  },
+  "updatedAt": "2026-06-04T14:01:45",
+  "dividends": [
+    {
+      "comDate": "2007-04-09",
+      "paymentDate": "2007-05-02",
+      "type": "DIV",
+      "valuePerShare": 0.1277
+    }
+  ]
+}

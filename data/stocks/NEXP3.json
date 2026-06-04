@@ -1,0 +1,11 @@
+{
+  "ticker": "NEXP3",
+  "companyName": "brasil brokers",
+  "currentPrice": 2.53,
+  "source": {
+    "name": "PlayInvest",
+    "url": "https://playinvest.com.br/dividendos/nexp3"
+  },
+  "updatedAt": "2026-06-04T14:02:29",
+  "dividends": []
+}

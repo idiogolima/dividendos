@@ -1,0 +1,48 @@
+{
+  "ticker": "PLPL3",
+  "companyName": "planoeplano",
+  "currentPrice": 8.55,
+  "source": {
+    "name": "PlayInvest",
+    "url": "https://playinvest.com.br/dividendos/plpl3"
+  },
+  "updatedAt": "2026-06-04T14:02:59",
+  "dividends": [
+    {
+      "comDate": "2025-12-29",
+      "paymentDate": "2026-07-01",
+      "type": "DIV",
+      "valuePerShare": 0.49282986754
+    },
+    {
+      "comDate": "2025-01-28",
+      "paymentDate": "2025-02-04",
+      "type": "DIV",
+      "valuePerShare": 1.00601344537
+    },
+    {
+      "comDate": "2024-01-18",
+      "paymentDate": "2024-02-08",
+      "type": "DIV",
+      "valuePerShare": 0.50439835364
+    },
+    {
+      "comDate": "2023-04-28",
+      "paymentDate": "2023-05-31",
+      "type": "DIV",
+      "valuePerShare": 0.16014087543
+    },
+    {
+      "comDate": "2022-04-29",
+      "paymentDate": "2022-05-31",
+      "type": "DIV",
+      "valuePerShare": 0.16117492
+    },
+    {
+      "comDate": "2021-04-30",
+      "paymentDate": "2021-05-31",
+      "type": "DIV",
+      "valuePerShare": 0.1958326806
+    }
+  ]
+}

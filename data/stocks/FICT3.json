@@ -1,0 +1,30 @@
+{
+  "ticker": "FICT3",
+  "companyName": "fictor alimentos",
+  "currentPrice": 0.24,
+  "source": {
+    "name": "PlayInvest",
+    "url": "https://playinvest.com.br/dividendos/fict3"
+  },
+  "updatedAt": "2026-06-04T14:00:15",
+  "dividends": [
+    {
+      "comDate": "2023-04-24",
+      "paymentDate": "2023-05-03",
+      "type": "DIV",
+      "valuePerShare": 0.32038456061
+    },
+    {
+      "comDate": "2022-04-29",
+      "paymentDate": "2022-05-20",
+      "type": "DIV",
+      "valuePerShare": 0.0689799949
+    },
+    {
+      "comDate": "2021-04-28",
+      "paymentDate": "2021-05-07",
+      "type": "DIV",
+      "valuePerShare": 0.3
+    }
+  ]
+}

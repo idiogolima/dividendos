@@ -1,0 +1,11 @@
+{
+  "ticker": "BDLL3",
+  "companyName": "bardella",
+  "currentPrice": 6.0,
+  "source": {
+    "name": "PlayInvest",
+    "url": "https://playinvest.com.br/dividendos/bdll3"
+  },
+  "updatedAt": "2026-06-04T13:56:46",
+  "dividends": []
+}

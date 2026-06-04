@@ -1,0 +1,18 @@
+{
+  "ticker": "CASH3",
+  "companyName": "meliuz",
+  "currentPrice": 3.98,
+  "source": {
+    "name": "PlayInvest",
+    "url": "https://playinvest.com.br/dividendos/cash3"
+  },
+  "updatedAt": "2026-06-04T13:58:06",
+  "dividends": [
+    {
+      "comDate": "2021-04-30",
+      "paymentDate": "2021-05-31",
+      "type": "DIV",
+      "valuePerShare": 0.06176686666666667
+    }
+  ]
+}

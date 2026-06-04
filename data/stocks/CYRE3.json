@@ -1,0 +1,162 @@
+{
+  "ticker": "CYRE3",
+  "companyName": "cyrela realty",
+  "currentPrice": 20.86,
+  "source": {
+    "name": "PlayInvest",
+    "url": "https://playinvest.com.br/dividendos/cyre3"
+  },
+  "updatedAt": "2026-06-04T13:59:19",
+  "dividends": [
+    {
+      "comDate": "2025-12-09",
+      "paymentDate": "2025-12-17",
+      "type": "DIV",
+      "valuePerShare": 2.729921205
+    },
+    {
+      "comDate": "2025-04-25",
+      "paymentDate": "2025-10-02",
+      "type": "DIV",
+      "valuePerShare": 1.06913700513
+    },
+    {
+      "comDate": "2024-04-25",
+      "paymentDate": "2024-11-26",
+      "type": "DIV",
+      "valuePerShare": 0.5967834311
+    },
+    {
+      "comDate": "2023-12-11",
+      "paymentDate": "2023-12-18",
+      "type": "DIV",
+      "valuePerShare": 0.3334039225
+    },
+    {
+      "comDate": "2023-05-02",
+      "paymentDate": null,
+      "type": "DIV",
+      "valuePerShare": 0.5112946042
+    },
+    {
+      "comDate": "2022-04-22",
+      "paymentDate": "2022-12-14",
+      "type": "DIV",
+      "valuePerShare": 0.5647788378
+    },
+    {
+      "comDate": "2021-04-23",
+      "paymentDate": "2021-06-14",
+      "type": "DIV",
+      "valuePerShare": 1.0872736899
+    },
+    {
+      "comDate": "2020-12-15",
+      "paymentDate": "2020-12-29",
+      "type": "DIV",
+      "valuePerShare": 1.560452296
+    },
+    {
+      "comDate": "2020-12-09",
+      "paymentDate": "2020-12-23",
+      "type": "DIV",
+      "valuePerShare": 0.88441
+    },
+    {
+      "comDate": "2020-07-23",
+      "paymentDate": "2020-12-17",
+      "type": "DIV",
+      "valuePerShare": 0.2569083204
+    },
+    {
+      "comDate": "2019-12-10",
+      "paymentDate": "2019-12-20",
+      "type": "DIV",
+      "valuePerShare": 1.040511525
+    },
+    {
+      "comDate": "2019-07-10",
+      "paymentDate": "2019-07-31",
+      "type": "DIV",
+      "valuePerShare": 0.780383644
+    },
+    {
+      "comDate": "2018-12-18",
+      "paymentDate": "2018-12-28",
+      "type": "DIV",
+      "valuePerShare": 0.5987
+    },
+    {
+      "comDate": "2018-05-07",
+      "paymentDate": "2018-07-02",
+      "type": "DIV",
+      "valuePerShare": 0.5209
+    },
+    {
+      "comDate": "2017-04-28",
+      "paymentDate": "2017-06-26",
+      "type": "DIV",
+      "valuePerShare": 0.09406327
+    },
+    {
+      "comDate": "2016-04-28",
+      "paymentDate": "2016-06-23",
+      "type": "DIV",
+      "valuePerShare": 0.2792
+    },
+    {
+      "comDate": "2015-04-28",
+      "paymentDate": "2015-06-26",
+      "type": "DIV",
+      "valuePerShare": 0.414990696
+    },
+    {
+      "comDate": "2014-04-28",
+      "paymentDate": "2014-06-27",
+      "type": "DIV",
+      "valuePerShare": 0.423071253
+    },
+    {
+      "comDate": "2013-04-30",
+      "paymentDate": "2013-06-28",
+      "type": "DIV",
+      "valuePerShare": 0.5039
+    },
+    {
+      "comDate": "2012-04-27",
+      "paymentDate": "2012-06-27",
+      "type": "DIV",
+      "valuePerShare": 0.2881
+    },
+    {
+      "comDate": "2011-04-29",
+      "paymentDate": "2011-06-24",
+      "type": "DIV",
+      "valuePerShare": 0.337
+    },
+    {
+      "comDate": "2010-04-30",
+      "paymentDate": "2010-05-11",
+      "type": "DIV",
+      "valuePerShare": 0.470902712
+    },
+    {
+      "comDate": "2009-05-01",
+      "paymentDate": "2009-05-11",
+      "type": "DIV",
+      "valuePerShare": 0.185397953
+    },
+    {
+      "comDate": "2008-04-29",
+      "paymentDate": "2008-05-16",
+      "type": "DIV",
+      "valuePerShare": 0.040978696
+    },
+    {
+      "comDate": "2007-09-17",
+      "paymentDate": "2007-09-25",
+      "type": "DIV",
+      "valuePerShare": 0.168709273
+    }
+  ]
+}

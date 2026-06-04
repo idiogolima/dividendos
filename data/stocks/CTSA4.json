@@ -1,0 +1,144 @@
+{
+  "ticker": "CTSA4",
+  "companyName": "santanense",
+  "currentPrice": 1.29,
+  "source": {
+    "name": "PlayInvest",
+    "url": "https://playinvest.com.br/dividendos/ctsa4"
+  },
+  "updatedAt": "2026-06-04T13:59:15",
+  "dividends": [
+    {
+      "comDate": "2020-07-01",
+      "paymentDate": "2020-07-15",
+      "type": "DIV",
+      "valuePerShare": 0.0334818
+    },
+    {
+      "comDate": "2019-05-09",
+      "paymentDate": "2019-12-30",
+      "type": "DIV",
+      "valuePerShare": 0.0439
+    },
+    {
+      "comDate": "2018-12-14",
+      "paymentDate": "2018-12-26",
+      "type": "DIV",
+      "valuePerShare": 0.0385
+    },
+    {
+      "comDate": "2018-05-18",
+      "paymentDate": "2018-07-02",
+      "type": "DIV",
+      "valuePerShare": 2.14838672
+    },
+    {
+      "comDate": "2018-05-02",
+      "paymentDate": "2018-05-16",
+      "type": "DIV",
+      "valuePerShare": 0.09926394
+    },
+    {
+      "comDate": "2017-12-15",
+      "paymentDate": "2017-12-22",
+      "type": "DIV",
+      "valuePerShare": 0.03289473
+    },
+    {
+      "comDate": "2015-05-01",
+      "paymentDate": "2015-06-30",
+      "type": "DIV",
+      "valuePerShare": 0.006354
+    },
+    {
+      "comDate": "2015-04-30",
+      "paymentDate": "2015-06-30",
+      "type": "DIV",
+      "valuePerShare": 0.0064
+    },
+    {
+      "comDate": "2014-05-01",
+      "paymentDate": "2014-06-02",
+      "type": "DIV",
+      "valuePerShare": 0.1583
+    },
+    {
+      "comDate": "2014-04-30",
+      "paymentDate": "2014-06-02",
+      "type": "DIV",
+      "valuePerShare": 0.2032
+    },
+    {
+      "comDate": "2013-12-06",
+      "paymentDate": "2013-12-23",
+      "type": "DIV",
+      "valuePerShare": 0.066
+    },
+    {
+      "comDate": "2013-04-30",
+      "paymentDate": "2013-05-31",
+      "type": "DIV",
+      "valuePerShare": 0.1463
+    },
+    {
+      "comDate": "2012-12-19",
+      "paymentDate": "2012-12-28",
+      "type": "DIV",
+      "valuePerShare": 0.055
+    },
+    {
+      "comDate": "2012-04-30",
+      "paymentDate": "2012-05-14",
+      "type": "DIV",
+      "valuePerShare": 0.1341
+    },
+    {
+      "comDate": "2011-12-07",
+      "paymentDate": "2011-12-21",
+      "type": "DIV",
+      "valuePerShare": 0.0495
+    },
+    {
+      "comDate": "2011-04-29",
+      "paymentDate": "2011-05-13",
+      "type": "DIV",
+      "valuePerShare": 0.0941
+    },
+    {
+      "comDate": "2010-12-07",
+      "paymentDate": "2010-12-17",
+      "type": "DIV",
+      "valuePerShare": 0.0495
+    },
+    {
+      "comDate": "2010-04-30",
+      "paymentDate": "2010-05-14",
+      "type": "DIV",
+      "valuePerShare": 0.0629
+    },
+    {
+      "comDate": "2009-12-14",
+      "paymentDate": "2009-12-22",
+      "type": "DIV",
+      "valuePerShare": 0.055
+    },
+    {
+      "comDate": "2009-05-01",
+      "paymentDate": "2009-05-15",
+      "type": "DIV",
+      "valuePerShare": 0.15211
+    },
+    {
+      "comDate": "2008-12-03",
+      "paymentDate": "2008-12-19",
+      "type": "DIV",
+      "valuePerShare": 0.066
+    },
+    {
+      "comDate": "2008-05-01",
+      "paymentDate": "2008-05-15",
+      "type": "DIV",
+      "valuePerShare": 0.03447
+    }
+  ]
+}

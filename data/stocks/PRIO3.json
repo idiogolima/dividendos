@@ -1,0 +1,78 @@
+{
+  "ticker": "PRIO3",
+  "companyName": "petrorio",
+  "currentPrice": 62.59,
+  "source": {
+    "name": "PlayInvest",
+    "url": "https://playinvest.com.br/dividendos/prio3"
+  },
+  "updatedAt": "2026-06-04T14:03:22",
+  "dividends": [
+    {
+      "comDate": "2023-12-13",
+      "paymentDate": "2023-12-22",
+      "type": "DIV",
+      "valuePerShare": 0.0726435
+    },
+    {
+      "comDate": "2013-12-18",
+      "paymentDate": "2013-12-30",
+      "type": "DIV",
+      "valuePerShare": 0.0008399999999999999
+    },
+    {
+      "comDate": "2013-04-30",
+      "paymentDate": "2013-12-05",
+      "type": "DIV",
+      "valuePerShare": 0.0009599999999999999
+    },
+    {
+      "comDate": "2012-04-27",
+      "paymentDate": "2012-12-20",
+      "type": "DIV",
+      "valuePerShare": 0.0008399999999999999
+    },
+    {
+      "comDate": "2010-04-29",
+      "paymentDate": "2010-12-15",
+      "type": "DIV",
+      "valuePerShare": 5.9999999999999995e-05
+    },
+    {
+      "comDate": "2007-04-27",
+      "paymentDate": "2007-12-14",
+      "type": "DIV",
+      "valuePerShare": 0.72
+    },
+    {
+      "comDate": "2006-04-27",
+      "paymentDate": "2006-07-31",
+      "type": "JCP",
+      "valuePerShare": 0.43
+    },
+    {
+      "comDate": "2005-12-05",
+      "paymentDate": "2005-12-15",
+      "type": "DIV",
+      "valuePerShare": 0.86
+    },
+    {
+      "comDate": "2005-08-22",
+      "paymentDate": "2005-08-31",
+      "type": "JCP",
+      "valuePerShare": 3.0100000000000002
+    },
+    {
+      "comDate": "2005-08-22",
+      "paymentDate": "2005-08-31",
+      "type": "DIV",
+      "valuePerShare": 0.52
+    },
+    {
+      "comDate": "2005-04-28",
+      "paymentDate": "2005-05-10",
+      "type": "DIV",
+      "valuePerShare": 1.186
+    }
+  ]
+}

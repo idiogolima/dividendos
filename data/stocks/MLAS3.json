@@ -1,0 +1,24 @@
+{
+  "ticker": "MLAS3",
+  "companyName": "multilaser",
+  "currentPrice": 1.57,
+  "source": {
+    "name": "PlayInvest",
+    "url": "https://playinvest.com.br/dividendos/mlas3"
+  },
+  "updatedAt": "2026-06-04T14:02:04",
+  "dividends": [
+    {
+      "comDate": "2026-01-05",
+      "paymentDate": "2026-01-13",
+      "type": "DIV",
+      "valuePerShare": 0.05046966326
+    },
+    {
+      "comDate": "2022-05-05",
+      "paymentDate": "2022-05-17",
+      "type": "DIV",
+      "valuePerShare": 0.123054608
+    }
+  ]
+}

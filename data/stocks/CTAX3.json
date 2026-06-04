@@ -1,0 +1,11 @@
+{
+  "ticker": "CTAX3",
+  "companyName": "contax",
+  "currentPrice": 0.52,
+  "source": {
+    "name": "PlayInvest",
+    "url": "https://playinvest.com.br/dividendos/ctax3"
+  },
+  "updatedAt": "2026-06-04T13:59:08",
+  "dividends": []
+}

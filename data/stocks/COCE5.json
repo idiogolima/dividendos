@@ -1,0 +1,162 @@
+{
+  "ticker": "COCE5",
+  "companyName": "coelce",
+  "currentPrice": 32.41,
+  "source": {
+    "name": "PlayInvest",
+    "url": "https://playinvest.com.br/dividendos/coce5"
+  },
+  "updatedAt": "2026-06-04T13:58:41",
+  "dividends": [
+    {
+      "comDate": "2026-04-29",
+      "paymentDate": "2026-12-31",
+      "type": "DIV",
+      "valuePerShare": 1.48326563
+    },
+    {
+      "comDate": "2025-04-29",
+      "paymentDate": "2025-12-23",
+      "type": "DIV",
+      "valuePerShare": 1.35156213
+    },
+    {
+      "comDate": "2024-04-30",
+      "paymentDate": "2024-12-23",
+      "type": "DIV",
+      "valuePerShare": 0.98825403
+    },
+    {
+      "comDate": "2023-04-25",
+      "paymentDate": "2023-12-20",
+      "type": "DIV",
+      "valuePerShare": 0.30795219
+    },
+    {
+      "comDate": "2022-10-13",
+      "paymentDate": "2022-12-01",
+      "type": "JCP",
+      "valuePerShare": 0.53946232
+    },
+    {
+      "comDate": "2022-07-01",
+      "paymentDate": null,
+      "type": "JCP",
+      "valuePerShare": 1.220212384
+    },
+    {
+      "comDate": "2022-04-12",
+      "paymentDate": "2022-12-16",
+      "type": "DIV",
+      "valuePerShare": 0.18378824
+    },
+    {
+      "comDate": "2021-10-26",
+      "paymentDate": "2021-11-29",
+      "type": "JCP",
+      "valuePerShare": 1.50278788
+    },
+    {
+      "comDate": "2021-04-26",
+      "paymentDate": "2021-12-27",
+      "type": "DIV",
+      "valuePerShare": 2.11368958
+    },
+    {
+      "comDate": "2020-04-28",
+      "paymentDate": "2020-12-18",
+      "type": "DIV",
+      "valuePerShare": 2.12371322
+    },
+    {
+      "comDate": "2019-04-29",
+      "paymentDate": "2019-12-10",
+      "type": "DIV",
+      "valuePerShare": 1.87015116
+    },
+    {
+      "comDate": "2018-04-26",
+      "paymentDate": "2018-12-11",
+      "type": "DIV",
+      "valuePerShare": 1.09163194
+    },
+    {
+      "comDate": "2017-04-25",
+      "paymentDate": "2017-12-12",
+      "type": "DIV",
+      "valuePerShare": 1.99216293
+    },
+    {
+      "comDate": "2016-04-27",
+      "paymentDate": "2016-12-15",
+      "type": "DIV",
+      "valuePerShare": 0.926046584
+    },
+    {
+      "comDate": "2015-04-27",
+      "paymentDate": "2015-12-10",
+      "type": "DIV",
+      "valuePerShare": 0.537017611
+    },
+    {
+      "comDate": "2014-04-16",
+      "paymentDate": "2014-12-10",
+      "type": "DIV",
+      "valuePerShare": 0.986818084
+    },
+    {
+      "comDate": "2013-04-29",
+      "paymentDate": "2013-12-10",
+      "type": "DIV",
+      "valuePerShare": 2.7486247275
+    },
+    {
+      "comDate": "2012-04-25",
+      "paymentDate": "2012-12-27",
+      "type": "DIV",
+      "valuePerShare": 3.5452297187
+    },
+    {
+      "comDate": "2011-04-29",
+      "paymentDate": "2011-12-09",
+      "type": "DIV",
+      "valuePerShare": 4.2725929291
+    },
+    {
+      "comDate": "2010-04-28",
+      "paymentDate": "2010-12-10",
+      "type": "DIV",
+      "valuePerShare": 2.73584461
+    },
+    {
+      "comDate": "2009-04-30",
+      "paymentDate": "2009-09-30",
+      "type": "DIV",
+      "valuePerShare": 0.8449323
+    },
+    {
+      "comDate": "2009-04-30",
+      "paymentDate": "2009-12-30",
+      "type": "DIV",
+      "valuePerShare": 1.6898646
+    },
+    {
+      "comDate": "2009-04-30",
+      "paymentDate": "2009-10-30",
+      "type": "DIV",
+      "valuePerShare": 0.8449323
+    },
+    {
+      "comDate": "2008-04-28",
+      "paymentDate": "2008-10-31",
+      "type": "DIV",
+      "valuePerShare": 0.785917133
+    },
+    {
+      "comDate": "2007-04-30",
+      "paymentDate": "2007-09-28",
+      "type": "DIV",
+      "valuePerShare": 0.45492328
+    }
+  ]
+}

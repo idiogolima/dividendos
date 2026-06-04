@@ -1,0 +1,18 @@
+{
+  "ticker": "NORD3",
+  "companyName": "nordon metal\u00fargicas",
+  "currentPrice": 1.86,
+  "source": {
+    "name": "PlayInvest",
+    "url": "https://playinvest.com.br/dividendos/nord3"
+  },
+  "updatedAt": "2026-06-04T14:02:31",
+  "dividends": [
+    {
+      "comDate": "1993-03-04",
+      "paymentDate": null,
+      "type": "DIV",
+      "valuePerShare": 85.3335
+    }
+  ]
+}

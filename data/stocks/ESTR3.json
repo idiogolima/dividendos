@@ -1,0 +1,11 @@
+{
+  "ticker": "ESTR3",
+  "companyName": "estrela",
+  "currentPrice": 3.01,
+  "source": {
+    "name": "PlayInvest",
+    "url": "https://playinvest.com.br/dividendos/estr3"
+  },
+  "updatedAt": "2026-06-04T14:00:03",
+  "dividends": []
+}

@@ -1,0 +1,108 @@
+{
+  "ticker": "BMGB4",
+  "companyName": "banco bmg",
+  "currentPrice": 5.03,
+  "source": {
+    "name": "PlayInvest",
+    "url": "https://playinvest.com.br/dividendos/bmgb4"
+  },
+  "updatedAt": "2026-06-04T13:57:09",
+  "dividends": [
+    {
+      "comDate": "2026-05-11",
+      "paymentDate": "2026-05-21",
+      "type": "JCP",
+      "valuePerShare": 0.1
+    },
+    {
+      "comDate": "2025-12-22",
+      "paymentDate": "2026-01-14",
+      "type": "JCP",
+      "valuePerShare": 0.147
+    },
+    {
+      "comDate": "2025-12-11",
+      "paymentDate": "2025-12-23",
+      "type": "JCP",
+      "valuePerShare": 0.1
+    },
+    {
+      "comDate": "2025-11-11",
+      "paymentDate": "2025-11-25",
+      "type": "JCP",
+      "valuePerShare": 0.1
+    },
+    {
+      "comDate": "2025-07-24",
+      "paymentDate": "2025-08-21",
+      "type": "JCP",
+      "valuePerShare": 0.1
+    },
+    {
+      "comDate": "2025-04-02",
+      "paymentDate": "2025-04-15",
+      "type": "JCP",
+      "valuePerShare": 0.1
+    },
+    {
+      "comDate": "2024-12-04",
+      "paymentDate": "2024-12-18",
+      "type": "JCP",
+      "valuePerShare": 0.118
+    },
+    {
+      "comDate": "2024-04-22",
+      "paymentDate": "2024-05-16",
+      "type": "JCP",
+      "valuePerShare": 0.084
+    },
+    {
+      "comDate": "2023-12-21",
+      "paymentDate": "2024-02-15",
+      "type": "JCP",
+      "valuePerShare": 0.3356
+    },
+    {
+      "comDate": "2023-10-23",
+      "paymentDate": "2023-11-14",
+      "type": "JCP",
+      "valuePerShare": 0.02
+    },
+    {
+      "comDate": "2023-04-24",
+      "paymentDate": "2023-05-16",
+      "type": "JCP",
+      "valuePerShare": 0.02
+    },
+    {
+      "comDate": "2022-12-22",
+      "paymentDate": "2023-02-16",
+      "type": "JCP",
+      "valuePerShare": 0.125207991
+    },
+    {
+      "comDate": "2022-10-21",
+      "paymentDate": "2022-11-16",
+      "type": "JCP",
+      "valuePerShare": 0.240124915
+    },
+    {
+      "comDate": "2021-12-27",
+      "paymentDate": "2022-02-18",
+      "type": "JCP",
+      "valuePerShare": 0.3155108
+    },
+    {
+      "comDate": "2020-12-29",
+      "paymentDate": "2021-04-01",
+      "type": "JCP",
+      "valuePerShare": 0.17860726211
+    },
+    {
+      "comDate": "2019-12-19",
+      "paymentDate": "2020-02-14",
+      "type": "JCP",
+      "valuePerShare": 0.25
+    }
+  ]
+}

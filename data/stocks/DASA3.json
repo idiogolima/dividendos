@@ -1,0 +1,114 @@
+{
+  "ticker": "DASA3",
+  "companyName": "dasa",
+  "currentPrice": 2.67,
+  "source": {
+    "name": "PlayInvest",
+    "url": "https://playinvest.com.br/dividendos/dasa3"
+  },
+  "updatedAt": "2026-06-04T13:59:20",
+  "dividends": [
+    {
+      "comDate": "2021-12-27",
+      "paymentDate": "2022-12-22",
+      "type": "JCP",
+      "valuePerShare": 0.30124582748
+    },
+    {
+      "comDate": "2021-01-12",
+      "paymentDate": "2021-04-30",
+      "type": "JCP",
+      "valuePerShare": 0.2853972
+    },
+    {
+      "comDate": "2019-12-30",
+      "paymentDate": "2020-02-20",
+      "type": "JCP",
+      "valuePerShare": 0.5634330269
+    },
+    {
+      "comDate": "2018-12-28",
+      "paymentDate": "2019-02-28",
+      "type": "JCP",
+      "valuePerShare": 0.5612267231
+    },
+    {
+      "comDate": "2018-01-01",
+      "paymentDate": "2017-12-29",
+      "type": "JCP",
+      "valuePerShare": 0.1352978276
+    },
+    {
+      "comDate": "2017-04-20",
+      "paymentDate": "2017-06-12",
+      "type": "DIV",
+      "valuePerShare": 0.0046
+    },
+    {
+      "comDate": "2016-12-29",
+      "paymentDate": "2017-01-31",
+      "type": "JCP",
+      "valuePerShare": 0.0804
+    },
+    {
+      "comDate": "2016-04-25",
+      "paymentDate": "2016-06-23",
+      "type": "DIV",
+      "valuePerShare": 0.02
+    },
+    {
+      "comDate": "2015-04-23",
+      "paymentDate": "2015-06-03",
+      "type": "DIV",
+      "valuePerShare": 0.062891857
+    },
+    {
+      "comDate": "2014-04-28",
+      "paymentDate": "2014-06-16",
+      "type": "DIV",
+      "valuePerShare": 0.101
+    },
+    {
+      "comDate": "2013-04-22",
+      "paymentDate": "2013-06-20",
+      "type": "DIV",
+      "valuePerShare": 0.066
+    },
+    {
+      "comDate": "2012-04-27",
+      "paymentDate": "2012-06-26",
+      "type": "DIV",
+      "valuePerShare": 0.0322
+    },
+    {
+      "comDate": "2011-10-03",
+      "paymentDate": "2012-06-26",
+      "type": "JCP",
+      "valuePerShare": 0.0966
+    },
+    {
+      "comDate": "2011-10-03",
+      "paymentDate": "2012-12-31",
+      "type": "JCP",
+      "valuePerShare": 0.0962145924
+    },
+    {
+      "comDate": "2010-12-28",
+      "paymentDate": "2011-06-28",
+      "type": "JCP",
+      "valuePerShare": 0.1309170669
+    },
+    {
+      "comDate": "2009-12-10",
+      "paymentDate": "2010-05-20",
+      "type": "JCP",
+      "valuePerShare": 0.409899106
+    },
+    {
+      "comDate": "2008-03-25",
+      "paymentDate": "2008-05-20",
+      "type": "DIV",
+      "valuePerShare": 0.2342668101
+    }
+  ]
+}

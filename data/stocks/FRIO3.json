@@ -1,0 +1,48 @@
+{
+  "ticker": "FRIO3",
+  "companyName": "metalfrio",
+  "currentPrice": 205.0,
+  "source": {
+    "name": "PlayInvest",
+    "url": "https://playinvest.com.br/dividendos/frio3"
+  },
+  "updatedAt": "2026-06-04T14:00:21",
+  "dividends": [
+    {
+      "comDate": "2011-06-28",
+      "paymentDate": "2011-07-15",
+      "type": "JCP",
+      "valuePerShare": 0.2337
+    },
+    {
+      "comDate": "2011-04-07",
+      "paymentDate": "2011-04-19",
+      "type": "DIV",
+      "valuePerShare": 0.449
+    },
+    {
+      "comDate": "2010-05-07",
+      "paymentDate": "2010-05-19",
+      "type": "DIV",
+      "valuePerShare": 0.302
+    },
+    {
+      "comDate": "2010-04-30",
+      "paymentDate": "2010-05-10",
+      "type": "DIV",
+      "valuePerShare": 0.2923
+    },
+    {
+      "comDate": "2009-11-10",
+      "paymentDate": "2009-11-17",
+      "type": "DIV",
+      "valuePerShare": 0.265
+    },
+    {
+      "comDate": "2008-04-08",
+      "paymentDate": "2008-04-17",
+      "type": "DIV",
+      "valuePerShare": 0.064
+    }
+  ]
+}

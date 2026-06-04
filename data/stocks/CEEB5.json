@@ -1,0 +1,180 @@
+{
+  "ticker": "CEEB5",
+  "companyName": "coelba",
+  "currentPrice": 43.01,
+  "source": {
+    "name": "PlayInvest",
+    "url": "https://playinvest.com.br/dividendos/ceeb5"
+  },
+  "updatedAt": "2026-06-04T13:58:21",
+  "dividends": [
+    {
+      "comDate": "2026-03-10",
+      "paymentDate": "2026-12-31",
+      "type": "JCP",
+      "valuePerShare": 0.5497112982
+    },
+    {
+      "comDate": "2025-12-30",
+      "paymentDate": "2026-12-31",
+      "type": "JCP",
+      "valuePerShare": 0.4939716685
+    },
+    {
+      "comDate": "2025-10-29",
+      "paymentDate": "2025-12-05",
+      "type": "DIV",
+      "valuePerShare": 3.8685731364
+    },
+    {
+      "comDate": "2025-10-02",
+      "paymentDate": "2025-12-31",
+      "type": "JCP",
+      "valuePerShare": 0.5215176845
+    },
+    {
+      "comDate": "2025-07-02",
+      "paymentDate": "2025-11-12",
+      "type": "JCP",
+      "valuePerShare": 0.455626194
+    },
+    {
+      "comDate": "2025-04-10",
+      "paymentDate": "2025-12-05",
+      "type": "DIV",
+      "valuePerShare": 0.3332052562
+    },
+    {
+      "comDate": "2025-04-01",
+      "paymentDate": "2025-11-12",
+      "type": "JCP",
+      "valuePerShare": 0.3916911808
+    },
+    {
+      "comDate": "2024-12-23",
+      "paymentDate": "2025-05-28",
+      "type": "JCP",
+      "valuePerShare": 0.3504942055
+    },
+    {
+      "comDate": "2024-09-30",
+      "paymentDate": "2024-12-20",
+      "type": "JCP",
+      "valuePerShare": 0.3125962429
+    },
+    {
+      "comDate": "2024-06-25",
+      "paymentDate": "2024-12-20",
+      "type": "JCP",
+      "valuePerShare": 0.2852055616
+    },
+    {
+      "comDate": "2024-04-15",
+      "paymentDate": "2024-12-20",
+      "type": "DIV",
+      "valuePerShare": 1.5604558144
+    },
+    {
+      "comDate": "2024-03-25",
+      "paymentDate": "2024-12-20",
+      "type": "JCP",
+      "valuePerShare": 0.2766288684
+    },
+    {
+      "comDate": "2024-01-04",
+      "paymentDate": "2024-12-20",
+      "type": "JCP",
+      "valuePerShare": 0.3858254476
+    },
+    {
+      "comDate": "2023-10-04",
+      "paymentDate": "2023-12-27",
+      "type": "JCP",
+      "valuePerShare": 0.4018656022
+    },
+    {
+      "comDate": "2023-07-31",
+      "paymentDate": "2023-12-27",
+      "type": "DIV",
+      "valuePerShare": 2.0970181342
+    },
+    {
+      "comDate": "2023-07-03",
+      "paymentDate": "2023-09-15",
+      "type": "JCP",
+      "valuePerShare": 0.4350887307
+    },
+    {
+      "comDate": "2023-04-18",
+      "paymentDate": "2023-05-04",
+      "type": "DIV",
+      "valuePerShare": 0.8088566689
+    },
+    {
+      "comDate": "2023-03-10",
+      "paymentDate": null,
+      "type": "JCP",
+      "valuePerShare": 0.424370638
+    },
+    {
+      "comDate": "2023-01-04",
+      "paymentDate": "2023-12-31",
+      "type": "JCP",
+      "valuePerShare": 0.3959628844
+    },
+    {
+      "comDate": "2022-10-05",
+      "paymentDate": "2022-12-31",
+      "type": "JCP",
+      "valuePerShare": 0.3795269963
+    },
+    {
+      "comDate": "2022-08-01",
+      "paymentDate": "2022-08-16",
+      "type": "DIV",
+      "valuePerShare": 2.5815143874
+    },
+    {
+      "comDate": "2022-07-05",
+      "paymentDate": null,
+      "type": "JCP",
+      "valuePerShare": 0.3904595988
+    },
+    {
+      "comDate": "2022-04-18",
+      "paymentDate": "2022-05-24",
+      "type": "DIV",
+      "valuePerShare": 2.2168226292
+    },
+    {
+      "comDate": "2022-04-04",
+      "paymentDate": null,
+      "type": "JCP",
+      "valuePerShare": 0.3581130016
+    },
+    {
+      "comDate": "2022-01-05",
+      "paymentDate": "2022-03-30",
+      "type": "JCP",
+      "valuePerShare": 0.5192246488
+    },
+    {
+      "comDate": "2021-12-03",
+      "paymentDate": "2021-12-21",
+      "type": "DIV",
+      "valuePerShare": 1.9403890019
+    },
+    {
+      "comDate": "2021-07-05",
+      "paymentDate": "2021-10-14",
+      "type": "JCP",
+      "valuePerShare": 0.5147569276
+    },
+    {
+      "comDate": "2021-07-05",
+      "paymentDate": "2021-07-23",
+      "type": "DIV",
+      "valuePerShare": 3.0352352204
+    }
+  ]
+}

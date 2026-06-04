@@ -1,0 +1,30 @@
+{
+  "ticker": "CBAV3",
+  "companyName": "cba",
+  "currentPrice": 10.78,
+  "source": {
+    "name": "PlayInvest",
+    "url": "https://playinvest.com.br/dividendos/cbav3"
+  },
+  "updatedAt": "2026-06-04T13:58:08",
+  "dividends": [
+    {
+      "comDate": "2026-04-29",
+      "paymentDate": "2026-05-13",
+      "type": "DIV",
+      "valuePerShare": 0.0441532902
+    },
+    {
+      "comDate": "2023-04-27",
+      "paymentDate": "2023-12-22",
+      "type": "DIV",
+      "valuePerShare": 0.34580615046
+    },
+    {
+      "comDate": "2022-12-06",
+      "paymentDate": "2022-12-15",
+      "type": "DIV",
+      "valuePerShare": 0.09478815332
+    }
+  ]
+}

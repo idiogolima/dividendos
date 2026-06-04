@@ -1,0 +1,36 @@
+{
+  "ticker": "CEAB3",
+  "companyName": "c&a",
+  "currentPrice": 10.95,
+  "source": {
+    "name": "PlayInvest",
+    "url": "https://playinvest.com.br/dividendos/ceab3"
+  },
+  "updatedAt": "2026-06-04T13:58:11",
+  "dividends": [
+    {
+      "comDate": "2025-12-23",
+      "paymentDate": null,
+      "type": "JCP",
+      "valuePerShare": 0.52159962
+    },
+    {
+      "comDate": "2025-04-30",
+      "paymentDate": "2025-12-23",
+      "type": "DIV",
+      "valuePerShare": 0.03777797
+    },
+    {
+      "comDate": "2024-12-30",
+      "paymentDate": "2025-12-23",
+      "type": "JCP",
+      "valuePerShare": 0.34469068
+    },
+    {
+      "comDate": "2019-12-30",
+      "paymentDate": "2020-12-23",
+      "type": "JCP",
+      "valuePerShare": 0.253477379
+    }
+  ]
+}

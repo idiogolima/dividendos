@@ -12,6 +12,7 @@ ROOT = Path(__file__).resolve().parents[1]
 DATA_DIR = ROOT / "data"
 STOCKS_DIR = DATA_DIR / "stocks"
 TICKERS_FILE = ROOT / "playinvest_tickers.json"
+FAILED_FILE = DATA_DIR / "failed-tickers.json"
 
 
 def load_tickers() -> list[str]:
@@ -130,19 +131,51 @@ def write_manifest(stocks: list[dict], featured_tickers: list[str]) -> None:
     )
 
 
+def load_existing_stock_files() -> list[dict]:
+    if not STOCKS_DIR.exists():
+        return []
+
+    stocks = []
+    for path in sorted(STOCKS_DIR.glob("*.json")):
+        try:
+            stocks.append(json.loads(path.read_text(encoding="utf-8")))
+        except json.JSONDecodeError:
+            continue
+    return stocks
+
+
 def main() -> None:
     tickers = load_tickers()
-    stocks = []
+    stocks_by_ticker = {stock["ticker"]: stock for stock in load_existing_stock_files()}
+    failures = []
 
     for ticker in tickers:
-        html = fetch_html(ticker)
-        stock_data = parse_stock_page(ticker, html)
-        write_stock_file(stock_data)
-        stocks.append(stock_data)
-        print(f"Atualizado {ticker}")
+        try:
+            html = fetch_html(ticker)
+            stock_data = parse_stock_page(ticker, html)
+            write_stock_file(stock_data)
+            stocks_by_ticker[stock_data["ticker"]] = stock_data
+            write_manifest(list(stocks_by_ticker.values()), featured_tickers=tickers)
+            print(f"Atualizado {ticker}")
+        except Exception as exc:
+            failures.append({"ticker": ticker, "error": str(exc)})
+            print(f"Falhou {ticker}: {exc}", file=sys.stderr)
 
-    write_manifest(stocks, featured_tickers=tickers)
-    print(f"Manifesto atualizado com {len(stocks)} ticker(s).")
+    write_manifest(list(stocks_by_ticker.values()), featured_tickers=tickers)
+    DATA_DIR.mkdir(parents=True, exist_ok=True)
+    FAILED_FILE.write_text(
+        json.dumps(
+            {
+                "updatedAt": datetime.now(timezone.utc).isoformat(),
+                "failures": failures,
+            },
+            ensure_ascii=True,
+            indent=2,
+        ) + "\n",
+        encoding="utf-8",
+    )
+    print(f"Manifesto atualizado com {len(stocks_by_ticker)} ticker(s).")
+    print(f"Falhas registradas: {len(failures)}.")
 
 
 if __name__ == "__main__":

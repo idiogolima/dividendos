@@ -1,0 +1,90 @@
+{
+  "ticker": "ECPR3",
+  "companyName": "encorpar",
+  "currentPrice": 90.25,
+  "source": {
+    "name": "PlayInvest",
+    "url": "https://playinvest.com.br/dividendos/ecpr3"
+  },
+  "updatedAt": "2026-06-04T13:59:35",
+  "dividends": [
+    {
+      "comDate": "2019-05-15",
+      "paymentDate": "2019-06-28",
+      "type": "DIV",
+      "valuePerShare": 2.0126
+    },
+    {
+      "comDate": "2018-05-01",
+      "paymentDate": "2018-07-16",
+      "type": "DIV",
+      "valuePerShare": 10.350974
+    },
+    {
+      "comDate": "2018-04-30",
+      "paymentDate": "2018-07-16",
+      "type": "DIV",
+      "valuePerShare": 10.351
+    },
+    {
+      "comDate": "2014-07-16",
+      "paymentDate": "2014-07-23",
+      "type": "DIV",
+      "valuePerShare": 7.0
+    },
+    {
+      "comDate": "2014-04-30",
+      "paymentDate": "2014-06-30",
+      "type": "DIV",
+      "valuePerShare": 2.3
+    },
+    {
+      "comDate": "2012-05-01",
+      "paymentDate": "2012-06-22",
+      "type": "DIV",
+      "valuePerShare": 10.0
+    },
+    {
+      "comDate": "2012-04-30",
+      "paymentDate": "2012-06-22",
+      "type": "DIV",
+      "valuePerShare": 10.0
+    },
+    {
+      "comDate": "2011-04-29",
+      "paymentDate": "2011-06-22",
+      "type": "DIV",
+      "valuePerShare": 1.2458
+    },
+    {
+      "comDate": "2010-04-30",
+      "paymentDate": "2010-06-25",
+      "type": "DIV",
+      "valuePerShare": 0.5852
+    },
+    {
+      "comDate": "2009-05-01",
+      "paymentDate": null,
+      "type": "DIV",
+      "valuePerShare": 0.59544
+    },
+    {
+      "comDate": "2009-04-30",
+      "paymentDate": "2010-06-25",
+      "type": "DIV",
+      "valuePerShare": 0.5954
+    },
+    {
+      "comDate": "2006-04-28",
+      "paymentDate": "2006-06-23",
+      "type": "DIV",
+      "valuePerShare": 3.0189
+    },
+    {
+      "comDate": "1998-05-04",
+      "paymentDate": null,
+      "type": "DIV",
+      "valuePerShare": 0.0485
+    }
+  ]
+}

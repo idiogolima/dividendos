@@ -1,0 +1,60 @@
+{
+  "ticker": "MNDL3",
+  "companyName": "mundial",
+  "currentPrice": 18.47,
+  "source": {
+    "name": "PlayInvest",
+    "url": "https://playinvest.com.br/dividendos/mndl3"
+  },
+  "updatedAt": "2026-06-04T14:02:06",
+  "dividends": [
+    {
+      "comDate": "2011-05-27",
+      "paymentDate": "2011-11-29",
+      "type": "JCP",
+      "valuePerShare": 0.0448
+    },
+    {
+      "comDate": "2008-05-08",
+      "paymentDate": null,
+      "type": "JCP",
+      "valuePerShare": 0.0409
+    },
+    {
+      "comDate": "2008-05-08",
+      "paymentDate": "2008-07-08",
+      "type": "JCP",
+      "valuePerShare": 0.00847265
+    },
+    {
+      "comDate": "2007-06-08",
+      "paymentDate": null,
+      "type": "JCP",
+      "valuePerShare": 0.0435
+    },
+    {
+      "comDate": "2007-06-08",
+      "paymentDate": "2007-10-09",
+      "type": "JCP",
+      "valuePerShare": 0.00897187
+    },
+    {
+      "comDate": "2003-08-15",
+      "paymentDate": null,
+      "type": "JCP",
+      "valuePerShare": 0.1022
+    },
+    {
+      "comDate": "2002-07-18",
+      "paymentDate": null,
+      "type": "DIV",
+      "valuePerShare": 0.1079
+    },
+    {
+      "comDate": "1996-11-04",
+      "paymentDate": "1996-11-18",
+      "type": "DIV",
+      "valuePerShare": 0.0068
+    }
+  ]
+}

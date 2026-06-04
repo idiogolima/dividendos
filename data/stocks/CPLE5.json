@@ -1,0 +1,102 @@
+{
+  "ticker": "CPLE5",
+  "companyName": "copel",
+  "currentPrice": 13.73,
+  "source": {
+    "name": "PlayInvest",
+    "url": "https://playinvest.com.br/dividendos/cple5"
+  },
+  "updatedAt": "2026-06-04T13:58:46",
+  "dividends": [
+    {
+      "comDate": "2025-12-30",
+      "paymentDate": "2026-06-30",
+      "type": "DIV",
+      "valuePerShare": 0.45460171311
+    },
+    {
+      "comDate": "2025-04-24",
+      "paymentDate": "2025-05-15",
+      "type": "DIV",
+      "valuePerShare": 0.43835344
+    },
+    {
+      "comDate": "2024-12-11",
+      "paymentDate": "2024-12-23",
+      "type": "JCP",
+      "valuePerShare": 0.20945359
+    },
+    {
+      "comDate": "2024-09-30",
+      "paymentDate": "2024-11-29",
+      "type": "DIV",
+      "valuePerShare": 0.07055498
+    },
+    {
+      "comDate": "2024-09-30",
+      "paymentDate": "2024-11-29",
+      "type": "JCP",
+      "valuePerShare": 0.09879225
+    },
+    {
+      "comDate": "2024-04-22",
+      "paymentDate": "2024-06-28",
+      "type": "DIV",
+      "valuePerShare": 0.14592215
+    },
+    {
+      "comDate": "2023-09-29",
+      "paymentDate": "2023-11-30",
+      "type": "JCP",
+      "valuePerShare": 0.15950586
+    },
+    {
+      "comDate": "2023-09-29",
+      "paymentDate": "2024-06-30",
+      "type": "JCP",
+      "valuePerShare": 0.17492162
+    },
+    {
+      "comDate": "2023-04-28",
+      "paymentDate": "2023-06-30",
+      "type": "DIV",
+      "valuePerShare": 0.08243238
+    },
+    {
+      "comDate": "2022-11-21",
+      "paymentDate": "2023-06-30",
+      "type": "JCP",
+      "valuePerShare": 0.14011292
+    },
+    {
+      "comDate": "2022-11-21",
+      "paymentDate": "2022-11-30",
+      "type": "JCP",
+      "valuePerShare": 0.22721013
+    },
+    {
+      "comDate": "2022-04-29",
+      "paymentDate": "2022-06-30",
+      "type": "DIV",
+      "valuePerShare": 0.51829476
+    },
+    {
+      "comDate": "2021-12-30",
+      "paymentDate": "2022-06-30",
+      "type": "JCP",
+      "valuePerShare": 0.10723314
+    },
+    {
+      "comDate": "2021-09-30",
+      "paymentDate": "2021-11-30",
+      "type": "DIV",
+      "valuePerShare": 0.45328533
+    },
+    {
+      "comDate": "2021-09-30",
+      "paymentDate": "2021-11-30",
+      "type": "JCP",
+      "valuePerShare": 0.09074606
+    }
+  ]
+}

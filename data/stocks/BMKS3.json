@@ -1,0 +1,132 @@
+{
+  "ticker": "BMKS3",
+  "companyName": "bicicletas monark",
+  "currentPrice": 390.0,
+  "source": {
+    "name": "PlayInvest",
+    "url": "https://playinvest.com.br/dividendos/bmks3"
+  },
+  "updatedAt": "2026-06-04T13:57:13",
+  "dividends": [
+    {
+      "comDate": "2026-04-30",
+      "paymentDate": "2026-06-29",
+      "type": "DIV",
+      "valuePerShare": 10.0581484552
+    },
+    {
+      "comDate": "2025-12-29",
+      "paymentDate": "2026-01-01",
+      "type": "DIV",
+      "valuePerShare": 20.0
+    },
+    {
+      "comDate": "2025-04-30",
+      "paymentDate": "2025-06-26",
+      "type": "DIV",
+      "valuePerShare": 33.12921774601
+    },
+    {
+      "comDate": "2023-04-28",
+      "paymentDate": "2023-06-27",
+      "type": "DIV",
+      "valuePerShare": 57.7863186586
+    },
+    {
+      "comDate": "2022-04-29",
+      "paymentDate": "2022-06-28",
+      "type": "DIV",
+      "valuePerShare": 17.87755709731
+    },
+    {
+      "comDate": "2021-04-30",
+      "paymentDate": "2021-06-29",
+      "type": "DIV",
+      "valuePerShare": 7.92787487631
+    },
+    {
+      "comDate": "2020-04-30",
+      "paymentDate": "2020-06-29",
+      "type": "DIV",
+      "valuePerShare": 6.0839
+    },
+    {
+      "comDate": "2019-04-26",
+      "paymentDate": "2019-06-25",
+      "type": "DIV",
+      "valuePerShare": 8.38
+    },
+    {
+      "comDate": "2018-04-27",
+      "paymentDate": "2018-06-26",
+      "type": "DIV",
+      "valuePerShare": 17.83
+    },
+    {
+      "comDate": "2017-04-28",
+      "paymentDate": "2017-06-27",
+      "type": "DIV",
+      "valuePerShare": 34.48
+    },
+    {
+      "comDate": "2016-04-29",
+      "paymentDate": "2016-06-28",
+      "type": "DIV",
+      "valuePerShare": 22.74
+    },
+    {
+      "comDate": "2015-04-29",
+      "paymentDate": "2015-06-26",
+      "type": "DIV",
+      "valuePerShare": 29.69
+    },
+    {
+      "comDate": "2014-04-25",
+      "paymentDate": "2014-06-24",
+      "type": "DIV",
+      "valuePerShare": 23.37
+    },
+    {
+      "comDate": "2013-04-26",
+      "paymentDate": "2013-06-26",
+      "type": "DIV",
+      "valuePerShare": 36.24
+    },
+    {
+      "comDate": "2012-05-01",
+      "paymentDate": "2012-06-29",
+      "type": "DIV",
+      "valuePerShare": 51.26
+    },
+    {
+      "comDate": "2012-04-30",
+      "paymentDate": "2012-06-29",
+      "type": "DIV",
+      "valuePerShare": 51.26
+    },
+    {
+      "comDate": "2011-04-28",
+      "paymentDate": "2011-06-27",
+      "type": "DIV",
+      "valuePerShare": 367.72
+    },
+    {
+      "comDate": "2010-04-29",
+      "paymentDate": "2010-06-29",
+      "type": "DIV",
+      "valuePerShare": 24.53
+    },
+    {
+      "comDate": "2009-04-29",
+      "paymentDate": "2009-06-29",
+      "type": "DIV",
+      "valuePerShare": 22.335349092
+    },
+    {
+      "comDate": "2008-04-29",
+      "paymentDate": "2008-06-27",
+      "type": "DIV",
+      "valuePerShare": 27.98
+    }
+  ]
+}

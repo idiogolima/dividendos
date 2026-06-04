@@ -1,0 +1,156 @@
+{
+  "ticker": "CAMB3",
+  "companyName": "cambuci",
+  "currentPrice": 9.56,
+  "source": {
+    "name": "PlayInvest",
+    "url": "https://playinvest.com.br/dividendos/camb3"
+  },
+  "updatedAt": "2026-06-04T13:58:02",
+  "dividends": [
+    {
+      "comDate": "2026-05-14",
+      "paymentDate": "2026-06-30",
+      "type": "JCP",
+      "valuePerShare": 0.14496481
+    },
+    {
+      "comDate": "2026-05-14",
+      "paymentDate": "2026-05-29",
+      "type": "DIV",
+      "valuePerShare": 0.2
+    },
+    {
+      "comDate": "2026-03-18",
+      "paymentDate": "2026-03-31",
+      "type": "JCP",
+      "valuePerShare": 0.14266956
+    },
+    {
+      "comDate": "2025-11-18",
+      "paymentDate": "2025-11-28",
+      "type": "DIV",
+      "valuePerShare": 0.3
+    },
+    {
+      "comDate": "2025-11-18",
+      "paymentDate": "2025-12-30",
+      "type": "JCP",
+      "valuePerShare": 0.102
+    },
+    {
+      "comDate": "2025-08-13",
+      "paymentDate": "2025-09-30",
+      "type": "JCP",
+      "valuePerShare": 0.13307004
+    },
+    {
+      "comDate": "2025-08-13",
+      "paymentDate": "2025-08-29",
+      "type": "DIV",
+      "valuePerShare": 0.2
+    },
+    {
+      "comDate": "2025-05-15",
+      "paymentDate": "2025-06-30",
+      "type": "JCP",
+      "valuePerShare": 0.12386165
+    },
+    {
+      "comDate": "2025-05-15",
+      "paymentDate": "2025-05-30",
+      "type": "DIV",
+      "valuePerShare": 0.1
+    },
+    {
+      "comDate": "2025-03-14",
+      "paymentDate": "2025-03-31",
+      "type": "JCP",
+      "valuePerShare": 0.09823501
+    },
+    {
+      "comDate": "2024-11-12",
+      "paymentDate": "2024-11-28",
+      "type": "DIV",
+      "valuePerShare": 0.2
+    },
+    {
+      "comDate": "2024-11-12",
+      "paymentDate": "2024-12-27",
+      "type": "JCP",
+      "valuePerShare": 0.08537155
+    },
+    {
+      "comDate": "2024-08-12",
+      "paymentDate": "2024-09-27",
+      "type": "JCP",
+      "valuePerShare": 0.08363745
+    },
+    {
+      "comDate": "2024-08-12",
+      "paymentDate": "2024-08-28",
+      "type": "DIV",
+      "valuePerShare": 0.15
+    },
+    {
+      "comDate": "2024-06-11",
+      "paymentDate": "2024-06-28",
+      "type": "JCP",
+      "valuePerShare": 0.02708725
+    },
+    {
+      "comDate": "2024-05-23",
+      "paymentDate": "2024-06-06",
+      "type": "DIV",
+      "valuePerShare": 0.1
+    },
+    {
+      "comDate": "2024-04-02",
+      "paymentDate": "2024-04-17",
+      "type": "JCP",
+      "valuePerShare": 0.02026988
+    },
+    {
+      "comDate": "2023-12-04",
+      "paymentDate": "2023-12-28",
+      "type": "JCP",
+      "valuePerShare": 0.08091174
+    },
+    {
+      "comDate": "2023-06-15",
+      "paymentDate": "2023-06-30",
+      "type": "JCP",
+      "valuePerShare": 0.07280082
+    },
+    {
+      "comDate": "2023-03-15",
+      "paymentDate": "2023-03-31",
+      "type": "JCP",
+      "valuePerShare": 0.06542711
+    },
+    {
+      "comDate": "2022-12-09",
+      "paymentDate": "2022-12-29",
+      "type": "JCP",
+      "valuePerShare": 0.06031348
+    },
+    {
+      "comDate": "2022-09-15",
+      "paymentDate": "2022-09-30",
+      "type": "JCP",
+      "valuePerShare": 0.05149425
+    },
+    {
+      "comDate": "2022-06-20",
+      "paymentDate": "2022-06-30",
+      "type": "JCP",
+      "valuePerShare": 0.04403369
+    },
+    {
+      "comDate": "2022-04-18",
+      "paymentDate": "2022-04-29",
+      "type": "JCP",
+      "valuePerShare": 0.036682527
+    }
+  ]
+}

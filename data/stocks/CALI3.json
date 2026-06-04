@@ -1,0 +1,42 @@
+{
+  "ticker": "CALI3",
+  "companyName": "adolfo lindeberg",
+  "currentPrice": 24.96,
+  "source": {
+    "name": "PlayInvest",
+    "url": "https://playinvest.com.br/dividendos/cali3"
+  },
+  "updatedAt": "2026-06-04T13:57:59",
+  "dividends": [
+    {
+      "comDate": "2026-04-17",
+      "paymentDate": "2026-05-15",
+      "type": "DIV",
+      "valuePerShare": 0.903847271
+    },
+    {
+      "comDate": "2026-03-11",
+      "paymentDate": "2026-06-30",
+      "type": "DIV",
+      "valuePerShare": 0.903847271
+    },
+    {
+      "comDate": "2025-04-24",
+      "paymentDate": "2025-06-25",
+      "type": "DIV",
+      "valuePerShare": 0.270179549
+    },
+    {
+      "comDate": "2024-04-15",
+      "paymentDate": "2024-05-23",
+      "type": "DIV",
+      "valuePerShare": 0.617768929
+    },
+    {
+      "comDate": "2023-04-24",
+      "paymentDate": "2023-06-13",
+      "type": "DIV",
+      "valuePerShare": 0.446789565
+    }
+  ]
+}

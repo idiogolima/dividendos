@@ -1,0 +1,84 @@
+{
+  "ticker": "PETZ3",
+  "companyName": "pet center comercio e participacoes s.a.",
+  "currentPrice": 4.18,
+  "source": {
+    "name": "PlayInvest",
+    "url": "https://playinvest.com.br/dividendos/petz3"
+  },
+  "updatedAt": "2026-06-04T14:02:53",
+  "dividends": [
+    {
+      "comDate": "2024-11-13",
+      "paymentDate": "2024-11-29",
+      "type": "DIV",
+      "valuePerShare": 0.2882972472
+    },
+    {
+      "comDate": "2024-04-30",
+      "paymentDate": "2024-05-27",
+      "type": "DIV",
+      "valuePerShare": 0.0027759945
+    },
+    {
+      "comDate": "2023-06-30",
+      "paymentDate": "2024-05-27",
+      "type": "JCP",
+      "valuePerShare": 0.00648688977
+    },
+    {
+      "comDate": "2023-04-24",
+      "paymentDate": "2023-05-29",
+      "type": "DIV",
+      "valuePerShare": 0.01054754952
+    },
+    {
+      "comDate": "2022-06-30",
+      "paymentDate": null,
+      "type": "JCP",
+      "valuePerShare": 0.01269064
+    },
+    {
+      "comDate": "2022-06-28",
+      "paymentDate": null,
+      "type": "JCP",
+      "valuePerShare": 0.00652258735
+    },
+    {
+      "comDate": "2022-04-26",
+      "paymentDate": "2022-12-31",
+      "type": "DIV",
+      "valuePerShare": 0.00470936
+    },
+    {
+      "comDate": "2022-04-26",
+      "paymentDate": "2022-12-31",
+      "type": "DIV",
+      "valuePerShare": 0.00470936
+    },
+    {
+      "comDate": "2021-12-23",
+      "paymentDate": null,
+      "type": "JCP",
+      "valuePerShare": 0.02298544557
+    },
+    {
+      "comDate": "2021-06-30",
+      "paymentDate": "2022-06-30",
+      "type": "JCP",
+      "valuePerShare": 0.01269063884
+    },
+    {
+      "comDate": "2021-04-30",
+      "paymentDate": "2021-05-25",
+      "type": "DIV",
+      "valuePerShare": 0.00656632017
+    },
+    {
+      "comDate": "2020-12-22",
+      "paymentDate": "2021-05-25",
+      "type": "JCP",
+      "valuePerShare": 0.033149
+    }
+  ]
+}

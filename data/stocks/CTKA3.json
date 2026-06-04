@@ -1,0 +1,72 @@
+{
+  "ticker": "CTKA3",
+  "companyName": "karsten",
+  "currentPrice": 46.39,
+  "source": {
+    "name": "PlayInvest",
+    "url": "https://playinvest.com.br/dividendos/ctka3"
+  },
+  "updatedAt": "2026-06-04T13:59:10",
+  "dividends": [
+    {
+      "comDate": "2011-04-29",
+      "paymentDate": "2011-05-11",
+      "type": "DIV",
+      "valuePerShare": 0.1678
+    },
+    {
+      "comDate": "2010-12-20",
+      "paymentDate": "2011-05-02",
+      "type": "JCP",
+      "valuePerShare": 0.2345
+    },
+    {
+      "comDate": "2009-12-14",
+      "paymentDate": "2010-04-27",
+      "type": "JCP",
+      "valuePerShare": 0.082
+    },
+    {
+      "comDate": "2007-12-12",
+      "paymentDate": "2008-04-16",
+      "type": "JCP",
+      "valuePerShare": 2.9538
+    },
+    {
+      "comDate": "2005-12-12",
+      "paymentDate": "2006-05-02",
+      "type": "JCP",
+      "valuePerShare": 1.0502
+    },
+    {
+      "comDate": "2005-04-07",
+      "paymentDate": "2005-04-15",
+      "type": "DIV",
+      "valuePerShare": 0.2576
+    },
+    {
+      "comDate": "2004-12-15",
+      "paymentDate": "2005-04-15",
+      "type": "JCP",
+      "valuePerShare": 3.0851
+    },
+    {
+      "comDate": "2003-12-15",
+      "paymentDate": "2004-04-19",
+      "type": "JCP",
+      "valuePerShare": 3.282
+    },
+    {
+      "comDate": "2002-12-16",
+      "paymentDate": "2003-04-22",
+      "type": "JCP",
+      "valuePerShare": 4.2666
+    },
+    {
+      "comDate": "2001-12-13",
+      "paymentDate": "2002-04-17",
+      "type": "JCP",
+      "valuePerShare": 3.1507
+    }
+  ]
+}

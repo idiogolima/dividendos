@@ -1,0 +1,42 @@
+{
+  "ticker": "JALL3",
+  "companyName": "jallesmachad",
+  "currentPrice": 2.55,
+  "source": {
+    "name": "PlayInvest",
+    "url": "https://playinvest.com.br/dividendos/jall3"
+  },
+  "updatedAt": "2026-06-04T14:01:17",
+  "dividends": [
+    {
+      "comDate": "2024-07-25",
+      "paymentDate": "2024-09-20",
+      "type": "DIV",
+      "valuePerShare": 0.0676945601
+    },
+    {
+      "comDate": "2023-07-31",
+      "paymentDate": "2023-09-25",
+      "type": "DIV",
+      "valuePerShare": 0.44260702986
+    },
+    {
+      "comDate": "2022-07-26",
+      "paymentDate": "2022-08-25",
+      "type": "DIV",
+      "valuePerShare": 0.1779076129
+    },
+    {
+      "comDate": "2021-12-08",
+      "paymentDate": "2021-12-23",
+      "type": "JCP",
+      "valuePerShare": 0.155111249
+    },
+    {
+      "comDate": "2021-07-27",
+      "paymentDate": "2021-08-24",
+      "type": "DIV",
+      "valuePerShare": 0.13869706
+    }
+  ]
+}

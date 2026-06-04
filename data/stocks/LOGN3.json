@@ -1,0 +1,42 @@
+{
+  "ticker": "LOGN3",
+  "companyName": "log-in",
+  "currentPrice": 28.45,
+  "source": {
+    "name": "PlayInvest",
+    "url": "https://playinvest.com.br/dividendos/logn3"
+  },
+  "updatedAt": "2026-06-04T14:01:42",
+  "dividends": [
+    {
+      "comDate": "2009-03-17",
+      "paymentDate": "2009-05-06",
+      "type": "DIV",
+      "valuePerShare": 0.2313
+    },
+    {
+      "comDate": "2008-04-04",
+      "paymentDate": "2008-04-28",
+      "type": "DIV",
+      "valuePerShare": 0.067403
+    },
+    {
+      "comDate": "2008-04-04",
+      "paymentDate": "2008-04-28",
+      "type": "JCP",
+      "valuePerShare": 0.114746
+    },
+    {
+      "comDate": "2008-03-04",
+      "paymentDate": "2008-04-28",
+      "type": "DIV",
+      "valuePerShare": 0.0674
+    },
+    {
+      "comDate": "2008-03-04",
+      "paymentDate": "2008-04-28",
+      "type": "JCP",
+      "valuePerShare": 0.1147
+    }
+  ]
+}

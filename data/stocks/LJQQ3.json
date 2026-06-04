@@ -1,0 +1,36 @@
+{
+  "ticker": "LJQQ3",
+  "companyName": "lojas quero-quero s/a",
+  "currentPrice": 1.37,
+  "source": {
+    "name": "PlayInvest",
+    "url": "https://playinvest.com.br/dividendos/ljqq3"
+  },
+  "updatedAt": "2026-06-04T14:01:39",
+  "dividends": [
+    {
+      "comDate": "2024-12-26",
+      "paymentDate": "2025-01-31",
+      "type": "JCP",
+      "valuePerShare": 0.12204448151
+    },
+    {
+      "comDate": "2023-12-28",
+      "paymentDate": "2024-02-08",
+      "type": "JCP",
+      "valuePerShare": 0.16870449628
+    },
+    {
+      "comDate": "2021-12-22",
+      "paymentDate": "2022-05-08",
+      "type": "JCP",
+      "valuePerShare": 0.1228014631
+    },
+    {
+      "comDate": "2020-12-22",
+      "paymentDate": "2021-05-07",
+      "type": "JCP",
+      "valuePerShare": 0.0672358768
+    }
+  ]
+}

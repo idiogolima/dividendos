@@ -1,0 +1,36 @@
+{
+  "ticker": "LAND3",
+  "companyName": "terra santa agro",
+  "currentPrice": 8.41,
+  "source": {
+    "name": "PlayInvest",
+    "url": "https://playinvest.com.br/dividendos/land3"
+  },
+  "updatedAt": "2026-06-04T14:01:32",
+  "dividends": [
+    {
+      "comDate": "2025-04-24",
+      "paymentDate": "2025-05-29",
+      "type": "DIV",
+      "valuePerShare": 0.0724014348
+    },
+    {
+      "comDate": "2024-04-26",
+      "paymentDate": "2024-05-24",
+      "type": "DIV",
+      "valuePerShare": 0.086931164
+    },
+    {
+      "comDate": "2023-03-17",
+      "paymentDate": "2023-03-28",
+      "type": "JCP",
+      "valuePerShare": 0.883510906
+    },
+    {
+      "comDate": "2023-03-17",
+      "paymentDate": "2023-05-05",
+      "type": "JCP",
+      "valuePerShare": 0.470951029
+    }
+  ]
+}

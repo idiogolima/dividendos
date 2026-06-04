@@ -1,0 +1,30 @@
+{
+  "ticker": "ELMD3",
+  "companyName": "eletromidia",
+  "currentPrice": 31.0,
+  "source": {
+    "name": "PlayInvest",
+    "url": "https://playinvest.com.br/dividendos/elmd3"
+  },
+  "updatedAt": "2026-06-04T13:59:42",
+  "dividends": [
+    {
+      "comDate": "2025-04-30",
+      "paymentDate": null,
+      "type": "DIV",
+      "valuePerShare": 0.19911456513
+    },
+    {
+      "comDate": "2024-04-26",
+      "paymentDate": "2024-05-24",
+      "type": "DIV",
+      "valuePerShare": 0.0216604636
+    },
+    {
+      "comDate": "2024-04-26",
+      "paymentDate": "2024-05-24",
+      "type": "DIV",
+      "valuePerShare": 0.06498139093
+    }
+  ]
+}

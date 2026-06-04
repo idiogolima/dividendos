@@ -35,6 +35,7 @@ bootstrap();
 
 async function bootstrap() {
   registerServiceWorker();
+  hydrateInputsFromUrl();
 
   try {
     dataManifest = await fetchManifest();
@@ -89,7 +90,7 @@ async function loadTicker({ ticker, years, percent }) {
     const viewModel = buildViewModel({ stockData, ticker, years, percent });
     renderResult(viewModel);
     localStorage.setItem(APP_CACHE_KEY, JSON.stringify(viewModel));
-    setFeedback(`Consulta concluida para ${ticker} com dados da PlayInvest.`);
+    setFeedback(`Consulta concluida para ${ticker}.`);
   } catch (error) {
     const cached = readCachedResult();
 
@@ -112,7 +113,7 @@ async function fetchStockData(ticker) {
 
   if (response.status === 404) {
     throw new Error(
-      `O ticker ${ticker} nao possui arquivo local gerado. Adicione-o ao workflow de atualizacao da PlayInvest.`
+      `O ticker ${ticker} nao possui arquivo local gerado. Atualize a base local para incluí-lo.`
     );
   }
 
@@ -167,7 +168,7 @@ function buildViewModel({ stockData, ticker, years, percent }) {
     lastDividend,
     yearlyTotals,
     events: filteredDividends.slice(-12).reverse(),
-    sourceName: stockData.source?.name || "PlayInvest",
+    sourceName: stockData.source?.name || "Base local",
     sourceUrl: stockData.source?.url || null,
   };
 }
@@ -230,12 +231,6 @@ function renderDetails(model) {
     {
       title: "Comparacao com a cotacao",
       body: buildPriceComparison(model),
-    },
-    {
-      title: "Fonte dos dados",
-      body: model.sourceUrl
-        ? `<a href="${model.sourceUrl}" target="_blank" rel="noreferrer">${model.sourceName}</a>`
-        : model.sourceName,
     },
   ];
 
@@ -428,5 +423,14 @@ async function registerServiceWorker() {
     await navigator.serviceWorker.register("./service-worker.js");
   } catch (_error) {
     // Falha de registro nao impede o app de funcionar online.
+  }
+}
+
+function hydrateInputsFromUrl() {
+  const params = new URLSearchParams(window.location.search);
+  const ticker = params.get("ticker");
+
+  if (ticker) {
+    tickerInput.value = ticker.toUpperCase();
   }
 }

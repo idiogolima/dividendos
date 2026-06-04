@@ -1,0 +1,78 @@
+{
+  "ticker": "BAUH4",
+  "companyName": "excelsior",
+  "currentPrice": 93.9,
+  "source": {
+    "name": "PlayInvest",
+    "url": "https://playinvest.com.br/dividendos/bauh4"
+  },
+  "updatedAt": "2026-06-04T13:56:39",
+  "dividends": [
+    {
+      "comDate": "2026-04-24",
+      "paymentDate": "2026-06-22",
+      "type": "DIV",
+      "valuePerShare": 1.0858
+    },
+    {
+      "comDate": "2025-04-25",
+      "paymentDate": "2025-06-23",
+      "type": "DIV",
+      "valuePerShare": 1.23564
+    },
+    {
+      "comDate": "2024-04-29",
+      "paymentDate": "2024-06-21",
+      "type": "DIV",
+      "valuePerShare": 0.8189
+    },
+    {
+      "comDate": "2020-04-30",
+      "paymentDate": "2020-06-05",
+      "type": "DIV",
+      "valuePerShare": 0.858
+    },
+    {
+      "comDate": "2019-03-28",
+      "paymentDate": "2019-05-24",
+      "type": "DIV",
+      "valuePerShare": 0.4809
+    },
+    {
+      "comDate": "2018-04-17",
+      "paymentDate": "2018-06-14",
+      "type": "DIV",
+      "valuePerShare": 0.4508
+    },
+    {
+      "comDate": "2017-04-20",
+      "paymentDate": "2017-06-16",
+      "type": "DIV",
+      "valuePerShare": 0.3679
+    },
+    {
+      "comDate": "2016-04-25",
+      "paymentDate": "2016-06-21",
+      "type": "DIV",
+      "valuePerShare": 0.2642
+    },
+    {
+      "comDate": "2015-04-23",
+      "paymentDate": "2015-06-23",
+      "type": "DIV",
+      "valuePerShare": 0.4561
+    },
+    {
+      "comDate": "2014-04-24",
+      "paymentDate": "2014-06-18",
+      "type": "DIV",
+      "valuePerShare": 0.1857
+    },
+    {
+      "comDate": "1996-04-10",
+      "paymentDate": "1996-04-17",
+      "type": "DIV",
+      "valuePerShare": 0.1
+    }
+  ]
+}

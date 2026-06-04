@@ -1,0 +1,48 @@
+{
+  "ticker": "AURE3",
+  "companyName": "auren",
+  "currentPrice": 11.97,
+  "source": {
+    "name": "PlayInvest",
+    "url": "https://playinvest.com.br/dividendos/aure3"
+  },
+  "updatedAt": "2026-06-04T13:56:26",
+  "dividends": [
+    {
+      "comDate": "2025-04-24",
+      "paymentDate": "2025-05-05",
+      "type": "DIV",
+      "valuePerShare": 0.05703266433
+    },
+    {
+      "comDate": "2023-12-08",
+      "paymentDate": "2023-12-19",
+      "type": "DIV",
+      "valuePerShare": 1.5
+    },
+    {
+      "comDate": "2023-05-04",
+      "paymentDate": "2023-05-15",
+      "type": "DIV",
+      "valuePerShare": 1.5
+    },
+    {
+      "comDate": "2022-05-03",
+      "paymentDate": null,
+      "type": "DIV",
+      "valuePerShare": 0.041851716
+    },
+    {
+      "comDate": "2022-05-03",
+      "paymentDate": null,
+      "type": "DIV",
+      "valuePerShare": 0.044197712
+    },
+    {
+      "comDate": "2022-05-03",
+      "paymentDate": null,
+      "type": "DIV",
+      "valuePerShare": 0.013950572
+    }
+  ]
+}

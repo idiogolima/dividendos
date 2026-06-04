@@ -1,0 +1,48 @@
+{
+  "ticker": "DESK3",
+  "companyName": "desktop",
+  "currentPrice": 18.04,
+  "source": {
+    "name": "PlayInvest",
+    "url": "https://playinvest.com.br/dividendos/desk3"
+  },
+  "updatedAt": "2026-06-04T13:59:21",
+  "dividends": [
+    {
+      "comDate": "2026-04-29",
+      "paymentDate": "2026-12-30",
+      "type": "DIV",
+      "valuePerShare": 0.043930629
+    },
+    {
+      "comDate": "2025-12-18",
+      "paymentDate": "2026-01-06",
+      "type": "DIV",
+      "valuePerShare": 0.10238618131
+    },
+    {
+      "comDate": "2025-04-23",
+      "paymentDate": "2025-06-09",
+      "type": "DIV",
+      "valuePerShare": 0.03679792485
+    },
+    {
+      "comDate": "2024-04-19",
+      "paymentDate": "2024-12-27",
+      "type": "DIV",
+      "valuePerShare": 0.04214913726
+    },
+    {
+      "comDate": "2023-04-29",
+      "paymentDate": "2023-12-28",
+      "type": "DIV",
+      "valuePerShare": 0.01978157684
+    },
+    {
+      "comDate": "2022-04-29",
+      "paymentDate": "2022-12-22",
+      "type": "DIV",
+      "valuePerShare": 0.01408185
+    }
+  ]
+}

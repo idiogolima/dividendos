@@ -1,0 +1,366 @@
+{
+  "ticker": "BRAP3",
+  "companyName": "bradespar",
+  "currentPrice": 19.57,
+  "source": {
+    "name": "PlayInvest",
+    "url": "https://playinvest.com.br/dividendos/brap3"
+  },
+  "updatedAt": "2026-06-04T13:57:24",
+  "dividends": [
+    {
+      "comDate": "2025-12-15",
+      "paymentDate": "2026-03-13",
+      "type": "JCP",
+      "valuePerShare": 0.613940587
+    },
+    {
+      "comDate": "2025-12-15",
+      "paymentDate": "2026-03-13",
+      "type": "DIV",
+      "valuePerShare": 0.19110991
+    },
+    {
+      "comDate": "2025-12-15",
+      "paymentDate": "2025-12-30",
+      "type": "DIV",
+      "valuePerShare": 0.59721847
+    },
+    {
+      "comDate": "2025-11-12",
+      "paymentDate": "2025-11-24",
+      "type": "JCP",
+      "valuePerShare": 0.740550903
+    },
+    {
+      "comDate": "2025-04-25",
+      "paymentDate": "2025-05-15",
+      "type": "DIV",
+      "valuePerShare": 0.836105858
+    },
+    {
+      "comDate": "2024-12-19",
+      "paymentDate": "2025-05-15",
+      "type": "JCP",
+      "valuePerShare": 0.19110991
+    },
+    {
+      "comDate": "2024-11-12",
+      "paymentDate": "2024-11-21",
+      "type": "JCP",
+      "valuePerShare": 0.816994867
+    },
+    {
+      "comDate": "2024-04-29",
+      "paymentDate": "2024-05-15",
+      "type": "DIV",
+      "valuePerShare": 0.334442343
+    },
+    {
+      "comDate": "2024-04-29",
+      "paymentDate": "2024-05-15",
+      "type": "DIV",
+      "valuePerShare": 0.740550903
+    },
+    {
+      "comDate": "2023-11-21",
+      "paymentDate": "2023-12-04",
+      "type": "JCP",
+      "valuePerShare": 1.074993246
+    },
+    {
+      "comDate": "2023-11-21",
+      "paymentDate": "2023-12-04",
+      "type": "DIV",
+      "valuePerShare": 0.549440992
+    },
+    {
+      "comDate": "2023-04-27",
+      "paymentDate": "2023-05-15",
+      "type": "DIV",
+      "valuePerShare": 1.122770724
+    },
+    {
+      "comDate": "2022-12-26",
+      "paymentDate": "2023-05-15",
+      "type": "JCP",
+      "valuePerShare": 0.155276803
+    },
+    {
+      "comDate": "2022-11-09",
+      "paymentDate": "2022-11-21",
+      "type": "DIV",
+      "valuePerShare": 0.740550903
+    },
+    {
+      "comDate": "2022-11-09",
+      "paymentDate": "2022-11-21",
+      "type": "JCP",
+      "valuePerShare": 0.644995948
+    },
+    {
+      "comDate": "2022-04-29",
+      "paymentDate": "2022-05-10",
+      "type": "DIV",
+      "valuePerShare": 1.433324328
+    },
+    {
+      "comDate": "2021-12-16",
+      "paymentDate": "2021-12-29",
+      "type": "DIV",
+      "valuePerShare": 5.494409924
+    },
+    {
+      "comDate": "2021-07-15",
+      "paymentDate": "2021-07-26",
+      "type": "DIV",
+      "valuePerShare": 1.618907527
+    },
+    {
+      "comDate": "2021-03-31",
+      "paymentDate": "2021-05-12",
+      "type": "JCP",
+      "valuePerShare": 0.661053907
+    },
+    {
+      "comDate": "2021-03-31",
+      "paymentDate": "2021-05-12",
+      "type": "DIV",
+      "valuePerShare": 2.468833979
+    },
+    {
+      "comDate": "2020-11-11",
+      "paymentDate": "2020-11-19",
+      "type": "JCP",
+      "valuePerShare": 0.78247197
+    },
+    {
+      "comDate": "2020-11-11",
+      "paymentDate": "2020-11-19",
+      "type": "DIV",
+      "valuePerShare": 1.038798995
+    },
+    {
+      "comDate": "2019-12-27",
+      "paymentDate": "2020-08-20",
+      "type": "JCP",
+      "valuePerShare": 0.726619662
+    },
+    {
+      "comDate": "2019-04-30",
+      "paymentDate": "2019-05-15",
+      "type": "JCP",
+      "valuePerShare": 0.424234718
+    },
+    {
+      "comDate": "2019-04-30",
+      "paymentDate": "2019-05-15",
+      "type": "DIV",
+      "valuePerShare": 0.116601815
+    },
+    {
+      "comDate": "2018-12-28",
+      "paymentDate": "2019-01-31",
+      "type": "JCP",
+      "valuePerShare": 0.585504889
+    },
+    {
+      "comDate": "2018-04-27",
+      "paymentDate": "2018-05-15",
+      "type": "DIV",
+      "valuePerShare": 1.168182086
+    },
+    {
+      "comDate": "2017-12-22",
+      "paymentDate": "2018-03-29",
+      "type": "JCP",
+      "valuePerShare": 0.8688
+    },
+    {
+      "comDate": "2017-04-27",
+      "paymentDate": "2017-05-31",
+      "type": "DIV",
+      "valuePerShare": 0.4296
+    },
+    {
+      "comDate": "2016-12-22",
+      "paymentDate": "2017-01-09",
+      "type": "JCP",
+      "valuePerShare": 0.1009
+    },
+    {
+      "comDate": "2015-10-30",
+      "paymentDate": "2015-11-13",
+      "type": "JCP",
+      "valuePerShare": 0.3714
+    },
+    {
+      "comDate": "2015-04-24",
+      "paymentDate": "2015-05-15",
+      "type": "JCP",
+      "valuePerShare": 0.3481
+    },
+    {
+      "comDate": "2015-04-24",
+      "paymentDate": "2015-05-15",
+      "type": "DIV",
+      "valuePerShare": 0.2201
+    },
+    {
+      "comDate": "2014-10-31",
+      "paymentDate": "2014-11-14",
+      "type": "JCP",
+      "valuePerShare": 0.497
+    },
+    {
+      "comDate": "2014-10-31",
+      "paymentDate": "2014-11-14",
+      "type": "DIV",
+      "valuePerShare": 0.312927774
+    },
+    {
+      "comDate": "2014-04-28",
+      "paymentDate": "2014-05-15",
+      "type": "DIV",
+      "valuePerShare": 0.419240612
+    },
+    {
+      "comDate": "2014-04-28",
+      "paymentDate": "2014-05-15",
+      "type": "JCP",
+      "valuePerShare": 0.330422717
+    },
+    {
+      "comDate": "2013-04-29",
+      "paymentDate": "2013-05-15",
+      "type": "JCP",
+      "valuePerShare": 0.349227262
+    },
+    {
+      "comDate": "2013-04-29",
+      "paymentDate": "2013-05-15",
+      "type": "DIV",
+      "valuePerShare": 0.24180227
+    },
+    {
+      "comDate": "2012-10-31",
+      "paymentDate": "2012-11-14",
+      "type": "JCP",
+      "valuePerShare": 0.591091318
+    },
+    {
+      "comDate": "2012-10-31",
+      "paymentDate": "2012-11-14",
+      "type": "DIV",
+      "valuePerShare": 0.282428146
+    },
+    {
+      "comDate": "2012-04-27",
+      "paymentDate": "2012-05-15",
+      "type": "DIV",
+      "valuePerShare": 0.636496235
+    },
+    {
+      "comDate": "2012-04-27",
+      "paymentDate": "2012-05-15",
+      "type": "JCP",
+      "valuePerShare": 0.174613631
+    },
+    {
+      "comDate": "2011-10-31",
+      "paymentDate": "2011-11-14",
+      "type": "DIV",
+      "valuePerShare": 0.004835454
+    },
+    {
+      "comDate": "2011-10-31",
+      "paymentDate": "2011-11-14",
+      "type": "JCP",
+      "valuePerShare": 0.679649979
+    },
+    {
+      "comDate": "2011-04-28",
+      "paymentDate": "2011-05-13",
+      "type": "DIV",
+      "valuePerShare": 0.685022706
+    },
+    {
+      "comDate": "2011-04-28",
+      "paymentDate": "2011-05-13",
+      "type": "JCP",
+      "valuePerShare": 0.176225449
+    },
+    {
+      "comDate": "2010-10-29",
+      "paymentDate": "2010-11-12",
+      "type": "JCP",
+      "valuePerShare": 0.429818168
+    },
+    {
+      "comDate": "2010-10-29",
+      "paymentDate": "2010-11-12",
+      "type": "DIV",
+      "valuePerShare": 0.029872363
+    },
+    {
+      "comDate": "2010-04-30",
+      "paymentDate": "2010-05-14",
+      "type": "JCP",
+      "valuePerShare": 0.256279083
+    },
+    {
+      "comDate": "2010-04-30",
+      "paymentDate": "2010-05-14",
+      "type": "DIV",
+      "valuePerShare": 0.209025948
+    },
+    {
+      "comDate": "2009-11-02",
+      "paymentDate": "2009-11-13",
+      "type": "JCP",
+      "valuePerShare": 0.34378527
+    },
+    {
+      "comDate": "2009-11-02",
+      "paymentDate": "2009-11-13",
+      "type": "DIV",
+      "valuePerShare": 0.124514727
+    },
+    {
+      "comDate": "2009-05-01",
+      "paymentDate": "2009-05-15",
+      "type": "JCP",
+      "valuePerShare": 0.444235028
+    },
+    {
+      "comDate": "2009-05-01",
+      "paymentDate": "2009-05-15",
+      "type": "DIV",
+      "valuePerShare": 0.142294872
+    },
+    {
+      "comDate": "2008-10-31",
+      "paymentDate": "2008-11-14",
+      "type": "DIV",
+      "valuePerShare": 0.385442376
+    },
+    {
+      "comDate": "2008-10-31",
+      "paymentDate": "2008-11-14",
+      "type": "JCP",
+      "valuePerShare": 0.182635925
+    },
+    {
+      "comDate": "2008-05-01",
+      "paymentDate": "2008-05-15",
+      "type": "JCP",
+      "valuePerShare": 0.462419066
+    },
+    {
+      "comDate": "2007-10-31",
+      "paymentDate": "2007-11-14",
+      "type": "JCP",
+      "valuePerShare": 0.217512793
+    }
+  ]
+}

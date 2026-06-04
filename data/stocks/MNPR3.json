@@ -1,0 +1,30 @@
+{
+  "ticker": "MNPR3",
+  "companyName": "minupar",
+  "currentPrice": 4.02,
+  "source": {
+    "name": "PlayInvest",
+    "url": "https://playinvest.com.br/dividendos/mnpr3"
+  },
+  "updatedAt": "2026-06-04T14:02:06",
+  "dividends": [
+    {
+      "comDate": "2026-04-14",
+      "paymentDate": "2026-06-12",
+      "type": "DIV",
+      "valuePerShare": 0.12994323572
+    },
+    {
+      "comDate": "1999-04-30",
+      "paymentDate": "1999-06-01",
+      "type": "DIV",
+      "valuePerShare": 0.005
+    },
+    {
+      "comDate": "1996-04-29",
+      "paymentDate": null,
+      "type": "DIV",
+      "valuePerShare": 0.03
+    }
+  ]
+}

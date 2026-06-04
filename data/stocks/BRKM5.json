@@ -1,0 +1,102 @@
+{
+  "ticker": "BRKM5",
+  "companyName": "braskem",
+  "currentPrice": 9.43,
+  "source": {
+    "name": "PlayInvest",
+    "url": "https://playinvest.com.br/dividendos/brkm5"
+  },
+  "updatedAt": "2026-06-04T13:57:45",
+  "dividends": [
+    {
+      "comDate": "2022-04-19",
+      "paymentDate": "2022-05-02",
+      "type": "DIV",
+      "valuePerShare": 1.696348838321
+    },
+    {
+      "comDate": "2021-12-08",
+      "paymentDate": "2021-12-20",
+      "type": "DIV",
+      "valuePerShare": 7.539048791898
+    },
+    {
+      "comDate": "2019-10-03",
+      "paymentDate": "2019-12-30",
+      "type": "DIV",
+      "valuePerShare": 0.8386200278
+    },
+    {
+      "comDate": "2018-05-01",
+      "paymentDate": "2018-05-10",
+      "type": "DIV",
+      "valuePerShare": 1.885738062
+    },
+    {
+      "comDate": "2018-04-30",
+      "paymentDate": "2018-05-10",
+      "type": "DIV",
+      "valuePerShare": 1.8857
+    },
+    {
+      "comDate": "2017-12-01",
+      "paymentDate": "2017-12-12",
+      "type": "DIV",
+      "valuePerShare": 1.2567
+    },
+    {
+      "comDate": "2016-10-03",
+      "paymentDate": null,
+      "type": "DIV",
+      "valuePerShare": 1.2572
+    },
+    {
+      "comDate": "2016-04-06",
+      "paymentDate": "2016-04-15",
+      "type": "DIV",
+      "valuePerShare": 1.2567
+    },
+    {
+      "comDate": "2015-04-09",
+      "paymentDate": "2015-04-23",
+      "type": "DIV",
+      "valuePerShare": 0.6062
+    },
+    {
+      "comDate": "2014-04-09",
+      "paymentDate": "2014-04-23",
+      "type": "DIV",
+      "valuePerShare": 0.6062
+    },
+    {
+      "comDate": "2014-03-26",
+      "paymentDate": null,
+      "type": "DIV",
+      "valuePerShare": 0.606188802
+    },
+    {
+      "comDate": "2012-04-27",
+      "paymentDate": "2012-11-20",
+      "type": "DIV",
+      "valuePerShare": 0.6051
+    },
+    {
+      "comDate": "2011-04-29",
+      "paymentDate": "2011-05-10",
+      "type": "DIV",
+      "valuePerShare": 0.8332
+    },
+    {
+      "comDate": "2008-03-26",
+      "paymentDate": "2008-04-07",
+      "type": "DIV",
+      "valuePerShare": 0.6446
+    },
+    {
+      "comDate": "2007-03-28",
+      "paymentDate": "2007-04-09",
+      "type": "DIV",
+      "valuePerShare": 0.159
+    }
+  ]
+}

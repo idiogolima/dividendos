@@ -1,0 +1,18 @@
+{
+  "ticker": "ENEV3",
+  "companyName": "eneva",
+  "currentPrice": 24.23,
+  "source": {
+    "name": "PlayInvest",
+    "url": "https://playinvest.com.br/dividendos/enev3"
+  },
+  "updatedAt": "2026-06-04T13:59:48",
+  "dividends": [
+    {
+      "comDate": "2009-04-28",
+      "paymentDate": "2009-06-26",
+      "type": "DIV",
+      "valuePerShare": 7.0952
+    }
+  ]
+}

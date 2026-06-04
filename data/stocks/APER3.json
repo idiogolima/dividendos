@@ -1,0 +1,78 @@
+{
+  "ticker": "APER3",
+  "companyName": "alper",
+  "currentPrice": 46.75,
+  "source": {
+    "name": "PlayInvest",
+    "url": "https://playinvest.com.br/dividendos/aper3"
+  },
+  "updatedAt": "2026-06-04T13:56:21",
+  "dividends": [
+    {
+      "comDate": "2023-04-28",
+      "paymentDate": "2023-07-26",
+      "type": "DIV",
+      "valuePerShare": 0.32
+    },
+    {
+      "comDate": "2022-04-28",
+      "paymentDate": "2022-06-27",
+      "type": "DIV",
+      "valuePerShare": 0.0692295
+    },
+    {
+      "comDate": "2020-06-15",
+      "paymentDate": "2020-08-10",
+      "type": "DIV",
+      "valuePerShare": 0.05316737342
+    },
+    {
+      "comDate": "2015-04-30",
+      "paymentDate": "2015-05-15",
+      "type": "DIV",
+      "valuePerShare": 0.026
+    },
+    {
+      "comDate": "2014-04-30",
+      "paymentDate": "2014-05-15",
+      "type": "DIV",
+      "valuePerShare": 0.4365
+    },
+    {
+      "comDate": "2013-11-18",
+      "paymentDate": "2013-12-02",
+      "type": "DIV",
+      "valuePerShare": 0.2
+    },
+    {
+      "comDate": "2013-08-14",
+      "paymentDate": "2013-08-30",
+      "type": "DIV",
+      "valuePerShare": 0.2
+    },
+    {
+      "comDate": "2013-05-15",
+      "paymentDate": "2013-06-03",
+      "type": "DIV",
+      "valuePerShare": 0.2
+    },
+    {
+      "comDate": "2013-04-29",
+      "paymentDate": "2013-05-13",
+      "type": "DIV",
+      "valuePerShare": 1.125
+    },
+    {
+      "comDate": "2012-05-04",
+      "paymentDate": "2012-05-18",
+      "type": "DIV",
+      "valuePerShare": 0.9843
+    },
+    {
+      "comDate": "2011-04-29",
+      "paymentDate": "2011-06-27",
+      "type": "DIV",
+      "valuePerShare": 3.49
+    }
+  ]
+}

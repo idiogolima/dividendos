@@ -1,0 +1,11 @@
+{
+  "ticker": "MAPT3",
+  "companyName": "cemepe",
+  "currentPrice": 2.5,
+  "source": {
+    "name": "PlayInvest",
+    "url": "https://playinvest.com.br/dividendos/mapt3"
+  },
+  "updatedAt": "2026-06-04T14:01:49",
+  "dividends": []
+}

@@ -1,0 +1,84 @@
+{
+  "ticker": "EEEL4",
+  "companyName": "ceee-gt",
+  "currentPrice": 410.0,
+  "source": {
+    "name": "PlayInvest",
+    "url": "https://playinvest.com.br/dividendos/eeel4"
+  },
+  "updatedAt": "2026-06-04T13:59:38",
+  "dividends": [
+    {
+      "comDate": "2022-05-26",
+      "paymentDate": "2022-07-21",
+      "type": "DIV",
+      "valuePerShare": 18.19381782
+    },
+    {
+      "comDate": "2022-05-26",
+      "paymentDate": "2022-12-30",
+      "type": "DIV",
+      "valuePerShare": 5.29007193
+    },
+    {
+      "comDate": "2022-05-26",
+      "paymentDate": "2022-06-15",
+      "type": "DIV",
+      "valuePerShare": 109.16290695
+    },
+    {
+      "comDate": "2022-05-26",
+      "paymentDate": "2022-08-22",
+      "type": "DIV",
+      "valuePerShare": 5.16870445
+    },
+    {
+      "comDate": "2021-06-24",
+      "paymentDate": "2021-07-02",
+      "type": "DIV",
+      "valuePerShare": 25.89210751458
+    },
+    {
+      "comDate": "2021-05-05",
+      "paymentDate": "2021-07-02",
+      "type": "DIV",
+      "valuePerShare": 7.32871363049
+    },
+    {
+      "comDate": "2020-12-16",
+      "paymentDate": "2021-07-02",
+      "type": "JCP",
+      "valuePerShare": 8.417876676322
+    },
+    {
+      "comDate": "2020-05-06",
+      "paymentDate": "2020-12-22",
+      "type": "DIV",
+      "valuePerShare": 11.8376703921
+    },
+    {
+      "comDate": "2019-05-02",
+      "paymentDate": "2019-12-20",
+      "type": "DIV",
+      "valuePerShare": 15.881
+    },
+    {
+      "comDate": "2018-05-04",
+      "paymentDate": "2018-11-12",
+      "type": "DIV",
+      "valuePerShare": 15.881
+    },
+    {
+      "comDate": "2017-05-04",
+      "paymentDate": null,
+      "type": "DIV",
+      "valuePerShare": 15.88096
+    },
+    {
+      "comDate": "2017-05-04",
+      "paymentDate": "2017-12-20",
+      "type": "DIV",
+      "valuePerShare": 14.6494
+    }
+  ]
+}

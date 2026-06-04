@@ -1,0 +1,18 @@
+{
+  "ticker": "PDTC3",
+  "companyName": "padtec",
+  "currentPrice": 1.4,
+  "source": {
+    "name": "PlayInvest",
+    "url": "https://playinvest.com.br/dividendos/pdtc3"
+  },
+  "updatedAt": "2026-06-04T14:02:49",
+  "dividends": [
+    {
+      "comDate": "2024-04-26",
+      "paymentDate": "2024-06-25",
+      "type": "DIV",
+      "valuePerShare": 0.046220714
+    }
+  ]
+}

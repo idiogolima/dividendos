@@ -1,0 +1,18 @@
+{
+  "ticker": "MWET4",
+  "companyName": "wetzel",
+  "currentPrice": 14.0,
+  "source": {
+    "name": "PlayInvest",
+    "url": "https://playinvest.com.br/dividendos/mwet4"
+  },
+  "updatedAt": "2026-06-04T14:02:25",
+  "dividends": [
+    {
+      "comDate": "1989-05-31",
+      "paymentDate": null,
+      "type": "DIV",
+      "valuePerShare": 1.23
+    }
+  ]
+}

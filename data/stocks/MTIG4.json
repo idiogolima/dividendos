@@ -1,0 +1,78 @@
+{
+  "ticker": "MTIG4",
+  "companyName": "metal igua\u00e7u",
+  "currentPrice": 23.0,
+  "source": {
+    "name": "PlayInvest",
+    "url": "https://playinvest.com.br/dividendos/mtig4"
+  },
+  "updatedAt": "2026-06-04T14:02:18",
+  "dividends": [
+    {
+      "comDate": "2019-04-24",
+      "paymentDate": "2019-06-24",
+      "type": "DIV",
+      "valuePerShare": 0.4378
+    },
+    {
+      "comDate": "2012-01-02",
+      "paymentDate": "2011-02-28",
+      "type": "JCP",
+      "valuePerShare": 0.0008
+    },
+    {
+      "comDate": "2008-04-23",
+      "paymentDate": "2008-05-26",
+      "type": "DIV",
+      "valuePerShare": 0.0005
+    },
+    {
+      "comDate": "2007-04-18",
+      "paymentDate": "2007-05-21",
+      "type": "DIV",
+      "valuePerShare": 0.0008
+    },
+    {
+      "comDate": "2006-01-23",
+      "paymentDate": "2006-03-01",
+      "type": "JCP",
+      "valuePerShare": 0.0026
+    },
+    {
+      "comDate": "2005-02-04",
+      "paymentDate": "2005-06-25",
+      "type": "JCP",
+      "valuePerShare": 0.0054
+    },
+    {
+      "comDate": "2004-12-03",
+      "paymentDate": "2005-01-28",
+      "type": "JCP",
+      "valuePerShare": 0.0011
+    },
+    {
+      "comDate": "2004-11-03",
+      "paymentDate": "2004-12-29",
+      "type": "JCP",
+      "valuePerShare": 0.0018
+    },
+    {
+      "comDate": "2004-09-30",
+      "paymentDate": "2004-11-29",
+      "type": "JCP",
+      "valuePerShare": 0.0018
+    },
+    {
+      "comDate": "2004-09-01",
+      "paymentDate": "2004-10-29",
+      "type": "JCP",
+      "valuePerShare": 0.0017
+    },
+    {
+      "comDate": "2004-07-30",
+      "paymentDate": "2004-09-27",
+      "type": "JCP",
+      "valuePerShare": 0.0017
+    }
+  ]
+}

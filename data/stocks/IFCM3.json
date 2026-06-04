@@ -1,0 +1,11 @@
+{
+  "ticker": "IFCM3",
+  "companyName": "infracomm",
+  "currentPrice": 0.6,
+  "source": {
+    "name": "PlayInvest",
+    "url": "https://playinvest.com.br/dividendos/ifcm3"
+  },
+  "updatedAt": "2026-06-04T14:00:59",
+  "dividends": []
+}

@@ -1,0 +1,60 @@
+{
+  "ticker": "CASN3",
+  "companyName": "casan",
+  "currentPrice": 12.81,
+  "source": {
+    "name": "PlayInvest",
+    "url": "https://playinvest.com.br/dividendos/casn3"
+  },
+  "updatedAt": "2026-06-04T13:58:07",
+  "dividends": [
+    {
+      "comDate": "2026-04-28",
+      "paymentDate": "2026-12-17",
+      "type": "DIV",
+      "valuePerShare": 0.00295212975
+    },
+    {
+      "comDate": "2025-12-22",
+      "paymentDate": null,
+      "type": "JCP",
+      "valuePerShare": 0.02888849861
+    },
+    {
+      "comDate": "2025-09-25",
+      "paymentDate": null,
+      "type": "JCP",
+      "valuePerShare": 0.043
+    },
+    {
+      "comDate": "2025-04-22",
+      "paymentDate": "2025-09-12",
+      "type": "DIV",
+      "valuePerShare": 0.00476033633
+    },
+    {
+      "comDate": "2024-12-12",
+      "paymentDate": "2025-09-12",
+      "type": "JCP",
+      "valuePerShare": 0.043
+    },
+    {
+      "comDate": "2024-04-29",
+      "paymentDate": "2024-08-14",
+      "type": "DIV",
+      "valuePerShare": 0.01109216497
+    },
+    {
+      "comDate": "2023-04-28",
+      "paymentDate": "2023-12-20",
+      "type": "DIV",
+      "valuePerShare": 0.02196579632
+    },
+    {
+      "comDate": "2021-04-26",
+      "paymentDate": "2021-12-30",
+      "type": "DIV",
+      "valuePerShare": 0.034889108
+    }
+  ]
+}

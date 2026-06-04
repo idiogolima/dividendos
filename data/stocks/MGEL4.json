@@ -1,0 +1,84 @@
+{
+  "ticker": "MGEL4",
+  "companyName": "mangels",
+  "currentPrice": 5.23,
+  "source": {
+    "name": "PlayInvest",
+    "url": "https://playinvest.com.br/dividendos/mgel4"
+  },
+  "updatedAt": "2026-06-04T14:02:01",
+  "dividends": [
+    {
+      "comDate": "2011-04-29",
+      "paymentDate": "2011-06-20",
+      "type": "DIV",
+      "valuePerShare": 0.325
+    },
+    {
+      "comDate": "2010-04-30",
+      "paymentDate": "2010-06-22",
+      "type": "DIV",
+      "valuePerShare": 0.253
+    },
+    {
+      "comDate": "2009-05-01",
+      "paymentDate": null,
+      "type": "DIV",
+      "valuePerShare": 0.029989
+    },
+    {
+      "comDate": "2009-04-30",
+      "paymentDate": "2009-06-23",
+      "type": "DIV",
+      "valuePerShare": 0.03
+    },
+    {
+      "comDate": "2008-05-01",
+      "paymentDate": "2008-06-23",
+      "type": "DIV",
+      "valuePerShare": 1.0529
+    },
+    {
+      "comDate": "2008-04-30",
+      "paymentDate": null,
+      "type": "DIV",
+      "valuePerShare": 1.0555
+    },
+    {
+      "comDate": "2007-04-27",
+      "paymentDate": "2007-06-20",
+      "type": "DIV",
+      "valuePerShare": 0.154
+    },
+    {
+      "comDate": "2006-04-28",
+      "paymentDate": "2006-06-20",
+      "type": "DIV",
+      "valuePerShare": 0.33
+    },
+    {
+      "comDate": "2005-04-28",
+      "paymentDate": "2005-06-20",
+      "type": "DIV",
+      "valuePerShare": 0.54
+    },
+    {
+      "comDate": "2004-04-28",
+      "paymentDate": "2004-06-28",
+      "type": "DIV",
+      "valuePerShare": 0.21
+    },
+    {
+      "comDate": "2002-04-30",
+      "paymentDate": "2002-06-25",
+      "type": "DIV",
+      "valuePerShare": 0.0419
+    },
+    {
+      "comDate": "2001-04-25",
+      "paymentDate": "2001-06-18",
+      "type": "DIV",
+      "valuePerShare": 0.0855
+    }
+  ]
+}

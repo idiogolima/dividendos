@@ -1,0 +1,96 @@
+{
+  "ticker": "LOGG3",
+  "companyName": "log",
+  "currentPrice": 29.8,
+  "source": {
+    "name": "PlayInvest",
+    "url": "https://playinvest.com.br/dividendos/logg3"
+  },
+  "updatedAt": "2026-06-04T14:01:40",
+  "dividends": [
+    {
+      "comDate": "2026-06-11",
+      "paymentDate": "2026-07-01",
+      "type": "DIV",
+      "valuePerShare": 2.85994658535
+    },
+    {
+      "comDate": "2026-05-13",
+      "paymentDate": "2026-06-30",
+      "type": "DIV",
+      "valuePerShare": 0.36416685512
+    },
+    {
+      "comDate": "2025-12-18",
+      "paymentDate": "2025-12-29",
+      "type": "DIV",
+      "valuePerShare": 3.18760365971
+    },
+    {
+      "comDate": "2025-11-10",
+      "paymentDate": "2025-11-28",
+      "type": "DIV",
+      "valuePerShare": 0.30371793523
+    },
+    {
+      "comDate": "2025-08-08",
+      "paymentDate": "2025-09-11",
+      "type": "DIV",
+      "valuePerShare": 0.23739008545
+    },
+    {
+      "comDate": "2025-05-05",
+      "paymentDate": "2025-05-30",
+      "type": "DIV",
+      "valuePerShare": 0.2356256821
+    },
+    {
+      "comDate": "2024-12-10",
+      "paymentDate": "2024-12-17",
+      "type": "DIV",
+      "valuePerShare": 1.7176719229
+    },
+    {
+      "comDate": "2024-02-09",
+      "paymentDate": "2024-02-21",
+      "type": "DIV",
+      "valuePerShare": 0.69762425455
+    },
+    {
+      "comDate": "2023-02-13",
+      "paymentDate": "2023-02-23",
+      "type": "JCP",
+      "valuePerShare": 0.9177678646
+    },
+    {
+      "comDate": "2022-02-14",
+      "paymentDate": "2022-02-21",
+      "type": "DIV",
+      "valuePerShare": 0.866641612
+    },
+    {
+      "comDate": "2021-03-05",
+      "paymentDate": "2021-04-01",
+      "type": "DIV",
+      "valuePerShare": 0.32542770814
+    },
+    {
+      "comDate": "2020-05-19",
+      "paymentDate": "2020-05-29",
+      "type": "DIV",
+      "valuePerShare": 0.2116487
+    },
+    {
+      "comDate": "2020-05-19",
+      "paymentDate": "2020-05-29",
+      "type": "DIV",
+      "valuePerShare": 0.21174217678
+    },
+    {
+      "comDate": "2019-05-31",
+      "paymentDate": "2019-06-12",
+      "type": "DIV",
+      "valuePerShare": 0.1399772793
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "ticker": "MRSA3B",
+  "companyName": "mrs logist",
+  "currentPrice": 42.99,
+  "source": {
+    "name": "PlayInvest",
+    "url": "https://playinvest.com.br/dividendos/mrsa3b"
+  },
+  "updatedAt": "2026-06-04T14:02:12",
+  "dividends": [
+    {
+      "comDate": "2026-04-30",
+      "paymentDate": null,
+      "type": "DIV",
+      "valuePerShare": 1.04609408452
+    },
+    {
+      "comDate": "2025-04-30",
+      "paymentDate": "2025-12-19",
+      "type": "DIV",
+      "valuePerShare": 0.95221677928
+    },
+    {
+      "comDate": "2023-04-27",
+      "paymentDate": "2023-12-15",
+      "type": "DIV",
+      "valuePerShare": 0.5845611547
+    },
+    {
+      "comDate": "2022-04-26",
+      "paymentDate": "2022-12-16",
+      "type": "DIV",
+      "valuePerShare": 0.46781214311
+    },
+    {
+      "comDate": "2021-04-29",
+      "paymentDate": "2021-12-17",
+      "type": "DIV",
+      "valuePerShare": 0.2877293744
+    }
+  ]
+}

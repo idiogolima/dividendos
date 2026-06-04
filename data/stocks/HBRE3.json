@@ -1,0 +1,24 @@
+{
+  "ticker": "HBRE3",
+  "companyName": "hbr realty",
+  "currentPrice": 2.61,
+  "source": {
+    "name": "PlayInvest",
+    "url": "https://playinvest.com.br/dividendos/hbre3"
+  },
+  "updatedAt": "2026-06-04T14:00:46",
+  "dividends": [
+    {
+      "comDate": "2025-12-30",
+      "paymentDate": "2026-12-31",
+      "type": "DIV",
+      "valuePerShare": 0.87407147387
+    },
+    {
+      "comDate": "2025-12-30",
+      "paymentDate": "2028-12-31",
+      "type": "DIV",
+      "valuePerShare": 0.29135715796
+    }
+  ]
+}

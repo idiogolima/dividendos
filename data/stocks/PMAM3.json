@@ -1,0 +1,42 @@
+{
+  "ticker": "PMAM3",
+  "companyName": "paranapanema",
+  "currentPrice": 0.28,
+  "source": {
+    "name": "PlayInvest",
+    "url": "https://playinvest.com.br/dividendos/pmam3"
+  },
+  "updatedAt": "2026-06-04T14:03:01",
+  "dividends": [
+    {
+      "comDate": "2016-06-02",
+      "paymentDate": null,
+      "type": "DIV",
+      "valuePerShare": 0.2092
+    },
+    {
+      "comDate": "2016-04-29",
+      "paymentDate": "2019-12-30",
+      "type": "DIV",
+      "valuePerShare": 0.086539774
+    },
+    {
+      "comDate": "2016-04-04",
+      "paymentDate": null,
+      "type": "DIV",
+      "valuePerShare": 0.1916
+    },
+    {
+      "comDate": "2015-11-19",
+      "paymentDate": null,
+      "type": "DIV",
+      "valuePerShare": 0.1983
+    },
+    {
+      "comDate": "2011-04-29",
+      "paymentDate": "2011-05-16",
+      "type": "DIV",
+      "valuePerShare": 0.22
+    }
+  ]
+}

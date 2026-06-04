@@ -1,0 +1,114 @@
+{
+  "ticker": "MELK3",
+  "companyName": "melnick",
+  "currentPrice": 3.19,
+  "source": {
+    "name": "PlayInvest",
+    "url": "https://playinvest.com.br/dividendos/melk3"
+  },
+  "updatedAt": "2026-06-04T14:01:58",
+  "dividends": [
+    {
+      "comDate": "2026-04-29",
+      "paymentDate": "2026-12-31",
+      "type": "DIV",
+      "valuePerShare": 0.10037312151
+    },
+    {
+      "comDate": "2025-12-16",
+      "paymentDate": "2025-12-29",
+      "type": "DIV",
+      "valuePerShare": 0.2509779751
+    },
+    {
+      "comDate": "2025-12-16",
+      "paymentDate": "2025-12-29",
+      "type": "DIV",
+      "valuePerShare": 0.06529748412
+    },
+    {
+      "comDate": "2025-06-25",
+      "paymentDate": "2025-07-04",
+      "type": "DIV",
+      "valuePerShare": 0.10805442579
+    },
+    {
+      "comDate": "2025-04-29",
+      "paymentDate": "2025-07-04",
+      "type": "DIV",
+      "valuePerShare": 0.13606557567
+    },
+    {
+      "comDate": "2024-12-16",
+      "paymentDate": "2024-12-27",
+      "type": "DIV",
+      "valuePerShare": 0.19584119568
+    },
+    {
+      "comDate": "2024-04-29",
+      "paymentDate": "2024-06-05",
+      "type": "DIV",
+      "valuePerShare": 0.2042838737
+    },
+    {
+      "comDate": "2023-12-15",
+      "paymentDate": "2023-12-27",
+      "type": "DIV",
+      "valuePerShare": 0.08622798746
+    },
+    {
+      "comDate": "2023-10-04",
+      "paymentDate": "2023-10-17",
+      "type": "DIV",
+      "valuePerShare": 0.1963280501
+    },
+    {
+      "comDate": "2023-04-28",
+      "paymentDate": "2023-07-25",
+      "type": "DIV",
+      "valuePerShare": 0.27846229017
+    },
+    {
+      "comDate": "2022-11-16",
+      "paymentDate": "2023-01-11",
+      "type": "DIV",
+      "valuePerShare": 0.05440576904
+    },
+    {
+      "comDate": "2022-08-18",
+      "paymentDate": "2022-09-01",
+      "type": "DIV",
+      "valuePerShare": 0.03462185302
+    },
+    {
+      "comDate": "2022-05-19",
+      "paymentDate": "2022-06-09",
+      "type": "DIV",
+      "valuePerShare": 0.02967587402
+    },
+    {
+      "comDate": "2022-04-25",
+      "paymentDate": "2022-05-30",
+      "type": "DIV",
+      "valuePerShare": 0.090834546
+    },
+    {
+      "comDate": "2021-12-22",
+      "paymentDate": "2021-12-30",
+      "type": "DIV",
+      "valuePerShare": 0.06924370605
+    },
+    {
+      "comDate": "2021-11-16",
+      "paymentDate": "2021-11-24",
+      "type": "DIV",
+      "valuePerShare": 0.2077311181
+    },
+    {
+      "comDate": "2021-04-26",
+      "paymentDate": "2021-05-31",
+      "type": "DIV",
+      "valuePerShare": 0.00636047
+    }
+  ]
+}

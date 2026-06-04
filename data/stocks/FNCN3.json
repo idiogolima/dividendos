@@ -1,0 +1,24 @@
+{
+  "ticker": "FNCN3",
+  "companyName": "finansinos",
+  "currentPrice": 14.25,
+  "source": {
+    "name": "PlayInvest",
+    "url": "https://playinvest.com.br/dividendos/fncn3"
+  },
+  "updatedAt": "2026-06-04T14:00:20",
+  "dividends": [
+    {
+      "comDate": "2024-04-30",
+      "paymentDate": "2024-12-19",
+      "type": "DIV",
+      "valuePerShare": 0.34536943
+    },
+    {
+      "comDate": "2023-04-28",
+      "paymentDate": "2023-12-20",
+      "type": "DIV",
+      "valuePerShare": 0.53370316
+    }
+  ]
+}

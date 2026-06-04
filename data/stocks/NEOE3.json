@@ -1,0 +1,144 @@
+{
+  "ticker": "NEOE3",
+  "companyName": "neoenergia",
+  "currentPrice": 33.8,
+  "source": {
+    "name": "PlayInvest",
+    "url": "https://playinvest.com.br/dividendos/neoe3"
+  },
+  "updatedAt": "2026-06-04T14:02:28",
+  "dividends": [
+    {
+      "comDate": "2025-12-30",
+      "paymentDate": null,
+      "type": "JCP",
+      "valuePerShare": 0.0823860823
+    },
+    {
+      "comDate": "2025-12-30",
+      "paymentDate": "2026-02-09",
+      "type": "DIV",
+      "valuePerShare": 0.8106790501
+    },
+    {
+      "comDate": "2025-06-17",
+      "paymentDate": "2025-12-19",
+      "type": "JCP",
+      "valuePerShare": 0.2174992573
+    },
+    {
+      "comDate": "2025-04-17",
+      "paymentDate": "2025-12-19",
+      "type": "DIV",
+      "valuePerShare": 0.3500917192
+    },
+    {
+      "comDate": "2024-12-17",
+      "paymentDate": "2025-12-19",
+      "type": "JCP",
+      "valuePerShare": 0.2605277891
+    },
+    {
+      "comDate": "2024-07-01",
+      "paymentDate": "2024-12-20",
+      "type": "JCP",
+      "valuePerShare": 0.1648591816
+    },
+    {
+      "comDate": "2024-04-19",
+      "paymentDate": "2024-12-20",
+      "type": "DIV",
+      "valuePerShare": 0.2484207455
+    },
+    {
+      "comDate": "2024-01-04",
+      "paymentDate": "2024-12-20",
+      "type": "JCP",
+      "valuePerShare": 0.4164934687
+    },
+    {
+      "comDate": "2023-06-30",
+      "paymentDate": "2023-12-27",
+      "type": "JCP",
+      "valuePerShare": 0.3193050597
+    },
+    {
+      "comDate": "2023-04-27",
+      "paymentDate": "2023-12-27",
+      "type": "DIV",
+      "valuePerShare": 0.5838428214
+    },
+    {
+      "comDate": "2023-01-04",
+      "paymentDate": "2023-12-27",
+      "type": "JCP",
+      "valuePerShare": 0.2539543586
+    },
+    {
+      "comDate": "2022-07-05",
+      "paymentDate": "2022-12-28",
+      "type": "JCP",
+      "valuePerShare": 0.1376968479
+    },
+    {
+      "comDate": "2022-04-25",
+      "paymentDate": "2022-12-28",
+      "type": "DIV",
+      "valuePerShare": 0.5291396151
+    },
+    {
+      "comDate": "2022-01-05",
+      "paymentDate": "2022-03-30",
+      "type": "JCP",
+      "valuePerShare": 0.1318177317
+    },
+    {
+      "comDate": "2021-07-01",
+      "paymentDate": "2021-12-21",
+      "type": "JCP",
+      "valuePerShare": 0.1406397677
+    },
+    {
+      "comDate": "2021-04-12",
+      "paymentDate": "2021-12-21",
+      "type": "DIV",
+      "valuePerShare": 0.1653481665
+    },
+    {
+      "comDate": "2021-01-06",
+      "paymentDate": "2021-04-30",
+      "type": "JCP",
+      "valuePerShare": 0.2196808408
+    },
+    {
+      "comDate": "2020-06-18",
+      "paymentDate": "2020-12-10",
+      "type": "JCP",
+      "valuePerShare": 0.2293645009
+    },
+    {
+      "comDate": "2020-01-06",
+      "paymentDate": "2020-03-26",
+      "type": "JCP",
+      "valuePerShare": 0.1793503819
+    },
+    {
+      "comDate": "2019-07-03",
+      "paymentDate": "2019-08-07",
+      "type": "JCP",
+      "valuePerShare": 0.2784649582
+    },
+    {
+      "comDate": "2019-04-01",
+      "paymentDate": "2019-02-27",
+      "type": "JCP",
+      "valuePerShare": 0.2991817625
+    },
+    {
+      "comDate": "2018-10-29",
+      "paymentDate": "2018-11-14",
+      "type": "DIV",
+      "valuePerShare": 0.0543748143
+    }
+  ]
+}

@@ -1,0 +1,156 @@
+{
+  "ticker": "LIGT3",
+  "companyName": "light",
+  "currentPrice": 2.69,
+  "source": {
+    "name": "PlayInvest",
+    "url": "https://playinvest.com.br/dividendos/ligt3"
+  },
+  "updatedAt": "2026-06-04T14:01:37",
+  "dividends": [
+    {
+      "comDate": "2022-04-27",
+      "paymentDate": "2022-12-29",
+      "type": "DIV",
+      "valuePerShare": 0.25368599658
+    },
+    {
+      "comDate": "2021-04-29",
+      "paymentDate": "2021-07-30",
+      "type": "DIV",
+      "valuePerShare": 0.44109282
+    },
+    {
+      "comDate": "2019-04-29",
+      "paymentDate": "2019-12-20",
+      "type": "DIV",
+      "valuePerShare": 0.19306907
+    },
+    {
+      "comDate": "2018-04-27",
+      "paymentDate": "2018-05-30",
+      "type": "DIV",
+      "valuePerShare": 0.1447
+    },
+    {
+      "comDate": "2016-04-28",
+      "paymentDate": null,
+      "type": "DIV",
+      "valuePerShare": 0.0494
+    },
+    {
+      "comDate": "2015-04-10",
+      "paymentDate": "2015-12-30",
+      "type": "DIV",
+      "valuePerShare": 0.7719
+    },
+    {
+      "comDate": "2014-04-24",
+      "paymentDate": "2014-12-17",
+      "type": "DIV",
+      "valuePerShare": 1.789
+    },
+    {
+      "comDate": "2013-12-13",
+      "paymentDate": "2013-12-27",
+      "type": "JCP",
+      "valuePerShare": 0.527
+    },
+    {
+      "comDate": "2013-04-26",
+      "paymentDate": "2013-12-27",
+      "type": "DIV",
+      "valuePerShare": 0.45
+    },
+    {
+      "comDate": "2012-12-14",
+      "paymentDate": "2012-12-27",
+      "type": "DIV",
+      "valuePerShare": 0.833
+    },
+    {
+      "comDate": "2012-12-14",
+      "paymentDate": null,
+      "type": "JCP",
+      "valuePerShare": 0.075
+    },
+    {
+      "comDate": "2012-09-21",
+      "paymentDate": null,
+      "type": "JCP",
+      "valuePerShare": 0.35
+    },
+    {
+      "comDate": "2012-04-11",
+      "paymentDate": "2012-10-11",
+      "type": "DIV",
+      "valuePerShare": 0.89
+    },
+    {
+      "comDate": "2011-12-16",
+      "paymentDate": "2011-12-28",
+      "type": "DIV",
+      "valuePerShare": 0.58
+    },
+    {
+      "comDate": "2011-12-16",
+      "paymentDate": null,
+      "type": "JCP",
+      "valuePerShare": 0.4254
+    },
+    {
+      "comDate": "2011-04-28",
+      "paymentDate": "2011-05-18",
+      "type": "DIV",
+      "valuePerShare": 1.721043
+    },
+    {
+      "comDate": "2010-09-23",
+      "paymentDate": "2010-10-01",
+      "type": "DIV",
+      "valuePerShare": 1.78
+    },
+    {
+      "comDate": "2010-03-24",
+      "paymentDate": "2010-04-01",
+      "type": "JCP",
+      "valuePerShare": 2.12
+    },
+    {
+      "comDate": "2009-11-09",
+      "paymentDate": "2009-11-27",
+      "type": "DIV",
+      "valuePerShare": 0.46
+    },
+    {
+      "comDate": "2009-03-18",
+      "paymentDate": "2009-04-02",
+      "type": "DIV",
+      "valuePerShare": 2.0
+    },
+    {
+      "comDate": "2009-03-18",
+      "paymentDate": "2009-11-27",
+      "type": "DIV",
+      "valuePerShare": 0.45
+    },
+    {
+      "comDate": "2008-11-07",
+      "paymentDate": "2008-11-21",
+      "type": "DIV",
+      "valuePerShare": 1.72
+    },
+    {
+      "comDate": "2008-03-17",
+      "paymentDate": "2008-03-31",
+      "type": "DIV",
+      "valuePerShare": 1.0
+    },
+    {
+      "comDate": "2007-10-26",
+      "paymentDate": "2007-11-21",
+      "type": "DIV",
+      "valuePerShare": 0.0025459207
+    }
+  ]
+}

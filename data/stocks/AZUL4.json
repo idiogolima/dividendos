@@ -1,0 +1,11 @@
+{
+  "ticker": "AZUL4",
+  "companyName": "azul",
+  "currentPrice": 0.81,
+  "source": {
+    "name": "PlayInvest",
+    "url": "https://playinvest.com.br/dividendos/azul4"
+  },
+  "updatedAt": "2026-06-04T13:56:33",
+  "dividends": []
+}

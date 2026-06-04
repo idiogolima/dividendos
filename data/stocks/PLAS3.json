@@ -1,0 +1,30 @@
+{
+  "ticker": "PLAS3",
+  "companyName": "plascar",
+  "currentPrice": 2.93,
+  "source": {
+    "name": "PlayInvest",
+    "url": "https://playinvest.com.br/dividendos/plas3"
+  },
+  "updatedAt": "2026-06-04T14:02:58",
+  "dividends": [
+    {
+      "comDate": "2012-04-27",
+      "paymentDate": "2012-06-27",
+      "type": "DIV",
+      "valuePerShare": 0.0155
+    },
+    {
+      "comDate": "1998-04-30",
+      "paymentDate": "1998-09-01",
+      "type": "DIV",
+      "valuePerShare": 0.24
+    },
+    {
+      "comDate": "1996-04-16",
+      "paymentDate": null,
+      "type": "DIV",
+      "valuePerShare": 0.063
+    }
+  ]
+}

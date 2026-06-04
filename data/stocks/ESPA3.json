@@ -1,0 +1,48 @@
+{
+  "ticker": "ESPA3",
+  "companyName": "espacolaser",
+  "currentPrice": 0.78,
+  "source": {
+    "name": "PlayInvest",
+    "url": "https://playinvest.com.br/dividendos/espa3"
+  },
+  "updatedAt": "2026-06-04T14:00:02",
+  "dividends": [
+    {
+      "comDate": "2026-05-04",
+      "paymentDate": "2026-05-29",
+      "type": "DIV",
+      "valuePerShare": 0.00062213084
+    },
+    {
+      "comDate": "2025-12-30",
+      "paymentDate": "2026-01-07",
+      "type": "DIV",
+      "valuePerShare": 0.02784899501
+    },
+    {
+      "comDate": "2025-12-30",
+      "paymentDate": null,
+      "type": "DIV",
+      "valuePerShare": 0.00974714825
+    },
+    {
+      "comDate": "2025-04-30",
+      "paymentDate": "2025-05-08",
+      "type": "DIV",
+      "valuePerShare": 0.00165752776
+    },
+    {
+      "comDate": "2021-09-06",
+      "paymentDate": "2021-09-22",
+      "type": "DIV",
+      "valuePerShare": 0.0470856894
+    },
+    {
+      "comDate": "2021-09-06",
+      "paymentDate": "2021-09-22",
+      "type": "JCP",
+      "valuePerShare": 0.0348024661
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "ticker": "GNDI3",
+  "companyName": "intermedica",
+  "currentPrice": 66.95,
+  "source": {
+    "name": "PlayInvest",
+    "url": "https://playinvest.com.br/dividendos/gndi3"
+  },
+  "updatedAt": "2026-06-04T14:00:34",
+  "dividends": [
+    {
+      "comDate": "2022-02-11",
+      "paymentDate": "2022-03-29",
+      "type": "DIV",
+      "valuePerShare": 1.613026961
+    },
+    {
+      "comDate": "2021-05-13",
+      "paymentDate": "2021-07-14",
+      "type": "DIV",
+      "valuePerShare": 0.28433085
+    },
+    {
+      "comDate": "2020-03-25",
+      "paymentDate": "2020-08-26",
+      "type": "DIV",
+      "valuePerShare": 0.16672735
+    },
+    {
+      "comDate": "2019-03-28",
+      "paymentDate": "2019-04-10",
+      "type": "DIV",
+      "valuePerShare": 0.1501
+    }
+  ]
+}

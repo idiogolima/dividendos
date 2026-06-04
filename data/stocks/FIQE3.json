@@ -1,0 +1,138 @@
+{
+  "ticker": "FIQE3",
+  "companyName": "unifique",
+  "currentPrice": 6.33,
+  "source": {
+    "name": "PlayInvest",
+    "url": "https://playinvest.com.br/dividendos/fiqe3"
+  },
+  "updatedAt": "2026-06-04T14:00:17",
+  "dividends": [
+    {
+      "comDate": "2025-12-29",
+      "paymentDate": "2028-10-16",
+      "type": "DIV",
+      "valuePerShare": 0.113280891
+    },
+    {
+      "comDate": "2025-12-29",
+      "paymentDate": "2028-03-16",
+      "type": "DIV",
+      "valuePerShare": 0.113280891
+    },
+    {
+      "comDate": "2025-12-29",
+      "paymentDate": "2027-10-15",
+      "type": "DIV",
+      "valuePerShare": 0.092040724
+    },
+    {
+      "comDate": "2025-12-29",
+      "paymentDate": "2027-03-16",
+      "type": "DIV",
+      "valuePerShare": 0.092040724
+    },
+    {
+      "comDate": "2025-12-29",
+      "paymentDate": "2026-10-16",
+      "type": "DIV",
+      "valuePerShare": 0.077880612
+    },
+    {
+      "comDate": "2025-12-29",
+      "paymentDate": "2026-03-16",
+      "type": "DIV",
+      "valuePerShare": 0.077880612
+    },
+    {
+      "comDate": "2025-12-11",
+      "paymentDate": "2025-12-19",
+      "type": "DIV",
+      "valuePerShare": 0.042480334
+    },
+    {
+      "comDate": "2025-08-14",
+      "paymentDate": "2025-08-22",
+      "type": "DIV",
+      "valuePerShare": 0.084960668
+    },
+    {
+      "comDate": "2025-08-14",
+      "paymentDate": "2025-08-22",
+      "type": "JCP",
+      "valuePerShare": 0.084960668
+    },
+    {
+      "comDate": "2025-02-06",
+      "paymentDate": "2025-02-14",
+      "type": "JCP",
+      "valuePerShare": 0.056649269
+    },
+    {
+      "comDate": "2025-02-06",
+      "paymentDate": "2025-02-14",
+      "type": "DIV",
+      "valuePerShare": 0.042486951
+    },
+    {
+      "comDate": "2024-06-14",
+      "paymentDate": "2024-06-28",
+      "type": "DIV",
+      "valuePerShare": 0.084973904
+    },
+    {
+      "comDate": "2024-06-14",
+      "paymentDate": "2024-06-28",
+      "type": "JCP",
+      "valuePerShare": 0.070811586
+    },
+    {
+      "comDate": "2024-02-07",
+      "paymentDate": "2024-02-16",
+      "type": "JCP",
+      "valuePerShare": 0.056649269
+    },
+    {
+      "comDate": "2023-10-09",
+      "paymentDate": "2023-10-25",
+      "type": "JCP",
+      "valuePerShare": 0.028324631
+    },
+    {
+      "comDate": "2023-07-14",
+      "paymentDate": "2023-07-26",
+      "type": "JCP",
+      "valuePerShare": 0.042486946
+    },
+    {
+      "comDate": "2023-03-10",
+      "paymentDate": "2023-03-22",
+      "type": "JCP",
+      "valuePerShare": 0.084005191
+    },
+    {
+      "comDate": "2022-03-24",
+      "paymentDate": "2022-11-04",
+      "type": "DIV",
+      "valuePerShare": 0.042128961
+    },
+    {
+      "comDate": "2022-03-24",
+      "paymentDate": "2022-07-12",
+      "type": "DIV",
+      "valuePerShare": 0.042128961
+    },
+    {
+      "comDate": "2021-12-06",
+      "paymentDate": "2021-12-17",
+      "type": "JCP",
+      "valuePerShare": 0.039556116
+    },
+    {
+      "comDate": "2021-12-06",
+      "paymentDate": "2021-12-17",
+      "type": "DIV",
+      "valuePerShare": 0.043851423
+    }
+  ]
+}

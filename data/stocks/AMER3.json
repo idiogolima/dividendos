@@ -1,0 +1,48 @@
+{
+  "ticker": "AMER3",
+  "companyName": "americanas",
+  "currentPrice": 4.88,
+  "source": {
+    "name": "PlayInvest",
+    "url": "https://playinvest.com.br/dividendos/amer3"
+  },
+  "updatedAt": "2026-06-04T13:56:18",
+  "dividends": [
+    {
+      "comDate": "2022-01-31",
+      "paymentDate": null,
+      "type": "JCP",
+      "valuePerShare": 0.62096308
+    },
+    {
+      "comDate": "2011-03-25",
+      "paymentDate": "2011-04-25",
+      "type": "DIV",
+      "valuePerShare": 0.007274
+    },
+    {
+      "comDate": "2011-03-25",
+      "paymentDate": "2011-04-25",
+      "type": "DIV",
+      "valuePerShare": 0.048826
+    },
+    {
+      "comDate": "2010-03-19",
+      "paymentDate": "2010-04-12",
+      "type": "DIV",
+      "valuePerShare": 0.1026
+    },
+    {
+      "comDate": "2009-03-20",
+      "paymentDate": "2009-04-13",
+      "type": "DIV",
+      "valuePerShare": 0.1634
+    },
+    {
+      "comDate": "2008-03-14",
+      "paymentDate": null,
+      "type": "DIV",
+      "valuePerShare": 0.1324
+    }
+  ]
+}

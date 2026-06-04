@@ -1,0 +1,11 @@
+{
+  "ticker": "DTCY3",
+  "companyName": "dtcom-direct",
+  "currentPrice": 2.5,
+  "source": {
+    "name": "PlayInvest",
+    "url": "https://playinvest.com.br/dividendos/dtcy3"
+  },
+  "updatedAt": "2026-06-04T13:59:30",
+  "dividends": []
+}

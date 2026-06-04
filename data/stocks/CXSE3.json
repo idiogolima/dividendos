@@ -1,0 +1,102 @@
+{
+  "ticker": "CXSE3",
+  "companyName": "caixa seguridade",
+  "currentPrice": 17.45,
+  "source": {
+    "name": "PlayInvest",
+    "url": "https://playinvest.com.br/dividendos/cxse3"
+  },
+  "updatedAt": "2026-06-04T13:59:18",
+  "dividends": [
+    {
+      "comDate": "2026-08-03",
+      "paymentDate": "2026-08-17",
+      "type": "DIV",
+      "valuePerShare": 0.35
+    },
+    {
+      "comDate": "2026-04-30",
+      "paymentDate": "2026-05-15",
+      "type": "DIV",
+      "valuePerShare": 0.33
+    },
+    {
+      "comDate": "2026-01-02",
+      "paymentDate": "2026-01-16",
+      "type": "DIV",
+      "valuePerShare": 0.352128404
+    },
+    {
+      "comDate": "2025-11-03",
+      "paymentDate": "2025-11-17",
+      "type": "DIV",
+      "valuePerShare": 0.32
+    },
+    {
+      "comDate": "2025-08-01",
+      "paymentDate": "2025-08-15",
+      "type": "DIV",
+      "valuePerShare": 0.31
+    },
+    {
+      "comDate": "2025-04-30",
+      "paymentDate": "2025-05-15",
+      "type": "DIV",
+      "valuePerShare": 0.32
+    },
+    {
+      "comDate": "2025-01-03",
+      "paymentDate": "2025-01-17",
+      "type": "DIV",
+      "valuePerShare": 0.311697328
+    },
+    {
+      "comDate": "2024-11-04",
+      "paymentDate": "2024-11-18",
+      "type": "DIV",
+      "valuePerShare": 0.234
+    },
+    {
+      "comDate": "2024-08-01",
+      "paymentDate": "2024-08-15",
+      "type": "DIV",
+      "valuePerShare": 0.28
+    },
+    {
+      "comDate": "2024-04-26",
+      "paymentDate": "2024-05-08",
+      "type": "DIV",
+      "valuePerShare": 0.550580432
+    },
+    {
+      "comDate": "2023-10-24",
+      "paymentDate": "2023-11-06",
+      "type": "DIV",
+      "valuePerShare": 0.5
+    },
+    {
+      "comDate": "2023-04-27",
+      "paymentDate": "2023-05-08",
+      "type": "DIV",
+      "valuePerShare": 0.510369311
+    },
+    {
+      "comDate": "2022-11-03",
+      "paymentDate": "2022-11-11",
+      "type": "DIV",
+      "valuePerShare": 0.352780473
+    },
+    {
+      "comDate": "2022-04-20",
+      "paymentDate": "2022-04-29",
+      "type": "DIV",
+      "valuePerShare": 0.295790341
+    },
+    {
+      "comDate": "2021-11-04",
+      "paymentDate": "2021-11-16",
+      "type": "DIV",
+      "valuePerShare": 0.24461284
+    }
+  ]
+}

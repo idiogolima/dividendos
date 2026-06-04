@@ -1,0 +1,156 @@
+{
+  "ticker": "CMIN3",
+  "companyName": "csn mineracao",
+  "currentPrice": 4.5,
+  "source": {
+    "name": "PlayInvest",
+    "url": "https://playinvest.com.br/dividendos/cmin3"
+  },
+  "updatedAt": "2026-06-04T13:58:38",
+  "dividends": [
+    {
+      "comDate": "2026-04-16",
+      "paymentDate": "2026-12-31",
+      "type": "DIV",
+      "valuePerShare": 0.14149297572
+    },
+    {
+      "comDate": "2026-01-02",
+      "paymentDate": "2026-12-31",
+      "type": "JCP",
+      "valuePerShare": 0.0301908220805
+    },
+    {
+      "comDate": "2026-01-02",
+      "paymentDate": "2026-12-31",
+      "type": "DIV",
+      "valuePerShare": 0.0478111034424
+    },
+    {
+      "comDate": "2025-11-07",
+      "paymentDate": "2025-11-19",
+      "type": "JCP",
+      "valuePerShare": 0.0881804257401
+    },
+    {
+      "comDate": "2025-11-07",
+      "paymentDate": "2025-11-19",
+      "type": "DIV",
+      "valuePerShare": 0.0780931987417
+    },
+    {
+      "comDate": "2025-05-13",
+      "paymentDate": "2025-07-15",
+      "type": "JCP",
+      "valuePerShare": 0.03865947683
+    },
+    {
+      "comDate": "2025-05-13",
+      "paymentDate": "2025-07-15",
+      "type": "DIV",
+      "valuePerShare": 0.200661094
+    },
+    {
+      "comDate": "2025-01-06",
+      "paymentDate": "2025-07-15",
+      "type": "JCP",
+      "valuePerShare": 0.03895595758
+    },
+    {
+      "comDate": "2024-10-03",
+      "paymentDate": "2024-12-30",
+      "type": "JCP",
+      "valuePerShare": 0.0855387
+    },
+    {
+      "comDate": "2024-10-03",
+      "paymentDate": "2024-12-30",
+      "type": "DIV",
+      "valuePerShare": 0.02943267
+    },
+    {
+      "comDate": "2024-10-03",
+      "paymentDate": "2024-12-30",
+      "type": "DIV",
+      "valuePerShare": 0.43689118
+    },
+    {
+      "comDate": "2024-05-14",
+      "paymentDate": "2024-05-28",
+      "type": "JCP",
+      "valuePerShare": 0.0793471935161
+    },
+    {
+      "comDate": "2024-05-14",
+      "paymentDate": "2024-05-28",
+      "type": "DIV",
+      "valuePerShare": 0.186869166032
+    },
+    {
+      "comDate": "2023-11-20",
+      "paymentDate": "2023-11-28",
+      "type": "DIV",
+      "valuePerShare": 0.248841853063435
+    },
+    {
+      "comDate": "2023-05-08",
+      "paymentDate": "2023-05-17",
+      "type": "JCP",
+      "valuePerShare": 0.05094189
+    },
+    {
+      "comDate": "2023-05-08",
+      "paymentDate": "2023-05-17",
+      "type": "DIV",
+      "valuePerShare": 0.28257142
+    },
+    {
+      "comDate": "2023-04-28",
+      "paymentDate": "2023-05-17",
+      "type": "DIV",
+      "valuePerShare": 0.11520023521
+    },
+    {
+      "comDate": "2022-12-28",
+      "paymentDate": "2023-05-31",
+      "type": "JCP",
+      "valuePerShare": 0.01599251
+    },
+    {
+      "comDate": "2022-11-10",
+      "paymentDate": "2022-11-22",
+      "type": "JCP",
+      "valuePerShare": 0.12428670352
+    },
+    {
+      "comDate": "2022-11-10",
+      "paymentDate": "2022-11-22",
+      "type": "DIV",
+      "valuePerShare": 0.32140220542
+    },
+    {
+      "comDate": "2022-04-29",
+      "paymentDate": "2022-05-19",
+      "type": "DIV",
+      "valuePerShare": 0.459438075953189
+    },
+    {
+      "comDate": "2021-12-29",
+      "paymentDate": "2022-01-20",
+      "type": "JCP",
+      "valuePerShare": 0.08630891663
+    },
+    {
+      "comDate": "2021-07-30",
+      "paymentDate": "2021-08-10",
+      "type": "DIV",
+      "valuePerShare": 0.330526359
+    },
+    {
+      "comDate": "2021-04-30",
+      "paymentDate": "2021-08-10",
+      "type": "DIV",
+      "valuePerShare": 0.05158158
+    }
+  ]
+}

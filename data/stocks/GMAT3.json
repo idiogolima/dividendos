@@ -1,0 +1,60 @@
+{
+  "ticker": "GMAT3",
+  "companyName": "grupo mateus",
+  "currentPrice": 4.2,
+  "source": {
+    "name": "PlayInvest",
+    "url": "https://playinvest.com.br/dividendos/gmat3"
+  },
+  "updatedAt": "2026-06-04T14:00:33",
+  "dividends": [
+    {
+      "comDate": "2025-11-19",
+      "paymentDate": "2025-12-30",
+      "type": "JCP",
+      "valuePerShare": 0.0495738577
+    },
+    {
+      "comDate": "2025-09-25",
+      "paymentDate": "2025-12-30",
+      "type": "JCP",
+      "valuePerShare": 0.0725756534
+    },
+    {
+      "comDate": "2025-06-26",
+      "paymentDate": "2025-12-30",
+      "type": "JCP",
+      "valuePerShare": 0.0670472855
+    },
+    {
+      "comDate": "2025-03-26",
+      "paymentDate": "2025-12-30",
+      "type": "JCP",
+      "valuePerShare": 0.0601271193
+    },
+    {
+      "comDate": "2024-11-11",
+      "paymentDate": "2024-12-20",
+      "type": "JCP",
+      "valuePerShare": 0.0435673807
+    },
+    {
+      "comDate": "2024-09-26",
+      "paymentDate": "2024-12-20",
+      "type": "JCP",
+      "valuePerShare": 0.045447729
+    },
+    {
+      "comDate": "2024-06-14",
+      "paymentDate": "2024-12-20",
+      "type": "JCP",
+      "valuePerShare": 0.0610545079
+    },
+    {
+      "comDate": "2024-03-28",
+      "paymentDate": "2024-12-20",
+      "type": "JCP",
+      "valuePerShare": 0.0435831373
+    }
+  ]
+}

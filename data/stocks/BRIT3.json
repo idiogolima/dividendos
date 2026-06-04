@@ -1,0 +1,30 @@
+{
+  "ticker": "BRIT3",
+  "companyName": "brisanet",
+  "currentPrice": 3.06,
+  "source": {
+    "name": "PlayInvest",
+    "url": "https://playinvest.com.br/dividendos/brit3"
+  },
+  "updatedAt": "2026-06-04T13:57:38",
+  "dividends": [
+    {
+      "comDate": "2024-04-25",
+      "paymentDate": "2024-05-22",
+      "type": "DIV",
+      "valuePerShare": 0.087197091
+    },
+    {
+      "comDate": "2023-04-20",
+      "paymentDate": "2023-05-30",
+      "type": "DIV",
+      "valuePerShare": 0.032345871
+    },
+    {
+      "comDate": "2022-04-26",
+      "paymentDate": "2022-05-13",
+      "type": "DIV",
+      "valuePerShare": 0.001186044
+    }
+  ]
+}

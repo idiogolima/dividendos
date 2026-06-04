@@ -1,0 +1,78 @@
+{
+  "ticker": "OIBR3",
+  "companyName": "oi",
+  "currentPrice": 0.13,
+  "source": {
+    "name": "PlayInvest",
+    "url": "https://playinvest.com.br/dividendos/oibr3"
+  },
+  "updatedAt": "2026-06-04T14:02:35",
+  "dividends": [
+    {
+      "comDate": "2013-09-27",
+      "paymentDate": "2013-10-11",
+      "type": "DIV",
+      "valuePerShare": 0.3049
+    },
+    {
+      "comDate": "2013-03-21",
+      "paymentDate": "2013-03-28",
+      "type": "DIV",
+      "valuePerShare": 0.5107
+    },
+    {
+      "comDate": "2012-08-17",
+      "paymentDate": "2012-08-27",
+      "type": "DIV",
+      "valuePerShare": 0.3096
+    },
+    {
+      "comDate": "2012-05-01",
+      "paymentDate": "2012-05-08",
+      "type": "DIV",
+      "valuePerShare": 1.22
+    },
+    {
+      "comDate": "2012-04-30",
+      "paymentDate": "2012-05-08",
+      "type": "DIV",
+      "valuePerShare": 1.22
+    },
+    {
+      "comDate": "2011-04-27",
+      "paymentDate": "2011-05-09",
+      "type": "DIV",
+      "valuePerShare": 0.2992
+    },
+    {
+      "comDate": "2010-12-21",
+      "paymentDate": null,
+      "type": "JCP",
+      "valuePerShare": 0.6158
+    },
+    {
+      "comDate": "2008-12-29",
+      "paymentDate": "2009-08-10",
+      "type": "JCP",
+      "valuePerShare": 0.1448
+    },
+    {
+      "comDate": "2008-04-08",
+      "paymentDate": "2009-08-10",
+      "type": "JCP",
+      "valuePerShare": 0.4476
+    },
+    {
+      "comDate": "2008-03-18",
+      "paymentDate": "2008-04-16",
+      "type": "DIV",
+      "valuePerShare": 0.7437
+    },
+    {
+      "comDate": "2007-12-26",
+      "paymentDate": "2008-04-16",
+      "type": "JCP",
+      "valuePerShare": 0.1926
+    }
+  ]
+}

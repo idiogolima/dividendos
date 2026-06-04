@@ -1,0 +1,60 @@
+{
+  "ticker": "BIDI11",
+  "companyName": "banco inter",
+  "currentPrice": 10.4,
+  "source": {
+    "name": "PlayInvest",
+    "url": "https://playinvest.com.br/dividendos/bidi11"
+  },
+  "updatedAt": "2026-06-04T13:56:57",
+  "dividends": [
+    {
+      "comDate": "2022-03-10",
+      "paymentDate": "2022-03-21",
+      "type": "JCP",
+      "valuePerShare": 0.044337879
+    },
+    {
+      "comDate": "2021-07-22",
+      "paymentDate": "2021-08-02",
+      "type": "JCP",
+      "valuePerShare": 0.036253092
+    },
+    {
+      "comDate": "2021-03-19",
+      "paymentDate": "2021-03-30",
+      "type": "JCP",
+      "valuePerShare": 0.013589820666666667
+    },
+    {
+      "comDate": "2020-07-27",
+      "paymentDate": "2020-08-20",
+      "type": "JCP",
+      "valuePerShare": 0.01055322
+    },
+    {
+      "comDate": "2020-07-03",
+      "paymentDate": "2020-08-20",
+      "type": "JCP",
+      "valuePerShare": 0.023140402
+    },
+    {
+      "comDate": "2020-03-31",
+      "paymentDate": "2020-04-08",
+      "type": "JCP",
+      "valuePerShare": 0.023173515699999998
+    },
+    {
+      "comDate": "2019-12-27",
+      "paymentDate": "2020-01-08",
+      "type": "JCP",
+      "valuePerShare": 0.01816962
+    },
+    {
+      "comDate": "2019-09-30",
+      "paymentDate": "2019-10-08",
+      "type": "JCP",
+      "valuePerShare": 0.01823111
+    }
+  ]
+}

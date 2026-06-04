@@ -1,0 +1,30 @@
+{
+  "ticker": "AMBP3",
+  "companyName": "ambipar",
+  "currentPrice": 0.16,
+  "source": {
+    "name": "PlayInvest",
+    "url": "https://playinvest.com.br/dividendos/ambp3"
+  },
+  "updatedAt": "2026-06-04T13:56:17",
+  "dividends": [
+    {
+      "comDate": "2023-05-15",
+      "paymentDate": "2023-07-05",
+      "type": "DIV",
+      "valuePerShare": 0.013413464
+    },
+    {
+      "comDate": "2022-05-04",
+      "paymentDate": "2003-07-05",
+      "type": "DIV",
+      "valuePerShare": 0.03031707
+    },
+    {
+      "comDate": "2021-04-30",
+      "paymentDate": "2021-05-14",
+      "type": "DIV",
+      "valuePerShare": 0.0094268
+    }
+  ]
+}

@@ -1,0 +1,222 @@
+{
+  "ticker": "COGN3",
+  "companyName": "cogna",
+  "currentPrice": 2.39,
+  "source": {
+    "name": "PlayInvest",
+    "url": "https://playinvest.com.br/dividendos/cogn3"
+  },
+  "updatedAt": "2026-06-04T13:58:42",
+  "dividends": [
+    {
+      "comDate": "2026-04-27",
+      "paymentDate": "2026-05-29",
+      "type": "DIV",
+      "valuePerShare": 0.01425813933
+    },
+    {
+      "comDate": "2025-12-23",
+      "paymentDate": "2028-12-20",
+      "type": "DIV",
+      "valuePerShare": 0.04858806025
+    },
+    {
+      "comDate": "2025-12-23",
+      "paymentDate": "2026-02-13",
+      "type": "DIV",
+      "valuePerShare": 0.0661459121
+    },
+    {
+      "comDate": "2025-04-28",
+      "paymentDate": "2025-05-30",
+      "type": "DIV",
+      "valuePerShare": 0.06672034907
+    },
+    {
+      "comDate": "2019-11-19",
+      "paymentDate": "2019-11-29",
+      "type": "DIV",
+      "valuePerShare": 0.0047388621
+    },
+    {
+      "comDate": "2019-08-20",
+      "paymentDate": "2019-08-29",
+      "type": "DIV",
+      "valuePerShare": 0.0336923704
+    },
+    {
+      "comDate": "2019-05-21",
+      "paymentDate": "2019-05-30",
+      "type": "DIV",
+      "valuePerShare": 0.0555
+    },
+    {
+      "comDate": "2019-04-04",
+      "paymentDate": "2019-04-15",
+      "type": "DIV",
+      "valuePerShare": 0.0264
+    },
+    {
+      "comDate": "2018-11-16",
+      "paymentDate": "2018-11-27",
+      "type": "DIV",
+      "valuePerShare": 0.0812
+    },
+    {
+      "comDate": "2018-08-20",
+      "paymentDate": "2018-08-29",
+      "type": "DIV",
+      "valuePerShare": 0.1092
+    },
+    {
+      "comDate": "2018-05-17",
+      "paymentDate": "2018-05-28",
+      "type": "DIV",
+      "valuePerShare": 0.1108
+    },
+    {
+      "comDate": "2018-03-22",
+      "paymentDate": "2018-04-03",
+      "type": "DIV",
+      "valuePerShare": 0.0905
+    },
+    {
+      "comDate": "2017-11-16",
+      "paymentDate": "2017-11-27",
+      "type": "DIV",
+      "valuePerShare": 0.1045
+    },
+    {
+      "comDate": "2017-08-17",
+      "paymentDate": "2017-08-28",
+      "type": "DIV",
+      "valuePerShare": 0.1278
+    },
+    {
+      "comDate": "2017-05-18",
+      "paymentDate": "2017-05-29",
+      "type": "DIV",
+      "valuePerShare": 0.1155
+    },
+    {
+      "comDate": "2017-03-28",
+      "paymentDate": "2017-04-10",
+      "type": "DIV",
+      "valuePerShare": 0.0773
+    },
+    {
+      "comDate": "2016-11-16",
+      "paymentDate": "2016-11-25",
+      "type": "DIV",
+      "valuePerShare": 0.0754884616
+    },
+    {
+      "comDate": "2016-08-17",
+      "paymentDate": "2016-08-26",
+      "type": "DIV",
+      "valuePerShare": 0.10665941
+    },
+    {
+      "comDate": "2016-05-12",
+      "paymentDate": "2016-05-30",
+      "type": "DIV",
+      "valuePerShare": 0.1232147129
+    },
+    {
+      "comDate": "2016-03-15",
+      "paymentDate": "2016-03-28",
+      "type": "DIV",
+      "valuePerShare": 0.043431499
+    },
+    {
+      "comDate": "2015-11-12",
+      "paymentDate": "2015-11-18",
+      "type": "DIV",
+      "valuePerShare": 0.0460190859
+    },
+    {
+      "comDate": "2015-08-12",
+      "paymentDate": "2015-08-21",
+      "type": "DIV",
+      "valuePerShare": 0.0610600634
+    },
+    {
+      "comDate": "2015-05-12",
+      "paymentDate": "2015-06-12",
+      "type": "DIV",
+      "valuePerShare": 0.0544069327
+    },
+    {
+      "comDate": "2014-07-03",
+      "paymentDate": "2014-08-20",
+      "type": "DIV",
+      "valuePerShare": 0.3407494884
+    },
+    {
+      "comDate": "2014-07-03",
+      "paymentDate": "2014-07-21",
+      "type": "DIV",
+      "valuePerShare": 1.117211497
+    },
+    {
+      "comDate": "2014-05-13",
+      "paymentDate": "2014-05-26",
+      "type": "DIV",
+      "valuePerShare": 0.2432198169
+    },
+    {
+      "comDate": "2014-03-18",
+      "paymentDate": "2014-03-31",
+      "type": "DIV",
+      "valuePerShare": 0.1032400836
+    },
+    {
+      "comDate": "2013-11-07",
+      "paymentDate": "2013-11-21",
+      "type": "DIV",
+      "valuePerShare": 0.1135509432
+    },
+    {
+      "comDate": "2013-08-08",
+      "paymentDate": "2013-08-30",
+      "type": "DIV",
+      "valuePerShare": 0.0882275079
+    },
+    {
+      "comDate": "2013-05-14",
+      "paymentDate": "2013-06-07",
+      "type": "DIV",
+      "valuePerShare": 0.1527145667
+    },
+    {
+      "comDate": "2013-04-19",
+      "paymentDate": "2013-04-30",
+      "type": "DIV",
+      "valuePerShare": 0.0567085353
+    },
+    {
+      "comDate": "2013-03-20",
+      "paymentDate": "2013-04-15",
+      "type": "DIV",
+      "valuePerShare": 0.1671891113
+    },
+    {
+      "comDate": "2009-06-25",
+      "paymentDate": "2009-09-15",
+      "type": "DIV",
+      "valuePerShare": 0.05649912
+    },
+    {
+      "comDate": "2009-04-29",
+      "paymentDate": null,
+      "type": "DIV",
+      "valuePerShare": 0.0588193
+    },
+    {
+      "comDate": "2009-04-03",
+      "paymentDate": "2009-04-15",
+      "type": "DIV",
+      "valuePerShare": 0.0607065
+    }
+  ]
+}

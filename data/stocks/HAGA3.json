@@ -1,0 +1,18 @@
+{
+  "ticker": "HAGA3",
+  "companyName": "haga",
+  "currentPrice": 2.39,
+  "source": {
+    "name": "PlayInvest",
+    "url": "https://playinvest.com.br/dividendos/haga3"
+  },
+  "updatedAt": "2026-06-04T14:00:42",
+  "dividends": [
+    {
+      "comDate": "1989-06-05",
+      "paymentDate": null,
+      "type": "DIV",
+      "valuePerShare": 0.3
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "ticker": "BALM3",
+  "companyName": "baumer",
+  "currentPrice": 26.0,
+  "source": {
+    "name": "PlayInvest",
+    "url": "https://playinvest.com.br/dividendos/balm3"
+  },
+  "updatedAt": "2026-06-04T13:56:37",
+  "dividends": [
+    {
+      "comDate": "2026-04-30",
+      "paymentDate": "2026-12-30",
+      "type": "DIV",
+      "valuePerShare": 0.82
+    },
+    {
+      "comDate": "2025-12-17",
+      "paymentDate": "2025-12-29",
+      "type": "DIV",
+      "valuePerShare": 3.07
+    },
+    {
+      "comDate": "2025-10-02",
+      "paymentDate": "2025-10-31",
+      "type": "JCP",
+      "valuePerShare": 0.92941176
+    },
+    {
+      "comDate": "2025-05-06",
+      "paymentDate": "2025-06-30",
+      "type": "DIV",
+      "valuePerShare": 0.213334
+    },
+    {
+      "comDate": "2025-05-06",
+      "paymentDate": "2025-06-30",
+      "type": "DIV",
+      "valuePerShare": 0.213333
+    },
+    {
+      "comDate": "2025-05-06",
+      "paymentDate": "2025-06-30",
+      "type": "DIV",
+      "valuePerShare": 0.213333
+    },
+    {
+      "comDate": "2024-12-19",
+      "paymentDate": "2025-01-30",
+      "type": "JCP",
+      "valuePerShare": 0.35882353
+    },
+    {
+      "comDate": "2024-12-19",
+      "paymentDate": "2025-02-27",
+      "type": "JCP",
+      "valuePerShare": 0.35882353
+    }
+  ]
+}

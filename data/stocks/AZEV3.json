@@ -1,0 +1,42 @@
+{
+  "ticker": "AZEV3",
+  "companyName": "azevedo",
+  "currentPrice": 0.16,
+  "source": {
+    "name": "PlayInvest",
+    "url": "https://playinvest.com.br/dividendos/azev3"
+  },
+  "updatedAt": "2026-06-04T13:56:31",
+  "dividends": [
+    {
+      "comDate": "2015-12-11",
+      "paymentDate": "2015-12-30",
+      "type": "JCP",
+      "valuePerShare": 0.0012838082
+    },
+    {
+      "comDate": "2015-12-11",
+      "paymentDate": "2016-11-30",
+      "type": "JCP",
+      "valuePerShare": 0.0154
+    },
+    {
+      "comDate": "2015-05-01",
+      "paymentDate": null,
+      "type": "DIV",
+      "valuePerShare": 0.003727598
+    },
+    {
+      "comDate": "2015-04-30",
+      "paymentDate": "2015-06-30",
+      "type": "DIV",
+      "valuePerShare": 0.00372
+    },
+    {
+      "comDate": "2014-12-05",
+      "paymentDate": "2014-12-30",
+      "type": "JCP",
+      "valuePerShare": 0.01038
+    }
+  ]
+}

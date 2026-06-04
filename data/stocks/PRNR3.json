@@ -1,0 +1,54 @@
+{
+  "ticker": "PRNR3",
+  "companyName": "priner",
+  "currentPrice": 17.76,
+  "source": {
+    "name": "PlayInvest",
+    "url": "https://playinvest.com.br/dividendos/prnr3"
+  },
+  "updatedAt": "2026-06-04T14:03:23",
+  "dividends": [
+    {
+      "comDate": "2025-04-29",
+      "paymentDate": "2025-05-09",
+      "type": "DIV",
+      "valuePerShare": 0.05159517621
+    },
+    {
+      "comDate": "2024-05-02",
+      "paymentDate": "2024-05-14",
+      "type": "DIV",
+      "valuePerShare": 0.07244188672
+    },
+    {
+      "comDate": "2022-12-14",
+      "paymentDate": "2022-12-23",
+      "type": "JCP",
+      "valuePerShare": 0.258295543
+    },
+    {
+      "comDate": "2022-05-04",
+      "paymentDate": "2022-05-13",
+      "type": "DIV",
+      "valuePerShare": 0.039503312
+    },
+    {
+      "comDate": "2021-12-29",
+      "paymentDate": "2022-01-11",
+      "type": "JCP",
+      "valuePerShare": 0.054213491
+    },
+    {
+      "comDate": "2019-04-18",
+      "paymentDate": "2019-12-31",
+      "type": "DIV",
+      "valuePerShare": 0.0068868357
+    },
+    {
+      "comDate": "2018-01-02",
+      "paymentDate": null,
+      "type": "JCP",
+      "valuePerShare": 0.04268565
+    }
+  ]
+}

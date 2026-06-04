@@ -2,8 +2,10 @@ const CACHE_NAME = "dividendos-pwa-v2";
 const APP_SHELL = [
   "./",
   "./index.html",
+  "./ranking.html",
   "./styles.css",
   "./app.js",
+  "./ranking.js",
   "./manifest.webmanifest",
   "./assets/icon.svg",
   "./assets/icon-maskable.svg",
