@@ -1,6 +1,6 @@
-const DATA_MANIFEST_URL = "./data/manifest.json";
-const RANKING_SOURCE_URL = "./data/ranking-source.json";
-const RANKING_CACHE_KEY = "dividendos-pwa:last-ranking";
+const DATA_MANIFEST_URL = "./data/etfs-manifest.json";
+const RANKING_SOURCE_URL = "./data/etfs-ranking-source.json";
+const RANKING_CACHE_KEY = "dividendos-pwa:last-etf-ranking";
 const PAGE_SIZE = 50;
 
 const form = document.querySelector("#ranking-form");
@@ -136,7 +136,7 @@ async function loadRanking() {
       .sort((left, right) => compareEntries(left, right, sortBy));
 
     if (!sorted.length) {
-      throw new Error("Nenhuma acao com dados suficientes foi encontrada.");
+      throw new Error("Nenhum ETF com dados suficientes foi encontrado.");
     }
 
     currentPage = 1;
@@ -149,7 +149,7 @@ async function loadRanking() {
     });
     renderRanking(model);
     localStorage.setItem(RANKING_CACHE_KEY, JSON.stringify(model));
-    setFeedback(`Ranking atualizado com ${sorted.length} acao(oes).`);
+    setFeedback(`Ranking atualizado com ${sorted.length} ETF(s).`);
   } catch (error) {
     const cached = readCachedRanking();
 
@@ -210,7 +210,7 @@ function buildEntry(stockData, ticker, years, percent) {
 
   return {
     ticker,
-    companyName: stockData.companyName || ticker,
+    companyName: stockData.fundName || stockData.companyName || ticker,
     validYears: yearlyTotals.length,
     currentPrice,
     averageDividends,
@@ -239,9 +239,9 @@ function buildRankingModel(entries, years, percent, filters) {
 
 function renderRanking(model) {
   currentModel = model;
-  summaryTitle.textContent = `${model.entries.length} acoes para ${model.years} anos, ${model.percent}% e minimo de ${model.filters.minValidYears} ano(s) valido(s)`;
+  summaryTitle.textContent = `${model.entries.length} ETFs para ${model.years} anos, ${model.percent}% e minimo de ${model.filters.minValidYears} ano(s) valido(s)`;
   metricsGrid.innerHTML = [
-    metricCard("Acoes analisadas", String(model.summary.total)),
+    metricCard("ETFs analisados", String(model.summary.total)),
     metricCard("Abaixo do preco teto", String(model.summary.belowCeilingCount)),
     metricCard("Acima do preco teto", String(model.summary.aboveCeilingCount)),
     metricCard("Melhor desconto", formatPercent(model.summary.bestDiscountPercent), true),
@@ -331,7 +331,7 @@ function renderTable(model) {
   rankingBody.innerHTML = pageEntries.map((entry, index) => `
     <tr>
       <td>${start + index + 1}</td>
-      <td><a href="./acoes.html?ticker=${entry.ticker}" target="_blank" rel="noreferrer">${entry.ticker}</a></td>
+      <td><a href="./etfs.html?ticker=${entry.ticker}" target="_blank" rel="noreferrer">${entry.ticker}</a></td>
       <td>${entry.companyName}</td>
       <td>${entry.validYears}</td>
       <td>${formatCurrency(entry.currentPrice)}</td>

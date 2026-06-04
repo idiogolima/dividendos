@@ -27,8 +27,11 @@ Exemplo:
 
 ## Modos de uso
 
-- [`index.html`](index.html): consulta individual por ticker
-- [`ranking.html`](ranking.html): ranking em lote, ordenado pelo desconto da cotacao atual em relacao ao preco teto
+- [`index.html`](index.html): pagina inicial para escolha dos fluxos
+- [`acoes.html`](acoes.html): consulta individual por ticker de acao
+- [`acoes-ranking.html`](acoes-ranking.html): ranking em lote de acoes
+- [`etfs.html`](etfs.html): consulta individual por ETF distribuidor
+- [`etfs-ranking.html`](etfs-ranking.html): ranking em lote de ETFs distribuidores
 
 ## Como funciona
 
@@ -50,14 +53,24 @@ Por isso, a arquitetura correta aqui e:
 
 ## Estrutura principal
 
-- [`index.html`](index.html): pagina principal
-- [`app.js`](app.js): interface e calculo do preco teto
+- [`index.html`](index.html): pagina inicial
+- [`acoes.html`](acoes.html): consulta individual de acoes
+- [`app.js`](app.js): interface e calculo do preco teto para acoes
+- [`acoes-ranking.html`](acoes-ranking.html): ranking de acoes
+- [`ranking.js`](ranking.js): ranking de acoes
+- [`etfs.html`](etfs.html): consulta individual de ETFs distribuidores
+- [`etf-app.js`](etf-app.js): interface e calculo do preco teto para ETFs
+- [`etfs-ranking.html`](etfs-ranking.html): ranking de ETFs
+- [`etf-ranking.js`](etf-ranking.js): ranking de ETFs
 - [`styles.css`](styles.css): visual do app
 - [`service-worker.js`](service-worker.js): cache do PWA
 - [`manifest.webmanifest`](manifest.webmanifest): manifesto instalavel
 - [`scripts/update_playinvest_data.py`](scripts/update_playinvest_data.py): gerador dos JSONs locais
 - [`playinvest_tickers.json`](playinvest_tickers.json): lista de tickers a atualizar
+- [`scripts/update_investo_etf_data.py`](scripts/update_investo_etf_data.py): gerador dos JSONs locais de ETFs
+- [`etf_tickers.json`](etf_tickers.json): lista de ETFs distribuidores suportados
 - [`data/manifest.json`](data/manifest.json): manifesto dos dados gerados
+- [`data/etfs-manifest.json`](data/etfs-manifest.json): manifesto dos ETFs gerados
 - [`scripts/update_data_local.sh`](scripts/update_data_local.sh): atalho para atualizar e preparar o envio
 
 ## Tickers iniciais
@@ -86,6 +99,12 @@ Para atualizar os dados:
 python scripts/update_playinvest_data.py
 ```
 
+Para atualizar os ETFs:
+
+```bash
+python scripts/update_investo_etf_data.py
+```
+
 Para atualizar apenas tickers especificos:
 
 ```bash
@@ -103,6 +122,12 @@ Depois abra:
 ```text
 http://localhost:8000
 ```
+
+Fluxos disponiveis:
+
+- `http://localhost:8000/`: pagina inicial
+- `http://localhost:8000/acoes.html`: acoes
+- `http://localhost:8000/etfs.html`: ETFs distribuidores
 
 ## Atualizacao local rapida
 

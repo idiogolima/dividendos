@@ -1,0 +1,58 @@
+{
+  "ticker": "UTLL11",
+  "fundName": "INVESTO B3 UTILIDADE P\u00daBLICA FUNDO DE \u00cdNDICE",
+  "companyName": "INVESTO B3 UTILIDADE P\u00daBLICA FUNDO DE \u00cdNDICE",
+  "currentPrice": 119.45,
+  "updatedAt": "2026-06-04T19:21:47.832848+00:00",
+  "distributionFrequency": "MENSAL",
+  "source": {
+    "name": "Investo + B3",
+    "url": "https://www.investoetf.com/etf/utll11/",
+    "quoteUrl": "https://borainvestir.b3.com.br/cotacoes/etfs/UTLL11/",
+    "dividendsUrl": "https://www.investoetf.com/etf/utll11/"
+  },
+  "dividends": [
+    {
+      "comDate": "2025-12-01",
+      "exDate": "2025-12-02",
+      "paymentDate": "2025-12-08",
+      "type": "Rendimento",
+      "valuePerShare": 0.3757
+    },
+    {
+      "comDate": "2026-01-02",
+      "exDate": "2026-01-05",
+      "paymentDate": "2026-01-09",
+      "type": "Rendimento",
+      "valuePerShare": 0.649
+    },
+    {
+      "comDate": "2026-02-02",
+      "exDate": "2026-02-03",
+      "paymentDate": "2026-02-09",
+      "type": "Rendimento",
+      "valuePerShare": 0.0442
+    },
+    {
+      "comDate": "2026-03-04",
+      "exDate": "2026-03-05",
+      "paymentDate": "2026-03-11",
+      "type": "Rendimento",
+      "valuePerShare": 0.0294
+    },
+    {
+      "comDate": "2026-04-01",
+      "exDate": "2026-04-02",
+      "paymentDate": "2026-04-09",
+      "type": "Rendimento",
+      "valuePerShare": 0.026304
+    },
+    {
+      "comDate": "2026-05-04",
+      "exDate": "2026-05-05",
+      "paymentDate": "2026-05-11",
+      "type": "Rendimento",
+      "valuePerShare": 0.185045
+    }
+  ]
+}

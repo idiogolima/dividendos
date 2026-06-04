@@ -1,7 +1,7 @@
 {
   "name": "Dividendos PWA",
   "short_name": "Dividendos",
-  "description": "Analise historico de dividendos de acoes brasileiras em um app instalavel.",
+  "description": "Analise acoes e ETFs distribuidores em um app instalavel.",
   "start_url": "./",
   "scope": "./",
   "display": "standalone",

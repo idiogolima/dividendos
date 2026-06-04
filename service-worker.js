@@ -1,15 +1,23 @@
-const CACHE_NAME = "dividendos-pwa-v3";
+const CACHE_NAME = "dividendos-pwa-v4";
 const APP_SHELL = [
   "./",
   "./index.html",
+  "./acoes.html",
   "./ranking.html",
+  "./acoes-ranking.html",
+  "./etfs.html",
+  "./etfs-ranking.html",
   "./styles.css",
   "./app.js",
   "./ranking.js",
+  "./etf-app.js",
+  "./etf-ranking.js",
   "./manifest.webmanifest",
   "./assets/icon.svg",
   "./assets/icon-maskable.svg",
   "./data/ranking-source.json",
+  "./data/etfs-manifest.json",
+  "./data/etfs-ranking-source.json",
 ];
 
 self.addEventListener("install", (event) => {
@@ -77,8 +85,20 @@ function shouldCache(response) {
 async function getNavigationFallback(request) {
   const url = new URL(request.url);
 
-  if (url.pathname.endsWith("/ranking.html")) {
-    return caches.match("./ranking.html");
+  if (url.pathname.endsWith("/ranking.html") || url.pathname.endsWith("/acoes-ranking.html")) {
+    return caches.match("./acoes-ranking.html");
+  }
+
+  if (url.pathname.endsWith("/etfs-ranking.html")) {
+    return caches.match("./etfs-ranking.html");
+  }
+
+  if (url.pathname.endsWith("/acoes.html")) {
+    return caches.match("./acoes.html");
+  }
+
+  if (url.pathname.endsWith("/etfs.html")) {
+    return caches.match("./etfs.html");
   }
 
   return caches.match("./index.html");

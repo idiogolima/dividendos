@@ -1,0 +1,65 @@
+{
+  "ticker": "BEST11",
+  "fundName": "INVESTO BRAZIL BESST QUALITY FUNDO DE \u00cdNDICE",
+  "companyName": "INVESTO BRAZIL BESST QUALITY FUNDO DE \u00cdNDICE",
+  "currentPrice": 110.82,
+  "updatedAt": "2026-06-04T19:21:38.823011+00:00",
+  "distributionFrequency": "MENSAL",
+  "source": {
+    "name": "Investo + B3",
+    "url": "https://www.investoetf.com/etf/best11/",
+    "quoteUrl": "https://borainvestir.b3.com.br/cotacoes/etfs/BEST11/",
+    "dividendsUrl": "https://www.investoetf.com/etf/best11/"
+  },
+  "dividends": [
+    {
+      "comDate": "2025-12-01",
+      "exDate": "2025-12-02",
+      "paymentDate": "2025-12-08",
+      "type": "Rendimento",
+      "valuePerShare": 0.3707
+    },
+    {
+      "comDate": "2026-01-02",
+      "exDate": "2026-01-05",
+      "paymentDate": "2026-01-09",
+      "type": "Rendimento",
+      "valuePerShare": 0.821
+    },
+    {
+      "comDate": "2026-02-02",
+      "exDate": "2026-02-03",
+      "paymentDate": "2026-02-09",
+      "type": "Rendimento",
+      "valuePerShare": 0.2349
+    },
+    {
+      "comDate": "2026-03-04",
+      "exDate": "2026-03-05",
+      "paymentDate": "2026-03-11",
+      "type": "Rendimento",
+      "valuePerShare": 0.2725
+    },
+    {
+      "comDate": "2026-04-01",
+      "exDate": "2026-04-02",
+      "paymentDate": "2026-04-09",
+      "type": "Rendimento",
+      "valuePerShare": 0.653597
+    },
+    {
+      "comDate": "2026-05-04",
+      "exDate": "2026-05-05",
+      "paymentDate": "2026-05-11",
+      "type": "Rendimento",
+      "valuePerShare": 0.36449
+    },
+    {
+      "comDate": "2026-06-01",
+      "exDate": "2026-06-02",
+      "paymentDate": "2026-06-09",
+      "type": "Rendimento",
+      "valuePerShare": 0.23714
+    }
+  ]
+}

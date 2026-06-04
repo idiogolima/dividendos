@@ -1,0 +1,20 @@
+[
+  {
+    "ticker": "BEST11",
+    "provider": "investo",
+    "pageUrl": "https://www.investoetf.com/etf/best11/",
+    "quoteUrl": "https://borainvestir.b3.com.br/cotacoes/etfs/BEST11/"
+  },
+  {
+    "ticker": "UTLL11",
+    "provider": "investo",
+    "pageUrl": "https://www.investoetf.com/etf/utll11/",
+    "quoteUrl": "https://borainvestir.b3.com.br/cotacoes/etfs/UTLL11/"
+  },
+  {
+    "ticker": "BIZD11",
+    "provider": "investo",
+    "pageUrl": "https://www.investoetf.com/etf/bizd11/",
+    "quoteUrl": "https://borainvestir.b3.com.br/cotacoes/etfs/BIZD11/"
+  }
+]

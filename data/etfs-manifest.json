@@ -1,0 +1,25 @@
+{
+  "updatedAt": "2026-06-04T19:21:56.132257+00:00",
+  "featuredTickers": [
+    "BEST11",
+    "UTLL11",
+    "BIZD11"
+  ],
+  "tickers": {
+    "BEST11": {
+      "companyName": "INVESTO BRAZIL BESST QUALITY FUNDO DE \u00cdNDICE",
+      "path": "./data/etfs/BEST11.json",
+      "sourceUrl": "https://www.investoetf.com/etf/best11/"
+    },
+    "BIZD11": {
+      "companyName": "INVESTO MVIS\u00aeUS BUSINESS DEVELOPMENT COMPANIES INDEX ETF FUNDO DE \u00cdNDICE",
+      "path": "./data/etfs/BIZD11.json",
+      "sourceUrl": "https://www.investoetf.com/etf/bizd11/"
+    },
+    "UTLL11": {
+      "companyName": "INVESTO B3 UTILIDADE P\u00daBLICA FUNDO DE \u00cdNDICE",
+      "path": "./data/etfs/UTLL11.json",
+      "sourceUrl": "https://www.investoetf.com/etf/utll11/"
+    }
+  }
+}
