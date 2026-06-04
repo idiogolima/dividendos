@@ -1,5 +1,8 @@
 # dividendos
 
+[![PWA Pronto](https://img.shields.io/badge/PWA-Pronto-brightgreen?style=for-the-badge&logo=pwa)](https://idiogolima.github.io/dividendos/)
+[![Hospedado no GitHub Pages](https://img.shields.io/badge/Hospedado_no-GitHub_Pages-blue?style=for-the-badge&logo=github)](https://idiogolima.github.io/dividendos/)
+
 Aplicativo web em HTML, CSS e JavaScript para calcular o preco teto de acoes brasileiras como PWA no GitHub Pages.
 
 O app consome arquivos JSON locais versionados no repositório.
