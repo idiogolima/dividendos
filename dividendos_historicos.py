@@ -1,48 +1,111 @@
 import locale
-import requests
-from bs4 import BeautifulSoup
-import pandas as pd
 import sys
 from datetime import datetime
+from io import StringIO
 
-ticker = sys.argv[1]
-num_years = int(sys.argv[2])
-percent = int(sys.argv[3])
+import pandas as pd
+import requests
+from bs4 import BeautifulSoup
 
-locale.setlocale(locale.LC_ALL, 'pt_BR.UTF-8')
 
-url = f'https://www.dadosdemercado.com.br/bolsa/acoes/{ticker}/dividendos'
+def print_usage() -> None:
+    print("Uso: python dividendos_historicos.py <ticker> <anos> <percentual>")
+    print("Exemplo: python dividendos_historicos.py PETR4 5 6")
 
-response = requests.get(url)
-soup = BeautifulSoup(response.content, 'html.parser')
 
-# Substituir todas as vírgulas por pontos em toda a página
-page_content = str(soup).replace(',', '.')
+def set_pt_br_locale() -> None:
+    try:
+        locale.setlocale(locale.LC_ALL, "pt_BR.UTF-8")
+    except locale.Error:
+        # O locale pode não existir no sistema; o script continua sem formatação local.
+        pass
 
-df = pd.read_html(page_content)[0]
 
-df['Registro'] = pd.to_datetime(df['Registro'], dayfirst=True)
+def parse_args() -> tuple[str, int, int]:
+    if len(sys.argv) != 4:
+        print_usage()
+        raise SystemExit(1)
 
-# Filtrar os últimos X anos
-current_year = datetime.now().year
-df_last_years = df[df['Registro'].dt.year >= current_year - num_years + 1]
-df_previous_year = df[df['Registro'].dt.year == current_year - num_years]
-df = pd.concat([df_last_years, df_previous_year])
+    ticker = sys.argv[1].upper()
 
-# Agrupar os proventos por ano e calcular a soma
-proventos_por_ano = df.groupby(df['Registro'].dt.year)['Valor'].sum()
+    try:
+        num_years = int(sys.argv[2])
+        percent = int(sys.argv[3])
+    except ValueError as exc:
+        raise SystemExit("Os argumentos <anos> e <percentual> devem ser inteiros.") from exc
 
-print(f'Série histórica de proventos nos últimos {num_years} anos:')
-print(proventos_por_ano)
+    if num_years <= 0:
+        raise SystemExit("O argumento <anos> deve ser maior que zero.")
 
-total_proventos = df['Valor'].sum()
-num_anos = len(df['Registro'].dt.year.unique())
-media_proventos = total_proventos / num_anos
+    if percent <= 0:
+        raise SystemExit("O argumento <percentual> deve ser maior que zero.")
 
-# Multiplicar a média por 100 e dividir por 6
-valor_final = (media_proventos * 100) / percent
+    return ticker, num_years, percent
 
-print(f'\nTotal de proventos nos últimos {num_years} anos: {total_proventos}')
-print(f'Média de proventos nos últimos {num_years} anos: {media_proventos}')
-print(f'Valor final: {valor_final}')
 
+def fetch_dividends_table(ticker: str) -> pd.DataFrame:
+    url = f"https://www.dadosdemercado.com.br/bolsa/acoes/{ticker}/dividendos"
+    response = requests.get(url, timeout=30)
+    response.raise_for_status()
+
+    soup = BeautifulSoup(response.content, "html.parser")
+    page_content = str(soup).replace(",", ".")
+    tables = pd.read_html(StringIO(page_content))
+
+    if not tables:
+        raise ValueError(f"Nenhuma tabela de dividendos foi encontrada para {ticker}.")
+
+    df = tables[0].copy()
+
+    if "Registro" not in df.columns or "Valor" not in df.columns:
+        raise ValueError("A tabela encontrada nao possui as colunas esperadas: Registro e Valor.")
+
+    df["Registro"] = pd.to_datetime(df["Registro"], dayfirst=True, errors="coerce")
+    df["Valor"] = pd.to_numeric(df["Valor"], errors="coerce")
+    df = df.dropna(subset=["Registro", "Valor"])
+
+    if df.empty:
+        raise ValueError(f"Nao foi possivel extrair dados validos de dividendos para {ticker}.")
+
+    return df
+
+
+def filter_years(df: pd.DataFrame, num_years: int) -> pd.DataFrame:
+    current_year = datetime.now().year
+    min_year = current_year - num_years
+    return df[df["Registro"].dt.year >= min_year].copy()
+
+
+def main() -> None:
+    ticker, num_years, percent = parse_args()
+    set_pt_br_locale()
+
+    try:
+        df = fetch_dividends_table(ticker)
+    except requests.RequestException as exc:
+        raise SystemExit(f"Erro ao buscar dados para {ticker}: {exc}") from exc
+    except ValueError as exc:
+        raise SystemExit(str(exc)) from exc
+
+    df = filter_years(df, num_years)
+
+    if df.empty:
+        raise SystemExit(f"Nao existem dados de dividendos para {ticker} nos ultimos {num_years} anos.")
+
+    proventos_por_ano = df.groupby(df["Registro"].dt.year)["Valor"].sum().sort_index()
+
+    print(f"Serie historica de proventos nos ultimos {num_years} anos:")
+    print(proventos_por_ano)
+
+    total_proventos = df["Valor"].sum()
+    num_anos = df["Registro"].dt.year.nunique()
+    media_proventos = total_proventos / num_anos
+    valor_final = (media_proventos * 100) / percent
+
+    print(f"\nTotal de proventos nos ultimos {num_years} anos: {total_proventos:.4f}")
+    print(f"Media de proventos nos ultimos {num_years} anos: {media_proventos:.4f}")
+    print(f"Valor final: {valor_final:.4f}")
+
+
+if __name__ == "__main__":
+    main()
