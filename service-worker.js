@@ -1,4 +1,4 @@
-const CACHE_NAME = "dividendos-pwa-v2";
+const CACHE_NAME = "dividendos-pwa-v3";
 const APP_SHELL = [
   "./",
   "./index.html",
@@ -43,38 +43,43 @@ self.addEventListener("fetch", (event) => {
     return;
   }
 
-  if (requestUrl.pathname.includes("/data/")) {
-    event.respondWith(
-      fetch(event.request)
-        .then((response) => {
-          const responseClone = response.clone();
+  event.respondWith(networkFirst(event.request));
+});
 
-          caches.open(CACHE_NAME).then((cache) => {
-            cache.put(event.request, responseClone);
-          });
+async function networkFirst(request) {
+  try {
+    const response = await fetch(request);
 
-          return response;
-        })
-        .catch(() => caches.match(event.request))
-    );
-    return;
+    if (shouldCache(response)) {
+      const cache = await caches.open(CACHE_NAME);
+      await cache.put(request, response.clone());
+    }
+
+    return response;
+  } catch (_error) {
+    const cached = await caches.match(request);
+    if (cached) {
+      return cached;
+    }
+
+    if (request.mode === "navigate") {
+      return getNavigationFallback(request);
+    }
+
+    throw _error;
+  }
+}
+
+function shouldCache(response) {
+  return response.ok && response.type === "basic";
+}
+
+async function getNavigationFallback(request) {
+  const url = new URL(request.url);
+
+  if (url.pathname.endsWith("/ranking.html")) {
+    return caches.match("./ranking.html");
   }
 
-  event.respondWith(
-    caches.match(event.request).then((cached) => {
-      if (cached) {
-        return cached;
-      }
-
-      return fetch(event.request).then((response) => {
-        const responseClone = response.clone();
-
-        caches.open(CACHE_NAME).then((cache) => {
-          cache.put(event.request, responseClone);
-        });
-
-        return response;
-      });
-    })
-  );
-});
+  return caches.match("./index.html");
+}
