@@ -35,7 +35,7 @@ bootstrap();
 
 async function bootstrap() {
   registerServiceWorker();
-  hydrateInputsFromUrl();
+  const urlState = getUrlState();
 
   try {
     dataManifest = await fetchManifest();
@@ -48,7 +48,16 @@ async function bootstrap() {
     );
   }
 
-  restoreLastResult();
+  restoreLastResult(urlState);
+  hydrateInputsFromUrl(urlState);
+
+  if (urlState.ticker) {
+    await loadTicker({
+      ticker: urlState.ticker,
+      years: Number(yearsInput.value),
+      percent: Number(percentInput.value),
+    });
+  }
 }
 
 form.addEventListener("submit", async (event) => {
@@ -391,18 +400,29 @@ function formatPercent(value) {
   return `${value.toFixed(2)}%`;
 }
 
-function restoreLastResult() {
+function restoreLastResult(urlState) {
   const cached = readCachedResult();
 
   if (!cached) {
     return;
   }
 
-  tickerInput.value = cached.ticker || tickerInput.value;
-  yearsInput.value = cached.years || yearsInput.value;
-  percentInput.value = cached.percent || percentInput.value;
-  renderResult(cached);
-  setFeedback(`Ultimo resultado local restaurado para ${cached.ticker}.`);
+  if (!urlState.ticker) {
+    tickerInput.value = cached.ticker || tickerInput.value;
+  }
+
+  if (!urlState.years) {
+    yearsInput.value = cached.years || yearsInput.value;
+  }
+
+  if (!urlState.percent) {
+    percentInput.value = cached.percent || percentInput.value;
+  }
+
+  if (!urlState.ticker) {
+    renderResult(cached);
+    setFeedback(`Ultimo resultado local restaurado para ${cached.ticker}.`);
+  }
 }
 
 function readCachedResult() {
@@ -426,11 +446,29 @@ async function registerServiceWorker() {
   }
 }
 
-function hydrateInputsFromUrl() {
-  const params = new URLSearchParams(window.location.search);
-  const ticker = params.get("ticker");
-
-  if (ticker) {
-    tickerInput.value = ticker.toUpperCase();
+function hydrateInputsFromUrl(urlState) {
+  if (urlState.ticker) {
+    tickerInput.value = urlState.ticker;
   }
+
+  if (urlState.years) {
+    yearsInput.value = String(urlState.years);
+  }
+
+  if (urlState.percent) {
+    percentInput.value = String(urlState.percent);
+  }
+}
+
+function getUrlState() {
+  const params = new URLSearchParams(window.location.search);
+  const ticker = params.get("ticker")?.trim().toUpperCase() || "";
+  const years = Number(params.get("years"));
+  const percent = Number(params.get("percent"));
+
+  return {
+    ticker,
+    years: Number.isInteger(years) && years > 0 ? years : null,
+    percent: Number.isInteger(percent) && percent > 0 ? percent : null,
+  };
 }
