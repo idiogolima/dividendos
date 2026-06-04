@@ -331,7 +331,7 @@ function renderTable(model) {
   rankingBody.innerHTML = pageEntries.map((entry, index) => `
     <tr>
       <td>${start + index + 1}</td>
-      <td><a href="./index.html?ticker=${entry.ticker}">${entry.ticker}</a></td>
+      <td><a href="./index.html?ticker=${entry.ticker}" target="_blank" rel="noreferrer">${entry.ticker}</a></td>
       <td>${entry.companyName}</td>
       <td>${entry.validYears}</td>
       <td>${formatCurrency(entry.currentPrice)}</td>
