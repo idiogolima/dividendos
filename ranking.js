@@ -1,5 +1,7 @@
 const DATA_MANIFEST_URL = "./data/manifest.json";
+const RANKING_SOURCE_URL = "./data/ranking-source.json";
 const RANKING_CACHE_KEY = "dividendos-pwa:last-ranking";
+const PAGE_SIZE = 50;
 
 const form = document.querySelector("#ranking-form");
 const yearsInput = document.querySelector("#years");
@@ -14,6 +16,9 @@ const summaryTitle = document.querySelector("#summary-title");
 const metricsGrid = document.querySelector("#metrics-grid");
 const rankingCards = document.querySelector("#ranking-cards");
 const rankingBody = document.querySelector("#ranking-body");
+const prevPageButton = document.querySelector("#prev-page");
+const nextPageButton = document.querySelector("#next-page");
+const pageStatus = document.querySelector("#page-status");
 
 const currencyFormatter = new Intl.NumberFormat("pt-BR", {
   style: "currency",
@@ -21,6 +26,9 @@ const currencyFormatter = new Intl.NumberFormat("pt-BR", {
 });
 
 let manifest = null;
+let rankingSource = [];
+let currentModel = null;
+let currentPage = 1;
 
 bootstrap();
 
@@ -29,6 +37,7 @@ async function bootstrap() {
 
   try {
     manifest = await fetchManifest();
+    rankingSource = await fetchRankingSource();
     restoreRanking();
     await loadRanking();
   } catch (error) {
@@ -41,6 +50,26 @@ form.addEventListener("submit", async (event) => {
   await loadRanking();
 });
 
+prevPageButton.addEventListener("click", () => {
+  if (!currentModel || currentPage <= 1) {
+    return;
+  }
+  currentPage -= 1;
+  renderTable(currentModel);
+});
+
+nextPageButton.addEventListener("click", () => {
+  if (!currentModel) {
+    return;
+  }
+  const totalPages = getTotalPages(currentModel.entries.length);
+  if (currentPage >= totalPages) {
+    return;
+  }
+  currentPage += 1;
+  renderTable(currentModel);
+});
+
 async function fetchManifest() {
   const response = await fetch(DATA_MANIFEST_URL, { cache: "no-store" });
 
@@ -49,6 +78,17 @@ async function fetchManifest() {
   }
 
   return response.json();
+}
+
+async function fetchRankingSource() {
+  const response = await fetch(RANKING_SOURCE_URL, { cache: "no-store" });
+
+  if (!response.ok) {
+    throw new Error(`Falha ao carregar a base consolidada do ranking: HTTP ${response.status}.`);
+  }
+
+  const payload = await response.json();
+  return payload.stocks || [];
 }
 
 async function loadRanking() {
@@ -75,7 +115,7 @@ async function loadRanking() {
   setFeedback("Calculando ranking...");
 
   try {
-    const entries = await loadEntries(manifest, years, percent);
+    const entries = loadEntries(rankingSource, years, percent);
     const filtered = entries
       .filter((entry) => entry.validYears >= minValidYears)
       .filter((entry) => !onlyBelow || entry.discountPercent >= 0)
@@ -95,6 +135,7 @@ async function loadRanking() {
       throw new Error("Nenhuma acao com dados suficientes foi encontrada.");
     }
 
+    currentPage = 1;
     const model = buildRankingModel(sorted, years, percent, {
       minValidYears,
       sortBy,
@@ -119,31 +160,10 @@ async function loadRanking() {
   }
 }
 
-async function loadEntries(dataManifest, years, percent) {
-  const tickerEntries = Object.entries(dataManifest.tickers || {});
-  const chunks = chunk(tickerEntries, 24);
-  const results = [];
-
-  for (const group of chunks) {
-    const settled = await Promise.allSettled(
-      group.map(async ([ticker, manifestEntry]) => {
-        const response = await fetch(manifestEntry.path, { cache: "no-store" });
-        if (!response.ok) {
-          throw new Error(`HTTP ${response.status}`);
-        }
-        const stockData = await response.json();
-        return buildEntry(stockData, ticker, years, percent);
-      })
-    );
-
-    for (const item of settled) {
-      if (item.status === "fulfilled" && item.value) {
-        results.push(item.value);
-      }
-    }
-  }
-
-  return results;
+function loadEntries(source, years, percent) {
+  return source
+    .map((stockData) => buildEntry(stockData, stockData.ticker, years, percent))
+    .filter(Boolean);
 }
 
 function buildEntry(stockData, ticker, years, percent) {
@@ -213,6 +233,7 @@ function buildRankingModel(entries, years, percent, filters) {
 }
 
 function renderRanking(model) {
+  currentModel = model;
   summaryTitle.textContent = `${model.entries.length} acoes para ${model.years} anos, ${model.percent}% e minimo de ${model.filters.minValidYears} ano(s) valido(s)`;
   metricsGrid.innerHTML = [
     metricCard("Acoes analisadas", String(model.summary.total)),
@@ -234,22 +255,11 @@ function renderRanking(model) {
       </span>
     </article>
   `).join("");
-
-  rankingBody.innerHTML = model.entries.map((entry, index) => `
-    <tr>
-      <td>${index + 1}</td>
-      <td><a href="./index.html?ticker=${entry.ticker}">${entry.ticker}</a></td>
-      <td>${entry.companyName}</td>
-      <td>${entry.validYears}</td>
-      <td>${formatCurrency(entry.currentPrice)}</td>
-      <td>${formatCurrency(entry.averageDividends)}</td>
-      <td>${formatCurrency(entry.ceilingPrice)}</td>
-      <td class="${entry.discountPercent >= 0 ? "positive-text" : "negative-text"}">${formatPercent(entry.discountPercent)}</td>
-    </tr>
-  `).join("");
+  renderTable(model);
 }
 
 function clearRanking() {
+  currentModel = null;
   summaryTitle.textContent = "Pronto para carregar.";
   rankingCards.className = "ranking-cards empty-state";
   rankingCards.textContent = "Nenhum ranking carregado ainda.";
@@ -258,6 +268,9 @@ function clearRanking() {
       <td colspan="8" class="empty-row">Nenhum ranking carregado ainda.</td>
     </tr>
   `;
+  pageStatus.textContent = "Pagina 1 de 1";
+  prevPageButton.disabled = true;
+  nextPageButton.disabled = true;
 }
 
 function setFeedback(message, isError = false) {
@@ -303,12 +316,33 @@ function compareEntries(left, right, sortBy) {
   }
 }
 
-function chunk(items, size) {
-  const groups = [];
-  for (let index = 0; index < items.length; index += size) {
-    groups.push(items.slice(index, index + size));
-  }
-  return groups;
+function renderTable(model) {
+  const totalPages = getTotalPages(model.entries.length);
+  const safePage = Math.min(Math.max(currentPage, 1), totalPages);
+  currentPage = safePage;
+  const start = (safePage - 1) * PAGE_SIZE;
+  const pageEntries = model.entries.slice(start, start + PAGE_SIZE);
+
+  rankingBody.innerHTML = pageEntries.map((entry, index) => `
+    <tr>
+      <td>${start + index + 1}</td>
+      <td><a href="./index.html?ticker=${entry.ticker}">${entry.ticker}</a></td>
+      <td>${entry.companyName}</td>
+      <td>${entry.validYears}</td>
+      <td>${formatCurrency(entry.currentPrice)}</td>
+      <td>${formatCurrency(entry.averageDividends)}</td>
+      <td>${formatCurrency(entry.ceilingPrice)}</td>
+      <td class="${entry.discountPercent >= 0 ? "positive-text" : "negative-text"}">${formatPercent(entry.discountPercent)}</td>
+    </tr>
+  `).join("");
+
+  pageStatus.textContent = `Pagina ${safePage} de ${totalPages}`;
+  prevPageButton.disabled = safePage <= 1;
+  nextPageButton.disabled = safePage >= totalPages;
+}
+
+function getTotalPages(totalItems) {
+  return Math.max(1, Math.ceil(totalItems / PAGE_SIZE));
 }
 
 function restoreRanking() {
@@ -323,6 +357,7 @@ function restoreRanking() {
   sortByInput.value = cached.filters?.sortBy || "discount-desc";
   onlyBelowInput.checked = Boolean(cached.filters?.onlyBelow);
   searchInput.value = cached.filters?.query || "";
+  currentPage = 1;
   renderRanking(cached);
   setFeedback("Ultimo ranking local restaurado.");
 }

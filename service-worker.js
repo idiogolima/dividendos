@@ -9,6 +9,7 @@ const APP_SHELL = [
   "./manifest.webmanifest",
   "./assets/icon.svg",
   "./assets/icon-maskable.svg",
+  "./data/ranking-source.json",
 ];
 
 self.addEventListener("install", (event) => {
