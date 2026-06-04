@@ -1,0 +1,37 @@
+{
+  "updatedAt": "2026-06-04T01:02:03.400763+00:00",
+  "featuredTickers": [
+    "BAZA3",
+    "PETR4",
+    "VALE3",
+    "ITUB4",
+    "BBAS3"
+  ],
+  "tickers": {
+    "BAZA3": {
+      "companyName": "banco da amaz\u00f4nia",
+      "path": "./data/stocks/BAZA3.json",
+      "sourceUrl": "https://playinvest.com.br/dividendos/baza3"
+    },
+    "PETR4": {
+      "companyName": "petrobr\u00e1s",
+      "path": "./data/stocks/PETR4.json",
+      "sourceUrl": "https://playinvest.com.br/dividendos/petr4"
+    },
+    "VALE3": {
+      "companyName": "vale",
+      "path": "./data/stocks/VALE3.json",
+      "sourceUrl": "https://playinvest.com.br/dividendos/vale3"
+    },
+    "ITUB4": {
+      "companyName": "ita\u00fa unibanco",
+      "path": "./data/stocks/ITUB4.json",
+      "sourceUrl": "https://playinvest.com.br/dividendos/itub4"
+    },
+    "BBAS3": {
+      "companyName": "banco do brasil",
+      "path": "./data/stocks/BBAS3.json",
+      "sourceUrl": "https://playinvest.com.br/dividendos/bbas3"
+    }
+  }
+}

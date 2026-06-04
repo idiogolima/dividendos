@@ -1,8 +1,8 @@
 # dividendos
 
-Aplicativo web em HTML, CSS e JavaScript para calcular o preco teto de acoes brasileiras e instalar como PWA.
+Aplicativo web em HTML, CSS e JavaScript para calcular o preco teto de acoes brasileiras como PWA no GitHub Pages.
 
-O projeto foi estruturado para publicacao direta no GitHub Pages, sem backend e sem etapa de build.
+O app nao consulta a PlayInvest diretamente no navegador. Em vez disso, um scraper em Python gera arquivos JSON locais a partir das paginas da PlayInvest, e o frontend consome esses arquivos estaticos.
 
 ## Links
 
@@ -11,16 +11,9 @@ O projeto foi estruturado para publicacao direta no GitHub Pages, sem backend e 
 
 Se a URL do GitHub Pages ainda nao abrir, ative a publicacao em `Settings > Pages` no repositorio e aguarde o deploy inicial.
 
-## O que o app faz
+## Objetivo
 
-- consulta cotacao atual e historico de dividendos via navegador
-- calcula o preco teto com base na media anual de dividendos e no retorno alvo informado
-- compara a cotacao atual com o preco teto estimado
-- mostra totais por ano e eventos recentes de dividendos
-- funciona como PWA com `manifest.webmanifest` e `service-worker.js`
-- salva o ultimo resultado no navegador para reabrir rapido
-
-## Formula
+Calcular o preco teto da acao pela formula:
 
 ```text
 preco teto = media anual de dividendos x 100 / retorno alvo
@@ -32,35 +25,68 @@ Exemplo:
 - retorno alvo: `6%`
 - preco teto: `R$ 20,00`
 
-## Limitacao importante
+## Como funciona
 
-Por ser um app estatico hospedado no GitHub Pages, ele nao usa backend para esconder chave de API.
+1. O scraper acessa paginas como `https://playinvest.com.br/dividendos/baza3`
+2. Extrai preco atual, nome da empresa e historico de dividendos/JCP
+3. Salva tudo em `data/stocks/<TICKER>.json`
+4. Atualiza `data/manifest.json`
+5. O app em [`index.html`](index.html) carrega esses arquivos locais
 
-Na pratica, ele funciona sem token para os tickers liberados publicamente pela brapi no modo de teste:
+## Por que esse modelo
 
+O GitHub Pages serve apenas arquivos estaticos. Como a PlayInvest nao libera CORS para leitura cross-origin no navegador, um `fetch` direto do frontend para `playinvest.com.br` nao funciona no app publico.
+
+Por isso, a arquitetura correta aqui e:
+
+- scraper no repositório
+- JSON versionado em `data/`
+- frontend lendo apenas arquivos locais
+
+## Estrutura principal
+
+- [`index.html`](index.html): pagina principal
+- [`app.js`](app.js): interface e calculo do preco teto
+- [`styles.css`](styles.css): visual do app
+- [`service-worker.js`](service-worker.js): cache do PWA
+- [`manifest.webmanifest`](manifest.webmanifest): manifesto instalavel
+- [`scripts/update_playinvest_data.py`](scripts/update_playinvest_data.py): scraper da PlayInvest
+- [`playinvest_tickers.json`](playinvest_tickers.json): lista de tickers a atualizar
+- [`data/manifest.json`](data/manifest.json): manifesto dos dados gerados
+
+## Tickers iniciais
+
+O projeto ja esta configurado com:
+
+- `BAZA3`
 - `PETR4`
 - `VALE3`
 - `ITUB4`
-- `MGLU3`
-
-Para suportar qualquer ticker em producao, o caminho correto e colocar um backend ou uma funcao serverless entre o frontend e a API.
-
-## Estrutura
-
-- `index.html`: pagina principal
-- `styles.css`: visual do app
-- `app.js`: regras de interface, consulta e calculos
-- `manifest.webmanifest`: configuracao do PWA
-- `service-worker.js`: cache offline da shell do app
-- `assets/icon.svg`: icone do aplicativo
-- `assets/icon-maskable.svg`: icone maskable do aplicativo
-- `dividendos_historicos.py`: script Python legado mantido como referencia
+- `BBAS3`
 
 ## Rodar localmente
 
-Como o app usa service worker, rode por HTTP local em vez de abrir o arquivo direto.
+Crie a virtualenv e instale as dependencias do scraper:
 
-Exemplo com Python:
+```bash
+python3 -m venv .venv
+source .venv/bin/activate
+pip install -r requirements.txt
+```
+
+Para atualizar os dados:
+
+```bash
+python scripts/update_playinvest_data.py
+```
+
+Para atualizar apenas tickers especificos:
+
+```bash
+python scripts/update_playinvest_data.py BAZA3 PETR4
+```
+
+Para abrir o app localmente:
 
 ```bash
 python3 -m http.server 8000
@@ -72,33 +98,37 @@ Depois abra:
 http://localhost:8000
 ```
 
+## GitHub Actions
+
+O workflow [`update-playinvest-data.yml`](.github/workflows/update-playinvest-data.yml) faz a atualizacao automatica dos JSONs:
+
+- execucao manual via `workflow_dispatch`
+- execucao agendada em dias uteis
+
+Quando houver alteracao em `data/`, ele faz commit e push automaticamente.
+
 ## Publicar no GitHub Pages
 
-1. Envie os commits para o GitHub com `git push origin main`.
-2. No repositorio, abra `Settings > Pages`.
-3. Em `Build and deployment`, escolha `Deploy from a branch`.
-4. Selecione a branch `main` e a pasta `/ (root)`.
-5. Salve a configuracao.
+1. Envie os commits com `git push origin main`
+2. Abra `Settings > Pages`
+3. Escolha `Deploy from a branch`
+4. Selecione `main` e `/ (root)`
+5. Salve
 
-Neste repositorio, a URL esperada do site e:
+URL esperada:
 
 ```text
 https://idiogolima.github.io/dividendos/
 ```
 
-De forma geral, para repositorio de projeto, a URL costuma ser:
+## Dependencias
 
-```text
-https://<usuario>.github.io/<repositorio>/
-```
+As dependencias em [`requirements.txt`](requirements.txt) existem para o scraper e para o script Python legado.
 
-## Sem dependencias de frontend
+## Fonte dos dados
 
-O app nao depende de framework, bundler ou pacote npm.
+Os dados do app sao gerados a partir da PlayInvest:
 
-## Fonte de dados
+- https://playinvest.com.br/dividendos/baza3
 
-O app consulta a API da brapi diretamente do navegador. A documentacao oficial e:
-
-- `https://brapi.dev/docs`
-- `https://brapi.dev/docs/acoes`
+Cada JSON gerado guarda a URL de origem do ticker correspondente.

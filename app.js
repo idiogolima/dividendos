@@ -1,5 +1,5 @@
-const FEATURED_TICKERS = ["PETR4", "VALE3", "ITUB4", "MGLU3"];
 const APP_CACHE_KEY = "dividendos-pwa:last-result";
+const DATA_MANIFEST_URL = "./data/manifest.json";
 
 const form = document.querySelector("#quote-form");
 const tickerInput = document.querySelector("#ticker");
@@ -26,9 +26,29 @@ const dateFormatter = new Intl.DateTimeFormat("pt-BR", {
   timeZone: "UTC",
 });
 
-buildTickerPills();
-restoreLastResult();
-registerServiceWorker();
+let dataManifest = {
+  featuredTickers: [],
+  tickers: {},
+};
+
+bootstrap();
+
+async function bootstrap() {
+  registerServiceWorker();
+
+  try {
+    dataManifest = await fetchManifest();
+    buildTickerPills(dataManifest.featuredTickers);
+  } catch (_error) {
+    buildTickerPills(["BAZA3"]);
+    setFeedback(
+      "Nao foi possivel carregar a lista de tickers locais. O app ainda pode funcionar para arquivos ja gerados.",
+      true
+    );
+  }
+
+  restoreLastResult();
+}
 
 form.addEventListener("submit", async (event) => {
   event.preventDefault();
@@ -50,16 +70,26 @@ form.addEventListener("submit", async (event) => {
   await loadTicker({ ticker, years, percent });
 });
 
+async function fetchManifest() {
+  const response = await fetch(DATA_MANIFEST_URL, { cache: "no-store" });
+
+  if (!response.ok) {
+    throw new Error(`Falha ao carregar o manifesto de dados: HTTP ${response.status}.`);
+  }
+
+  return response.json();
+}
+
 async function loadTicker({ ticker, years, percent }) {
   setLoading(true);
-  setFeedback(`Buscando dados de ${ticker}...`);
+  setFeedback(`Buscando dados locais de ${ticker}...`);
 
   try {
-    const quote = await fetchQuote(ticker);
-    const viewModel = buildViewModel({ quote, ticker, years, percent });
+    const stockData = await fetchStockData(ticker);
+    const viewModel = buildViewModel({ stockData, ticker, years, percent });
     renderResult(viewModel);
     localStorage.setItem(APP_CACHE_KEY, JSON.stringify(viewModel));
-    setFeedback(`Consulta concluida para ${ticker}.`);
+    setFeedback(`Consulta concluida para ${ticker} com dados da PlayInvest.`);
   } catch (error) {
     const cached = readCachedResult();
 
@@ -75,48 +105,28 @@ async function loadTicker({ ticker, years, percent }) {
   }
 }
 
-async function fetchQuote(ticker) {
-  const url = `https://brapi.dev/api/quote/${encodeURIComponent(ticker)}?dividends=true`;
-  const response = await fetch(url, {
-    headers: {
-      accept: "application/json",
-    },
-  });
+async function fetchStockData(ticker) {
+  const manifestEntry = dataManifest.tickers?.[ticker];
+  const dataPath = manifestEntry?.path || `./data/stocks/${ticker}.json`;
+  const response = await fetch(dataPath, { cache: "no-store" });
 
-  let payload = null;
-
-  try {
-    payload = await response.json();
-  } catch (_error) {
-    if (!response.ok) {
-      throw new Error(`A API retornou erro ${response.status}.`);
-    }
+  if (response.status === 404) {
+    throw new Error(
+      `O ticker ${ticker} nao possui arquivo local gerado. Adicione-o ao workflow de atualizacao da PlayInvest.`
+    );
   }
 
   if (!response.ok) {
-    if (response.status === 401 || response.status === 403) {
-      throw new Error(
-        "Esse ticker provavelmente exige autenticacao. No GitHub Pages sem backend, use PETR4, VALE3, ITUB4 ou MGLU3."
-      );
-    }
-
-    const message = payload?.message || payload?.error || `Erro ${response.status} ao consultar a API.`;
-    throw new Error(message);
+    throw new Error(`Falha ao carregar os dados locais de ${ticker}: HTTP ${response.status}.`);
   }
 
-  const quote = payload?.results?.[0];
-
-  if (!quote) {
-    throw new Error(`Nenhum resultado foi retornado para ${ticker}.`);
-  }
-
-  return quote;
+  return response.json();
 }
 
-function buildViewModel({ quote, ticker, years, percent }) {
+function buildViewModel({ stockData, ticker, years, percent }) {
   const currentYear = new Date().getFullYear();
   const minYear = currentYear - years + 1;
-  const dividends = normalizeDividends(quote.dividendsData?.cashDividends || []);
+  const dividends = normalizeDividends(stockData.dividends || []);
   const filteredDividends = dividends.filter((item) => item.baseYear >= minYear);
 
   if (!filteredDividends.length) {
@@ -136,41 +146,42 @@ function buildViewModel({ quote, ticker, years, percent }) {
   const totalDividends = yearlyTotals.reduce((sum, item) => sum + item.total, 0);
   const averageDividends = totalDividends / yearlyTotals.length;
   const ceilingPrice = (averageDividends * 100) / percent;
-  const regularMarketPrice = Number(quote.regularMarketPrice || 0);
+  const currentPrice = Number(stockData.currentPrice || 0);
   const lastDividend = filteredDividends.at(-1) || dividends.at(-1) || null;
-  const upsideToCeiling = regularMarketPrice > 0
-    ? ((ceilingPrice / regularMarketPrice) - 1) * 100
+  const upsideToCeiling = currentPrice > 0
+    ? ((ceilingPrice / currentPrice) - 1) * 100
     : null;
 
   return {
     ticker,
-    shortName: quote.shortName || ticker,
-    longName: quote.longName || quote.shortName || ticker,
+    shortName: stockData.companyName || ticker,
+    longName: stockData.companyName || ticker,
     years,
     percent,
-    currentPrice: regularMarketPrice,
+    currentPrice,
     totalDividends,
     averageDividends,
     ceilingPrice,
     upsideToCeiling,
-    regularMarketChangePercent: Number(quote.regularMarketChangePercent || 0),
-    updatedAt: quote.regularMarketTime || null,
+    updatedAt: stockData.updatedAt || null,
     lastDividend,
     yearlyTotals,
     events: filteredDividends.slice(-12).reverse(),
+    sourceName: stockData.source?.name || "PlayInvest",
+    sourceUrl: stockData.source?.url || null,
   };
 }
 
 function normalizeDividends(rawDividends) {
   return rawDividends
     .map((item) => {
-      const baseDate = parseDate(item.exDividendDate || item.paymentDate);
+      const baseDate = parseDate(item.comDate);
       const paymentDate = parseDate(item.paymentDate);
-      const rate = Number(item.rate || item.value || 0);
+      const rate = Number(item.valuePerShare || 0);
 
       return {
         rate,
-        label: item.label || item.type || "Provento",
+        label: item.type || "Provento",
         baseDate,
         paymentDate,
         baseYear: baseDate ? baseDate.getUTCFullYear() : null,
@@ -221,10 +232,10 @@ function renderDetails(model) {
       body: buildPriceComparison(model),
     },
     {
-      title: "Ultimo provento",
-      body: model.lastDividend
-        ? `${formatCurrency(model.lastDividend.rate)} em ${formatDate(model.lastDividend.baseDate)}`
-        : "Nao disponivel",
+      title: "Fonte dos dados",
+      body: model.sourceUrl
+        ? `<a href="${model.sourceUrl}" target="_blank" rel="noreferrer">${model.sourceName}</a>`
+        : model.sourceName,
     },
   ];
 
@@ -319,8 +330,8 @@ function metricCard(label, value, accent = false) {
   `;
 }
 
-function buildTickerPills() {
-  tickerPills.innerHTML = FEATURED_TICKERS.map(
+function buildTickerPills(featuredTickers) {
+  tickerPills.innerHTML = featuredTickers.map(
     (ticker) => `<button class="ticker-pill" type="button" data-ticker="${ticker}">${ticker}</button>`
   ).join("");
 

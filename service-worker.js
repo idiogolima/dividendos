@@ -1,4 +1,4 @@
-const CACHE_NAME = "dividendos-pwa-v1";
+const CACHE_NAME = "dividendos-pwa-v2";
 const APP_SHELL = [
   "./",
   "./index.html",
@@ -37,6 +37,23 @@ self.addEventListener("fetch", (event) => {
   const requestUrl = new URL(event.request.url);
 
   if (requestUrl.origin !== self.location.origin) {
+    return;
+  }
+
+  if (requestUrl.pathname.includes("/data/")) {
+    event.respondWith(
+      fetch(event.request)
+        .then((response) => {
+          const responseClone = response.clone();
+
+          caches.open(CACHE_NAME).then((cache) => {
+            cache.put(event.request, responseClone);
+          });
+
+          return response;
+        })
+        .catch(() => caches.match(event.request))
+    );
     return;
   }
 
