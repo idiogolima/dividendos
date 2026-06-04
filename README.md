@@ -1,6 +1,6 @@
 # dividendos
 
-Aplicativo web em HTML, CSS e JavaScript para analisar historico de dividendos de acoes brasileiras e instalar como PWA.
+Aplicativo web em HTML, CSS e JavaScript para calcular o preco teto de acoes brasileiras e instalar como PWA.
 
 O projeto foi estruturado para publicacao direta no GitHub Pages, sem backend e sem etapa de build.
 
@@ -14,10 +14,23 @@ Se a URL do GitHub Pages ainda nao abrir, ative a publicacao em `Settings > Page
 ## O que o app faz
 
 - consulta cotacao atual e historico de dividendos via navegador
-- calcula total no periodo, media anual e valor final com base no percentual informado
+- calcula o preco teto com base na media anual de dividendos e no retorno alvo informado
+- compara a cotacao atual com o preco teto estimado
 - mostra totais por ano e eventos recentes de dividendos
 - funciona como PWA com `manifest.webmanifest` e `service-worker.js`
 - salva o ultimo resultado no navegador para reabrir rapido
+
+## Formula
+
+```text
+preco teto = media anual de dividendos x 100 / retorno alvo
+```
+
+Exemplo:
+
+- media anual de dividendos: `R$ 1,20`
+- retorno alvo: `6%`
+- preco teto: `R$ 20,00`
 
 ## Limitacao importante
 

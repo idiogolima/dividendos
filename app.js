@@ -38,12 +38,12 @@ form.addEventListener("submit", async (event) => {
   const percent = Number(percentInput.value);
 
   if (!ticker || !Number.isInteger(years) || !Number.isInteger(percent)) {
-    setFeedback("Preencha ticker, anos e percentual com valores validos.", true);
+    setFeedback("Preencha ticker, anos e retorno alvo com valores validos.", true);
     return;
   }
 
   if (years < 1 || percent < 1) {
-    setFeedback("Anos e percentual precisam ser maiores que zero.", true);
+    setFeedback("Anos e retorno alvo precisam ser maiores que zero.", true);
     return;
   }
 
@@ -135,9 +135,12 @@ function buildViewModel({ quote, ticker, years, percent }) {
 
   const totalDividends = yearlyTotals.reduce((sum, item) => sum + item.total, 0);
   const averageDividends = totalDividends / yearlyTotals.length;
-  const finalValue = (averageDividends * 100) / percent;
+  const ceilingPrice = (averageDividends * 100) / percent;
   const regularMarketPrice = Number(quote.regularMarketPrice || 0);
   const lastDividend = filteredDividends.at(-1) || dividends.at(-1) || null;
+  const upsideToCeiling = regularMarketPrice > 0
+    ? ((ceilingPrice / regularMarketPrice) - 1) * 100
+    : null;
 
   return {
     ticker,
@@ -148,7 +151,8 @@ function buildViewModel({ quote, ticker, years, percent }) {
     currentPrice: regularMarketPrice,
     totalDividends,
     averageDividends,
-    finalValue,
+    ceilingPrice,
+    upsideToCeiling,
     regularMarketChangePercent: Number(quote.regularMarketChangePercent || 0),
     updatedAt: quote.regularMarketTime || null,
     lastDividend,
@@ -198,7 +202,7 @@ function renderMetrics(model) {
     metricCard("Cotacao atual", formatCurrency(model.currentPrice)),
     metricCard("Total no periodo", formatCurrency(model.totalDividends)),
     metricCard("Media anual", formatCurrency(model.averageDividends)),
-    metricCard("Valor final", formatCurrency(model.finalValue), true),
+    metricCard("Preco teto", formatCurrency(model.ceilingPrice), true),
   ].join("");
 }
 
@@ -209,8 +213,12 @@ function renderDetails(model) {
       body: `${model.years} anos com ${model.yearlyTotals.length} ano(s) com proventos validos.`,
     },
     {
-      title: "Variacao diaria",
-      body: `${model.regularMarketChangePercent.toFixed(2)}%`,
+      title: "Regra de calculo",
+      body: `Media anual (${formatCurrency(model.averageDividends)}) x 100 / ${model.percent}%`,
+    },
+    {
+      title: "Comparacao com a cotacao",
+      body: buildPriceComparison(model),
     },
     {
       title: "Ultimo provento",
@@ -298,7 +306,7 @@ function clearResult() {
     metricCard("Cotacao atual", "--"),
     metricCard("Total no periodo", "--"),
     metricCard("Media anual", "--"),
-    metricCard("Valor final", "--", true),
+    metricCard("Preco teto", "--", true),
   ].join("");
 }
 
@@ -351,6 +359,30 @@ function formatDate(value) {
   }
 
   return dateFormatter.format(value);
+}
+
+function buildPriceComparison(model) {
+  if (!Number.isFinite(model.currentPrice) || model.currentPrice <= 0) {
+    return "Cotacao atual indisponivel para comparar com o preco teto.";
+  }
+
+  if (!Number.isFinite(model.upsideToCeiling)) {
+    return "Comparacao indisponivel.";
+  }
+
+  if (model.currentPrice <= model.ceilingPrice) {
+    return `A cotacao esta ${formatPercent(Math.abs(model.upsideToCeiling))} abaixo ou igual ao preco teto.`;
+  }
+
+  return `A cotacao esta ${formatPercent(Math.abs(model.upsideToCeiling))} acima do preco teto.`;
+}
+
+function formatPercent(value) {
+  if (!Number.isFinite(value)) {
+    return "--";
+  }
+
+  return `${value.toFixed(2)}%`;
 }
 
 function restoreLastResult() {

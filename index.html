@@ -3,10 +3,10 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Dividendos PWA</title>
+    <title>Preco Teto de Acoes</title>
     <meta
       name="description"
-      content="App PWA para analisar historico de dividendos de acoes brasileiras."
+      content="App PWA para calcular o preco teto de acoes brasileiras a partir do historico de dividendos."
     />
     <meta name="theme-color" content="#0f5d46" />
     <link rel="manifest" href="./manifest.webmanifest" />
@@ -19,10 +19,10 @@
       <header class="hero">
         <p class="eyebrow">GitHub Pages + PWA</p>
         <div class="hero-copy">
-          <h1>Dividendos em um app instalavel.</h1>
+          <h1>Calcule o preco teto da acao.</h1>
           <p class="hero-text">
-            Consulte cotacao atual, historico de dividendos e um preco de
-            referencia calculado a partir da media anual de proventos.
+            Consulte a cotacao atual, analise o historico de dividendos e estime
+            o preco teto com base na sua taxa minima de retorno desejada.
           </p>
         </div>
         <div class="hero-note">
@@ -71,7 +71,7 @@
             </label>
 
             <label class="field">
-              <span>Percentual</span>
+              <span>Retorno alvo (%)</span>
               <input
                 id="percent"
                 name="percent"
@@ -90,8 +90,7 @@
           </form>
 
           <p class="caption">
-            Sem backend, o app depende da API publica. Outros tickers podem
-            exigir autenticacao.
+            Formula usada: preco teto = media anual de dividendos x 100 / retorno alvo.
           </p>
 
           <div id="feedback" class="feedback" role="status" aria-live="polite"></div>
@@ -117,7 +116,7 @@
               <strong class="metric-value">--</strong>
             </article>
             <article class="metric-card accent-card">
-              <span class="metric-label">Valor final</span>
+              <span class="metric-label">Preco teto</span>
               <strong class="metric-value">--</strong>
             </article>
           </div>
