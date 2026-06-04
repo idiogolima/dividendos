@@ -4,6 +4,13 @@ Aplicativo web em HTML, CSS e JavaScript para analisar historico de dividendos d
 
 O projeto foi estruturado para publicacao direta no GitHub Pages, sem backend e sem etapa de build.
 
+## Links
+
+- Repositorio: https://github.com/idiogolima/dividendos
+- GitHub Pages: https://idiogolima.github.io/dividendos/
+
+Se a URL do GitHub Pages ainda nao abrir, ative a publicacao em `Settings > Pages` no repositorio e aguarde o deploy inicial.
+
 ## O que o app faz
 
 - consulta cotacao atual e historico de dividendos via navegador
@@ -60,7 +67,13 @@ http://localhost:8000
 4. Selecione a branch `main` e a pasta `/ (root)`.
 5. Salve a configuracao.
 
-Para repositorio de projeto, a URL final costuma ser:
+Neste repositorio, a URL esperada do site e:
+
+```text
+https://idiogolima.github.io/dividendos/
+```
+
+De forma geral, para repositorio de projeto, a URL costuma ser:
 
 ```text
 https://<usuario>.github.io/<repositorio>/
