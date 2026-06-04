@@ -6,6 +6,7 @@ const yearsInput = document.querySelector("#years");
 const percentInput = document.querySelector("#percent");
 const searchInput = document.querySelector("#search");
 const minValidYearsInput = document.querySelector("#min-valid-years");
+const sortByInput = document.querySelector("#sort-by");
 const onlyBelowInput = document.querySelector("#only-below");
 const submitButton = document.querySelector("#submit-button");
 const feedback = document.querySelector("#feedback");
@@ -54,6 +55,7 @@ async function loadRanking() {
   const years = Number(yearsInput.value);
   const percent = Number(percentInput.value);
   const minValidYears = Number(minValidYearsInput.value);
+  const sortBy = sortByInput.value;
   const onlyBelow = onlyBelowInput.checked;
   const query = searchInput.value.trim().toLowerCase();
 
@@ -87,7 +89,7 @@ async function loadRanking() {
 
     const sorted = filtered
       .filter((entry) => Number.isFinite(entry.discountPercent))
-      .sort((left, right) => right.discountPercent - left.discountPercent);
+      .sort((left, right) => compareEntries(left, right, sortBy));
 
     if (!sorted.length) {
       throw new Error("Nenhuma acao com dados suficientes foi encontrada.");
@@ -95,6 +97,7 @@ async function loadRanking() {
 
     const model = buildRankingModel(sorted, years, percent, {
       minValidYears,
+      sortBy,
       onlyBelow,
       query,
     });
@@ -284,6 +287,22 @@ function formatPercent(value) {
   return Number.isFinite(value) ? `${value.toFixed(2)}%` : "--";
 }
 
+function compareEntries(left, right, sortBy) {
+  switch (sortBy) {
+    case "average-desc":
+      return right.averageDividends - left.averageDividends || right.discountPercent - left.discountPercent;
+    case "price-asc":
+      return left.currentPrice - right.currentPrice || right.discountPercent - left.discountPercent;
+    case "valid-years-desc":
+      return right.validYears - left.validYears || right.discountPercent - left.discountPercent;
+    case "ceiling-desc":
+      return right.ceilingPrice - left.ceilingPrice || right.discountPercent - left.discountPercent;
+    case "discount-desc":
+    default:
+      return right.discountPercent - left.discountPercent || right.validYears - left.validYears;
+  }
+}
+
 function chunk(items, size) {
   const groups = [];
   for (let index = 0; index < items.length; index += size) {
@@ -301,6 +320,7 @@ function restoreRanking() {
   yearsInput.value = cached.years || yearsInput.value;
   percentInput.value = cached.percent || percentInput.value;
   minValidYearsInput.value = cached.filters?.minValidYears || minValidYearsInput.value;
+  sortByInput.value = cached.filters?.sortBy || "discount-desc";
   onlyBelowInput.checked = Boolean(cached.filters?.onlyBelow);
   searchInput.value = cached.filters?.query || "";
   renderRanking(cached);

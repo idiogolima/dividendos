@@ -206,7 +206,23 @@ body {
   font: inherit;
 }
 
+.field select {
+  width: 100%;
+  min-height: 50px;
+  border: 1px solid var(--line);
+  border-radius: var(--radius-sm);
+  padding: 0 16px;
+  background: var(--panel-strong);
+  color: var(--text);
+  font: inherit;
+}
+
 .field input:focus-visible {
+  outline: 2px solid rgba(15, 93, 70, 0.18);
+  border-color: rgba(15, 93, 70, 0.4);
+}
+
+.field select:focus-visible {
   outline: 2px solid rgba(15, 93, 70, 0.18);
   border-color: rgba(15, 93, 70, 0.4);
 }
